@@ -1,1 +1,1 @@
-myvar = input('Type something \n')
+myvar = input('Type an \n')
