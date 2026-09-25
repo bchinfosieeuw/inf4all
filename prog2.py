@@ -1,2 +1,2 @@
 myvar = input('Type something \n')
-print()
+print(myvar, myvar, myvar)
