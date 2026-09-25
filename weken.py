@@ -1,15 +1,15 @@
 def weeks_elapsed(day1: int, day2: int) -> int:
     return abs(day1-day2)//7
-"""
->>> weeks_elapsed(3, 20)
-2
->>> weeks_elapsed(20, 3)
-2
->>> weeks_elapsed(8, 5)
-0
->>> weeks_elapsed(40, 61)
-3
-"""
+    """
+    >>> weeks_elapsed(3, 20)
+    2
+    >>> weeks_elapsed(20, 3)
+    2
+    >>> weeks_elapsed(8, 5)
+    0
+    >>> weeks_elapsed(40, 61)
+    3
+    """
     
 if __name__ == '__main__':
     day1 = int(input("Dagnummer 1: "))
