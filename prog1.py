@@ -1,2 +1,2 @@
-myvar = 3
+myvar = input()
 print(myvar)
