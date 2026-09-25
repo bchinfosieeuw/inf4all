@@ -1,2 +1,2 @@
-myb
+myvar = 3
 print(myvar)
