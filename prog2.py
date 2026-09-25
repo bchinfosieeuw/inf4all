@@ -1,0 +1,1 @@
+myvar = input('Type something \n')
