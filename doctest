@@ -1,1 +1,1 @@
-python3 -m doctest
+python3 -m doctest -v is_even.py
