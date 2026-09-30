@@ -39,7 +39,7 @@ def print_bits(decimaalgetal: int) -> None:
         print(0)
     if decimaalgetal >= 64:
         print(1)
-        decimaalgetal -= 128
+        decimaalgetal -= 64
     else:
         print(0)
     
