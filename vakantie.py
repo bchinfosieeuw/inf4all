@@ -40,6 +40,11 @@ def total_costs(km: int, nights: int) -> int:
     >>>total_costs(1250, 5)
     625
     
+    >>>total_costs(1250, 5)
+    625
+    
+    >>>total_costs(1250, 5)
+    625
     """
     return roundmoney(travel_costs(km) + overnight_costs(nights))
     
