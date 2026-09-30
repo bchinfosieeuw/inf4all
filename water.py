@@ -4,6 +4,10 @@ def hoeveelheid_water(minuten: int) -> int:
     gegeven het aantal minuten douchen.
     >>> hoeveelheid_water(1)
     12
+    >>> hoeveelheid_water(1)
+    12
+    >>> hoeveelheid_water(1)
+    12
     """
 
 if __name__ == '__main__':
