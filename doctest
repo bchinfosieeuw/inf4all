@@ -1,1 +1,5 @@
 python3 -m doctest -v is_even.py
+
+Je kunt ook de type hints checken. Installeer dan mypy via het commando pip3 install mypy en controleer zo je programma:
+
+mypy --strict --ignore-missing-imports programma.py
