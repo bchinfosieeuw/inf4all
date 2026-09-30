@@ -7,8 +7,8 @@ def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
 
 if __name__ == '__main__':
     coffee = int(input('Hoeveel koppen koffie? '))
-    aantalkoppenthee = int(input('Hoeveel koppen thee? '))
+    tea = int(input('Hoeveel koppen thee? '))
     aantalenergiedrankjes = int(input('Hoeveel energiedrankjes? '))
     aantalglazencola = int(input('Hoeveel glazen cola? '))
-    hoeveelheidcafeine = calculate_cafeine(coffee, aantalkoppenthee, aantalenergiedrankjes, aantalglazencola)
+    hoeveelheidcafeine = calculate_cafeine(coffee, tea, aantalenergiedrankjes, aantalglazencola)
     print(hoeveelheidcafeine)
