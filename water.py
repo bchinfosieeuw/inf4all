@@ -13,5 +13,5 @@ def hoeveelheid_water(minuten: int) -> int:
 
 if __name__ == '__main__':
     doucheminuten = input('Hoeveel minuten douche je?')
-    aantalflesjeswater = int(hoeveelheid_water(doucheminuten))
+    aantalflesjeswater = hoeveelheid_water(doucheminuten)
     print(aantalflesjeswater)
