@@ -2,7 +2,7 @@ def print_bits(decimaalgetal: int) -> None:
     """
     Zet decimaal getal om in binaire representatie.
     
-    print_bits()
+    print_bits(3)
     
     """
 
