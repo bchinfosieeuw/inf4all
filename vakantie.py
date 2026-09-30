@@ -59,7 +59,7 @@ def roundmoney(money: float) -> int:
     3
     
     >>>roundmoney(6.7)
-    3
+    7
     """
     return int(money + 0.5)
 
