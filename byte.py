@@ -1,6 +1,6 @@
 def print_bits(decimaalgetal: int) -> None:
     """
-    Zet decimaal getal om in binaire
+    Zet decimaal getal om in binair
     
     print_bits()
     
