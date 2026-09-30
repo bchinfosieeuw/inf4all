@@ -20,5 +20,5 @@ if __name__ == '__main__':
     if schrikkeljaarbool==True:
         print(y, "is een schrikkeljaar")
     else:
-        print("Het is een base")
+        print(y, "is een schrikkeljaar")
     
