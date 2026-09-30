@@ -4,6 +4,7 @@ def check_answer(answer: str) -> bool:
     42, tweeenveertig, of tweeënveertig is.
     
     >>> check_answer()
+    
     """
 
 if __name__ == '__main__':
