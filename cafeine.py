@@ -9,5 +9,5 @@ if __name__ == '__main__':
     aantalkoppenthee = int(input('Hoeveel koppen thee? '))
     aantalenergiedrankjes = int(input('Hoeveel energiedrankjes? '))
     aantalglazencola = int(input('Hoeveel glazen cola? '))
-    hoeveelheidcafeine = calculate_cafeine(aantalkoppenkoffie, aantalkoppenthee, aantalenergiedrankjes, )
+    hoeveelheidcafeine = calculate_cafeine(aantalkoppenkoffie, aantalkoppenthee, aantalenergiedrankjes, aantalglazencola)
     print(hoeveelheidcafeine)
