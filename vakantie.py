@@ -4,7 +4,7 @@ def travel_costs(km: int) -> float:
     naar de accomodatie (tel `km` twee keer voor heen en terug).
     
     >>> travel_costs(10)
-    2.60
+    2.6
     
     >>> travel_costs(100)
     26.0
