@@ -12,4 +12,4 @@ if __name__ == '__main__':
     if boolOracle==True:
         print("Ja")
     else:
-        print()
+        print("Nee")
