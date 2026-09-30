@@ -1,14 +1,15 @@
-def is_acidic(ph: float) -> bool:
+def is_leap_year(y: int) -> bool:
     """
-    >>> is_acidic(6.9)
-    Het is een zuur
-    
-    >>> is_acidic(8.0)
-    Het is een base
-    
-    >>> is_acidic(7.0)
-    Het is een base
+    >>> is_leap_year(2024)
+    True
+    >>> is_leap_year(2023)
+    False
+    >>> is_leap_year(1900)
+    False
+    >>> is_leap_year(2000)
+    True
     """
+    return ((y%4 == 0) and (y%100 != 0)) or (y%400 == 0)
     if ph < 7.0:
         return True
     else:
