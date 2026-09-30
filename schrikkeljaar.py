@@ -15,7 +15,7 @@ def is_leap_year(y: int) -> bool:
         return False
 
 if __name__ == '__main__':
-    ph = int(input('Geef een pH-waarde: '))
+    ph = int(input('Geef een jaartal: '))
     zuurofbase = is_acidic(ph)
     if zuurofbase==True:
         print("Het is een zuur")
