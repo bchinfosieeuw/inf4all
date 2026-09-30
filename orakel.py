@@ -26,7 +26,8 @@ def check_answer(answer: str) -> bool:
 if __name__ == '__main__':
     question1 = 'Wat is het antwoord op de grote vraag van het leven, ?'
     question2 = 'het universum en alles daarbij?'
-    answerUser = input(question1, question2)
+    question = 
+    answerUser = input(question)
     boolOracle = check_answer(answerUser)
     if boolOracle==True:
         print("Ja")
