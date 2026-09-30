@@ -18,7 +18,7 @@ if __name__ == '__main__':
     y = int(input('Geef een jaartal: '))
     schrikkeljaarbool = is_leap_year(y)
     if schrikkeljaarbool==True:
-        print("is een schrikkeljaar")
+        print(y, "is een schrikkeljaar")
     else:
         print("Het is een base")
     
