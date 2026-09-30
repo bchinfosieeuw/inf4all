@@ -6,6 +6,12 @@ def check_answer(answer: str) -> bool:
     >>> check_answer(42)
     True
     
+    >>> check_answer(42)
+    True
+    
+    >>> check_answer(42)
+    True
+    
     """
 
 if __name__ == '__main__':
