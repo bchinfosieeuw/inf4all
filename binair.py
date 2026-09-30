@@ -9,7 +9,7 @@ def convert(bit1: int, bit2: int, bit3: int, bit4: int) -> int:
     >>>convert(0, 1, 0, 0)
     4
     
-    >>>convert(0, 1, 0, 0)
+    >>>convert(0, 1, 0, 1)
     4
     """
     return bit1*2**3+bit2*2**2+bit3*2**1+bit4*2**0
