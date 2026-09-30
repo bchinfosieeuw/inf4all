@@ -22,7 +22,7 @@ def print_bits(decimaalgetal: int) -> None:
     1
     0
     
-    >>> print_bits(50)
+    >>> print_bits(128)
     0
     0
     1
