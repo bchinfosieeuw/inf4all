@@ -27,7 +27,7 @@ if __name__ == '__main__':
     question1 = 'Wat is het antwoord op de grote vraag van het leven, ?'
     question2 = 'het universum en alles daarbij?'
     question = question1 + question2
-    print()
+    print(question)
     answerUser = input(question)
     boolOracle = check_answer(answerUser)
     if boolOracle==True:
