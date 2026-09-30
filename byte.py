@@ -1,5 +1,7 @@
 def print_bits(decimaalgetal: int) -> None:
     """
+    print_bits()
+    
     """
 
 if __name__ == '__main__':
