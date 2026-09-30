@@ -10,6 +10,6 @@ if __name__ == '__main__':
     bit1 = int(input('Geef 1e van 4 bits'))
     bit2 = int(input('Geef 2e van 4 bits'))
     bit3 = int(input('Geef 3e van 4 bits'))
-    bit4 = int(input('Geef 1e van 4 bits'))
+    bit4 = int(input('Geef 4e van 4 bits'))
     decimaalgetal = convert(bit1, bit2, bit3, bit4)
     print(decimaalgetal)
