@@ -9,7 +9,6 @@ def is_leap_year(y: int) -> bool:
     >>> is_leap_year(2000)
     True
     """
-    return 
     if ((y%4 == 0) and (y%100 != 0)) or (y%400 == 0):
         return True
     else:
