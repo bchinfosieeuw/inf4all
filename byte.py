@@ -34,7 +34,7 @@ def print_bits(decimaalgetal: int) -> None:
     """
     if decimaalgetal >= 128:
         print(1)
-        
+        decimaalgetal
     else:
         print(0)
     
