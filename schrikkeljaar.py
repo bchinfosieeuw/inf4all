@@ -1,6 +1,6 @@
 def is_leap_year(y: int) -> bool:
     """
-    Bepaal of de 
+    Bepaal of de opgegeven 
     
     >>> is_leap_year(2024)
     True
