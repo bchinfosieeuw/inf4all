@@ -6,7 +6,7 @@ def is_acidic(ph: float) -> bool:
     True
     
     >>> is_acidic(8.0)
-    Het is een base
+    False
     
     >>> is_acidic(7.0)
     Het is een base
