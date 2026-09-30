@@ -11,4 +11,5 @@ if __name__ == '__main__':
     boolOracle = check_answer(answerUser)
     if boolOracle==True:
         print("Ja")
-    else 
+    else:
+        print()
