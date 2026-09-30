@@ -1,4 +1,4 @@
-def is_acidic(...) -> bool:
+def is_acidic(ph: float) -> bool:
     <functie met docstring, voorbeelden en implementatie>
 
 if __name__ == '__main__':
