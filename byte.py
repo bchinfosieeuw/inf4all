@@ -3,4 +3,4 @@ def print_bits(...) -> None:
 
 if __name__ == '__main__':
     decimaalgetal = int(input('Geef een decimaal getal op: '))
-    print_bits
+    print_bits()
