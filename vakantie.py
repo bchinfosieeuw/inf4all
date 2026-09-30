@@ -22,6 +22,7 @@ def total_costs(km: int, nights: int) -> int:
     return roundmoney(travel_costs(km) + overnight_costs(nights))
     
 def roundmoney(money: float) -> int:
+    """
     return int(money + 0.5)
 
 if __name__ == '__main__':
