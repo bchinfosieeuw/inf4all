@@ -14,6 +14,9 @@ def check_answer(answer: str) -> bool:
     
     >>> check_answer(tweeenveertig)
     False
+    
+    >>> check_answer(tweeenveertig)
+    False
     """
 
 if __name__ == '__main__':
