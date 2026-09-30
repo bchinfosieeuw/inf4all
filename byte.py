@@ -1,4 +1,4 @@
-def print_bits(...) -> None:
+def print_bits(decimaalgetal: int) -> None:
     <functie print bits, returnt niks>
 
 if __name__ == '__main__':
