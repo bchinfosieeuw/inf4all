@@ -1,6 +1,6 @@
 def is_acidic(ph: float) -> bool:
     """
-    Bepaal aan de hand van de pH-waarde of 
+    Bepaal aan de hand van de pH-waarde of de stof een zuur of base is.
     
     >>> is_acidic(6.9)
     Het is een zuur
