@@ -3,4 +3,4 @@ def is_acidic(...) -> bool:
 
 if __name__ == '__main__':
     ph = float(input('Geef een pH-waarde: '))
-    zuurofbase = is_acidic()
+    zuurofbase = is_acidic(ph)
