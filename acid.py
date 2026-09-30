@@ -8,7 +8,6 @@ def is_acidic(ph: float) -> bool:
     
     is_acidic(7.0)
     Het is een base
-    
     """
     if ph < 7.0:
         print("Het is een zuur")
