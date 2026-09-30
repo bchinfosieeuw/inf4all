@@ -6,10 +6,10 @@ def check_answer(answer: str) -> bool:
     >>> check_answer(42)
     True
     
-    >>> check_answer('tweeenveertig)
+    >>> check_answer('tweeenveertig')
     True
     
-    >>> check_answer(tweeënveertig)
+    >>> check_answer('tweeënveertig')
     True
     
     >>> check_answer(41)
