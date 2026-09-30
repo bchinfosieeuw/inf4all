@@ -8,4 +8,4 @@ if __name__ == '__main__':
     = int(input('Hoeveel koppen koffie? '))
     = int(input('Hoeveel koppen thee? '))
     = int(input('Hoeveel energiedrankjes? '))
-    = int(input('Hoeveel koppen koffie? '))
+    = int(input('Hoeveel glazen cola? '))
