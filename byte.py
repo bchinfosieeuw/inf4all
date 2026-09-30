@@ -12,7 +12,7 @@ def print_bits(decimaalgetal: int) -> None:
     1
     1
     
-    >>> print_bits(3)
+    >>> print_bits(50)
     0
     0
     0
