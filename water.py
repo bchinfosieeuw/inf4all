@@ -6,7 +6,7 @@ def hoeveelheid_water(minuten: int) -> int:
     12
     >>> hoeveelheid_water(10)
     120
-    >>> hoeveelheid_water(1)
+    >>> hoeveelheid_water(137)
     12
     """
 
