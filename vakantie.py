@@ -6,7 +6,7 @@ def travel_costs(km: int) -> float:
     >>>travel_costs(10)
     2.60
     
-    >>>travel_costs(10)
+    >>>travel_costs(100)
     2.60
     
     >>>travel_costs(10)
