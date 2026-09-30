@@ -1,6 +1,6 @@
 def is_acidic(ph: float) -> bool:
     """
-    is_acidic()
+    is_acidic(6.0)
     
     """
     if ph < 7.0:
