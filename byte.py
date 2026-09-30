@@ -49,6 +49,11 @@ def print_bits(decimaalgetal: int) -> None:
         print(0)
     if decimaalgetal >= 16:
         print(1)
+        decimaalgetal -= 16
+    else:
+        print(0)
+    if decimaalgetal >= 128:
+        print(1)
         decimaalgetal -= 128
     else:
         print(0)
