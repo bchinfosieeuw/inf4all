@@ -32,7 +32,7 @@ def print_bits(decimaalgetal: int) -> None:
     0
     0
     """
-    if 
+    if decimaalgetal >=
 
 if __name__ == '__main__':
     decimaalgetal = int(input('Geef een decimaal getal op: '))
