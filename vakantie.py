@@ -23,7 +23,7 @@ def total_costs(km: int, nights: int) -> int:
     
 def roundmoney(money: float) -> int:
     """
-    Rond kommagetal van de hoeveel
+    Rond kommagetal van de hoeveelheid geld af naar 
     """
     return int(money + 0.5)
 
