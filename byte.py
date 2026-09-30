@@ -33,7 +33,7 @@ def print_bits(decimaalgetal: int) -> None:
     0
     
     >>> print_bits(10)
-    1
+    0
     0
     0
     0
