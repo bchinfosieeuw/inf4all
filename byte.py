@@ -57,6 +57,16 @@ def print_bits(decimaalgetal: int) -> None:
         decimaalgetal -= 8
     else:
         print(0)
+    if decimaalgetal >= 4:
+        print(1)
+        decimaalgetal -= 4
+    else:
+        print(0)
+    if decimaalgetal >= 2:
+        print(1)
+        decimaalgetal -= 2
+    else:
+        print(0)
     
 
 if __name__ == '__main__':
