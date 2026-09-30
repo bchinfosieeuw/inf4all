@@ -8,6 +8,6 @@ if __name__ == '__main__':
     aantalkoppenkoffie = int(input('Hoeveel koppen koffie? '))
     aantalkoppenthee = int(input('Hoeveel koppen thee? '))
     aantalenergiedrankjes = int(input('Hoeveel energiedrankjes? '))
-    aantalglazen cola = int(input('Hoeveel glazen cola? '))
+    aantalglazencola = int(input('Hoeveel glazen cola? '))
     hoeveelheidcafeine = calculate_cafeine()
     print(hoeveelheidcafeine)
