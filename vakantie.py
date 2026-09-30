@@ -22,8 +22,8 @@ def overnight_costs(nights: int) -> float:
     >>>overnight_costs(1)
     60.0
     
-    >>>overnight_costs(1)
-    60.0
+    >>>overnight_costs(2)
+    120.0
     
     >>>overnight_costs(1)
     60.0
