@@ -5,7 +5,7 @@ def convert(bit1: int, bit2: int, bit3: int, bit4: int) -> int:
     
     >>>
     """
-    return bit1^4+bit2^3+bit3^2+bit4^1
+    return bit1*4+bit2^3+bit3^2+bit4^1
 
 if __name__ == '__main__':
     bit1 = int(input('Geef 1e van 4 bits'))
