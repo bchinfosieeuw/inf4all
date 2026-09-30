@@ -21,6 +21,16 @@ def print_bits(decimaalgetal: int) -> None:
     0
     1
     0
+    
+    >>> print_bits(50)
+    0
+    0
+    1
+    1
+    0
+    0
+    1
+    0
     """
 
 if __name__ == '__main__':
