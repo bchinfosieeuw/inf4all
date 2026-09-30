@@ -1,6 +1,6 @@
 def is_acidic(ph: float) -> bool:
     """
-    is_acidic(6.9)
+    >>> is_acidic(6.9)
     Het is een zuur
     
     is_acidic(8.0)
