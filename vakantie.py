@@ -37,13 +37,13 @@ def total_costs(km: int, nights: int) -> int:
     Deze functie delegeert zoveel mogelijk werk naar de andere
     twee functies (roep die dus hier aan).
     
-    >>>total_costs(1250, 5)
+    >>> total_costs(1250, 5)
     625
     
-    >>>total_costs(800, 10)
+    >>> total_costs(800, 10)
     808
     
-    >>>total_costs(2159, 12)
+    >>> total_costs(2159, 12)
     1281
     """
     return roundmoney(travel_costs(km) + overnight_costs(nights))
