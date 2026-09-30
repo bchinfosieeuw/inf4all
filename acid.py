@@ -4,7 +4,7 @@ def is_acidic(ph: float) -> bool:
     Het is een zuur
     
     is_acidic(8.0)
-    Het is een zuur
+    Het is een base
     
     is_acidic(6.0)
     Het is een zuur
