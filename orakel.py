@@ -15,7 +15,7 @@ def check_answer(answer: str) -> bool:
     >>> check_answer(41)
     False
     
-    >>> check_answer(tweeenveertig)
+    >>> check_answer(vijfenveertig)
     False
     """
 
