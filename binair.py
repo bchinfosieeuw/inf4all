@@ -7,7 +7,7 @@ def convert(bit1: int, bit2: int, bit3: int, bit4: int) -> int:
     4
     
     >>>convert(1, 1, 1, 1)
-    4
+    15
     
     >>>convert(0, 1, 0, 1)
     5
