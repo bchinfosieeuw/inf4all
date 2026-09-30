@@ -20,7 +20,8 @@ def check_answer(answer: str) -> bool:
     """
     if (answer=='42' or answer=='tweeenveertig' or answer=='tweeenveertig'):
         return True
-    else
+    else:
+        return False
 
 if __name__ == '__main__':
     answerUser = input('Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?')
