@@ -23,5 +23,3 @@ if __name__ == '__main__':
     nights = int(input('Hoe veel nachten is je verblijf? '))
     priceofvacation = total_costs(km, nights)
     print('Jouw vakantie kost:', priceofvacation)
-    <Schrijf hier code die input van de gebruiker opvraagt,
-    total_costs aanroept, en print hoeveel de vakantie gaat kosten>
