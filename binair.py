@@ -3,7 +3,9 @@ def convert(bit1: int, bit2: int, bit3: int, bit4: int) -> int:
     Zet het getal dat gerepresenteerd wordt door bit1 t/m bit 4
     om in decimale representatie.
     
-    >>>convert(bit1, bit2, bit3, bit4)
+    >>>convert(0, 1, 0, 0)
+    
+    
     """
     return bit1*2**3+bit2*2**2+bit3*2**1+bit4*2**0
 
