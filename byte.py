@@ -18,7 +18,7 @@ def print_bits(decimaalgetal: int) -> None:
 0
 0
 1
-0
+0yy
     """
 
 if __name__ == '__main__':
