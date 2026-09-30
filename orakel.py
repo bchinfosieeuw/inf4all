@@ -18,6 +18,7 @@ def check_answer(answer: str) -> bool:
     >>> check_answer(vijfenveertig)
     False
     """
+    
 
 if __name__ == '__main__':
     answerUser = input('Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?')
