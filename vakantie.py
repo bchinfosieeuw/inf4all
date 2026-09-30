@@ -25,7 +25,7 @@ def roundmoney(money: float) -> int:
     """
     Rond kommagetal van de hoeveelheid geld af naar gehele euro's. 
     
-    >>>roundmoney()
+    >>>roundmoney(2.4)
     """
     return int(money + 0.5)
 
