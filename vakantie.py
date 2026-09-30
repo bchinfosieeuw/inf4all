@@ -36,6 +36,8 @@ def total_costs(km: int, nights: int) -> int:
     nachten en rondt af naar hele euro's.
     Deze functie delegeert zoveel mogelijk werk naar de andere
     twee functies (roep die dus hier aan).
+    
+    >>>total_costs()
     """
     return roundmoney(travel_costs(km) + overnight_costs(nights))
     
