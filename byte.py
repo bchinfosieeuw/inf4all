@@ -1,5 +1,7 @@
 def print_bits(decimaalgetal: int) -> None:
     """
+    Zet 
+    
     print_bits()
     
     """
