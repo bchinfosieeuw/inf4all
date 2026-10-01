@@ -36,7 +36,9 @@ def calculate_length(c1: int, c2: int) -> int:
     
     >>> calculate_length()
     
+    
     >>> calculate_length()
+    
     
     >>> calculate_length()
     
