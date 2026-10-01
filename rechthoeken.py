@@ -21,7 +21,7 @@ def is_same_square(ax_length: int, ay_length: int, bx_length: int, by_length: in
     Controleert of beide rechthoeken hetzelfde vierkant zijn
     
     >>> is_same_square(1, 1, 2, 2)
-    
+    True
     
     >>> is_same_square(1, 2, 1, 2)
     
