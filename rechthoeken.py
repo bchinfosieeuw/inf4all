@@ -20,6 +20,6 @@ def calculate_length(c1: int, c2: int) -> int:
 
 if __name__ == '__main__':
     x1 = int(intput('Geef de x1 van A: '))
-    x1 = int(intput('Geef de x1 van A: '))
-    x1 = int(intput('Geef de x1 van A: '))
-    x1 = int(intput('Geef de x1 van A: '))
+    x2 = int(intput('Geef de x2 van A: '))
+    y1 = int(intput('Geef de y1 van A: '))
+    x2 = int(intput('Geef de x2 van A: '))
