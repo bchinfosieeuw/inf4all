@@ -38,7 +38,7 @@ def calculate_length(c1: int, c2: int) -> int:
     """
     Berekent de lengte van een zijde op basis van twee coördinaten
     
-    >>> calculate_length()
+    >>> calculate_length(6, 3)
     
     
     >>> calculate_length()
