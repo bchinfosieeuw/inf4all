@@ -11,6 +11,10 @@ def is_same_square(ax_length: int, ay_length: int, bx_length: int, by_length: in
     """
     Controleert of beide rechthoeken hetzelfde vierkant zijn
     """
+    if ax_length==bx_length and ay_length==by_length:
+        return True
+    else:
+        return False
 
 def calculate_length(c1: int, c2: int) -> int:
     """
