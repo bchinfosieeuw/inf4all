@@ -32,6 +32,6 @@ if __name__ == '__main__':
     Bxlength = calculate_length(Bx1, Bx2)
     Bylength = calculate_length(By1, By2)
     if is_same_rectangle(Axlength, Aylength, Bxlength, Bylength)==True:
-        print('')
+        print('De rechthoeken zijn gelijk!')
     else:
         print('')
