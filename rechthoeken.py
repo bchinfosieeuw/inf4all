@@ -5,8 +5,8 @@ def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length:
     >>> is_same_rectangle(1, 1, 2, 2)
     False
     
-    >>> is_same_rectangle(1, 1, 1, 1)
-    
+    >>> is_same_rectangle(1, 2, 1, 2)
+    True
     
     >>> is_same_rectangle()
     
