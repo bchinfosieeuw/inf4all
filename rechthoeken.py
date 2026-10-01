@@ -29,5 +29,5 @@ if __name__ == '__main__':
     By2 = int(intput('Geef de y2 van B: '))
     Axlength = calculate_length(Ax1, Ax2)
     Aylength = calculate_length(Ay1, Ay2)
-    Bxlength = calculate_length(-)
+    Bxlength = calculate_length(Bx1, Bx2)
     Bylength = calculate_length(-)
