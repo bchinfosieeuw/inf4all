@@ -22,4 +22,4 @@ if __name__ == '__main__':
     x1 = int(intput('Geef de x1 van A: '))
     x2 = int(intput('Geef de x2 van A: '))
     y1 = int(intput('Geef de y1 van A: '))
-    x2 = int(intput('Geef de x2 van A: '))
+    y2 = int(intput('Geef de y2 van A: '))
