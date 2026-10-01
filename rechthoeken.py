@@ -19,4 +19,4 @@ def calculate_length(c1: int, c2: int) -> int:
     return abs(c1-c2)
 
 if __name__ == '__main__':
-    <Hoofdprogramma>
+    x1 = 
