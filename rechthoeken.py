@@ -34,6 +34,12 @@ def calculate_length(c1: int, c2: int) -> int:
     """
     Berekent de lengte van een zijde op basis van twee coördinaten
     
+
+    >>> is_same_square()
+    
+    >>> is_same_square()
+    
+    >>> is_same_square()
     
     """
     return abs(c1-c2)
