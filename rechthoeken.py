@@ -33,5 +33,6 @@ if __name__ == '__main__':
     Bylength = calculate_length(By1, By2)
     if is_same_rectangle(Axlength, Aylength, Bxlength, Bylength)==True:
         print('De rechthoeken zijn gelijk!')
+        if()
     else:
         print('Er is niks aan :(')
