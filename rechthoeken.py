@@ -4,6 +4,10 @@ def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length:
     
     >>> is_same_rectangle()
     
+    >>> is_same_rectangle()
+    
+    >>> is_same_rectangle()
+    
     """
     if ax_length==bx_length and ay_length==by_length:
         return True
