@@ -31,4 +31,4 @@ if __name__ == '__main__':
     Aylength = calculate_length(Ay1, Ay2)
     Bxlength = calculate_length(Bx1, Bx2)
     Bylength = calculate_length(By1, By2)
-    if is_same_rectangle(Axlength, Axlength)
+    if is_same_rectangle(Axlength, Aylength)
