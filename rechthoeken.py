@@ -30,4 +30,4 @@ if __name__ == '__main__':
     Axlength = calculate_length(-)
     Aylength = calculate_length(-)
     Bxlength = calculate_length(-)
-    Axlength = calculate_length(-)
+    Bylength = calculate_length(-)
