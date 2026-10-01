@@ -28,6 +28,6 @@ if __name__ == '__main__':
     By1 = int(intput('Geef de y1 van B: '))
     By2 = int(intput('Geef de y2 van B: '))
     Axlength = calculate_length(-)
-    Axlength = calculate_length(-)
+    Aylength = calculate_length(-)
     Axlength = calculate_length(-)
     Axlength = calculate_length(-)
