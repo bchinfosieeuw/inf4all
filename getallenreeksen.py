@@ -112,9 +112,9 @@ def reeks6() -> None:
         i = i // 10
         j += 1
 
-def reeks1() -> None:
+def reeks7() -> None:
     """
-    >>> reeks1()
+    >>> reeks7()
     0
     2
     4
