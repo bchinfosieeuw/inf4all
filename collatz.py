@@ -7,5 +7,8 @@ def print_collatz(n: int) -> None:
         else:
             n = n*3 + 1
             print(n)
+
+def print_collatz(n: int) -> None:
+    
     
 print_collatz(3)
