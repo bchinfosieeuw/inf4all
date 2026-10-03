@@ -9,6 +9,6 @@ def print_collatz(n: int) -> None:
             print(n)
 
 def collatz_length(n: int) -> None:
-    
+    print_collatz(n: int)
     
 collatz_length(3)
