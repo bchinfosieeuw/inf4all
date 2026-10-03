@@ -129,4 +129,4 @@ def reeks1() -> None:
     for i in range(0, 20, 2):
         print(i)
 
-reeks6()
+reeks7()
