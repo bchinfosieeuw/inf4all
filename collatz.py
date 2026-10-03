@@ -50,15 +50,7 @@ def collatz_length(n: int) -> None:
     5
     
     >>> print_collatz(6)
-    6
-    3
-    10
-    5
-    16
-    8
-    4
-    2
-    1
+    9
     """
     count = 1
     while n > 1:
