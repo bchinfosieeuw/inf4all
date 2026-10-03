@@ -150,7 +150,7 @@ def display_grid(month: int, year: int) -> None:
         print(" ", end="")
     for i in range(days_in_month(month, year)):
         print(i+2, end="")
-        for j in range(3-):
+        for j in range(3-minus):
             print(" ", end="")
 
 def first_weekday_month(month: int, year: int) -> int:
