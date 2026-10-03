@@ -1,6 +1,6 @@
 def print_collatz(n: int) -> None:
     """
-    Bepaal de 
+    Bepaal de Collatz-reeks vanaf het getal n.
     """
     print(n)
     while n > 1:
