@@ -82,7 +82,7 @@ def days_in_month(month: int, year: int) -> int:
     elif month==7:
         aantaldageninmaand = 31
     elif month==8:
-        aantaldageninmaand = (month-1)*31
+        aantaldageninmaand = 31
     elif month==9:
         aantaldageninmaand = (month-1)*30
     elif month==10:
