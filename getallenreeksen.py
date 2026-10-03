@@ -80,6 +80,8 @@ def reeks5() -> None:
     1
     3
     9
+    27
+    81
     
     """
     while
