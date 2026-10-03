@@ -55,7 +55,8 @@ def days_until_month(month: int, year: int) -> int:
     aantaldageninmaand = 0
     if month==1:
         aantaldageninmaand += (month-1)*0
-        
+    elif month==1:
+        aantaldageninmaand += (month-1)*
 
 def days_in_month(month: int, year: int) -> int:
     """
