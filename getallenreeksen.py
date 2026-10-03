@@ -115,13 +115,13 @@ def reeks6() -> None:
 def reeks7() -> None:
     """
     >>> reeks7()
-    reeks1
-    reeks2
+    1
+    2
     *
-    reeks4
-    reeks5
+    4
+    5
     *
-    reeks7
+    7
     8
     *
     10
