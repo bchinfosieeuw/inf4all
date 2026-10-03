@@ -21,6 +21,7 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
     Tel het aantal schrikkeljaren tussen en inclusief begin en eind.
     
     >>> tel_schrikkeljaren()
+    
     """
     count = 0
     diff = eind-begin
