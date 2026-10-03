@@ -57,7 +57,7 @@ def display_header(month: int, year: int) -> None:
     elif month==2:
         monthtxt = 'Mei'
     elif month==2:
-        monthtxt = 'Feb'
+        monthtxt = 'Jun'
     elif month==2:
         monthtxt = 'Feb'
     elif month==2:
