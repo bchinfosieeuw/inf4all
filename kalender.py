@@ -41,7 +41,7 @@ def display_calendar(month: int, year: int) -> None:
     Gebruikt `display_header` en `display_grid`.
     """
 
-def display_header(month: int, year: int) -> None:
+def Zon Maa Din Woe Don Vri Zat(month: int, year: int) -> None:
     """
     Print de koptekst van de kalender.
     """
