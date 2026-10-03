@@ -97,7 +97,7 @@ def days_in_month(month: int, year: int) -> int:
     31
     
     >>> days_in_month(1, 1804)
-    
+    31
     
     >>> days_in_month(5, 1804)
     
