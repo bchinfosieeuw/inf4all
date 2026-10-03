@@ -17,6 +17,8 @@ def is_schrikkel(y: int) -> bool:
         return False
 
 def tel_schrikkeljaren(begin: int, eind: int) -> int:
+    """
+    """
     count = 0
     diff = eind-begin
     for i in range(diff+1):
