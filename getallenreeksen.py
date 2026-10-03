@@ -121,6 +121,8 @@ def reeks7() -> None:
     reeks4
     reeks5
     *
+    reeks7
+    8
     
     """
     for i in range(0, 20, 2):
