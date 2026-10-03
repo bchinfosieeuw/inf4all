@@ -185,10 +185,9 @@ def display_calendar(month: int, year: int) -> None:
     """
     display_header(month, year)
     if (first_weekday_month(month, year) + days_in_month(month, year))%7==6:
-        print("hallo")
-        display_grid(month, year, 1)
+        display_grid(month, year, " ")
     else:
-        display_grid(month, year, 0)
+        display_grid(month, year, "")
 
 def display_header(month: int, year: int) -> None:
     """
@@ -261,26 +260,26 @@ def display_header(month: int, year: int) -> None:
     print('Zon Maa Din Woe Don Vri Zat', end="")
     print('\"')
     
-def display_grid(month: int, year: int, extraspace: int) -> None:
+def display_grid(month: int, year: int, extraspace: string) -> None:
     """
     Print het grid van de kalender.
     Gebruikt `first_weekday_month` en `days_in_month`.
     
-    >>> display_grid(6, 2022, 0)
+    >>> display_grid(6, 2022, "")
     "            1   2   3   4  "
     "5   6   7   8   9   10  11 "
     "12  13  14  15  16  17  18 "
     "19  20  21  22  23  24  25 "
     "26  27  28  29  30"
     
-    >>> display_grid(2, 2022, 0)
+    >>> display_grid(2, 2022, "")
     "        1   2   3   4   5  "
     "6   7   8   9   10  11  12 "
     "13  14  15  16  17  18  19 "
     "20  21  22  23  24  25  26 "
     "27  28"
     
-    >>> display_grid(10, 2026, 0)
+    >>> display_grid(10, 2026)
     "                1   2   3  "
     "4   5   6   7   8   9   10 "
     "11  12  13  14  15  16  17 "
@@ -313,8 +312,6 @@ def display_grid(month: int, year: int, extraspace: int) -> None:
             for j in range(3-minus1-1):
                 if i==10-3:
                     minus1 = 1
-            if extraspace==1:
-                print(" ", end="")
             print('\"', end="")
             break
         else:
