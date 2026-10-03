@@ -305,6 +305,7 @@ def display_grid(month: int, year: int) -> None:
             print('\"', end="")
             print("")
             print('\"', end="")
+            
 
 def first_weekday_month(month: int, year: int) -> int:
     """
