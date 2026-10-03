@@ -87,6 +87,6 @@ def reeks5() -> None:
     -2
     -3
     """
-    
+    while
     
 reeks5()
