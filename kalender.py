@@ -212,7 +212,7 @@ def display_grid(month: int, year: int) -> None:
  27  28"
     
     >>> display_grid(10, 2026)
-    
+    ""
     """
     index = first_weekday_month(month, year)
     """print(index)"""
