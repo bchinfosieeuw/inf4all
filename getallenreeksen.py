@@ -134,7 +134,7 @@ def reeks7() -> None:
 
 def reeks8() -> None:
     """
-    >>> reeks6()
+    >>> reeks8()
     1000
     100
     10
