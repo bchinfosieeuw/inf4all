@@ -20,8 +20,8 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
     """
     Tel het aantal schrikkeljaren tussen en inclusief begin en eind.
     
-    >>> tel_schrikkeljaren()
-    
+    >>> tel_schrikkeljaren(1800, 1804)
+    1
     """
     count = 0
     diff = eind-begin
