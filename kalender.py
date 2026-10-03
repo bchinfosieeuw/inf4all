@@ -84,13 +84,13 @@ def days_in_month(month: int, year: int) -> int:
     elif month==8:
         aantaldageninmaand = 31
     elif month==9:
-        aantaldageninmaand = (month-1)*30
+        aantaldageninmaand = 30
     elif month==10:
-        aantaldageninmaand = (month-1)*31
+        aantaldageninmaand = 31
     elif month==11:
-        aantaldageninmaand = (month-1)*30
+        aantaldageninmaand = 30
     elif month==12:
-        aantaldageninmaand = (month-1)*31
+        aantaldageninmaand = 31
     return aantaldageninmaand
 
 def display_calendar(month: int, year: int) -> None:
