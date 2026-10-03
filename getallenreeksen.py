@@ -41,6 +41,8 @@ def reeks3() -> None:
     2
     5
     10
+    17
+    26
     
     """
     for i in range(1, 25, 2):
