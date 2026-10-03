@@ -295,7 +295,6 @@ def display_grid(month: int, year: int) -> None:
     if index==6:
         print('\"', end="")
         print("")
-    print('\"')
     for i in range(days_in_month(month, year)-1):
         print(i+2, end="")
         for j in range(3-minus1):
