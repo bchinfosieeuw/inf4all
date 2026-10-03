@@ -13,4 +13,4 @@ def reeks1() -> None:
     18
     """
     for i in range(0, 18, 2):
-        print(i * 10)
+        print(i)
