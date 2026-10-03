@@ -54,7 +54,7 @@ def reeks3() -> None:
     197
     """
     j = 1
-    for i in range(1, 100, 1):
+    for i in range(1, 16, 1):
         print(j)
         j += i*2-1
 
