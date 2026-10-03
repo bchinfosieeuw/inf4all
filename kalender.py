@@ -49,7 +49,7 @@ def display_header(month: int, year: int) -> None:
     if() 
     print('Jaar: ', year)
     print('Maand: ', month)
-    print('          ', yeartxt, ' ', year)
+    print('          ', monthtxt, ' ', year)
     print('Maand jaar')
     print('---------------------------')
     print('Zon Maa Din Woe Don Vri Zat')
