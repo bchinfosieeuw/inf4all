@@ -97,6 +97,8 @@ def display_calendar(month: int, year: int) -> None:
     """
     Print de kalender.
     Gebruikt `display_header` en `display_grid`.
+    
+    >>> display_calendar()
     """
     display_header(month, year)
     display_grid(month, year)
