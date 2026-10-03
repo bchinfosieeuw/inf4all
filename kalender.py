@@ -198,7 +198,7 @@ def display_grid(month: int, year: int) -> None:
     Gebruikt `first_weekday_month` en `days_in_month`.
     
     >>> display_grid(6, 2022)
-    
+    ""
     
     >>> display_grid(2, 2022)
     
