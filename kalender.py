@@ -286,6 +286,7 @@ def display_grid(month: int, year: int) -> None:
     indexplus = 0
     minus1 = 0
     spaces = 4*index
+    print('\"', end="")
     for i in range(spaces):
         print(" ", end="")
     print(1, end="")
