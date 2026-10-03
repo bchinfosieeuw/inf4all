@@ -40,13 +40,13 @@ def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
     """
     Tel het aantal schrikkeljaren tussen en inclusief begin en eind.
     
-    >>> tel_schrikkeljaren(1800, 1804)
+    >>> nde_schrikkeljaar_vanaf(1800, 1804)
     1
     
-    >>> tel_schrikkeljaren(1800, 1808)
+    >>> nde_schrikkeljaar_vanaf(1800, 1808)
     2
     
-    >>> tel_schrikkeljaren(1804, 1812)
+    >>> nde_schrikkeljaar_vanaf(1804, 1812)
     3
     """
     leapyear = 0
