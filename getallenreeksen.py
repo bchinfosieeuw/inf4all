@@ -111,5 +111,5 @@ def reeks6() -> None:
         print(i)
         i = i // 10
         j += 1
-    
+
 reeks6()
