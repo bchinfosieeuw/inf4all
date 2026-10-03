@@ -27,7 +27,7 @@ def days_from_1800(month: int, year: int) -> int:
     De eerste dag van `month` zit hier dus niet bij.
     Gebruikt `days_from_1800_until_year` en `days_until_month`.
     """
-    days_from_1800_until_year(year: int)
+    days_from_1800_until_year(year)
 
 def days_from_1800_until_year(year: int) -> int:
     """
