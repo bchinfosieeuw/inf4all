@@ -141,7 +141,7 @@ def display_grid(month: int, year: int) -> None:
     Gebruikt `first_weekday_month` en `days_in_month`.
     """
     index = first_weekday_month(month, year)
-    print(index)
+    """print(index)"""
 
 def first_weekday_month(month: int, year: int) -> int:
     """
