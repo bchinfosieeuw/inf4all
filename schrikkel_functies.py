@@ -27,7 +27,7 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
 def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
     count = 0
     diff = eind-begin
-    for i in range(begin+n+1):
+    for i in range(begin+4*n+1):
         if is_schrikkel(begin+i):
             count += 1
     return p
