@@ -53,4 +53,4 @@ def reeks3() -> None:
     for i in range(1, 25, 2):
         print(i)
 
-reeks2()
+reeks3()
