@@ -39,7 +39,6 @@ def days_from_1800_until_year(year: int) -> int:
         print(year, "is een schrikkeljaar")
     else:
         return aantaldagenperjaarnietschrikkeljaar*(year-1800)
-        print(year, "is geen schrikkeljaar")
 
 def days_until_month(month: int, year: int) -> int:
     """
