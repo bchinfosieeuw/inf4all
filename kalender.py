@@ -205,11 +205,11 @@ def display_header(month: int, year: int) -> None:
     "Zon Maa Din Woe Don Vri Zat"
     
     >>> display_header(10, 2026)
-    "Jaar: 2026
-Maand: 10
-          Okt 2026
----------------------------
-Zon Maa Din Woe Don Vri Zat"
+    "Jaar: 2026"
+    "Maand: 10"
+    "          Okt 2026"
+    "---------------------------"
+    "Zon Maa Din Woe Don Vri Zat"
     """
     if month==1:
         monthtxt = 'Jan'
