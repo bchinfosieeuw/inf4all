@@ -32,3 +32,4 @@ def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
             count += 1
     return count
 
+nde_schrikkeljaar_vanaf
