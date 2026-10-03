@@ -42,6 +42,11 @@ def days_from_1800_until_year(year: int) -> int:
     >>> days_from_1800_until_year(year)
     
     
+    >>> days_from_1800_until_year(year)
+    
+    
+    >>> days_from_1800_until_year(year)
+    
     """
     aantaldagen = 0
     for i in range(year-1800):
