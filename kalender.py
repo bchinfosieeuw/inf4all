@@ -137,7 +137,7 @@ def display_calendar(month: int, year: int) -> None:
     Print de kalender.
     Gebruikt `display_header` en `display_grid`.
     
-    >>> display_calendar(6, year)
+    >>> display_calendar(6, 2022)
     
     
     >>> display_calendar(month, year)
