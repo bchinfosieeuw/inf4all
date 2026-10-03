@@ -132,7 +132,7 @@ def reeks7() -> None:
             mystr = "*"
         print(mystr)
 
-def reeks6() -> None:
+def reeks8() -> None:
     """
     >>> reeks6()
     1000
