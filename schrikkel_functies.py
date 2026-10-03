@@ -27,8 +27,8 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
 def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
     leapyear = 0
     for i in range(4*n+1):
-        if is_schrikkel(begin+i-1):
-            leapyear = begin+i-1
+        if is_schrikkel(begin+i):
+            leapyear = begin+i
     return leapyear
 
-print(nde_schrikkeljaar_vanaf(1800, 2))
+print(nde_schrikkeljaar_vanaf(1804, 1))
