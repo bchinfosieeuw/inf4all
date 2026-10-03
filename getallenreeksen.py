@@ -62,7 +62,7 @@ def reeks4() -> None:
     """
     >>> reeks4()
     5
-    reeks4
+    4
     """
     for i in range(0, 20, 2):
         print(i)
