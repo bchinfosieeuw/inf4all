@@ -13,9 +13,6 @@ def print_collatz(n: int) -> None:
     1
     
     >>> print_collatz(16)
-    3
-    10
-    5
     16
     8
     4
