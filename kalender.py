@@ -142,6 +142,7 @@ def display_grid(month: int, year: int) -> None:
     """
     index = first_weekday_month(month, year)
     """print(index)"""
+    minus1 = 0
     spaces = 4*index
     for i in range(spaces):
         print(" ", end="")
