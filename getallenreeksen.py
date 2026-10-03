@@ -71,7 +71,7 @@ def reeks4() -> None:
     -2
     -3
     """
-    for i in range(0, 20, -1):
+    for i in range(5, 20, -1):
         print(i)
         
 reeks4()
