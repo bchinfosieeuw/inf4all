@@ -137,9 +137,9 @@ def display_calendar(month: int, year: int) -> None:
     
     >>> display_calendar(6, 2022)
     "'"'Jaar: 2022"
-    "Maand: 6"
-    "          Jun 2022"
-    "---------------------------"
+    "'"'Maand: 6"
+    "'"'          Jun 2022"
+    "'"'---------------------------"
     "Zon Maa Din Woe Don Vri Zat"
     "            1   2   3   4  "
     "5   6   7   8   9   10  11 "
