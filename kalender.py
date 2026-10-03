@@ -260,7 +260,7 @@ def display_header(month: int, year: int) -> None:
     print('Zon Maa Din Woe Don Vri Zat', end="")
     print('\"')
     
-def display_grid(month: int, year: int, ) -> None:
+def display_grid(month: int, year: int, extraspace) -> None:
     """
     Print het grid van de kalender.
     Gebruikt `first_weekday_month` en `days_in_month`.
