@@ -24,7 +24,7 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
             count += 1
     return count
 
-def tel_schrikkeljaren(begin: int, eind: int) -> int:
+def nde_schrikkeljaar_vanaf(begin: int, eind: int) -> int:
     count = 0
     diff = eind-begin
     for i in range(diff+1):
