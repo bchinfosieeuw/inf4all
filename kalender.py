@@ -251,11 +251,7 @@ def display_grid(month: int, year: int) -> None:
  27  28"
     
     >>> display_grid(10, 2026)
-    "Jaar: 2026
-Maand: 10
-          Okt 2026
----------------------------
-Zon Maa Din Woe Don Vri Zat
+    "
                 1   2   3   
 4   5   6   7   8   9  10  
 11  12  13  14  15  16  17  
