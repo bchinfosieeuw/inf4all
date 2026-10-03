@@ -86,6 +86,7 @@ def reeks5() -> None:
     """
     i = 1
     while i < 1000:
-        print
+        print(i)
+        
     
 reeks5()
