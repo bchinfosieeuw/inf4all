@@ -60,7 +60,7 @@ def days_until_month(month: int, year: int) -> int:
     elif month==3:
         if is_leap_year(year)==True:
             aantaldageninmaand += (month-1)*29
-        if is_leap_year(year)==True:
+        else:
             aantaldageninmaand += (month-1)*29
     elif month==4:
         aantaldageninmaand += (month-1)*31
