@@ -145,7 +145,7 @@ def display_grid(month: int, year: int) -> None:
     spaces = 4*index
     for i in range(spaces):
         print(" ", end="")
-    print(j+1, end="")
+    print(1, end="")
         
     for i in range(days_in_month(month, year)):
 
