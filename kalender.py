@@ -101,6 +101,11 @@ def display_calendar(month: int, year: int) -> None:
     >>> display_calendar(month, year)
     
     
+    >>> display_calendar(month, year)
+    
+    
+    >>> display_calendar(month, year)
+    
     """
     display_header(month, year)
     display_grid(month, year)
