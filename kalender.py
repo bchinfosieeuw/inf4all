@@ -153,7 +153,6 @@ def display_grid(month: int, year: int) -> None:
         print(" ", end="")
     if index==6 and oncebool==True:
         print("")
-        oncebool = False
     for i in range(days_in_month(month, year)-1):
         print(i+2, end="")
         for j in range(3-minus1):
