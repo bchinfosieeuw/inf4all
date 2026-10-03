@@ -302,7 +302,7 @@ def display_grid(month: int, year: int) -> None:
                 print(" ", end="")
                 if i==10-3:
                     minus1 = 1
-        elif :
+        elif days_in_month():
             for j in range(3-minus1-1):
                 print(" ", end="")
                 if i==10-3:
