@@ -43,13 +43,13 @@ def collatz_length(n: int) -> None:
     """
     Bepaal de lengte van de Collatz-reeks vanaf het getal n.
     
-    >>> print_collatz(3)
+    >>> collatz_length(3)
     8
     
-    >>> print_collatz(16)
+    >>> collatz_length(16)
     5
     
-    >>> print_collatz(6)
+    >>> collatz_length(6)
     9
     """
     count = 1
