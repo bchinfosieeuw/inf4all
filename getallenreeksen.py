@@ -130,6 +130,6 @@ def reeks7() -> None:
     for i in range(1, 11, 1):
         if (i+3)%3==0
             
-        print(i)
+        print(mystr)
 
 reeks7()
