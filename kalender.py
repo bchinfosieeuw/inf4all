@@ -33,7 +33,7 @@ def days_from_1800(month: int, year: int) -> int:
     >>> days_from_1800(1, 1801)
     365
     
-    >>> days_from_1800(1, year)
+    >>> days_from_1800(1, 1804)
     1461
     
     >>> days_from_1800(month, year)
