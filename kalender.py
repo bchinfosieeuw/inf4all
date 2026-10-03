@@ -159,7 +159,7 @@ def display_grid(month: int, year: int) -> None:
             totalspaces++
             if i==10-3:
                 minus1 = 1
-        if (totalspaces+7*4)%(7*4)==6:
+        if (totalspaces+7*4)%(7*4)==7*3:
             print("")
 
 def first_weekday_month(month: int, year: int) -> int:
