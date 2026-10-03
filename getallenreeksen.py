@@ -45,7 +45,7 @@ def reeks3() -> None:
     26
     37
     """
-    j = 0
+    j = 1
     for i in range(1, 100, j):
         j += 2
         print(i)
