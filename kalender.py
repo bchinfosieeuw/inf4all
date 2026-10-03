@@ -30,10 +30,10 @@ def days_from_1800(month: int, year: int) -> int:
     De eerste dag van `month` zit hier dus niet bij.
     Gebruikt `days_from_1800_until_year` en `days_until_month`.
     
-    >>> days_from_1800(month, year)
+    >>> days_from_1800(1, 1801)
     365
     
-    >>> days_from_1800(month, year)
+    >>> days_from_1800(1, year)
     1461
     
     >>> days_from_1800(month, year)
