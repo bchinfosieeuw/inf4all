@@ -6,7 +6,7 @@ aantaldagenperjaarwelschrikkeljaar = 364
 def is_leap_year(year: int) -> bool:
     """
     Return True als `year` een schrikkeljaar is.
-    """
+    
     >>> is_schrikkel(2024)
     True
     >>> is_schrikkel(2023)
