@@ -33,5 +33,3 @@ def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
         if is_schrikkel(begin+i):
             leapyear = begin+i
     return leapyear
-
-print(nde_schrikkeljaar_vanaf(1800, 2))
