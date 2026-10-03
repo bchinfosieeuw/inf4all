@@ -157,10 +157,10 @@ def display_header(month: int, year: int) -> None:
     ""
     
     >>> display_header(2, 2022)
-    
+    ""
     
     >>> display_header(10, 2026)
-    
+    ""
     """
     if month==1:
         monthtxt = 'Jan'
