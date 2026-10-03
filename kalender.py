@@ -153,7 +153,7 @@ Zon Maa Din Woe Don Vri Zat
  27  28"
     
     >>> display_calendar(10, 2026)
-    
+    ""
     """
     display_header(month, year)
     display_grid(month, year)
