@@ -149,7 +149,7 @@ def display_grid(month: int, year: int) -> None:
     print(1, end="")
     for j in range(4):
         print(" ", end="")
-    for i in range(days_in_month(month, year)):
+    for i in range(days_in_month(month, year)-1):
         print(i+2, end="")
         for j in range(3-minus1):
             print(" ", end="")
