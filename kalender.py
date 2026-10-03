@@ -142,7 +142,8 @@ def display_grid(month: int, year: int) -> None:
     """
     index = first_weekday_month(month, year)
     """print(index)"""
-    spaces = 4*
+    spaces = 4*index
+    
 
 def first_weekday_month(month: int, year: int) -> int:
     """
