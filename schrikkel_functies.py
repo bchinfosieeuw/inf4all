@@ -31,4 +31,4 @@ def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
             leapyear = begin+i-1
     return leapyear
 
-print(nde_schrikkeljaar_vanaf(1800, 1))
+print(nde_schrikkeljaar_vanaf(1800, 2))
