@@ -126,7 +126,7 @@ def reeks7() -> None:
     *
     10
     """
-    for i in range(1, 11, 2):
+    for i in range(1, 11, 1):
         print(i)
 
 reeks7()
