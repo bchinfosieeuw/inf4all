@@ -38,7 +38,7 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
 
 def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
     """
-    Geef het n.
+    Geef het n-de schrikkeljaar vanaf .
     
     >>> nde_schrikkeljaar_vanaf(1800, 1)
     1
