@@ -14,3 +14,5 @@ def reeks1() -> None:
     """
     for i in range(0, 18, 2):
         print(i)
+        
+reeks1()
