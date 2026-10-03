@@ -34,6 +34,7 @@ def days_from_1800_until_year(year: int) -> int:
     1 januari van het nieuwe jaar is niet meegerekend.
     Gebruikt `is_leap_year`.
     """
+    for
     schrikkeljaarbool = is_leap_year(year)
     if schrikkeljaarbool==True:
         return aantaldagenperjaarwelschrikkeljaar*(year-1800)
