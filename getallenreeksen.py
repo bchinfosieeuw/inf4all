@@ -1,6 +1,6 @@
-def reeks() -> None:
+def reeks1() -> None:
     """
-    >>> reeks()
+    >>> reeks1()
     10
     20
     30
