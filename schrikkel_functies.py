@@ -40,7 +40,7 @@ def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
     """
     Tel het aantal schrikkeljaren tussen en inclusief begin en eind.
     
-    >>> nde_schrikkeljaar_vanaf(1800, 1804)
+    >>> nde_schrikkeljaar_vanaf(1800, 1)
     1
     
     >>> nde_schrikkeljaar_vanaf(1800, 1808)
