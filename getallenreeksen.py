@@ -29,6 +29,7 @@ def reeks2() -> None:
     17
     19
     21
+    23
     """
     for i in range(0, 20, 2):
         print(i)
