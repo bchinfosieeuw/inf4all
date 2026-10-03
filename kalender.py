@@ -160,7 +160,7 @@ def display_grid(month: int, year: int) -> None:
         if index+i>7-3 and oncebool==True:
             print("")
             oncebool = False
-        elif (i+1+7)%(7)==6 and oncebool==False:
+        if (i+1+7)%(7)==6:
             print("")
 
 def first_weekday_month(month: int, year: int) -> int:
