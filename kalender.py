@@ -161,7 +161,11 @@ Maand: 6
 Zon Maa Din Woe Don Vri Zat"
     
     >>> display_header(2, 2022)
-    ""
+    "Jaar: 2022
+Maand: 2
+          Feb 2022
+---------------------------
+Zon Maa Din Woe Don Vri Zat"
     
     >>> display_header(10, 2026)
     ""
