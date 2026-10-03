@@ -16,4 +16,7 @@ def is_schrikkel(y: int) -> bool:
     else:
         return False
 
+def tel_schrikkeljaren(begin: int, eind: int) -> int:
+    
+    
 is_schrikkel()
