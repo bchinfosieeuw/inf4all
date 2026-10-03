@@ -312,7 +312,7 @@ def display_grid(month: int, year: int, extraspace: string) -> None:
             for j in range(3-minus1-1):
                 if i==10-3:
                     minus1 = 1
-            print(extraspace, end="")
+            print("k", end="")
             print('\"', end="")
             break
         else:
