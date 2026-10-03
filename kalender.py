@@ -236,10 +236,10 @@ def display_header(month: int, year: int) -> None:
     elif month==12:
         monthtxt = 'Dec'
     print('\"', 'Jaar:', year, '\"')
-    print('\"', 'Maand:', month)
-    print('\"', '         ', monthtxt, year)
-    print('\"', '---------------------------')
-    print('\"', 'Zon Maa Din Woe Don Vri Zat')
+    print('\"', 'Maand:', month, '\"')
+    print('\"', '         ', monthtxt, year, '\"')
+    print('\"', '---------------------------', '\"')
+    print('\"', 'Zon Maa Din Woe Don Vri Zat', '\"')
 
 def display_grid(month: int, year: int) -> None:
     """
