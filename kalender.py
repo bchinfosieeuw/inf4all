@@ -52,7 +52,7 @@ def days_until_month(month: int, year: int) -> int:
     De dagen van `month` zitten hier dus niet bij.
     Gebruikt `days_in_month`.
     """
-    return (month-1)
+    return (month-1)*12
 
 def days_in_month(month: int, year: int) -> int:
     """
