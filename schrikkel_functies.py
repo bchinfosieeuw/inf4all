@@ -24,7 +24,7 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
     1
     
     >>> tel_schrikkeljaren(1800, 1808)
-    1
+    2
     
     >>> tel_schrikkeljaren(1800, 1804)
     1
