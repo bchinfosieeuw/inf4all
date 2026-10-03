@@ -171,7 +171,7 @@ Zon Maa Din Woe Don Vri Zat
 18  19  20  21  22  23  24  
 25  26  27  28  29  30  31"
     
-    >>> display_calendar(10, 2026)
+    >>> display_calendar(10, 2024)
     "Jaar: 2026
 Maand: 10
           Okt 2026
