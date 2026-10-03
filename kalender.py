@@ -62,6 +62,33 @@ def days_in_month(month: int, year: int) -> int:
     Bepaalt het aantal dagen in `month` van `year`.
     Gebruikt `is_leap_year`.
     """
+    if month==1:
+        aantaldageninmaand += (month-1)*0
+    elif month==2:
+        aantaldageninmaand += (month-1)*31
+    elif month==3:
+        if is_leap_year(year)==True:
+            aantaldageninmaand += (month-1)*28
+        else:
+            aantaldageninmaand += (month-1)*29
+    elif month==4:
+        aantaldageninmaand += (month-1)*31
+    elif month==5:
+        aantaldageninmaand += (month-1)*30
+    elif month==6:
+        aantaldageninmaand += (month-1)*31
+    elif month==7:
+        aantaldageninmaand += (month-1)*30
+    elif month==8:
+        aantaldageninmaand += (month-1)*31
+    elif month==9:
+        aantaldageninmaand += (month-1)*31
+    elif month==10:
+        aantaldageninmaand += (month-1)*30
+    elif month==11:
+        aantaldageninmaand += (month-1)*31
+    elif month==12:
+        aantaldageninmaand += (month-1)*30
     schrikkeljaarbool = is_leap_year(year)
     if schrikkeljaarbool==True:
         return aantaldagenperjaarwelschrikkeljaar*(year)
