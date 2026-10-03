@@ -18,6 +18,6 @@ def is_schrikkel(y: int) -> bool:
 
 def tel_schrikkeljaren(begin: int, eind: int) -> int:
     count = 0
-    for i
+    for i 
     
 print(tel_schrikkeljaren(1800, 1808))
