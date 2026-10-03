@@ -106,7 +106,7 @@ def reeks6() -> None:
     0
     """
     i = 1000
-    while i >=:
+    while i >= 0:
         print(i)
         i = i*3
     
