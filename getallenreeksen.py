@@ -64,8 +64,8 @@ def reeks4() -> None:
     5
     4
     3
-    reeks2
-    reeks1
+    2
+    1
     0
     -1
     -2
