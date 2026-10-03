@@ -107,6 +107,12 @@ def display_header(month: int, year: int) -> None:
     
     >>> display_header(month, year)
     
+    
+    >>> display_header(month, year)
+    
+    
+    >>> display_header(month, year)
+    
     """
     if month==1:
         monthtxt = 'Jan'
