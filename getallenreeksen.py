@@ -94,7 +94,7 @@ def reeks5() -> None:
 def reeks6() -> None:
     """
     >>> reeks6()
-    1
+    1000
     3
     9
     27
