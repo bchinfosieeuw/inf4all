@@ -37,7 +37,7 @@ def days_from_1800_until_year(year: int) -> int:
     Gebruikt `is_leap_year`.
     """
     aantaldagen = 0
-    for i in range(year-1800):
+    for i in range(year-1800+1):
         if is_leap_year(i+1800):
             aantaldagen += aantaldagenperjaarwelschrikkeljaar
         else:
