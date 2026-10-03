@@ -48,7 +48,7 @@ def display_header(month: int, year: int) -> None:
     print('Jaar: ', year)
     print('Maand: ', month)
     print('Maand jaar')
-    print('')
+    print('---------------------------')
     print('')
 
 def display_grid(month: int, year: int) -> None:
