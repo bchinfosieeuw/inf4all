@@ -146,6 +146,7 @@ def reeks8() -> None:
     #
     512
     """
+    mystr = ""
     i = 1
     j = 0
     while j < 10:
