@@ -56,6 +56,11 @@ def days_until_month(month: int, year: int) -> int:
     >>> days_until_month(month, year)
     
     
+    >>> days_until_month(month, year)
+    
+    
+    >>> days_until_month(month, year)
+    
     """
     aantaldagentotmaand = 0
     for i in range(month-1):
