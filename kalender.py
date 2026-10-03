@@ -55,7 +55,7 @@ def days_in_month(month: int, year: int) -> int:
     """
     schrikkeljaarbool = is_leap_year(year)
     if schrikkeljaarbool==True:
-        return aantaldagenperjaarwelschrikkeljaar*(year-1800)
+        return aantaldagenperjaarwelschrikkeljaar*(year)
     else:
         return aantaldagenperjaarnietschrikkeljaar*(year-1800)
 
