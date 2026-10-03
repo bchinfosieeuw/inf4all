@@ -26,7 +26,7 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
     >>> tel_schrikkeljaren(1800, 1808)
     2
     
-    >>> tel_schrikkeljaren(1804, 1804)
+    >>> tel_schrikkeljaren(1804, 1808)
     1
     """
     count = 0
