@@ -28,7 +28,7 @@ def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
     leapyear = 0
     minus1 = 1
     if is_schrikkel(begin):
-        
+        minus1 = 0
     for i in range(4*n+1):
         if is_schrikkel(begin+i):
             leapyear = begin+i
