@@ -20,6 +20,6 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
     count = 0
     diff = eind-begin
     for i in range(diff):
-        if is_schrikkel
+        if is_schrikkel(begin)
     
 print(tel_schrikkeljaren(1800, 1808))
