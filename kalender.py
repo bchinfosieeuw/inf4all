@@ -148,7 +148,7 @@ def first_weekday_month(month: int, year: int) -> int:
     Gebruikt `days_from_1800`.
     """
     aantaldagen = days_from_1800(month, year)
-    index = (days_from_1800 + START_DAY) % 7
+    index = (aantaldagen + START_DAY) % 7
     return index
 
 if __name__ == '__main__':
