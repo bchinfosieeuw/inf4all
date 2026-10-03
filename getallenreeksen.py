@@ -70,9 +70,6 @@ def reeks4() -> None:
     -1
     -2
     -3
-    -4
-    -5
-    -6
     """
     for i in range(0, 20, 2):
         print(i)
