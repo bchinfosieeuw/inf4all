@@ -1,6 +1,6 @@
 # 1 januari 1800 is een woensdag
 START_DAY = 3
-aantaldagenperjaar = 365
+aantaldagenperjaarnietschrikkeljaar = 365
 
 def is_leap_year(year: int) -> bool:
     """
