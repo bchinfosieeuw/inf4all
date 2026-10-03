@@ -128,6 +128,7 @@ def reeks7() -> None:
     """
     mystr = ""
     for i in range(1, 11, 1):
+        mystr = str(i)
         if (i+3)%3==0
             
         print(mystr)
