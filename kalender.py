@@ -169,7 +169,7 @@ def first_weekday_month(month: int, year: int) -> int:
     >>> first_weekday_month(1, 1800)
     3
     
-    
+    >>> 
     """
     aantaldagen = days_from_1800(month, year)
     index = (aantaldagen + START_DAY) % 7
