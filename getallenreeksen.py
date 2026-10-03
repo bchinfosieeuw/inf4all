@@ -107,4 +107,4 @@ def reeks5() -> None:
         print(i)
         i = i*3
     
-reeks5()
+reeks6()
