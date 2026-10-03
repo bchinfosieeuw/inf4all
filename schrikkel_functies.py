@@ -24,4 +24,4 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
             count += 1
     return count
     
-print(tel_schrikkeljaren(1800, 1808))
+print(tel_schrikkeljaren(1800, 1804))
