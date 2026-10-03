@@ -115,7 +115,7 @@ def first_weekday_month(month: int, year: int) -> int:
     Bepaalt de eerste weekdag van de maand.
     Gebruikt `days_from_1800`.
     """
-    aantaldagen = days_from_1800(year)
+    aantaldagen = days_from_1800(month, year)
 
 if __name__ == '__main__':
     year = int(input("Jaar: "))
