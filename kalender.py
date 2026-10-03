@@ -156,6 +156,7 @@ def display_grid(month: int, year: int) -> None:
         print(i+2, end="")
         for j in range(3-minus1):
             print(" ", end="")
+            totalspaces++
             if i==10-3:
                 minus1 = 1
         if (i+index+7+1)%(7)==6:
