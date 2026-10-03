@@ -66,7 +66,7 @@ def days_until_month(month: int, year: int) -> int:
     elif month==6:
         aantaldageninmaand += (month-1)*31
     elif month==7:
-        aantaldageninmaand += (month-1)*31
+        aantaldageninmaand += (month-1)*30
     elif month==8:
         aantaldageninmaand += (month-1)*31
     elif month==9:
