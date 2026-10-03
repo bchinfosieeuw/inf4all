@@ -12,7 +12,7 @@ def print_collatz(n: int) -> None:
     2
     1
     
-    >>> print_collatz(3)
+    >>> print_collatz(16)
     3
     10
     5
