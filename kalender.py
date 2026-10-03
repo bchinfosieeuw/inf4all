@@ -100,7 +100,7 @@ def days_in_month(month: int, year: int) -> int:
     31
     
     >>> days_in_month(5, 1804)
-    
+    31
     """
     aantaldageninmaand = 0
     if month==1:
