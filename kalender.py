@@ -172,9 +172,9 @@ Zon Maa Din Woe Don Vri Zat
 25  26  27  28  29  30  31"
     
     >>> display_calendar(10, 2024)
-    "Jaar: 2026
+    "Jaar: 2024
 Maand: 10
-          Okt 2026
+          Okt 2024
 ---------------------------
 Zon Maa Din Woe Don Vri Zat
                 1   2   3   
