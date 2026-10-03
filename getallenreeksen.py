@@ -109,7 +109,7 @@ def reeks6() -> None:
     j = 0
     while j < 10:
         print(i)
-        i = i*3
+        i = i // 10
         j += 1
     
 reeks6()
