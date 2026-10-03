@@ -298,7 +298,7 @@ def display_grid(month: int, year: int) -> None:
         print("")
     for i in range(days_in_month(month, year)-1):
         print(i+2, sep='', end="")
-        if (index+i+1+7)%(7)!=6 and i+2==days_in_month(month, year):
+        if (index+i+1+7)%(7)!=6 and i+2!=days_in_month(month, year):
             for j in range(3-minus1):
                 print(" ", end="")
                 if i==10-3:
