@@ -103,6 +103,7 @@ def reeks6() -> None:
     0
     0
     0
+    0
     """
     i = 1
     while i < 1000:
