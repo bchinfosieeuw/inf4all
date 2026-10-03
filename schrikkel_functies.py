@@ -47,7 +47,7 @@ def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
     1808
     
     >>> nde_schrikkeljaar_vanaf(1804, 2)
-    3
+    1812
     """
     leapyear = 0
     plus1 = 1
