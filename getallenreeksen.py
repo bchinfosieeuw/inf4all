@@ -34,9 +34,9 @@ def reeks2() -> None:
     for i in range(1, 25, 2):
         print(i)
 
-def reeks2() -> None:
+def reeks3() -> None:
     """
-    >>> reeks2()
+    >>> reeks3()
     1
     3
     5
