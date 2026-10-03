@@ -32,4 +32,4 @@ def reeks2() -> None:
     for i in range(0, 20, 2):
         print(i)
 
-reeks1()
+reeks2()
