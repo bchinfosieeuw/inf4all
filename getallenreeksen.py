@@ -31,7 +31,7 @@ def reeks2() -> None:
     21
     23
     """
-    for i in range(0, 20, 2):
+    for i in range(1, 20, 2):
         print(i)
 
 reeks2()
