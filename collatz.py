@@ -11,6 +11,26 @@ def print_collatz(n: int) -> None:
     4
     2
     1
+    
+    >>> print_collatz(3)
+    3
+    10
+    5
+    16
+    8
+    4
+    2
+    1
+    
+    >>> print_collatz(3)
+    3
+    10
+    5
+    16
+    8
+    4
+    2
+    1
     """
     print(n)
     while n > 1:
