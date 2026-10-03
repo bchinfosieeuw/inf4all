@@ -52,7 +52,7 @@ def days_from_1800_until_year(year: int) -> int:
     Gebruikt `is_leap_year`.
     
     >>> days_from_1800_until_year(1801)
-    
+    365
     
     >>> days_from_1800_until_year(1804)
     
