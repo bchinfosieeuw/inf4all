@@ -2,7 +2,8 @@ def print_collatz(n: int) -> None:
     """
     Bepaal de Collatz-reeks vanaf het getal n.
     
-    >>> print_collatz()
+    >>> print_collatz(3)
+    
     """
     print(n)
     while n > 1:
