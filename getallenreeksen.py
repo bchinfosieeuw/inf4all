@@ -124,7 +124,7 @@ def reeks7() -> None:
     reeks7
     8
     *
-    
+    10
     """
     for i in range(0, 20, 2):
         print(i)
