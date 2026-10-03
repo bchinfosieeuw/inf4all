@@ -163,7 +163,7 @@ Zon Maa Din Woe Don Vri Zat
     
     >>> display_calendar(10, 2026)
     "Jaar: 2022
-Maand: 2
+Maand: 10
           Okt 2022
 ---------------------------
 Zon Maa Din Woe Don Vri Zat
