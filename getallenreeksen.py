@@ -19,6 +19,16 @@ def reeks2() -> None:
     """
     >>> reeks2()
     1
+    3
+    5
+    7
+    9
+    11
+    13
+    15
+    17
+    19
+    21
     """
     for i in range(0, 20, 2):
         print(i)
