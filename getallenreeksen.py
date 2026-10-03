@@ -110,5 +110,6 @@ def reeks6() -> None:
     while j < 10:
         print(i)
         i = i*3
+        j += 1
     
 reeks6()
