@@ -1,4 +1,4 @@
 def print_collatz(n: int) -> None:
-    if 
+    if n
     
 print_collatz(5)
