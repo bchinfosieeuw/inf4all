@@ -63,7 +63,8 @@ def reeks4() -> None:
     >>> reeks4()
     5
     4
-    3    """
+    3
+    """
     for i in range(0, 20, 2):
         print(i)
         
