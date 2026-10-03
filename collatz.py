@@ -39,7 +39,7 @@ def print_collatz(n: int) -> None:
             n = n*3 + 1
             print(n)
 
-def collatz_length(n: int) -> None:
+def collatz_length(n: int) -> int:
     """
     Bepaal de lengte van de Collatz-reeks vanaf het getal n.
     
