@@ -44,14 +44,7 @@ def collatz_length(n: int) -> None:
     Bepaal de lengte van de Collatz-reeks vanaf het getal n.
     
     >>> print_collatz(3)
-    3
-    10
-    5
-    16
     8
-    4
-    2
-    1
     
     >>> print_collatz(16)
     16
