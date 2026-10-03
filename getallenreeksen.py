@@ -90,7 +90,6 @@ def reeks5() -> None:
         print(i)
         i = i*3
 
-
 def reeks6() -> None:
     """
     >>> reeks6()
