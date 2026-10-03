@@ -45,7 +45,7 @@ def display_header(month: int, year: int) -> None:
     """
     Print de koptekst van de kalender.
     """
-    print('', year)
+    print('Jaar: ', year)
     print('')
     print('')
     print('')
