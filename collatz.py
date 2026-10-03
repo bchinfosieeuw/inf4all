@@ -16,7 +16,7 @@ def collatz_length(n: int) -> None:
             count += 1
         else:
             n = n*3 + 1
-            print(n)
+            count += 1
     print(count)
     
 collatz_length(3)
