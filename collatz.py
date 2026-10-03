@@ -1,5 +1,6 @@
 def print_collatz(n: int) -> None:
     """
+    Bepaal de 
     """
     print(n)
     while n > 1:
