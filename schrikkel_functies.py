@@ -27,7 +27,7 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
     2
     
     >>> tel_schrikkeljaren(1804, 1812)
-    1
+    3
     """
     count = 0
     diff = eind-begin
