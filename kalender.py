@@ -104,6 +104,8 @@ def display_calendar(month: int, year: int) -> None:
 def display_header(month: int, year: int) -> None:
     """
     Print de koptekst van de kalender.
+    
+    >>> display_header(month, year)
     """
     if month==1:
         monthtxt = 'Jan'
