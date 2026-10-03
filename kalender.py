@@ -96,7 +96,7 @@ def days_in_month(month: int, year: int) -> int:
     >>> days_in_month(1, 1801)
     
     
-    >>> days_in_month(1, year)
+    >>> days_in_month(1, 1805)
     
     
     >>> days_in_month(month, year)
