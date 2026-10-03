@@ -52,6 +52,7 @@ def days_until_month(month: int, year: int) -> int:
     De dagen van `month` zitten hier dus niet bij.
     Gebruikt `days_in_month`.
     """
+    aantaldageninmaand = 0
     if month==1:
         (month-1)
 
