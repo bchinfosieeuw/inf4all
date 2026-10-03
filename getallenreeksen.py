@@ -137,7 +137,7 @@ def reeks8() -> None:
     >>> reeks8()
     1
     2
-    10
+    #
     1
     0
     0
