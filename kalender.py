@@ -48,7 +48,7 @@ def display_header(month: int, year: int) -> None:
     """
     if month==1:
         monthtxt = 'Jan'
-    if month==1:
+    elif month==1:
         monthtxt = 'Jan'
     print('Jaar: ', year)
     print('Maand: ', month)
