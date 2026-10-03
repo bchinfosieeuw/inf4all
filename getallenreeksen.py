@@ -91,9 +91,9 @@ def reeks5() -> None:
         i = i*3
 
 
-def reeks5() -> None:
+def reeks6() -> None:
     """
-    >>> reeks5()
+    >>> reeks6()
     1
     3
     9
