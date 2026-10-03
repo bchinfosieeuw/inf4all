@@ -235,7 +235,7 @@ def display_header(month: int, year: int) -> None:
         monthtxt = 'Nov'
     elif month==12:
         monthtxt = 'Dec'
-    print('\"', end="", '\"')
+    print('\"', end="")
     print('Jaar:', year, '\"')
     print('\"', 'Maand:', month, '\"')
     print('\"', '         ', monthtxt, year, '\"')
