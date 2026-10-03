@@ -38,8 +38,10 @@ def reeks3() -> None:
     """
     >>> reeks3()
     1
-    reeks25
+    2
+    5
     10
+    
     """
     for i in range(1, 25, 2):
         print(i)
