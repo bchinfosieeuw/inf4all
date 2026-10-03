@@ -153,4 +153,4 @@ def reeks8() -> None:
         i = i // 10
         j += 1
 
-reeks7()
+reeks8()
