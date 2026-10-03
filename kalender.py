@@ -71,10 +71,7 @@ def days_in_month(month: int, year: int) -> int:
         else:
             aantaldageninmaand = (month-1)*29
     elif month==3:
-        if is_leap_year(year)==True:
-            aantaldageninmaand = (month-1)*28
-        else:
-            aantaldageninmaand = (month-1)*29
+        aantaldageninmaand = (month-1)*31
     elif month==4:
         aantaldageninmaand = (month-1)*31
     elif month==5:
