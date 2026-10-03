@@ -85,6 +85,7 @@ def reeks5() -> None:
     
     """
     i = 1
-    while i < 1000
+    while i < 1000:
+        
     
 reeks5()
