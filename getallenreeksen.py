@@ -58,9 +58,9 @@ def reeks3() -> None:
         print(j)
         j += i*2-1
 
-def reeks1() -> None:
+def reeks4() -> None:
     """
-    >>> reeks1()
+    >>> reeks4()
     0
     2
     4
