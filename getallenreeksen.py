@@ -150,7 +150,7 @@ def reeks8() -> None:
     j = 0
     while j < 10:
         print(i)
-        i = i *
+        i = i * 2
         j += 1
 
 reeks8()
