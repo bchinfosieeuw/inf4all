@@ -148,7 +148,7 @@ def display_grid(month: int, year: int) -> None:
     totalspaces = totalspacesstart + 0
     for i in range(spaces):
         print(" ", end="")
-        totalspaces+=1
+        totalspacesstart+=1
     print(1, end="")
     for j in range(3):
         print(" ", end="")
