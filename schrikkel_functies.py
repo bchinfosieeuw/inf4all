@@ -16,4 +16,4 @@ def is_schrikkel(y: int) -> bool:
     else:
         return False
 
-is_schrikkel(y: int)
+is_schrikkel()
