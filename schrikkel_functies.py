@@ -19,6 +19,6 @@ def is_schrikkel(y: int) -> bool:
 def tel_schrikkeljaren(begin: int, eind: int) -> int:
     count = 0
     diff = eind-begin
-    for i in range():
+    for i in range(diff):
     
 print(tel_schrikkeljaren(1800, 1808))
