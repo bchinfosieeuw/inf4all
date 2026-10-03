@@ -203,7 +203,7 @@ def display_grid(month: int, year: int) -> None:
     >>> display_grid(2, 2022)
     
     
-    >>> display_grid(month, year)
+    >>> display_grid(10, 2026)
     
     """
     index = first_weekday_month(month, year)
