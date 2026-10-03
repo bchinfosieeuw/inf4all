@@ -57,7 +57,7 @@ def days_in_month(month: int, year: int) -> int:
     if schrikkeljaarbool==True:
         return aantaldagenperjaarwelschrikkeljaar*(year)
     else:
-        return aantaldagenperjaarnietschrikkeljaar*(year-1800)
+        return aantaldagenperjaarnietschrikkeljaar*(year)
 
 def display_calendar(month: int, year: int) -> None:
     """
