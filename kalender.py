@@ -318,7 +318,7 @@ def display_grid(month: int, year: int) -> None:
         if (index+i+1+7)%(7)==6:
             print('\"', end="")
             print("")
-            if endbool==False:
+            """if endbool==False:
             print('\"', end="")
 
 def first_weekday_month(month: int, year: int) -> int:
