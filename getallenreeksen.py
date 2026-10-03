@@ -51,7 +51,7 @@ def reeks3() -> None:
     122
     145
     170
-    1978
+    197
     """
     j = 1
     for i in range(1, 100, 1):
