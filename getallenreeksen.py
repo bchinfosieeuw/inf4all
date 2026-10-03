@@ -146,7 +146,7 @@ def reeks8() -> None:
     #
     512
     """
-    i = 1000
+    i = 1
     j = 0
     while j < 10:
         print(i)
