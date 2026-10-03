@@ -7,13 +7,13 @@ def is_leap_year(year: int) -> bool:
     """
     Return True als `year` een schrikkeljaar is.
     
-    >>> is_schrikkel(2024)
+    >>> is_leap_year(2024)
     True
-    >>> is_schrikkel(2023)
+    >>> is_leap_year(2023)
     False
-    >>> is_schrikkel(1900)
+    >>> is_leap_year(1900)
     False
-    >>> is_schrikkel(2000)
+    >>> is_leap_year(2000)
     True
     """
     if ((y%4 == 0) and (y%100 != 0)) or (y%400 == 0):
