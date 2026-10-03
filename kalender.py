@@ -140,10 +140,10 @@ def display_calendar(month: int, year: int) -> None:
     >>> display_calendar(6, 2022)
     
     
-    >>> display_calendar(month, year)
+    >>> display_calendar(month, 2022)
     
     
-    >>> display_calendar(month, year)
+    >>> display_calendar(month, 2022)
     
     """
     display_header(month, year)
