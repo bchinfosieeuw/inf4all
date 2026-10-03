@@ -32,4 +32,4 @@ def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
             count += 1
     return count
 
-print(nde_schrikkeljaar_vanaf(1800, n))
+print(nde_schrikkeljaar_vanaf(1800, 1))
