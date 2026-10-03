@@ -7,7 +7,10 @@ def print_collatz(n: int) -> None:
     10
     5
     16
-    
+    8
+    4
+    2
+    1
     """
     print(n)
     while n > 1:
