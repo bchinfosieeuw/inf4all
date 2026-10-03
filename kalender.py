@@ -78,10 +78,10 @@ def days_until_month(month: int, year: int) -> int:
     0
     
     >>> days_until_month(1, 1804)
-    
+    0
     
     >>> days_until_month(5, 1804)
-    
+    121
     """
     aantaldagentotmaand = 0
     for i in range(month-1):
