@@ -136,7 +136,7 @@ def display_calendar(month: int, year: int) -> None:
     Gebruikt `display_header` en `display_grid`.
     
     >>> display_calendar(6, 2022)
-    "Jaar: 2022"
+    "''Jaar: 2022"
     "Maand: 6"
     "          Jun 2022"
     "---------------------------"
