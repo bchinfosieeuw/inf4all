@@ -1,1 +1,1 @@
-def print_collatz(n: int) -> int:
+def print_collatz(n: int) -> None:
