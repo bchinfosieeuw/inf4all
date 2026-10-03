@@ -40,6 +40,37 @@ def print_collatz(n: int) -> None:
             print(n)
 
 def collatz_length(n: int) -> None:
+    """
+    Bepaal de Collatz-reeks vanaf het getal n.
+    
+    >>> print_collatz(3)
+    3
+    10
+    5
+    16
+    8
+    4
+    2
+    1
+    
+    >>> print_collatz(16)
+    16
+    8
+    4
+    2
+    1
+    
+    >>> print_collatz(6)
+    6
+    3
+    10
+    5
+    16
+    8
+    4
+    2
+    1
+    """
     count = 1
     while n > 1:
         if (n+2)%2==0:
