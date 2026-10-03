@@ -185,8 +185,6 @@ def display_calendar(month: int, year: int) -> None:
     """
     display_header(month, year)
     display_grid(month, year)
-    else:
-        display_grid(month, year)
 
 def display_header(month: int, year: int) -> None:
     """
