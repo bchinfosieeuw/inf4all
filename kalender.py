@@ -154,7 +154,7 @@ def display_header(month: int, year: int) -> None:
     Print de koptekst van de kalender.
     
     >>> display_header(6, 2022)
-    
+    ""
     
     >>> display_header(2, 2022)
     
