@@ -194,8 +194,8 @@ Zon Maa Din Woe Don Vri Zat"
         monthtxt = 'Nov'
     elif month==12:
         monthtxt = 'Dec'
-    print('Jaar: ', year)
-    print('Maand: ', month)
+    print('Jaar:', year)
+    print('Maand:', month)
     print('         ', monthtxt, year)
     print('---------------------------')
     print('Zon Maa Din Woe Don Vri Zat')
