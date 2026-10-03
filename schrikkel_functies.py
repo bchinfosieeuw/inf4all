@@ -22,5 +22,6 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
     for i in range(diff):
         if is_schrikkel(begin+i):
             count += 1
+    return count
     
 print(tel_schrikkeljaren(1800, 1808))
