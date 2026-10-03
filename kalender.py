@@ -158,6 +158,7 @@ def display_grid(month: int, year: int) -> None:
                 minus1 = 1
         if oncebool==True:
             print("")
+            oncebool = False
         if (i+1+7)%(7)==6:
             print("")
 
