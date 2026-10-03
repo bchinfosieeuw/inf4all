@@ -26,6 +26,10 @@ def days_from_1800(month: int, year: int) -> int:
     Telt de dagen vanaf 1800 tot aan `month` of `year`.
     De eerste dag van `month` zit hier dus niet bij.
     Gebruikt `days_from_1800_until_year` en `days_until_month`.
+    
+    >>> days_from_1800(month, year)
+    
+    
     """
     aantaldagen = days_from_1800_until_year(year)
     """print(aantaldagen)"""
