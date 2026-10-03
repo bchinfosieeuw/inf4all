@@ -74,4 +74,4 @@ def reeks4() -> None:
     for i in range(5, -4, -1):
         print(i)
         
-reeks4()
+reeks5()
