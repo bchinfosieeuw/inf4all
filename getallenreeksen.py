@@ -115,7 +115,7 @@ def reeks6() -> None:
 def reeks7() -> None:
     """
     >>> reeks7()
-    
+    reeks1
     """
     for i in range(0, 20, 2):
         print(i)
