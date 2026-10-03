@@ -91,12 +91,6 @@ def days_in_month(month: int, year: int) -> int:
     elif month==12:
         aantaldageninmaand = (month-1)*31
     return aantaldageninmaand
-        
-    schrikkeljaarbool = is_leap_year(year)
-    if schrikkeljaarbool==True:
-        return aantaldagenperjaarwelschrikkeljaar*(year)
-    else:
-        return aantaldagenperjaarnietschrikkeljaar*(year)
 
 def display_calendar(month: int, year: int) -> None:
     """
