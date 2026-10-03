@@ -156,4 +156,3 @@ def reeks8() -> None:
         print(mystr)
         i = i * 2
         j += 1
-reeks3()
