@@ -31,7 +31,7 @@ def days_from_1800(month: int, year: int) -> int:
     Gebruikt `days_from_1800_until_year` en `days_until_month`.
     
     >>> days_from_1800(month, year)
-    
+    365
     
     >>> days_from_1800(month, year)
     
