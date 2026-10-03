@@ -152,7 +152,7 @@ def reeks8() -> None:
     while j < 10:
         mystr = str(i)
         if (j+3)%3==0:
-            mystr = "*"
+            mystr = "#"
         print(i)
         i = i * 2
         j += 1
