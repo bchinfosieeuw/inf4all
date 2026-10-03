@@ -44,7 +44,7 @@ def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
     1804
     
     >>> nde_schrikkeljaar_vanaf(1800, 2)
-    2
+    1808
     
     >>> nde_schrikkeljaar_vanaf(1804, 2)
     3
