@@ -8,7 +8,7 @@ def print_collatz(n: int) -> None:
             n = n*3 + 1
             print(n)
 
-def print_collatz(n: int) -> None:
+def collatz_length(n: int) -> None:
     
     
-print_collatz(3)
+collatz_length(3)
