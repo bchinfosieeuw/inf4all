@@ -66,6 +66,11 @@ def days_in_month(month: int, year: int) -> int:
     >>> days_in_month(month, year)
     
     
+    >>> days_in_month(month, year)
+    
+    
+    >>> days_in_month(month, year)
+    
     """
     aantaldageninmaand = 0
     if month==1:
