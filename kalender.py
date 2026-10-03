@@ -34,6 +34,11 @@ def days_from_1800_until_year(year: int) -> int:
     1 januari van het nieuwe jaar is niet meegerekend.
     Gebruikt `is_leap_year`.
     """
+    schrikkeljaarbool = is_schrikkel(y)
+    if schrikkeljaarbool==True:
+        print(y, "is een schrikkeljaar")
+    else:
+        print(y, "is geen schrikkeljaar")
 
 def days_until_month(month: int, year: int) -> int:
     """
