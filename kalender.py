@@ -184,8 +184,7 @@ def display_calendar(month: int, year: int) -> None:
     "26  27  28  29  30  31"
     """
     display_header(month, year)
-    if ((days_in_month(month, year))%7)==6:
-        print("hallo")
+    if (first_weekday_month(month, year) + days_in_month(month, year))%7==6:
         display_grid(month, year, 1)
     else:
         display_grid(month, year, 0)
