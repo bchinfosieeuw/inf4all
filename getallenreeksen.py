@@ -12,7 +12,7 @@ def reeks1() -> None:
     16
     18
     """
-    for i in range(0, 18, 2):
+    for i in range(0, 20, 2):
         print(i)
         
 reeks1()
