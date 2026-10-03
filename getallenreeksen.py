@@ -11,7 +11,6 @@ def reeks1() -> None:
     14
     16
     18
-    20
     """
     for i in range(1, 6, 1):
         print(i * 10)
