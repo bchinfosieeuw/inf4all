@@ -58,7 +58,7 @@ def days_from_1800_until_year(year: int) -> int:
     1461
     
     >>> days_from_1800_until_year(2026)
-    
+    82545
     """
     aantaldagen = 0
     for i in range(year-1800):
