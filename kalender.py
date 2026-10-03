@@ -142,6 +142,10 @@ def display_grid(month: int, year: int) -> None:
     
     >>> display_grid(month, year)
     
+    >>> display_grid(month, year)
+    
+    >>> display_grid(month, year)
+    
     """
     index = first_weekday_month(month, year)
     """print(index)"""
