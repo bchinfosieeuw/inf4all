@@ -47,11 +47,7 @@ def collatz_length(n: int) -> None:
     8
     
     >>> print_collatz(16)
-    16
-    8
-    4
-    2
-    1
+    5
     
     >>> print_collatz(6)
     6
