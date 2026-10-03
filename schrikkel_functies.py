@@ -26,7 +26,7 @@ def tel_schrikkeljaren(begin: int, eind: int) -> int:
 
 def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
     leapyear = 0
-    for i in range(10):
+    for i in range(5):
         if is_schrikkel(begin+i):
             leapyear = begin+i
     return leapyear
