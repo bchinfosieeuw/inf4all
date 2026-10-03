@@ -111,6 +111,28 @@ def reeks6() -> None:
         i = i // 10
         j += 1
 
+
+def reeks6() -> None:
+    """
+    >>> reeks6()
+    1000
+    100
+    10
+    1
+    0
+    0
+    0
+    0
+    0
+    0
+    """
+    i = 1000
+    j = 0
+    while j < 10:
+        print(i)
+        i = i // 10
+        j += 1
+
 def reeks7() -> None:
     """
     >>> reeks7()
