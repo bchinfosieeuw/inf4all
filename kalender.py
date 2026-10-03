@@ -142,7 +142,9 @@ def display_grid(month: int, year: int) -> None:
     
     >>> display_grid(month, year)
     
+    
     >>> display_grid(month, year)
+    
     
     >>> display_grid(month, year)
     
