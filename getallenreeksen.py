@@ -76,7 +76,7 @@ def reeks4() -> None:
 
 def reeks5() -> None:
     """
-    >>> reeks4()
+    >>> reeks5()
     5
     4
     3
@@ -87,4 +87,6 @@ def reeks5() -> None:
     -2
     -3
     """
+    
+    
 reeks5()
