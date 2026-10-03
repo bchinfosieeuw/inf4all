@@ -67,9 +67,9 @@ def display_header(month: int, year: int) -> None:
     elif month==2:
         monthtxt = 'Okt'
     elif month==2:
-        monthtxt = 'Feb'
+        monthtxt = 'Nov'
     elif month==2:
-        monthtxt = 'Feb'
+        monthtxt = 'Dec'
     print('Jaar: ', year)
     print('Maand: ', month)
     print('          ', monthtxt, ' ', year)
