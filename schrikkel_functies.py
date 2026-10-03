@@ -29,7 +29,7 @@ def nde_schrikkeljaar_vanaf(begin: int, n: int) -> int:
     diff = eind-begin
     for i in range(begin+4*n+1):
         if is_schrikkel(begin+i):
-            leapyear += 1
+            leapyear = 
     return leapyear
 
 print(nde_schrikkeljaar_vanaf(1800, 1))
