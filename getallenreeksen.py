@@ -73,5 +73,19 @@ def reeks4() -> None:
     """
     for i in range(5, -4, -1):
         print(i)
-        
+
+
+def reeks4() -> None:
+    """
+    >>> reeks4()
+    5
+    4
+    3
+    2
+    1
+    0
+    -1
+    -2
+    -3
+    """
 reeks5()
