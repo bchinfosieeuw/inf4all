@@ -320,7 +320,7 @@ def display_grid(month: int, year: int) -> None:
             print("")
             if endbool==False:
                 print('\"', end="")
-    if (days_in_month(month, year):
+    if (days_in_month(month, year)+7)%(7)==6:
 
 def first_weekday_month(month: int, year: int) -> int:
     """
