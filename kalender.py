@@ -249,4 +249,4 @@ if __name__ == '__main__':
     year = int(input("Jaar: "))
     month = int(input("Maand: "))
     display_calendar(month, year)
-    print(days_until_month(month, 2026))
+    print(days_until_month(1, 1801))
