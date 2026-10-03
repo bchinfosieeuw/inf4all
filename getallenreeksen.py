@@ -89,5 +89,22 @@ def reeks5() -> None:
     while i < 1000:
         print(i)
         i = i*3
+
+
+def reeks5() -> None:
+    """
+    >>> reeks5()
+    1
+    3
+    9
+    27
+    81
+    243
+    729
+    """
+    i = 1
+    while i < 1000:
+        print(i)
+        i = i*3
     
 reeks5()
