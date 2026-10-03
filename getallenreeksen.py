@@ -15,9 +15,9 @@ def reeks1() -> None:
     for i in range(0, 20, 2):
         print(i)
         
-def reeks1() -> None:
+def reeks2() -> None:
     """
-    >>> reeks1()
+    >>> reeks2()
     0
     2
     4
