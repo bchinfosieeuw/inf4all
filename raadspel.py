@@ -48,6 +48,7 @@ def decide_number(level: int) -> int:
 
     >>> decide_number(1)
     1
+    
     >>> decide_number(100) <= 100
     True
     
