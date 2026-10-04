@@ -15,6 +15,7 @@ def print_pyramid(height: int) -> None:
     ####
     """
     for i in range(height):
+    for i in range(height):
         print('#', end='')
     
 if __name__ == '__main__':
