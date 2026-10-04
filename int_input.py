@@ -2,7 +2,8 @@ def get_odd_number() -> int:
     """
     Deze functie vereist een oneven integer.
     
-    >>> 
+    >>> get_odd_number()
+    
     """
     result = int(input("Enter an odd int: "))
     while result % 2 == 0:
