@@ -1,6 +1,6 @@
 def get_nonnegative_int() -> float:
     """
-    Deze functie vereist een positieve integer.
+    Deze functie vereist een getal met 2.
     """
     result = input("Hoeveel wisselgeld moet er gegeven worden? ")
     while result < 0:
