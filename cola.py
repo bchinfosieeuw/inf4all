@@ -22,7 +22,7 @@ def determine_due(due: int, coin: int) -> int:
     ingeworpen. Uitkomst verandert alleen als coin één van de
     toegestane munten is.
     
-    >>> check_coin(10)
+    >>> determine_due(10)
     True
     """
     if check_coin(coin)==True:
