@@ -13,7 +13,7 @@ def get_positive_int_feedback() -> int:
     """
     Deze functie vereist een positieve integer.
     """
-    result = int(input("Level: "))
+    result = int(input("Gok: "))
     while result <= 0:
         result = int(input("Level: "))
     return result
