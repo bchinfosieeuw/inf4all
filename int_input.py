@@ -41,7 +41,8 @@ def get_two_different_ints() -> int:
     result1 = int(input("Enter the first int: "))
     result2 = int(input("Enter a different valued second int: "))
     while result < minimum:
-        result = int(input("Enter an int at least valued", minimum, ":"))
+        result1 = int(input("Enter the first int: "))
+        result2 = int(input("Enter a different valued second int: "))
     return result
 
 if __name__ == '__main__':
