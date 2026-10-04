@@ -9,6 +9,7 @@ def determine_due(due: int, coin: int) -> int:
     ingeworpen. Uitkomst verandert alleen als coin één van de
     toegestane munten is.
     """
+    
     return 
 
 if __name__ == '__main__':
