@@ -8,16 +8,19 @@ def check_guess(guess: int, number: int) -> bool:
     >>> check_guess(4, 4)
     print('\"', end="")
     "Je hebt het getal goed geraden, gefeliciteerd!"
+    print('\"')
     True
     
     >>> check_guess(10, 5)
     print('\"', end="")
     "Je gok is te groot!"
+    print('\"')
     False
     
     >>> check_guess(5, 10)
     print('\"', end="")
     "Je gok is te klein!"
+    print('\"')
     False
     """
     mybool = False
