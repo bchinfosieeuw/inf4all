@@ -1,6 +1,7 @@
 def print_pyramid(height: int) -> None:
     """
     Print een pyramide van #-tekens gegeven de hoogte.
+    
     >>> print_pyramid(1)
     ##
     
