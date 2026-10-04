@@ -14,7 +14,7 @@ def determine_due(due: int, coin: int) -> int:
     toegestane munten is.
     """
     if check_coin(coin)==True:
-        
+        due
     restant = 0
     return restant
 
