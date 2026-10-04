@@ -7,7 +7,7 @@ def check_guess(guess: int, number: int) -> bool:
     
     >>> check_guess(4, 4)
     print('\"', end="")
-    "Je hebt het getal goed geraden, gefeliciteerd!"
+    print('Je hebt het getal goed geraden, gefeliciteerd!"
     print('\"')
     True
     
