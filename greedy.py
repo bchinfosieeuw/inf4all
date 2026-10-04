@@ -13,7 +13,7 @@ def determine_num_of_cents(amount: int) -> int:
     numofcents = amount*100
     return numofcents
     
-def determine_num_of_coins() -> int:
+def determine_num_of_coins(numofcents: int) -> int:
     """
     """
     while i:
