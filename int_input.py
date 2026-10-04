@@ -17,8 +17,15 @@ def get_positive_int() -> int:
     return result
     
 def get_any_int_but_0() -> int:
+    """
+    Deze functie vereist een positieve integer.
+    """
+    result = int(input("Enter a positive int: "))
+    while result <= 0:
+        result = int(input("Enter a positive int: "))
+    return result
     
-    
+
 
 if __name__ == '__main__':
     get_positive_int()
