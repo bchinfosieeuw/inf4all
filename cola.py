@@ -9,7 +9,7 @@ def check_coin(coin: int) -> bool:
     True
     
     >>> check_coin(1)
-    True
+    False
     """
     if (coin != 5) and (coin != 10) and (coin != 25):
         return False
