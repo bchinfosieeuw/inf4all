@@ -1,5 +1,7 @@
 def print_pyramid(height: int) -> None:
     """
+    
+    >>> print_pyramid(
     """
     print('#', end='')
     
