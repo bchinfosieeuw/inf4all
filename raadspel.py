@@ -14,7 +14,8 @@ def check_guess(guess: int, number: int) -> bool:
     Check of de gok goed is. Als de gok niet goed is, return dan
     False en print of de gok te groot of te klein is.
     """
-    if guess
+    if guess > number:
+        
     return 
 
 def decide_number(level: int) -> int:
