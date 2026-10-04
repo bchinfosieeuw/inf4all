@@ -13,7 +13,7 @@ def get_positive_int() -> int:
     """
     result = int(input("Enter a positive int: "))
     while result % 2 == 0:
-        result = int(input("Enter an odd int: "))
+        result = int(input("Enter a positive int: "))
     return result
     
 
