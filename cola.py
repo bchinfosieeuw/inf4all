@@ -21,7 +21,7 @@ if __name__ == '__main__':
     print("Kosten zijn 50 cent. Werp een munt in om cola te kopen.")
     coin = int(input("Enter 5, 10 or 25: "))
     """while (coin != 5) and (coin != 10) and (coin != 25):
-        coin = int(input("Enter 5, 10 or 25: "))
+        coin = int(input("Enter 5, 10 or 25: "))"""
     due = 50
     while due < 50:
         coin = int(input("Enter 5, 10 or 25: "))
