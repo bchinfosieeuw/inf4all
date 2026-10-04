@@ -43,8 +43,8 @@ if __name__ == '__main__':
     level = get_positive_int()
     randomgetal = decide_number(level)
     guess = get_positive_int()
-    mybool = check_guess(gok, randomgetal)
+    mybool = check_guess(guess, randomgetal)
     while mybool==False:
-        if gok!=randomgetal:
-            gok = get_positive_int()
-        mybool = check_guess(gok, randomgetal)
+        if guess!=randomgetal:
+            guess = get_positive_int()
+        mybool = check_guess(guess, randomgetal)
