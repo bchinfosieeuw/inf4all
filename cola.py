@@ -15,7 +15,6 @@ def determine_due(due: int, coin: int) -> int:
     """
     if check_coin(coin)==True:
         due -= coin
-    restant = 0
     return restant
 
 if __name__ == '__main__':
