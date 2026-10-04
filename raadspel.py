@@ -1,23 +1,5 @@
 import random
 
-def get_positive_int_start() -> int:
-    """
-    Deze functie vereist een positieve integer.
-    
-    >>> get_positive_int_start() > 0
-    True
-    
-    >>> get_positive_int_start() < 0
-    False
-    
-    >>> get_positive_int_start() == 0
-    False
-    """
-    result = int(input("Level: "))
-    while result <= 0:
-        result = int(input("Level: "))
-    return result
-
 def get_positive_int_feedback() -> int:
     """
     Deze functie vereist een positieve integer.
