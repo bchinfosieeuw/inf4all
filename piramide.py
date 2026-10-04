@@ -18,6 +18,7 @@ def print_pyramid(height: int) -> None:
         for i in range(h+1):
             print('#', end='')
         print()
+        print()
     
 if __name__ == '__main__':
     height = int(input("Hoe hoog moet de piramide zijn? "))
