@@ -19,7 +19,7 @@ def check_guess(guess: int, number: int) -> bool:
     
     >>> check_guess(5, 10)
     print('\"', end="")
-    "Je gok is te klein!"
+    print('Je gok is te klein!"
     print('\"')
     False
     """
