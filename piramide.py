@@ -14,7 +14,7 @@ def print_pyramid(height: int) -> None:
      ###
     ####
     """
-    for i in range(height):
+    for h in range(height):
     for i in range(height):
         print('#', end='')
     
