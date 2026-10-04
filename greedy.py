@@ -25,7 +25,7 @@ def determine_num_of_cents(amount: int) -> int:
     
 def determine_num_of_coins(numofcents: int) -> int:
     """
-    Returns the minimal number of 
+    Returns the minimal number of change
     """
     numofcoins = 0
     while numofcents >= 25:
