@@ -25,6 +25,8 @@ def get_any_int_but_0() -> int:
         result = int(input("Enter a non-zero int: "))
     return result
     
+def get_min_int() -> int:
+    
 
 
 if __name__ == '__main__':
