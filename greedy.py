@@ -11,13 +11,13 @@ def determine_num_of_cents(amount: int) -> int:
     """
     """
     amount *= 100
-    return numcents
+    return numofcents
     
 def determine_num_of_coins() -> int:
     """
     """
     while i:
-    return numcoins
+    return numofcoins
 
 if __name__ == '__main__':
     amount = get_nonnegative_int()
