@@ -31,7 +31,7 @@ def get_min_int(minimum: int) -> int:
     """
     result = int(input("Enter an int at least valued", minimum, ":"))
     while result == 0:
-        result = int(input("Enter a non-zero int: "))
+        result = int(input("Enter an int at least valued", minimum, ":"))
     return result
 
 
