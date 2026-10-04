@@ -52,7 +52,7 @@ def determine_num_of_coins(numofcents: int) -> int:
     while numofcents >= 1:
         numofcents -= 1
         numofcoins += 1
-        print(25)
+        print(1)
     return numofcoins
 
 if __name__ == '__main__':
