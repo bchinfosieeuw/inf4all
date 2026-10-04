@@ -52,7 +52,7 @@ if __name__ == '__main__':
     mybool = check_guess(guess, randomgetal)
     while mybool==False:
         if guess!=randomgetal:
-    guess = int(input("Gok: "))
-    while guess <= 0:
-        guess = int(input("Gok: "))
+            guess = int(input("Gok: "))
+            while guess <= 0:
+                guess = int(input("Gok: "))
         mybool = check_guess(guess, randomgetal)
