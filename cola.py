@@ -2,6 +2,8 @@ def check_coin(coin: int) -> bool:
     """
     Controleert of een munt wordt toegelaten.
     """
+    while (coin != 5) and (coin != 10) and (coin != 25):
+        coin = int(input("Enter 5, 10 or 25: "))
 
 def determine_due(due: int, coin: int) -> int:
     """
