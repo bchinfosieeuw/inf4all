@@ -37,6 +37,6 @@ if __name__ == '__main__':
     gok = get_positive_int()
     mybool = check_guess(gok, randomgetal)
     while mybool==False:
-        if 
+        if gok==
         mybool = True
     <Vraag de gebruiker om een (valide) level, kies een getal, laat de gebruiker gokken totdat de gok correct is.>
