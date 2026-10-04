@@ -8,5 +8,5 @@ def get_nonnegative_int() -> float:
     return result
 
 if __name__ == '__main__':
-    aantalflesjeswater = get_nonnegative_int()
+    amount = get_nonnegative_int()
     print(aantalflesjeswater)
