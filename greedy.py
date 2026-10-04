@@ -33,7 +33,7 @@ def determine_num_of_coins(numofcents: int) -> int:
     >>> determine_num_of_coins(100)
     4
     
-    >>> determine_num_of_coins(41)
+    >>> determine_num_of_coins(250)
     4
     """
     numofcoins = 0
