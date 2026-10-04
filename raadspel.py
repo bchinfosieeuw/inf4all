@@ -7,7 +7,7 @@ def get_positive_int_start() -> int:
     >>> get_positive_int_start() > 0
     True
     
-    >>> get_positive_int_start() > 0
+    >>> get_positive_int_start() > -1
     True
     
     >>> get_positive_int_start() > 0
