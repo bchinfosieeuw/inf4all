@@ -2,7 +2,10 @@ def check_coin(coin: int) -> bool:
     """
     Controleert of een munt wordt toegelaten.
     
-    >>> check_coin(
+    >>> check_coin(5)
+    True
+    
+    
     """
     if (coin != 5) and (coin != 10) and (coin != 25):
         return False
