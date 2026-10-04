@@ -7,7 +7,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     1
     
     >>> calculate_years(9, 18)
-    1
+    8
     """
     jaren = 0
     while end_size > start_size:
