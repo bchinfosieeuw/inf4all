@@ -18,7 +18,7 @@ def determine_due(due: int, coin: int) -> int:
     return due
 
 if __name__ == '__main__':
-    print("Geld verschuldigd:")
+    print("Geld verschuldigd:", )
     coin = int(input("Munt inwerpen: "))
     due = 50
     due = determine_due(due, coin)
