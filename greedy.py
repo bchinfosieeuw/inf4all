@@ -1,5 +1,4 @@
 
-    
 def get_positive_int() -> int:
     """
     Deze functie vereist een positieve integer.
