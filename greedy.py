@@ -7,6 +7,6 @@ def get_nonnegative_int(amount: float) -> float:
     return result
 
 if __name__ == '__main__':
-    result = input("Enter a nonnegative amount of money: ")
+    amount = input("Enter a nonnegative amount of money: ")
     aantalflesjeswater = get_nonnegative_int(amount)
     print(aantalflesjeswater)
