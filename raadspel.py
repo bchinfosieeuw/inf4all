@@ -11,7 +11,7 @@ def get_positive_int_start() -> int:
     False
     
     >>> get_positive_int_start() == 0
-    True
+    False
     """
     result = int(input("Level: "))
     while result <= 0:
