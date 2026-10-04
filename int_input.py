@@ -34,7 +34,7 @@ def get_min_int(minimum: int) -> int:
         result = int(input("Enter an int at least valued", minimum, ":"))
     return result
 
-def get_two_different_ints() -> int:
+def get_two_different_ints() -> bool:
     """
     Deze functie vereist twee integers die ongelijk zijn aan elkaar.
     """
