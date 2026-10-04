@@ -10,7 +10,12 @@ def get_odd_number() -> int:
 def get_positive_int() -> int:
     """
     """
+    result = int(input("Enter an odd int: "))
+    while result % 2 == 0:
+        result = int(input("Enter an odd int: "))
+    return result
     
+
 
 if __name__ == '__main__':
     get_positive_int()
