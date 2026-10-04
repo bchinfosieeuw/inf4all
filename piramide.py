@@ -8,7 +8,9 @@ def print_pyramid(height: int) -> None:
     #
     
     >>> print_pyramid(3)
-    #
+      ##
+    ###
+####
     """
     print('#', end='')
     
