@@ -21,7 +21,7 @@ def determine_num_of_cents(amount: float) -> int:
     250.0
     """
     print(amount)
-    numofcents = numofcents*100
+    numofcents = amount*100
     print(numofcents)
     return int(numofcents)
     
