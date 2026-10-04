@@ -19,7 +19,7 @@ def determine_due(due: int, coin: int) -> int:
 
 if __name__ == '__main__':
     print("Kosten zijn in totaal 50 cent. Werp een munt van 5, 10 or 25 cent in om cola te kopen.")
-    coin = int(input("Enter 5, 10 or 25: "))
+    coin = int(input("Munt inwerpen: "))
     due = 50
     due = determine_due(due, coin)
     paid = coin
