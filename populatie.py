@@ -7,7 +7,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     while :
         increase = start_size // 3
         decrease = start_size // 4
-        
+        start_size
     return jaren
 
 if __name__ == '__main__':
