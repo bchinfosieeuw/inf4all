@@ -10,6 +10,7 @@ def check_guess(guess: int, number: int) -> bool:
     True
     
     >>> check_guess(10, 5)
+    print('\"', end="")
     "Je gok is te groot!"
     False
     
