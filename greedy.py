@@ -2,7 +2,7 @@ def get_nonnegative_int() -> float:
     """
     Deze functie vereist een positieve integer.
     """
-    result = input("Enter a nonnegative amount of money: ")
+    result = input("Hoeveel wisselgeld moet er gegeven worden? ")
     while result < 0:
         result = input("Enter a nonnegative amount of money: ")
     return result
