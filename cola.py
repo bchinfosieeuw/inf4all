@@ -28,7 +28,7 @@ def determine_due(due: int, coin: int) -> int:
     >>> determine_due(10, 10)
     0
     
-    >>> determine_due(10, 10)
+    >>> determine_due(25, 10)
     0
     """
     if check_coin(coin)==True:
