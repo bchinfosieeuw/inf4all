@@ -6,6 +6,12 @@ def get_positive_int_start() -> int:
     
     >>> get_positive_int_start() > 0
     True
+    
+    >>> get_positive_int_start() > 0
+    True
+    
+    >>> get_positive_int_start() > 0
+    True
     """
     result = int(input("Level: "))
     while result <= 0:
