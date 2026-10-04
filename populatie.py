@@ -4,7 +4,8 @@ def calculate_years(start_size: int, end_size: int) -> int:
     end_size te bereiken.
     """
     jaren = 0
-    while jaren
+    while :
+        
     start_size
     return jaren
 
