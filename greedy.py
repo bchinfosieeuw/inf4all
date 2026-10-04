@@ -1,9 +1,6 @@
 def get_nonnegative_int() -> float:
     """
     Deze functie vereist een getal met hoogstens 2 decimalen en is minimaal 0.
-    
-    >>> get_nonnegative_int()
-    
     """
     result = float(input("Hoeveel wisselgeld moet er gegeven worden? "))
     while result < 0:
