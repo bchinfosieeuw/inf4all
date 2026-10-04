@@ -8,6 +8,15 @@ def get_positive_int_start() -> int:
     while result <= 0:
         result = int(input("Level: "))
     return result
+
+def get_positive_int_start() -> int:
+    """
+    Deze functie vereist een positieve integer.
+    """
+    result = int(input("Level: "))
+    while result <= 0:
+        result = int(input("Level: "))
+    return result
     
 def check_guess(guess: int, number: int) -> bool:
     """
