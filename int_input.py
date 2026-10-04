@@ -39,7 +39,7 @@ def get_two_different_ints() -> int:
     Deze functie vereist twee integers die ongelijk zijn aan elkaar.
     """
     result1 = int(input("Enter the first int: "))
-    result2 = int(input("Enter the second int with different value: "))
+    result2 = int(input("Enter the second int: "))
     while result < minimum:
         result = int(input("Enter an int at least valued", minimum, ":"))
     return result
