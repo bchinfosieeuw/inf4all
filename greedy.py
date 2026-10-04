@@ -56,5 +56,3 @@ if __name__ == '__main__':
     numofcents = int(determine_num_of_cents(amount))
     numofcoins = determine_num_of_coins(numofcents)
     print(numofcoins)
-    
-    
