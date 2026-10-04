@@ -40,19 +40,15 @@ def determine_num_of_coins(numofcents: int) -> int:
     while numofcents >= 25:
         numofcents -= 25
         numofcoins += 1
-        print(25)
     while numofcents >= 10:
         numofcents -= 10
         numofcoins += 1
-        print(10)
     while numofcents >= 5:
         numofcents -= 5
         numofcoins += 1
-        print(5)
     while numofcents >= 1:
         numofcents -= 1
         numofcoins += 1
-        print(1)
     return numofcoins
 
 if __name__ == '__main__':
