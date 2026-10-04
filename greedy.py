@@ -8,6 +8,5 @@ def get_nonnegative_int(amount: float) -> float:
     return result
 
 if __name__ == '__main__':
-    amount = int(input('Hoeveel minuten douche je? '))
     aantalflesjeswater = get_nonnegative_int(amount)
     print(aantalflesjeswater)
