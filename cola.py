@@ -11,4 +11,4 @@ def determine_due(due: int, coin: int) -> int:
     """
 
 if __name__ == '__main__':
-    <Hoofdprogramma>
+    determine_due(due: int, coin: int)
