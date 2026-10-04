@@ -7,19 +7,19 @@ def check_guess(guess: int, number: int) -> bool:
     
     >>> check_guess(4, 4)
     print('\"', end="")
-    print('Je hebt het getal goed geraden, gefeliciteerd!"
+    print('Je hebt het getal goed geraden, gefeliciteerd!', end="")
     print('\"')
     True
     
     >>> check_guess(10, 5)
     print('\"', end="")
-    print('Je gok is te groot!"
+    print('Je gok is te groot!', end="")
     print('\"')
     False
     
     >>> check_guess(5, 10)
     print('\"', end="")
-    print('Je gok is te klein!"
+    print('Je gok is te klein!', end="")
     print('\"')
     False
     """
