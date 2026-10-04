@@ -23,9 +23,9 @@ if __name__ == '__main__':
     """while (coin != 5) and (coin != 10) and (coin != 25):
         coin = int(input("Enter 5, 10 or 25: "))"""
     due = 50
-    while due < 50:
+    while determine_due(due, coin) < 50:
         coin = int(input("Enter 5, 10 or 25: "))
         while (coin != 5) and (coin != 10) and (coin != 25):
             coin = int(input("Enter 5, 10 or 25: "))
         due += coin
-    determine_due(due, coin)
+    
