@@ -27,7 +27,10 @@ def determine_num_of_coins(numofcents: int) -> int:
     """
     Returns the minimal number of coins given a monetary amount of change.
     
-    >>> determine_num_of_coins(
+    >>> determine_num_of_coins(41)
+    4
+    
+    
     """
     numofcoins = 0
     while numofcents >= 25:
