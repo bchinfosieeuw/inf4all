@@ -4,7 +4,8 @@ def get_positive_int_start() -> int:
     """
     Deze functie vereist een positieve integer.
     
-    >>> get_positive_int_start() > 
+    >>> get_positive_int_start() > 0
+    True
     """
     result = int(input("Level: "))
     while result <= 0:
