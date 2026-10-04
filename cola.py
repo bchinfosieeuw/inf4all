@@ -30,5 +30,5 @@ if __name__ == '__main__':
         due = determine_due(due, coin)
         paid += coin
     change = paid-50
-    print("Wisselgeld:", change, "cent.")
+    print("Wisselgeld:", change)
     
