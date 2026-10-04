@@ -6,15 +6,15 @@ def check_guess(guess: int, number: int) -> bool:
     False en print of de gok te groot of te klein is.
     
     >>> check_guess(4, 4)
-    \""Je hebt het getal goed geraden, gefeliciteerd!"\"
+    Je hebt het getal goed geraden, gefeliciteerd!
     True
     
     >>> check_guess(10, 5)
-    "Je gok is te groot!"
+    Je gok is te groot!
     False
     
     >>> check_guess(5, 10)
-    "Je gok is te klein!"
+    Je gok is te klein!
     False
     """
     mybool = False
