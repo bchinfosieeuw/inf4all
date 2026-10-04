@@ -12,7 +12,7 @@ def determine_due(due: int, coin: int) -> int:
 
 if __name__ == '__main__':
     print("Kosten zijn 50 cent. Werp een munt in om cola te kopen.")
-    result = int(input("Enter 5, 10 or 25: "))
+    coin = int(input("Enter 5, 10 or 25: "))
     while result % 2 == 0:
         result = int(input("Enter an odd int: "))
     determine_due(due: int, coin: int)
