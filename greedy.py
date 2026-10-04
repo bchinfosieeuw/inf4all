@@ -16,7 +16,7 @@ def determine_num_of_coins() -> int:
     """
     """
     while i:
-    return num
+    return numcoins
 
 if __name__ == '__main__':
     amount = get_nonnegative_int()
