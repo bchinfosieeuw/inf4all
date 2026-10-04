@@ -11,5 +11,5 @@ def determine_due(due: int, coin: int) -> int:
     """
 
 if __name__ == '__main__':
-    print("Kosten zijn 50 cent. ")
+    print("Kosten zijn 50 cent. Werp een munt in om cola te kopen.")
     determine_due(due: int, coin: int)
