@@ -39,4 +39,5 @@ if __name__ == '__main__':
     while mybool==False:
         if gok==randomgetal:
             mybool = True
+        else:
     <Vraag de gebruiker om een (valide) level, kies een getal, laat de gebruiker gokken totdat de gok correct is.>
