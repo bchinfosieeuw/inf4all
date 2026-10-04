@@ -9,5 +9,5 @@ def get_nonnegative_int() -> int:
 
 if __name__ == '__main__':
     doucheminuten = int(input('Hoeveel minuten douche je? '))
-    aantalflesjeswater = hoeveelheid_water(doucheminuten)
+    aantalflesjeswater = get_nonnegative_int(doucheminuten)
     print(aantalflesjeswater)
