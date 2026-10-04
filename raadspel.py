@@ -23,7 +23,7 @@ def check_guess(guess: int, number: int) -> bool:
     Check of de gok goed is. Als de gok niet goed is, return dan
     False en print of de gok te groot of te klein is.
     
-    >>> check_guess(1, 1)
+    >>> check_guess(4, 4)
     True
     
     >>> check_guess(10, 5)
