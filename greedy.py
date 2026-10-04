@@ -12,6 +12,7 @@ def determine_num_of_cents(amount: int) -> int:
     Returns the amount of money as the number of cents.
     
     >>> determine_num_of_cents(0.41)
+    
     """
     numofcents = amount*100
     return numofcents
