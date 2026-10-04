@@ -4,6 +4,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     end_size te bereiken.
     """
     jaren = 0
+    start_size
     return jaren
 
 if __name__ == '__main__':
