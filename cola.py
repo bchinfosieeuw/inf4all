@@ -9,6 +9,7 @@ def determine_due(due: int, coin: int) -> int:
     ingeworpen. Uitkomst verandert alleen als coin één van de
     toegestane munten is.
     """
+    check_coin()
     restant = 0
     return restant
 
