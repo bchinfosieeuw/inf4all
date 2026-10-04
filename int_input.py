@@ -25,7 +25,7 @@ def get_any_int_but_0() -> int:
         result = int(input("Enter a non-zero int: "))
     return result
     
-def get_min_int() -> int:
+def get_min_int(minimum: int) -> int:
     """
     Deze functie vereist een integer kleiner dan of groter dan 0.
     """
