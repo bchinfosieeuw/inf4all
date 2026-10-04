@@ -37,7 +37,7 @@ if __name__ == '__main__':
     gok = get_positive_int()
     mybool = check_guess(gok, randomgetal)
     while mybool==False:
-        if gok==randomgetal:
+        if gok!=randomgetal:
             mybool = True
         else:
             gok = get_positive_int()
