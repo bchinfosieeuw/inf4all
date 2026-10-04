@@ -34,5 +34,5 @@ def decide_number(level: int) -> int:
 if __name__ == '__main__':
     level = get_positive_int()
     randomgetal = decide_number(level)
-    check_guess()
+    check_guess(, randomgetal)
     <Vraag de gebruiker om een (valide) level, kies een getal, laat de gebruiker gokken totdat de gok correct is.>
