@@ -6,6 +6,11 @@ def get_odd_number() -> int:
     while result % 2 == 0:
         result = int(input("Enter an odd int: "))
     return result
+    
+def get_positive_int() -> int:
+    """
+    """
+    
 
 if __name__ == '__main__':
     get_positive_int()
