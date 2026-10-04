@@ -26,6 +26,7 @@ def decide_number(level: int) -> int:
     >>> 1 <= decide_number(2) <= 2
     True
     """
+    return random.randint(a, b)
 
 if __name__ == '__main__':
     level = get_positive_int()
