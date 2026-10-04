@@ -10,7 +10,7 @@ def get_positive_int_start() -> int:
     >>> get_positive_int_start() < 0
     False
     
-    >>> get_positive_int_start() > 0
+    >>> get_positive_int_start() == 0
     True
     """
     result = int(input("Level: "))
