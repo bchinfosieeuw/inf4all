@@ -7,7 +7,7 @@ def get_nonnegative_int() -> float:
         result = input("Hoeveel wisselgeld moet er gegeven worden? ")
     return result
     
-def determine
+def determine_num
 
 if __name__ == '__main__':
     amount = get_nonnegative_int()
