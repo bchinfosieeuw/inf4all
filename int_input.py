@@ -21,7 +21,7 @@ def get_any_int_but_0() -> int:
     Deze functie vereist een integer kleiner dan of groter dan 0.
     """
     result = int(input("Enter a non-zero int: "))
-    while result <= 0:
+    while result == 0:
         result = int(input("Enter a non-zero int: "))
     return result
     
