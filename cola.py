@@ -26,6 +26,6 @@ if __name__ == '__main__':
         print("Kosten zijn nog", due, "cent. Werp een munt van 5, 10 or 25 cent in om cola te kopen.")
         coin = int(input("Enter 5, 10 or 25: "))
         due = determine_due(due, coin)
-    change = 
+    change = 50-
     print("Wisselgeld is", , "cent.")
     
