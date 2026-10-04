@@ -7,7 +7,7 @@ def get_nonnegative_int() -> float:
         result = float(input("Hoeveel wisselgeld moet er gegeven worden? "))
     return result
     
-def determine_num_of_cents(amount: float) -> float:
+def determine_num_of_cents(amount: float) -> int:
     """
     Returns the amount of money as the number of cents.
     
