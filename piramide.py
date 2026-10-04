@@ -1,4 +1,4 @@
-def print_pyramid(height: int) -> None
+def print_pyramid(height: int) -> None:
     """
     """
     print('#', end='')
