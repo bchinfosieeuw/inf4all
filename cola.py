@@ -11,4 +11,5 @@ def determine_due(due: int, coin: int) -> int:
     """
 
 if __name__ == '__main__':
+    print("")
     determine_due(due: int, coin: int)
