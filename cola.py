@@ -23,7 +23,7 @@ if __name__ == '__main__':
     due = 50
     due = determine_due(due, coin)
     while due > 0:
-        print("Kosten zijn in totaal 50 cent. Werp een munt van 5, 10 or 25 cent in om cola te kopen.")
+        print("Kosten zijn nog 50 cent. Werp een munt van 5, 10 or 25 cent in om cola te kopen.")
         coin = int(input("Enter 5, 10 or 25: "))
         due = determine_due(due, coin)
     
