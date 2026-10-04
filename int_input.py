@@ -41,7 +41,7 @@ def get_two_different_ints() -> bool:
     """
     result1 = int(input("Enter the first int: "))
     result2 = int(input("Enter a different valued second int: "))
-    while result1 < result2:
+    while result1 == result2:
         result1 = int(input("Enter the first int: "))
         result2 = int(input("Enter a different valued second int: "))
     return result1 != result2
