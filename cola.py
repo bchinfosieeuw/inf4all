@@ -23,7 +23,7 @@ def determine_due(due: int, coin: int) -> int:
     toegestane munten is.
     
     >>> determine_due(50, 10)
-    0
+    40
     
     >>> determine_due(10, 10)
     0
