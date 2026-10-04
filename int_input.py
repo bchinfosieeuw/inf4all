@@ -29,7 +29,7 @@ def get_min_int(minimum: int) -> int:
     """
     Deze functie vereist een integer met een minimale waarde.
     """
-    mystr = "Enter an int at least valued" + minimum + 
+    mystr = "Enter an int at least valued" + minimum + ""
     result = int(input("", minimum, ":"))
     while result < minimum:
         result = int(input("Enter an int at least valued", minimum, ":"))
