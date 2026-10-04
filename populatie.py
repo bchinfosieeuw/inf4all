@@ -8,7 +8,6 @@ def calculate_years(start_size: int, end_size: int) -> int:
         increase = start_size // 3
         decrease = start_size // 4
         start_size += increase - decrease
-        end_size = start_size
         jaren += 1
     return jaren
 
