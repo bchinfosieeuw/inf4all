@@ -8,6 +8,8 @@ def get_nonnegative_int() -> float:
     return result
     
 def determine_num_of_coins() -> int:
+    """
+    """
     
 
 if __name__ == '__main__':
