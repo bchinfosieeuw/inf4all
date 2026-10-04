@@ -47,7 +47,7 @@ def determine_num_of_coins(numofcents: int) -> int:
         numofcents -= 5
         numofcoins += 1
     while numofcents >= 1:
-        numofcents -= 10.3
+        numofcents -= 1
         numofcoins += 1
     return numofcoins
 
