@@ -19,7 +19,7 @@ def check_guess(guess: int, number: int) -> bool:
     elif guess < number:
         print("Je gok is te klein!")
     else:
-        
+        print("")
     return 
 
 def decide_number(level: int) -> int:
