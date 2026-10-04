@@ -29,7 +29,7 @@ def check_guess(guess: int, number: int) -> bool:
     >>> check_guess(10, 5)
     False
     
-    >>> check_guess(1, 1)
+    >>> check_guess(5, 10)
     True
     """
     mybool = False
