@@ -22,7 +22,7 @@ def determine_due(due: int, coin: int) -> int:
     ingeworpen. Uitkomst verandert alleen als coin één van de
     toegestane munten is.
     
-    >>> determine_due(10, 10)
+    >>> determine_due(50, 10)
     0
     
     >>> determine_due(10, 10)
