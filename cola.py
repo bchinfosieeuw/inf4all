@@ -21,6 +21,9 @@ def determine_due(due: int, coin: int) -> int:
     Bepaalt hoeveel nog moet worden betaald nadat een munt is
     ingeworpen. Uitkomst verandert alleen als coin één van de
     toegestane munten is.
+    
+    >>> check_coin(10)
+    True
     """
     if check_coin(coin)==True:
         due -= coin
