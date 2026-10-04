@@ -16,7 +16,7 @@ def check_guess(guess: int, number: int) -> bool:
     """
     if guess > number:
         print("Je gok is te groot!")
-    elif 
+    elif guess < number:
     return 
 
 def decide_number(level: int) -> int:
