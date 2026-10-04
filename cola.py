@@ -10,7 +10,7 @@ def determine_due(due: int, coin: int) -> int:
     toegestane munten is.
     """
     restant = 0
-    return 
+    return restant
 
 if __name__ == '__main__':
     print("Kosten zijn 50 cent. Werp een munt in om cola te kopen.")
