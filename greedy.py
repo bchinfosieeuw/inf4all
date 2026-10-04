@@ -10,7 +10,7 @@ def get_nonnegative_int() -> float:
 def determine_num_of_coins() -> int:
     """
     """
-    
+    return 
 
 if __name__ == '__main__':
     amount = get_nonnegative_int()
