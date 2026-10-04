@@ -15,7 +15,7 @@ def get_positive_int_feedback() -> int:
     """
     result = int(input("Gok: "))
     while result <= 0:
-        result = int(input("Level: "))
+        result = int(input("Gok: "))
     return result
     
 def check_guess(guess: int, number: int) -> bool:
