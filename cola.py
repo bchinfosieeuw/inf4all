@@ -25,7 +25,7 @@ if __name__ == '__main__':
     paid = coin
     change = 0
     while due > 0:
-        print("Kosten zijn nog", due, "cent. Werp een munt van 5, 10 or 25 cent in om cola te kopen.")
+        print("Geld verschuldigd:", due)
         coin = int(input("Munt inwerpen: "))
         due = determine_due(due, coin)
         paid += coin
