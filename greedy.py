@@ -4,7 +4,7 @@ def get_nonnegative_int() -> float:
     """
     result = float(input("Hoeveel wisselgeld moet er gegeven worden? "))
     while result < 0:
-        result = input("Hoeveel wisselgeld moet er gegeven worden? ")
+        result = float(input("Hoeveel wisselgeld moet er gegeven worden? "))
     return result
     
 def determine_num_of_cents(amount: float) -> float:
