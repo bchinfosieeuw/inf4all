@@ -21,7 +21,8 @@ def check_guess(guess: int, number: int) -> bool:
         print("Je gok is te klein!")
     else:
         print("Je hebt het getal goed geraden, gefeliciteerd!")
-    return 
+        mybool = True
+    return mybool
 
 def decide_number(level: int) -> int:
     """
