@@ -6,7 +6,7 @@ def get_positive_int_start() -> int:
     """
     result = int(input("Level: "))
     while result <= 0:
-        result = int(input("Enter a positive int: "))
+        result = int(input("Level: "))
     return result
     
 def check_guess(guess: int, number: int) -> bool:
