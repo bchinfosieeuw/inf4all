@@ -30,7 +30,7 @@ def get_min_int(minimum: int) -> int:
     Deze functie vereist een integer met een minimale waarde.
     """
     result = int(input("Enter an int at least valued", minimum, ":"))
-    while result < 0:
+    while result < minimum:
         result = int(input("Enter an int at least valued", minimum, ":"))
     return result
 
