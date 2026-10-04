@@ -5,8 +5,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     """
     jaren = 0
     while :
-        
-    start_size
+        start_size
     return jaren
 
 if __name__ == '__main__':
