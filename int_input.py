@@ -16,7 +16,9 @@ def get_positive_int() -> int:
         result = int(input("Enter a positive int: "))
     return result
     
-
+def get_any_int_but_0() -> int:
+    
+    
 
 if __name__ == '__main__':
     get_positive_int()
