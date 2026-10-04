@@ -4,5 +4,5 @@ def get_nonnegative_int() -> int:
     """
     result = input("Enter a nonnegative amount of money: ")
     while result < 0:
-        result = input("Enter a nonnegative amount of money: ")
+        result = int(input("Enter a nonnegative amount of money: "))
     return result
