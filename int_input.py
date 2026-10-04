@@ -26,7 +26,13 @@ def get_any_int_but_0() -> int:
     return result
     
 def get_min_int() -> int:
-    
+    """
+    Deze functie vereist een integer kleiner dan of groter dan 0.
+    """
+    result = int(input("Enter a non-zero int: "))
+    while result == 0:
+        result = int(input("Enter a non-zero int: "))
+    return result
 
 
 if __name__ == '__main__':
