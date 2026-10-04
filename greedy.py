@@ -17,7 +17,7 @@ def determine_num_of_coins(numofcents: int) -> int:
     """
     """
     while numofcents > 0:
-        
+        numofcents
     return numofcoins
 
 if __name__ == '__main__':
