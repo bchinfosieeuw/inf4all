@@ -20,10 +20,8 @@ def determine_num_of_cents(amount: float) -> int:
     >>> determine_num_of_cents(2.50)
     250.0
     """
-    print(amount)
-    amount *= 100
-    print(amount)
-    return int(amount)
+    numofcents = int(amount*100)
+    return numofcents
     
 def determine_num_of_coins(numofcents: int) -> int:
     """
