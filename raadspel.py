@@ -9,3 +9,23 @@ def get_positive_int() -> int:
         result = int(input("Enter a positive int: "))
     return result
     
+def check_guess(guess: int, number: int) -> bool:
+    """
+    Check of de gok goed is. Als de gok niet goed is, return dan
+    False en print of de gok te groot of te klein is.
+    """
+
+def decide_number(level: int) -> int:
+    """
+    Kies een willekeurig getal tussen 1 en level.
+
+    >>> decide_number(1)
+    1
+    >>> decide_number(100) <= 100
+    True
+    >>> 1 <= decide_number(2) <= 2
+    True
+    """
+
+if __name__ == '__main__':
+    <Vraag de gebruiker om een (valide) level, kies een getal, laat de gebruiker gokken totdat de gok correct is.>
