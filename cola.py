@@ -14,5 +14,5 @@ if __name__ == '__main__':
     print("Kosten zijn 50 cent. Werp een munt in om cola te kopen.")
     coin = int(input("Enter 5, 10 or 25: "))
     while coin % 2 == 0:
-        coin = int(input("Enter an odd int: "))
+        coin = int(input("Enter 5, 10 or 25: "))
     determine_due(due: int, coin: int)
