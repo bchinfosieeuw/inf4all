@@ -40,7 +40,7 @@ def decide_number(level: int) -> int:
     return random.randint(a, b)
 
 if __name__ == '__main__':
-    level = get_positive_int()
+    level = get_positive_int_start()
     randomgetal = decide_number(level)
     guess = get_positive_int()
     mybool = check_guess(guess, randomgetal)
