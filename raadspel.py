@@ -27,6 +27,7 @@ def decide_number(level: int) -> int:
     True
     """
     a = 1
+    b = 
     return random.randint(a, b)
 
 if __name__ == '__main__':
