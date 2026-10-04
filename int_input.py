@@ -27,7 +27,7 @@ def get_any_int_but_0() -> int:
     
 def get_min_int(minimum: int) -> int:
     """
-    Deze functie vereist een integer kleiner dan of groter dan 0.
+    Deze functie vereist een integer met .
     """
     result = int(input("Enter an int at least valued", minimum, ":"))
     while result == 0:
