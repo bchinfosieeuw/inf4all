@@ -6,6 +6,8 @@ def get_nonnegative_int() -> float:
     while result < 0:
         result = input("Hoeveel wisselgeld moet er gegeven worden? ")
     return result
+    
+def determine
 
 if __name__ == '__main__':
     amount = get_nonnegative_int()
