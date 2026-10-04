@@ -1,22 +1,4 @@
 import random
-
-def get_positive_int_feedback() -> int:
-    """
-    Deze functie vereist een positieve integer.
-    
-    >>> get_positive_int_feedback() > 0
-    True
-    
-    >>> get_positive_int_feedback() < 0
-    False
-    
-    >>> get_positive_int_feedback() == 0
-    False
-    """
-    result = int(input("Gok: "))
-    while result <= 0:
-        result = int(input("Gok: "))
-    return result
     
 def check_guess(guess: int, number: int) -> bool:
     """
