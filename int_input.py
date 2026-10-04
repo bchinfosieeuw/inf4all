@@ -29,7 +29,7 @@ def get_min_int(minimum: int) -> int:
     """
     Deze functie vereist een integer kleiner dan of groter dan 0.
     """
-    result = int(input("Enter a non-zero int: "))
+    result = int(input("Enter an int: "))
     while result == 0:
         result = int(input("Enter a non-zero int: "))
     return result
