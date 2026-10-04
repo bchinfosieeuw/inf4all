@@ -3,6 +3,8 @@ import random
 def get_positive_int_start() -> int:
     """
     Deze functie vereist een positieve integer.
+    
+    >>> get_positive_int_start()
     """
     result = int(input("Level: "))
     while result <= 0:
