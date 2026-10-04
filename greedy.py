@@ -10,13 +10,13 @@ def get_nonnegative_int() -> float:
 def determine_num_of_cents(amount: int) -> int:
     """
     """
-    numofcents = amount*100.0
+    numofcents = amount*100
     return numofcents
     
 def determine_num_of_coins(numofcents: int) -> int:
     """
     """
-    while numofcents > 0.0:
+    while numofcents > 0:
     return numofcoins
 
 if __name__ == '__main__':
