@@ -46,5 +46,5 @@ if __name__ == '__main__':
     mybool = check_guess(guess, randomgetal)
     while mybool==False:
         if guess!=randomgetal:
-            guess = get_positive_int()
+            guess = get_positive_int_feedback()
         mybool = check_guess(guess, randomgetal)
