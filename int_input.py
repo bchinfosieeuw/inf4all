@@ -34,7 +34,8 @@ def get_min_int(minimum: int) -> int:
         result = int(input("Enter an int at least valued", minimum, ":"))
     return result
 
-
+def get_two_different_ints() -> int:
+    
 
 if __name__ == '__main__':
     get_positive_int()
