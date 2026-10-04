@@ -23,7 +23,7 @@ def determine_due(due: int, coin: int) -> int:
     toegestane munten is.
     
     >>> determine_due(10, 10)
-    True
+    0
     """
     if check_coin(coin)==True:
         due -= coin
