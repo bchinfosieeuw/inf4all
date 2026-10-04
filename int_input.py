@@ -32,7 +32,7 @@ def get_min_int(minimum: int) -> int:
     mystr = "Enter an int at least valued" + minimum + ":"
     result = int(input(mystr))
     while result < minimum:
-        result = int(input("Enter an int at least valued", minimum, ":"))
+        result = int(input(mystr))
     return result
 
 def get_two_different_ints() -> bool:
