@@ -9,7 +9,7 @@ def get_odd_number() -> int:
     
 def get_positive_int() -> int:
     """
-    Deze functie vereist een oneven integer.
+    Deze functie vereist een positieve integer.
     """
     result = int(input("Enter an odd int: "))
     while result % 2 == 0:
