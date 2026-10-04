@@ -20,7 +20,7 @@ def determine_num_of_coins() -> int:
 
 if __name__ == '__main__':
     amount = get_nonnegative_int()
-    numofcents = amount
+    numofcents = determine_num_of_centsamount
     print(amount)
     
     
