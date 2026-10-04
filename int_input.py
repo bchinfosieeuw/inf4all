@@ -22,7 +22,7 @@ def get_any_int_but_0() -> int:
     """
     result = int(input("Enter a non-zero int: "))
     while result <= 0:
-        result = int(input("Enter a positive int: "))
+        result = int(input("Enter a non-zero int: "))
     return result
     
 
