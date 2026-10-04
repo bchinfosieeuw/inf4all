@@ -1,4 +1,4 @@
-def get_nonnegative_int() -> int:
+def get_nonnegative_int(amount: float) -> int:
     """
     Deze functie vereist een positieve integer.
     """
