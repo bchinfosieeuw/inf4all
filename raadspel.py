@@ -50,6 +50,7 @@ def decide_number(level: int) -> int:
     1
     >>> decide_number(100) <= 100
     True
+    
     >>> 1 <= decide_number(2) <= 2
     True
     """
