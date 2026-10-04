@@ -9,7 +9,7 @@ def get_positive_int_start() -> int:
         result = int(input("Level: "))
     return result
 
-def get_positive_int_start() -> int:
+def get_positive_int_feedback() -> int:
     """
     Deze functie vereist een positieve integer.
     """
