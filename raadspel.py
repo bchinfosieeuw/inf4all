@@ -22,13 +22,13 @@ def get_positive_int_feedback() -> int:
     """
     Deze functie vereist een positieve integer.
     
-    >>> get_positive_int_start() > 0
+    >>> get_positive_int_feedback() > 0
     True
     
-    >>> get_positive_int_start() < 0
+    >>> get_positive_int_feedback() < 0
     False
     
-    >>> get_positive_int_start() == 0
+    >>> get_positive_int_feedback() == 0
     False
     """
     result = int(input("Gok: "))
