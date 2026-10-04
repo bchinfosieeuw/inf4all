@@ -64,7 +64,9 @@ if __name__ == '__main__':
     while level <= 0:
         level = int(input("Level: "))
     randomgetal = decide_number(level)
-    guess = get_positive_int_feedback()
+    level = int(input("Level: "))
+    while level <= 0:
+        level = int(input("Level: "))
     mybool = check_guess(guess, randomgetal)
     while mybool==False:
         if guess!=randomgetal:
