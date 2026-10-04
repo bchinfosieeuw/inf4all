@@ -25,6 +25,12 @@ def check_guess(guess: int, number: int) -> bool:
     
     >>> check_guess(1, 1)
     True
+    
+    >>> check_guess(1, 1)
+    True
+    
+    >>> check_guess(1, 1)
+    True
     """
     mybool = False
     if guess > number:
