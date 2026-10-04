@@ -8,6 +8,9 @@ def get_nonnegative_int() -> float:
     return result
     
 def determine_num_of_coins() -> int:
+    
+    
+def determine_num_of_coins() -> int:
     """
     """
     while i:
