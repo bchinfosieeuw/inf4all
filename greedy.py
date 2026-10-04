@@ -10,7 +10,7 @@ def get_nonnegative_int() -> float:
 def determine_num_of_cents() -> int:
     """
     """
-    return num
+    return numcents
     
 def determine_num_of_coins() -> int:
     """
