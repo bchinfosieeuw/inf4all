@@ -54,7 +54,7 @@ def determine_num_of_coins(numofcents: int) -> int:
 if __name__ == '__main__':
     amount = get_nonnegative_int()
     numofcents = determine_num_of_cents(amount)
-    numofcoins = determine_num_of_coins(numofcents)
+    numofcoins = determine_num_of_coins(int(numofcents)
     print(numofcoins)
     
     
