@@ -62,7 +62,7 @@ def decide_number(level: int) -> int:
 if __name__ == '__main__':
     level = int(input("Level: "))
     while result <= 0:
-        result = int(input("Level: "))
+        level = int(input("Level: "))
     level = get_positive_int_start()
     randomgetal = decide_number(level)
     guess = get_positive_int_feedback()
