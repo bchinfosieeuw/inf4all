@@ -12,13 +12,13 @@ def determine_num_of_cents(amount: float) -> int:
     Returns the amount of money as the number of cents.
     
     >>> determine_num_of_cents(0.41)
-    41.0
+    41
     
     >>> determine_num_of_cents(1)
     100
     
     >>> determine_num_of_cents(2.50)
-    250.0
+    250
     """
     numofcents = int(round(amount*100))
     return numofcents
