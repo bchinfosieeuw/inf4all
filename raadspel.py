@@ -42,7 +42,7 @@ def decide_number(level: int) -> int:
 if __name__ == '__main__':
     level = get_positive_int()
     randomgetal = decide_number(level)
-    gok = get_positive_int()
+    guess = get_positive_int()
     mybool = check_guess(gok, randomgetal)
     while mybool==False:
         if gok!=randomgetal:
