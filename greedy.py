@@ -19,7 +19,7 @@ def determine_num_of_coins() -> int:
     return numcoins
 
 if __name__ == '__main__':
-    
+    amount = 
     amount = get_nonnegative_int()
     return amount
     
