@@ -18,7 +18,7 @@ def determine_num_of_cents(amount: int) -> int:
     100
     
     >>> determine_num_of_cents(2.50)
-    250
+    250.0
     """
     numofcents = amount*100
     return numofcents
