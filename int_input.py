@@ -35,7 +35,13 @@ def get_min_int(minimum: int) -> int:
     return result
 
 def get_two_different_ints() -> int:
-    
+    """
+    Deze functie vereist een integer met een minimale waarde.
+    """
+    result = int(input("Enter an int at least valued", minimum, ":"))
+    while result < minimum:
+        result = int(input("Enter an int at least valued", minimum, ":"))
+    return result
 
 if __name__ == '__main__':
     get_positive_int()
