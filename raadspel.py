@@ -63,6 +63,7 @@ if __name__ == '__main__':
     level = int(input("Level: "))
     while level <= 0:
         level = int(input("Level: "))
+    level = get_positive_int_start()
     randomgetal = decide_number(level)
     guess = get_positive_int_feedback()
     mybool = check_guess(guess, randomgetal)
