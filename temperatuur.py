@@ -40,4 +40,4 @@ if __name__ == '__main__':
     step_size = 0
     if mybool==False:
         step_size = get_positive_int()
-        print_table(old_type, begin_temp: int, end_temp: int, step_size: int)
+        print_table(old_type, begin_temp, end_temp: int, step_size: int)
