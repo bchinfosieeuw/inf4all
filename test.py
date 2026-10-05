@@ -7,8 +7,6 @@ print(f"{letter:>10}")
 letter = 'bb'
 print(f"{letter:10}")
 print(f"{letter:>10}")
-
-
-    print('\"', end="")
-    print('Zon Maa Din Woe Don Vri Zat', end="")
-    print('\"')
+print('\"', end="")
+print('Zon Maa Din Woe Don Vri Zat', end="")
+print('\"')
