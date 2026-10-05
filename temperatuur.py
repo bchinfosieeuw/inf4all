@@ -42,7 +42,7 @@ if __name__ == '__main__':
     if old_type=='C' or old_type=='c' or old_type=='F' or old_type=='f:
         print("C |   F")
     else :
-        
+        print("F |   C")
     mybool = False
     if old_temp > new_temp:
         mybool = True
