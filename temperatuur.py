@@ -27,7 +27,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
     i = begin_temp
     for i in range()
-        new_temp = convert_temperature(old_type, old_temp)
+        new_temp = convert_temperature(old_type, begin_temp)
         print(new_temp)
 
 if __name__ == '__main__':
