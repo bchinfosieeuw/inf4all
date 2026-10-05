@@ -9,7 +9,7 @@ def get_positive_int() -> int:
     True
     
     >>> get_positive_int() <= 0
-    True
+    False
     """
     result = int(input("Wat is de stapgrootte? "))
     while result <= 0:
