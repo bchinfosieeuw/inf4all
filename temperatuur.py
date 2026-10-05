@@ -1,6 +1,7 @@
 def get_positive_int() -> int:
     """
     Deze functie vereist een positieve integer.
+    
     """
     result = int(input("Wat is de stapgrootte? "))
     while result <= 0:
