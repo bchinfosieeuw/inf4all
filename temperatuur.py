@@ -33,4 +33,4 @@ if __name__ == '__main__':
     step_size = 0
     if mybool==false
         step_size = get_positive_int()
-        convert_temperature(old_type, old_temp)
+        new_temp = convert_temperature(old_type, old_temp)
