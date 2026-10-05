@@ -36,7 +36,7 @@ if __name__ == '__main__':
     step_size = 0
     if mybool==False:
         step_size = get_positive_int()
-    if mybool==False:
         print("F |   C")
+    if mybool==False:
         new_temp = convert_temperature(old_type, old_temp)
         print(new_temp)
