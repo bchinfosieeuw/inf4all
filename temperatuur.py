@@ -37,21 +37,15 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
       5 |  41
      10 |  50
      15 |  59
-     20 |  68
+    " 20 |  68
     """
     i = 0
     old_temp = begin_temp
     while end_temp-step_size+1 > begin_temp + (i-1)*step_size:
         new_temp = convert_temperature(old_type, old_temp)
-        print('\"', end="")
         print(f"{old_temp:>3}", end='')
-        print('\"')
-        print('\"', end="")
         print(' | ', end='')
-        print('\"')
-        print('\"', end="")
         print(f"{new_temp:>3}", end='')
-        print('\"')
         print()
         old_temp += step_size
         i += 1
