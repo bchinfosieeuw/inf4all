@@ -17,4 +17,4 @@ if __name__ == '__main__':
     new_temp = int(input('Wat is de eindtemperatuur? '))
     print("F |   C")
     if old_temp <= new_temp:
-    
+        
