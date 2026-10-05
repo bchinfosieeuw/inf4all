@@ -14,7 +14,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     """
     new_temp = 0
     if old_type!='C' or old_type!='c':
-        new_temp = old_temp*18 + 320
+        new_temp = (old_temp*18 + 320)
     else:
         new_temp = old_temp
     return new_temp
