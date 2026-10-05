@@ -4,7 +4,7 @@ def get_positive_int() -> int:
     """
     result = int(input("Wat is de stapgrootte? "))
     while result <= 0:
-        result = int(input("Enter a positive int: "))
+        result = int(input("Wat is de stapgrootte? "))
     return result
 
 def convert_temperature(old_type: str, old_temp: int) -> int:
