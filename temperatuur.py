@@ -45,6 +45,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
         new_temp = convert_temperature(old_type, old_temp)
         print('\"', end="")
         print(f"{old_temp:>3}", end='')
+        print('\"')
         print('\"', end="")
         print(' | ', end='')
         print('\"', end="")
