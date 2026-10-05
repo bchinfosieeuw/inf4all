@@ -5,9 +5,6 @@ def get_positive_int() -> int:
     >>> get_positive_int() > 0
     True
     
-    >>> get_positive_int() > -1
-    True
-    
     >>> get_positive_int() <= 0
     False
     """
