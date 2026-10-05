@@ -15,7 +15,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     >>> convert_temperature('c', 0)
     32
     
-    >>> convert_temperature('c', 0)
+    >>> convert_temperature('f', 0)
     32
     
     >>> convert_temperature('c', 0)
