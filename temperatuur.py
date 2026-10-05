@@ -31,7 +31,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
         end_temp = convert_temperature(old_type, old_temp)
         print(old_temp, end='')
         print(' | ', end='')
-        print(new_temp, end='')
+        print(end_temp, end='')
         old_temp += step_size
 
 if __name__ == '__main__':
