@@ -42,10 +42,6 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     Print de conversie-tabel.
     
     >>> print_table('C', 0, 20, 5)
-    Welke eenheid van temperatuur (C of F)? C
-    Wat is de begintemperatuur? 0
-    Wat is de eindtemperatuur? 20
-    Wat is de stapgrootte? 5
       C |   F
       0 |  32
       5 |  41
