@@ -10,7 +10,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
 
 if __name__ == '__main__':
-    old_type = input('Type C or F: ')
+    old_type = input('Welke eenheid van temperatuur (C of F)? ')
     while old_type!='C' and old_type!='c' and old_type!='F' and old_type!='f':
         old_type = input('Type C or F: ')
     old_temp = input('Give the starting temperature: ')
