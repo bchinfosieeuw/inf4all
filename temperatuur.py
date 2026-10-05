@@ -39,7 +39,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
      15 |  59
      20 |  68
     
-    >>> print_table('F', 0, 20, 5)
+    >>> print_table('F', 0, 10, 5)
       0 |  32
       5 |  41
      10 |  50
