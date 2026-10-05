@@ -30,4 +30,4 @@ if __name__ == '__main__':
         mybool = true
     step_size = int(input("Wat is de stapgrootte? "))
     if mybool==false
-        get_positive_int()
+        step_size = get_positive_int()
