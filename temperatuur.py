@@ -15,5 +15,5 @@ if __name__ == '__main__':
         old_type = input('Welke eenheid van temperatuur (C of F)? ')
     old_temp = int(input('Wat is de begintemperatuur? '))
     while old_temp <= :
-        old_type = input('Welke eenheid van temperatuur (C of F)? ')
+        old_temp = input('Welke eenheid van temperatuur (C of F)? ')
     
