@@ -43,7 +43,9 @@ if __name__ == '__main__':
     mybool = False
     if old_temp > new_temp:
         mybool = True
-    step_size = get_positive_int()
+    step_size = 0
+    if mybool==False:
+        step_size = get_positive_int()
     if old_type=='C' or old_type=='c':
         print("  C |   F")
     else :
