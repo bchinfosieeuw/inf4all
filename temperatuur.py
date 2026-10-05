@@ -48,8 +48,10 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
         print('\"')
         print('\"', end="")
         print(' | ', end='')
+        print('\"')
         print('\"', end="")
         print(f"{new_temp:>3}", end='')
+        print('\"')
         print()
         old_temp += step_size
         i += 1
