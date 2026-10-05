@@ -12,7 +12,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     Zet de temperatuur (old_temp) van het type old_type om naar
     de temperatuur van het nieuwe type.
     
-    >>> convert_temperature('c', )
+    >>> convert_temperature('c', 0)
     
     """
     new_temp = 0
