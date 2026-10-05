@@ -49,4 +49,5 @@ if __name__ == '__main__':
         print("C |   F")
     else :
         print("F |   C")
+    if mybool==False:
         print_table(old_type, old_temp, new_temp, step_size)
