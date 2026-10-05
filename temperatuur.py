@@ -4,6 +4,12 @@ def get_positive_int() -> int:
     
     >>> get_positive_int() > 0
     True
+    
+    >>> get_positive_int() > 0
+    True
+    
+    >>> get_positive_int() > 0
+    True
     """
     result = int(input("Wat is de stapgrootte? "))
     while result <= 0:
