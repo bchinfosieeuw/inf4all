@@ -30,7 +30,7 @@ if __name__ == '__main__':
         old_type = input('Welke eenheid van temperatuur (C of F)? ')
     old_temp = int(input('Wat is de begintemperatuur? '))
     new_temp = int(input('Wat is de eindtemperatuur? '))
-    mybool = false
+    mybool = False
     print("F |   C")
     if old_temp <= new_temp:
         mybool = true
