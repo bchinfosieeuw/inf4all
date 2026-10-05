@@ -1,3 +1,14 @@
+
+    
+def get_positive_int() -> int:
+    """
+    Deze functie vereist een positieve integer.
+    """
+    result = int(input("Enter a positive int: "))
+    while result <= 0:
+        result = int(input("Enter a positive int: "))
+    return result
+
 def convert_temperature(old_type: str, old_temp: int) -> int:
     """
     Zet de temperatuur (old_temp) van het type old_type om naar
