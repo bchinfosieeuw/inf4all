@@ -33,6 +33,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
         print(' | ', end='')
         print(end_temp, end='')
         old_temp += step_size
+        i += 1
 
 if __name__ == '__main__':
     old_type = input('Welke eenheid van temperatuur (C of F)? ')
