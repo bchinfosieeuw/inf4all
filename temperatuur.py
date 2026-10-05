@@ -14,3 +14,4 @@ if __name__ == '__main__':
     while unity!='C' and unity!='c' and unity!='F' and unity!='f':
         unity = input('Type C or F: ')
     print(unity)
+    
