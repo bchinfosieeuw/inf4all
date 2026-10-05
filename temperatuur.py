@@ -28,5 +28,6 @@ if __name__ == '__main__':
     print("F |   C")
     if old_temp <= new_temp:
         mybool = true
+    
     if mybool==false
         get_positive_int()
