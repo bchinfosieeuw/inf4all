@@ -28,6 +28,6 @@ if __name__ == '__main__':
     print("F |   C")
     if old_temp <= new_temp:
         mybool = true
-    step_size = int(input("Wat is de stapgrootte? "))
+    step_size = 0
     if mybool==false
         step_size = get_positive_int()
