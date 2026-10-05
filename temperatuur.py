@@ -44,4 +44,4 @@ if __name__ == '__main__':
     step_size = 0
     if mybool==False:
         step_size = get_positive_int()
-        print_table(old_type, old_temp, end_temp, step_size)
+        print_table(old_type, old_temp, new_temp, step_size)
