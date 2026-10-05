@@ -37,7 +37,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
       5 |  41
      10 |  50
      15 |  59
-    " 20 |  68
+     20 |  68
     """
     i = 0
     old_temp = begin_temp
