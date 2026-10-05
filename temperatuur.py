@@ -32,7 +32,7 @@ if __name__ == '__main__':
     new_temp = int(input('Wat is de eindtemperatuur? '))
     mybool = False
     print("F |   C")
-    if old_temp <= new_temp:
+    if old_temp > new_temp:
         mybool = True
     step_size = 0
     if mybool==False:
