@@ -26,6 +26,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     Print de conversie-tabel.
     """
     i = 1
+    begin_temp
     while end_temp <= begin_temp + i*step_size:
         new_temp = convert_temperature(old_type, begin_temp)
         print(new_temp)
