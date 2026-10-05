@@ -30,6 +30,7 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
         print(old_temp, end='')
         print(' | ', end='')
         print(new_temp, end='')
+        print()
         old_temp += step_size
         i += 1
 
