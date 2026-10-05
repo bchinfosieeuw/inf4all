@@ -33,7 +33,7 @@ if __name__ == '__main__':
     mybool = False
     print("F |   C")
     if old_temp <= new_temp:
-        mybool = true
+        mybool = True
     step_size = 0
     if mybool==False:
         step_size = get_positive_int()
