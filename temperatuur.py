@@ -18,7 +18,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     >>> convert_temperature('f', 0)
     -17
     
-    >>> convert_temperature('c', 0)
+    >>> convert_temperature('C', 15)
     32
     """
     new_temp = 0
