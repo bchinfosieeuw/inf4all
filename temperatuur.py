@@ -45,5 +45,8 @@ if __name__ == '__main__':
     step_size = 0
     if mybool==False:
         step_size = get_positive_int()
-        
+    if old_type=='C' or old_type=='c' or old_type=='F' or old_type=='f':
+        print("C |   F")
+    else :
+        print("F |   C")
         print_table(old_type, old_temp, new_temp, step_size)
