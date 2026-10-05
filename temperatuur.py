@@ -25,6 +25,8 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     """
     Print de conversie-tabel.
     """
+        new_temp = convert_temperature(old_type, old_temp)
+        print(new_temp)
 
 if __name__ == '__main__':
     old_type = input('Welke eenheid van temperatuur (C of F)? ')
