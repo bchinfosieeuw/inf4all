@@ -19,7 +19,7 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     -17
     
     >>> convert_temperature('C', 15)
-    32
+    59
     """
     new_temp = 0
     if old_type=='C' or old_type=='c':
