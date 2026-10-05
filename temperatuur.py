@@ -29,10 +29,10 @@ def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -
     old_temp = begin_temp
     while end_temp > begin_temp + i*step_size:
         new_temp = convert_temperature(old_type, old_temp)
-        old_temp += step_size
         print(old_temp, end='')
         print(new_temp, end='')
         print(new_temp, end='')
+        old_temp += step_size
 
 if __name__ == '__main__':
     old_type = input('Welke eenheid van temperatuur (C of F)? ')
