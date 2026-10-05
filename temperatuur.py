@@ -12,8 +12,9 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     Zet de temperatuur (old_temp) van het type old_type om naar
     de temperatuur van het nieuwe type.
     """
-    if old_type!='C' or old_type!='c':
     new_temp = 0
+    if old_type!='C' or old_type!='c':
+        
     return new_temp
 
 def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -> None:
