@@ -18,4 +18,5 @@ if __name__ == '__main__':
     mybool = false
     print("F |   C")
     if old_temp <= new_temp:
-        
+        mybool = true
+    
