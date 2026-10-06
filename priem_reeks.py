@@ -5,11 +5,11 @@ def zoek_langste_reeks(N: int) -> int:
     """
     length = 0
     while i < N:
-    if !is_priem(N):
-        length += 1
-    else:
-        length = 0
-    return length
+        if !is_priem(N):
+            length += 1
+        else:
+            length = 0
+        return length
     i += 1
     
 if __name__ == '__main__':
