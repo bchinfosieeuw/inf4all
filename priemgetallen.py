@@ -30,7 +30,7 @@ def zoveelste_priem(n: int) -> int:
     """
     """
     i = 2
-    priem_n = 1
+    priem_n = 2
     while i < n:
         if is_priem(i):
             priem_n = i
