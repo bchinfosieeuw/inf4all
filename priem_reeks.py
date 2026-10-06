@@ -59,7 +59,7 @@ def print_boodschap(onder: int, boven: int) -> None:
     De reeks is 7 lang.
     
     >>> print_boodschap(2, 3)
-    De langste reeks niet-priemgetallen onder de 10,000 begint op GEENe en eindigt bij GEEN
+    De langste reeks niet-priemgetallen onder de 10,000 begint op 2 en eindigt bij GEEN
     De reeks is 0 lang.
     """
     reekslengte = boven-onder+1
