@@ -14,7 +14,7 @@ def zoek_langste_reeks(N: int) -> int:
                 maxlength = length
         else:
             length = 0
-            onder = 
+            onder = i
         i += 1
     return onder, boven
     
