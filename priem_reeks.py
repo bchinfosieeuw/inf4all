@@ -16,7 +16,8 @@ def zoek_langste_reeks(N: int) -> int:
         i += 1
     return maxlength
     
-def print_boodschap()
+def print_boodschap() -> None:
+    print()
     
 if __name__ == '__main__':
     maxlength = zoek_langste_reeks(100)
