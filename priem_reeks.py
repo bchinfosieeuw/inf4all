@@ -4,7 +4,7 @@ def zoek_langste_reeks(N: int) -> int:
     """
     """
     length = 0
-    if is_priem(N)
+    if is_priem(N):
     return length
     
 if __name__ == '__main__':
