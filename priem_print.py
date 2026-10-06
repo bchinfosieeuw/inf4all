@@ -35,7 +35,7 @@ def print_priemen_tot(rangorde: int) -> None:
         if (rangorde)%i==0:
             numofdivisors += 1
         if is_priem(i)==True:
-        print(i)
+            print(i)
         
 if __name__ == '__main__':
     print_priemen_tot(10)
