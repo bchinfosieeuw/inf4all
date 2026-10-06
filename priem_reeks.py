@@ -2,7 +2,7 @@ from priem_getal import is_priem
 
 def zoek_langste_reeks(N: int) -> int:
     """
-    Be
+    Bepaal de ondergrens en bovengrens
     """
     length = 0
     i = 2
