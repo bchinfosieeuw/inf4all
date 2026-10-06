@@ -1,6 +1,6 @@
 from priem_getal import is_priem
 
-def apply_goldback(N: int) -> int:
+def apply_goldbach(N: int) -> int:
     """
     Comment
     
