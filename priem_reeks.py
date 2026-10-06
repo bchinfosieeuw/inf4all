@@ -15,31 +15,7 @@ def zoek_langste_reeks(N: int) -> int:
     """
     onder = 0
     boven = 0
-    onder_longest_sequence = 0
-    onder_longest_sequence_remem = 0
-    mybool = True
-    for i in range(N):
-        if is_priem(i)==False:
-            if mybool==True:
-                onder = i
-                mybool = False
-            else:
-                mybool = True
-                onder_longest_sequence = i
-                if onder_longest_sequence > onder_longest_sequence_remem:
-                    onder_longest_sequence_remem = onder_longest_sequence
-    iprev = 0
-    count = 0
-    max = 0
-    for i in range(1, N+1):
-        if is_priem(i)==False:
-            if i-iprev==1:
-                count += 1
-                max += 1
-        else:
-            iprev = i-1
-            count = 0
-    print(max)
+    
     return onder, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
