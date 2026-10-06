@@ -35,6 +35,8 @@ def zoek_langste_reeks(N: int) -> int:
             onder = i+1
             print('FF')
             print(i)
+            count += 1
+    print(count)
     return onder, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
