@@ -7,5 +7,6 @@ def get_positive_int() -> int:
         result = int(input("Naar het hoeveelste priemgetal bent u op zoek? "))
     return result
     
+    def is_priem()
 if __name__ == '__main__':
     rangorde = get_positive_int()
