@@ -12,7 +12,6 @@ def zoek_langste_reeks(N: int) -> int:
     
     >>> zoek_langste_reeks(3)
     (0, -1)
-    
     """
     length = 0
     i = 2
