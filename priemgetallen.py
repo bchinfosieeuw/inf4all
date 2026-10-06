@@ -29,7 +29,7 @@ def print_priemen_tot(n: int) -> None:
 def zoveelste_priem(n: int) -> int:
     """
     """
-    i = 2
+    i = 0
     priem_n = 2
     while i < n:
         if is_priem(i):
