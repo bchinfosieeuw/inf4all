@@ -29,7 +29,7 @@ def zoek_langste_reeks(N: int) -> int:
             print(i)
         if is_priem(i)==False and is_priem(i+1)==False:
             onder = i+1
-            print(i)
+            print('FF')
             print(i)
     return onder, boven
     
