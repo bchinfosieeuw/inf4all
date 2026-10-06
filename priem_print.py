@@ -34,10 +34,7 @@ def print_priemen_tot(rangorde: int) -> None:
     for i in range(1, rangorde+1):
         if (rangorde)%i==0:
             numofdivisors += 1
-    if numofdivisors==2:
-        return True
-    else:
-        return False
+    return False
         
 if __name__ == '__main__':
     list_of_primes = print_priemen_tot(10)
