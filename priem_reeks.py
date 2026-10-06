@@ -2,7 +2,7 @@ from priem_getal import is_priem
 
 def zoek_langste_reeks(N: int) -> int:
     """
-    Bepaal de ondergrens en bovengrens van de langste reeks niet-priemgetallen tot aan gegeven getal N.
+    Bepaal de ondergrens en bovengrens van de reeks niet-priemgetallen tot aan gegeven getal N.
     
     >>> zoek_langste_reeks(100)
     (90, 96)
@@ -13,34 +13,37 @@ def zoek_langste_reeks(N: int) -> int:
     >>> zoek_langste_reeks(3)
     (0, -1)
     """
+    length = 0
+    i = 2
+    maxlength = 0
     onder = 0
     boven = 0
     mybool = True
-    onderremem = 0
-    count = 0
-    countmax = -1
-    for i in range(N):
-        if is_priem(i)==True and is_priem(i+1)==True:
-            onder = i+1
-            print('TT')
-            print(i)
-        if is_priem(i)==True and is_priem(i+1)==False:
-            onder = i+1
-            print('TF')
-            print(i)
-            count += 1
-            if count > countmax:
-                countmax = count
-        if is_priem(i)==False and is_priem(i+1)==True:
-            onder = i+1
-            print('FT')
-            print(i)
-            count = 0
-        if is_priem(i)==False and is_priem(i+1)==False:
-            onder = i+1
-            print('FF')
-            print(i)
-    print(countmax)
+    while i < N:
+        if is_priem(i)==False:
+            length += 1
+            if maxlength < length:
+                maxlength = length
+            if mybool==True:
+                mybool = False
+                onder = i
+        else:
+            if maxlength <= length:
+                length = 0
+                mybool = True
+        i += 1
+    length = 0
+    i = 2
+    maxlength = 0
+    while i < N:
+        if is_priem(i)==False:
+            length += 1
+            if maxlength < length:
+                maxlength = length
+        else:
+            length = 0
+        i += 1
+    boven = onder + maxlength - 1
     return onder, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
@@ -68,7 +71,5 @@ def print_boodschap(onder: int, boven: int) -> None:
     print('De reeks is', reekslengte, 'lang.')
     
 if __name__ == '__main__':
-    (onder, boven) = zoek_langste_reeks(100)
-    """diff(9552, 9586)==34"""
-    print(onder, boven)
-    """print_boodschap(onder, boven)"""
+    (onder, boven) = zoek_langste_reeks(10000)"""diff(9552, 9586)==34"""
+    print_boodschap(onder, boven)
