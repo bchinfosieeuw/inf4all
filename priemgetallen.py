@@ -33,7 +33,7 @@ def zoveelste_priem(n: int) -> int:
     priem_n = 1
     while i < n:
         if is_priem(i):
-            priem_n = 
+            priem_n = i
         
     return priem_n
     
