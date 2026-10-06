@@ -17,5 +17,5 @@ def zoek_langste_reeks(N: int) -> int:
     return maxlength
     
 if __name__ == '__main__':
-    length = zoek_langste_reeks(100)
+    maxlength = zoek_langste_reeks(100)
     print(length)
