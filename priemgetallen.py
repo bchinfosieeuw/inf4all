@@ -43,7 +43,7 @@ def print_priemen_tot(n: int) -> None:
     7
     11
     
-    >>> print_priemen_tot(2)
+    >>> print_priemen_tot(17)
     2
     """
     for i in range(2, n):
