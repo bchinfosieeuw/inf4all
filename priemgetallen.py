@@ -10,6 +10,8 @@ def get_positive_int() -> int:
 def is_priem(rangorde: int) -> bool:
     """
     Check of het getal een priemgetal is.
+    
+    >>> 
     """
     numofdivisors = 0
     for i in range(1, rangorde+1):
