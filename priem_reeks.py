@@ -28,6 +28,7 @@ def zoek_langste_reeks(N: int) -> int:
             print('TF')
             print(i)
             count += 1
+            if 
         if is_priem(i)==False and is_priem(i+1)==True:
             onder = i+1
             print('FT')
