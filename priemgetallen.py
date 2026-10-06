@@ -29,7 +29,7 @@ def print_priemen_tot(n: int) -> None:
 def zoveelste_priem() -> int:
     """
     """
-    
+    return n
     
 if __name__ == '__main__':
     rangorde = get_positive_int()
