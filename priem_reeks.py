@@ -5,6 +5,7 @@ def zoek_langste_reeks(N: int) -> int:
     Bepaal de ondergrens en bovengrens van de reeks niet-priemgetallen tot aan gegeven getal N.
     
     >>> zoek_langste_reeks(100)
+    
     """
     length = 0
     i = 2
