@@ -12,6 +12,8 @@ def is_priem(rangorde: int) -> bool:
     Check of het getal een priemgetal is.
     
     >>> is_priem(1)
+    False
+    
     """
     numofdivisors = 0
     for i in range(1, rangorde+1):
