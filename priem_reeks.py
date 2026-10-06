@@ -8,4 +8,4 @@ def zoek_langste_reeks(N: int) -> int:
     return length
     
 if __name__ == '__main__':
-    length = zoek_langste_reeks(
+    length = zoek_langste_reeks(int(input())
