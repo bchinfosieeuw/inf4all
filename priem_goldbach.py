@@ -30,5 +30,5 @@ def print_boodschap(maxlength: int) -> None:
     print('De reeks is', maxlength, 'lang.')
     
 if __name__ == '__main__':
-    maxlength = zoek_langste_reeks(100)
+    getal = zoek_langste_reeks(100)
     print_boodschap(maxlength)
