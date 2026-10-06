@@ -40,4 +40,4 @@ def print_priemen_tot(n: int) -> None:
         return False
         
 if __name__ == '__main__':
-    list = print_priemen_tot(10)
+    list_of_primes = print_priemen_tot(10)
