@@ -10,7 +10,7 @@ def get_positive_int() -> int:
 def is_priem(rangorde: int) -> bool:
     numofdivisors = 0
     for i in range(1, rangorde):
-        if (rangorde)%(i)==0:
+        if (rangorde)%(rangorde+i)==0:
             numofdivisors += 1
     if numofdivisors==2
         
