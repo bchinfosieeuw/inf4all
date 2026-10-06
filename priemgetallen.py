@@ -12,4 +12,4 @@ def is_priem() -> bool:
     
 if __name__ == '__main__':
     rangorde = get_positive_int()
-    rangis_priem(rangorde)
+    priem_rang = is_priem(rangorde)
