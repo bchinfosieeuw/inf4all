@@ -42,4 +42,4 @@ def print_boodschap(onder: int, boven: int) -> None:
     
 if __name__ == '__main__':
     maxlength = zoek_langste_reeks(100)
-    print_boodschap(maxlength)
+    print_boodschap(onder, boven)
