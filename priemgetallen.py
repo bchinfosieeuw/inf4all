@@ -29,7 +29,7 @@ def print_priemen_tot(n: int) -> None:
 def zoveelste_priem(n: int) -> int:
     """
     """
-    
+    for _ 
     return i
     
 if __name__ == '__main__':
