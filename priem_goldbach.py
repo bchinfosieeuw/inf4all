@@ -2,6 +2,7 @@ from priem_getal import is_priem
 
 def apply_goldback(N: int) -> int:
     """
+    Comment
     
     >>> apply_goldback(1000)
     
