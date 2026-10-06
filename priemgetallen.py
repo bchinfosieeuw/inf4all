@@ -8,4 +8,4 @@ def get_positive_int() -> int:
     return result
     
 if __name__ == '__main__':
-    step_size = get_positive_int()
+    rangorde = get_positive_int()
