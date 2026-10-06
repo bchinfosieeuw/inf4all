@@ -17,7 +17,7 @@ def is_priem(rangorde: int) -> bool:
     else:
         return False
 
-def print_priemen_tot() -> None:
+def print_priemen_tot(n: int) -> None:
     
     
 if __name__ == '__main__':
