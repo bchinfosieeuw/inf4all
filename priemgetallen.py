@@ -34,6 +34,8 @@ def zoveelste_priem(n: int) -> int:
     while i < n:
         if is_priem(i):
             priem_n = i
+        i += 1
+        n += 1
         
     return priem_n
     
