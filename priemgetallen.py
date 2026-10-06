@@ -22,7 +22,9 @@ def print_priemen_tot(n: int) -> None:
         if is_priem(i):
             print(i)
     
-def zoveelste_priem() -
+def zoveelste_priem() -> int:
+    
+    
 if __name__ == '__main__':
     rangorde = get_positive_int()
     print_priemen_tot(100)
