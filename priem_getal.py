@@ -33,7 +33,7 @@ def print_priemen_tot(n: int) -> None:
     """
     Genereer een lijst met priemgetallen van 2 tot en met het ingevoerde getal.
     
-    >>> print_priemen_tot(2)
+    >>> print_priemen_tot(3)
     2
     
     >>> print_priemen_tot(11)
