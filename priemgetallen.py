@@ -79,6 +79,5 @@ def zoveelste_priem(n: int) -> int:
     
 if __name__ == '__main__':
     rangorde = get_positive_int()
-    """print_priemen_tot(100)"""
     priem_n = zoveelste_priem(rangorde)
     print(priem_n)
