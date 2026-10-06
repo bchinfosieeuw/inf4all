@@ -4,4 +4,5 @@ def zoek_langste_reeks(N: int) -> int:
     """
     """
     length = 0
+    print()
     return length
