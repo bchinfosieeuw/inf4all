@@ -8,19 +8,15 @@ def zoek_langste_reeks(N: int) -> int:
     maxlength = 0
     onder = 0
     boven = 0
-    mybool = True
+    mybool = False
     while i < N:
         if is_priem(i)==False:
             length += 1
             if maxlength < length:
                 maxlength = length
-            if mybool==True:
-                mybool = False
-                onder = i
         else:
-            if maxlength <= length:
-                length = 0
-                mybool = True
+            length = 0
+            onder = i
         i += 1
     boven = onder + maxlength - 1
     return onder, boven
