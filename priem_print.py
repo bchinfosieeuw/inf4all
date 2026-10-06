@@ -40,4 +40,4 @@ def print_priemen_tot(n: int) -> None:
         return False
         
 if __name__ == '__main__':
-    
+    print_priemen_tot(
