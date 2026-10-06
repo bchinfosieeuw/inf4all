@@ -34,6 +34,7 @@ def print_priemen_tot(rangorde: int) -> None:
     for i in range(1, rangorde+1):
         if (rangorde)%i==0:
             numofdivisors += 1
+        if is_priem(i)==True:
         print(i)
         
 if __name__ == '__main__':
