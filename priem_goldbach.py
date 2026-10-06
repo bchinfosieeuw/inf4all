@@ -4,7 +4,7 @@ def apply_goldbach(N: int) -> int:
     """
     Comment
     
-    >>> apply_goldback(1000)
+    >>> apply_goldbach(1000)
     
     """
     is_priem(N)
