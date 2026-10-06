@@ -37,6 +37,7 @@ def zoek_langste_reeks(N: int) -> int:
                 count += 1
         else:
             iprev = i-1
+            count = 0
     return onder, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
