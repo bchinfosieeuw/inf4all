@@ -21,8 +21,8 @@ def zoek_langste_reeks(N: int) -> int:
     while i < N:
         if is_priem(i)==False:
             length += 1
-            if maxlength < length:
-                maxlength = length
+            if maxlengthA < length:
+                maxlengthA = length
             if mybool==True:
                 mybool = False
                 onder = i
