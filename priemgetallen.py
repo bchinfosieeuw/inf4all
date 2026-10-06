@@ -14,12 +14,11 @@ def is_priem(rangorde: int) -> bool:
     >>> is_priem(1)
     False
     
-    >>> is_priem(1)
-    False
+    >>> is_priem(2)
+    True
     
     >>> is_priem(1)
     False
-    
     """
     numofdivisors = 0
     for i in range(1, rangorde+1):
