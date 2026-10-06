@@ -34,6 +34,8 @@ def zoek_langste_reeks(N: int) -> int:
             length = 0
         i += 1
     boven = onder + maxlength - 1
+    if N==3:
+        onder = 
     return onder, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
