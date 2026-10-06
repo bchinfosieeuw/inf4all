@@ -60,7 +60,7 @@ def print_boodschap(onder: int, boven: int) -> None:
     
     >>> print_boodschap(2, 3)
     De langste reeks niet-priemgetallen onder de 10,000 begint op 2 en eindigt bij 3
-    De reeks is 0 lang.
+    De reeks is 2 lang.
     """
     reekslengte = boven-onder+1
     if onder==0 and boven==-1:
