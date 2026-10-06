@@ -60,7 +60,10 @@ def zoveelste_priem(n: int) -> int:
     """
     Bepaal het priemgetal met rang N; dit is het N-de priemgetal vanaf 2.
     
-    >>> zoveelste_priem(
+    >>> zoveelste_priem(1)
+    2
+    
+    
     """
     i = 0
     priem_n = 2
