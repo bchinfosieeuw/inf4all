@@ -58,7 +58,7 @@ def print_priemen_tot(n: int) -> None:
     
 def zoveelste_priem(n: int) -> int:
     """
-    Bepaal het
+    Bepaal het priemgetal met rang N
     """
     i = 0
     priem_n = 2
