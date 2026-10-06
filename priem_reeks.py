@@ -1,6 +1,6 @@
 from priem_getal import is_priem
 
-def zoek_langste_reeks(N: int) -> int:
+def zoek_langste_reeks(N: int) -> int, int:
     """
     Bepaal de ondergrens en bovengrens van de reeks niet-priemgetallen tot aan
      gegeven getal N.
