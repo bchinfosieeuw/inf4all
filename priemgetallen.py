@@ -13,3 +13,4 @@ def is_priem() -> bool:
 if __name__ == '__main__':
     rangorde = get_positive_int()
     priem_rangN = is_priem(rangorde)
+    print()
