@@ -25,7 +25,7 @@ def zoek_langste_reeks(N: int) -> int:
             else:
                 mybool = True
                 if onder_longest_sequence > onder_longest_sequence_remem:
-                onder_longest_sequence = 
+                    onder_longest_sequence = 
     print(onder)
     return onder, boven
     
