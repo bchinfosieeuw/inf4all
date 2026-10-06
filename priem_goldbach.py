@@ -3,7 +3,7 @@ from priem_getal import is_priem
 def apply_goldback(N: int) -> int:
     """
     """
-    return onder, boven
+    return even_getal
     
 def print_boodschap(maxlength: int) -> None:
     print('De langste reeks niet-priemgetallen onder de 100 begint op 90 en eindigt bij 96')
