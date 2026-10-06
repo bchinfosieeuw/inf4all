@@ -33,7 +33,7 @@ def zoek_langste_reeks(N: int) -> int:
         iprev = i-1
         if is_priem(i)==False:
             if i-iprev==1:
-            print(i)
+                print(i)
     return onder, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
