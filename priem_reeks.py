@@ -57,7 +57,7 @@ def print_boodschap(onder: int, boven: int) -> None:
     Print de samenvatting op het scherm.
     
     >>> print_boodschap(9950, 9984)
-    De langste reeks niet-priemgetallen onder de 10,000 begint op 9950 en 
+    De langste reeks niet-priemgetallen onder de 10,000 begint op 9950 en
     eindigt bij 9984
     De reeks is 35 lang.
     
