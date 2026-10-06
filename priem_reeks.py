@@ -48,7 +48,7 @@ def zoek_langste_reeks(N: int) -> int:
             if maxlengthB <= length:
                 length = 0
                 mybool = True
-        if 
+        if maxlengthB
         i += 1
     return onder, boven-1
     
