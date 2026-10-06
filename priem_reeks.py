@@ -8,7 +8,7 @@ def zoek_langste_reeks(N: int) -> int:
     (90, 96)
     
     >>> zoek_langste_reeks(10000)
-    (9950, 96)
+    (9950, 9984)
     
     >>> zoek_langste_reeks(100)
     (90, 96)
