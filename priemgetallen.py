@@ -9,7 +9,7 @@ def get_positive_int() -> int:
     
 def is_priem(rangorde: int) -> bool:
     """
-    Check of het getal een priemgetal is.
+    Check of het ingevoerde getal een priemgetal is.
     
     >>> is_priem(1)
     False
