@@ -2,7 +2,7 @@ from priem_getal import is_priem
 
 def zoek_langste_reeks(N: int) -> int:
     """
-    Bepaal de ondergrens en bovengrens
+    Bepaal de ondergrens en bovengrens van de reeks niet-priemgetallen
     """
     length = 0
     i = 2
