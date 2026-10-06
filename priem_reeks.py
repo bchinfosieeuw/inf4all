@@ -22,7 +22,7 @@ def zoek_langste_reeks(N: int) -> int:
                 onder = i
                 mybool = False
             else:
-                
+                mybool = True
     print(onder)
     return onder, boven
     
