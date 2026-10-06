@@ -16,7 +16,7 @@ def zoek_langste_reeks(N: int) -> int:
     onder = 0
     boven = 0
     for i in range(N):
-        if i==is_priem
+        if is_priem(i)
         print(i)
     return onder, boven
     
