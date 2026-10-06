@@ -49,7 +49,7 @@ def zoek_langste_reeks(N: int) -> int:
                 length = 0
                 mybool = True
         i += 1
-    return onder, boven-1+(maxlengthB-maxlengthA)
+    return onder+(maxlengthB-maxlengthA), boven-1+(maxlengthB-maxlengthA)
     
 def print_boodschap(onder: int, boven: int) -> None:
     """
