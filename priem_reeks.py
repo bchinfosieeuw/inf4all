@@ -73,7 +73,7 @@ def print_boodschap(onder: int, boven: int) -> None:
         boven = 'GEEN'
         reekslengte = 0
     print('De langste reeks niet-priemgetallen onder de 10,000 begint op', end="")
-    , onder, 'en eindigt bij', boven)
+    print(onder, 'en eindigt bij', boven)
     print('De reeks is', reekslengte, 'lang.')
     
 if __name__ == '__main__':
