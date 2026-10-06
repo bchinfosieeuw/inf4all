@@ -18,7 +18,7 @@ def is_priem(rangorde: int) -> bool:
         return False
 
 def print_priemen_tot(n: int) -> None:
-    for
+    for i in range()
     if is_priem(i):
         print(i)
     
