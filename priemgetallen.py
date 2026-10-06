@@ -13,7 +13,9 @@ def is_priem(rangorde: int) -> bool:
         if (rangorde)%i==0:
             numofdivisors += 1
     if numofdivisors==2
-        
+        return True
+    else:
+        return False
     
 if __name__ == '__main__':
     rangorde = get_positive_int()
