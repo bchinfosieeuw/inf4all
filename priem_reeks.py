@@ -6,6 +6,7 @@ def zoek_langste_reeks(N: int) -> int:
     length = 0
     i = 2
     maxlength = 0
+    onder = 
     while i < N:
         if is_priem(i)==False:
             length += 1
@@ -13,6 +14,7 @@ def zoek_langste_reeks(N: int) -> int:
                 maxlength = length
         else:
             length = 0
+            onder = 
         i += 1
     return onder, boven
     
