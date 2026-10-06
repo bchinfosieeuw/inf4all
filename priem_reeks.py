@@ -22,6 +22,17 @@ def zoek_langste_reeks(N: int) -> int:
                 length = 0
                 mybool = True
         i += 1
+    length = 0
+    i = 2
+    maxlength = 0
+    while i < N:
+        if is_priem(i)==False:
+            length += 1
+            if maxlength < length:
+                maxlength = length
+        else:
+            length = 0
+        i += 1
     boven = onder + maxlength - 1
     return onder, boven
     
