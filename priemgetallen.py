@@ -4,7 +4,7 @@ def get_positive_int() -> int:
     """
     result = int(input("Naar het hoeveelste priemgetal bent u op zoek? "))
     while result <= 0:
-        result = int(input("Enter a positive int: "))
+        result = int(input("Naar het hoeveelste priemgetal bent u op zoek? "))
     return result
     
 if __name__ == '__main__':
