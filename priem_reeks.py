@@ -15,3 +15,4 @@ def zoek_langste_reeks(N: int) -> int:
     
 if __name__ == '__main__':
     length = zoek_langste_reeks(100)
+    print(length)
