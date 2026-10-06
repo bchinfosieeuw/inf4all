@@ -53,7 +53,6 @@ def print_boodschap(onder: int, boven: int) -> None:
     De reeks is 0 lang.
     """
     reekslengte = boven-onder+1
-    print(onder)
     if onder==0 and boven==-1:
         onder = 2
         boven = 3
