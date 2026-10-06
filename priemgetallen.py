@@ -7,5 +7,5 @@ def get_positive_int() -> int:
         result = int(input("Enter a positive int: "))
     return result
     
-
+if __name__ == '__main__':
     step_size = get_positive_int()
