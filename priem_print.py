@@ -38,3 +38,6 @@ def print_priemen_tot(n: int) -> None:
         return True
     else:
         return False
+        
+if __name__ == '__main__':
+    
