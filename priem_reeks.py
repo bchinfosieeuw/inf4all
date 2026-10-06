@@ -37,7 +37,7 @@ def zoek_langste_reeks(N: int) -> int:
     boven = 0
     mybool = True
     while i < N:
-        if is_priem(i)==False:
+        if is_priem(i)==True:
             length += 1
             if maxlength < length:
                 maxlength = length
