@@ -12,7 +12,7 @@ def zoek_langste_reeks(N: int) -> int:
     (9950, 9972)
     
     >>> zoek_langste_reeks(3)
-    (0, -1)
+    (0, 1)
     """
     length = 0
     i = 2
