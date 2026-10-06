@@ -18,7 +18,7 @@ def zoek_langste_reeks(N: int) -> int:
     mybool = True
     onderremem = 0
     count = 0
-    countmax = 0
+    countmax = -1
     for i in range(N):
         if is_priem(i)==True and is_priem(i+1)==True:
             onder = i+1
