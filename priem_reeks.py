@@ -52,6 +52,7 @@ def print_boodschap(onder: int, boven: int) -> None:
     De langste reeks niet-priemgetallen onder de 100 begint op 9950 en eindigt bij 9984
     De reeks is 0 lang.
     """
+    reekslengte = 
     if onder==0 and boven==-1:
         onder = 2
         boven = 3
