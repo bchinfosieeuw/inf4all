@@ -40,7 +40,7 @@ def print_boodschap(onder: int, boven: int) -> None:
     """
     Print de samenvatting op het scherm.
     
-    >>> print_boodschap(9
+    >>> print_boodschap(90, 6
     """
     print('De langste reeks niet-priemgetallen onder de 10,000 begint op', onder, 'en eindigt bij' ,boven)
     print('De reeks is', boven-onder+1, 'lang.')
