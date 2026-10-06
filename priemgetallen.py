@@ -20,6 +20,8 @@ def is_priem(rangorde: int) -> bool:
         return False
 
 def print_priemen_tot(n: int) -> None:
+    """
+    """
     for i in range(2, n):
         if is_priem(i):
             print(i)
