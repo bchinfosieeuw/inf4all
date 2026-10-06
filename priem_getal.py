@@ -49,7 +49,6 @@ def print_priemen_tot(n: int) -> None:
     7
     11
     13
-    17
     """
     for i in range(2, n):
         if is_priem(i):
