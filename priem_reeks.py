@@ -23,7 +23,7 @@ def zoek_langste_reeks(N: int) -> int:
             if is_priem(i+1)==True:
                 onderremem = onder
             else:
-                onder = onderremem
+                i += 1
     return onderremem, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
