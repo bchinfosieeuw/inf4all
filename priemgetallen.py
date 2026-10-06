@@ -7,7 +7,7 @@ def get_positive_int() -> int:
         result = int(input("Naar het hoeveelste priemgetal bent u op zoek? "))
     return result
     
-def is_priem() -> boolean:
+def is_priem() -> bool:
     
     
 if __name__ == '__main__':
