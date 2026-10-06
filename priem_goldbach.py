@@ -31,4 +31,4 @@ def print_boodschap(maxlength: int) -> None:
     
 if __name__ == '__main__':
     even_getal = appy_goldback(1000)
-    print_boodschap(maxlength)
+    print(even_getal)
