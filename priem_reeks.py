@@ -29,6 +29,12 @@ def zoek_langste_reeks(N: int) -> int:
                 if onder_longest_sequence > onder_longest_sequence_remem:
                     onder_longest_sequence_remem = onder_longest_sequence
     print(onder_longest_sequence_remem)
+    numofdivisors = 0
+    for i in range(1, rangorde+1):
+        if (rangorde)%i==0:
+            numofdivisors += 1
+        if is_priem(i)==True:
+            print(i)
     return onder, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
