@@ -13,6 +13,7 @@ def zoek_langste_reeks(N: int) -> int:
     >>> zoek_langste_reeks(3)
     (0, -1)
     """
+    """diff(9552, 9586)==34"""
     length = 0
     i = 2
     maxlength = 0
