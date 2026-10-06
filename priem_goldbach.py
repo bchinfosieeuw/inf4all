@@ -3,7 +3,8 @@ from priem_getal import is_priem
 def apply_goldback(N: int) -> int:
     """
     
-    >>> apply_goldback(
+    >>> apply_goldback(1000)
+    
     """
     is_priem(N)
     return even_getal
