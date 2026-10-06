@@ -20,4 +20,4 @@ def is_priem(rangorde: int) -> bool:
 if __name__ == '__main__':
     rangorde = get_positive_int()
     priembool = is_priem(rangorde)
-    print(priem_rangN)
+    print(priembool)
