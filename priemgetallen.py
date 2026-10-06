@@ -26,7 +26,7 @@ def print_priemen_tot(n: int) -> None:
         if is_priem(i):
             print(i)
     
-def zoveelste_priem() -> int:
+def zoveelste_priem(n: int) -> int:
     """
     """
     return i
