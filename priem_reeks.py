@@ -45,11 +45,11 @@ def print_boodschap(onder: int, boven: int) -> None:
     De reeks is 35 lang.
     
     >>> print_boodschap(90, 96)
-    De langste reeks niet-priemgetallen onder de 100 begint op 90 en eindigt bij 96
+    De langste reeks niet-priemgetallen onder de 10,000 begint op 90 en eindigt bij 96
     De reeks is 7 lang.
     
     >>> print_boodschap(2, 3)
-    De langste reeks niet-priemgetallen onder de 100 begint op GEEN en eindigt bij GEEN
+    De langste reeks niet-priemgetallen onder de 10,000 begint op GEEN en eindigt bij GEEN
     De reeks is 0 lang.
     """
     reekslengte = boven-onder+1
