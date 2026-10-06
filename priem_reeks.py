@@ -24,6 +24,7 @@ def zoek_langste_reeks(N: int) -> int:
                 mybool = False
                 onderremem = onder
         else:
+            
         if is_priem(i+1)==True:
             onder = i+1
     return onder, boven
