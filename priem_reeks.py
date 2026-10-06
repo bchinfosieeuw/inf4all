@@ -1,1 +1,1 @@
-from priemgetal import is_priem
+from priem_getal import is_priem
