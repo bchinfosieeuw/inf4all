@@ -13,7 +13,6 @@ def zoek_langste_reeks(N: int) -> int:
     >>> zoek_langste_reeks(3)
     (0, -1)
     """
-    """diff(9552, 9586)==34"""
     length = 0
     i = 2
     maxlength = 0
@@ -72,6 +71,6 @@ def print_boodschap(onder: int, boven: int) -> None:
     print('De reeks is', reekslengte, 'lang.')
     
 if __name__ == '__main__':
-    (onder, boven) = zoek_langste_reeks(10000)
+    (onder, boven) = zoek_langste_reeks(10000)"""diff(9552, 9586)==34"""
     print(onder, boven)
     """print_boodschap(onder, boven)"""
