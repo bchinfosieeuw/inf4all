@@ -27,7 +27,7 @@ def zoek_langste_reeks(N: int) -> int:
                 onder_longest_sequence = i
                 if onder_longest_sequence > onder_longest_sequence_remem:
                     onder_longest_sequence_remem = onder_longest_sequence
-    print(onder)
+    print(onder_longest_sequence_remem)
     return onder, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
