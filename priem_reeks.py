@@ -72,4 +72,4 @@ def print_boodschap(onder: int, boven: int) -> None:
     
 if __name__ == '__main__':
     (onder, boven) = zoek_langste_reeks(10000)"""diff(9552, 9586)==34"""
-    print_boodschap(onder, boven)
+    """print_boodschap(onder, boven)"""
