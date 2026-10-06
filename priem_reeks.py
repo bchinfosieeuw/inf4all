@@ -71,5 +71,5 @@ def print_boodschap(onder: int, boven: int) -> None:
     print('De reeks is', reekslengte, 'lang.')
     
 if __name__ == '__main__':
-    (onder, boven) = zoek_langste_reeks(10000)"""di(9552, 9586)"""
+    (onder, boven) = zoek_langste_reeks(10000)"""diff(9552, 9586)"""
     print_boodschap(onder, boven)
