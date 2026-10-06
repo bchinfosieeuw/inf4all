@@ -21,7 +21,6 @@ def zoek_langste_reeks(N: int) -> int:
             if mybool==True:
                 onder = i
                 mybool = False
-            print(i)
     print(onder)
     return onder, boven
     
