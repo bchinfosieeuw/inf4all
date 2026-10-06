@@ -8,7 +8,7 @@ def zoek_langste_reeks(N: int) -> int:
     maxlength = 0
     onder = 0
     boven = 0
-    mybool = False
+    mybool = True
     while i < N:
         if is_priem(i)==False:
             length += 1
