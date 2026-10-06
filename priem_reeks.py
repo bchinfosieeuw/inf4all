@@ -20,8 +20,6 @@ def zoek_langste_reeks(N: int) -> int:
     for i in range(N):
         if is_priem(i)==True and is_priem(i+1)==True:
             onder = i+1
-            if :
-                onderremem = onder
     return onderremem, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
