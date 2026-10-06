@@ -37,7 +37,7 @@ def zoek_langste_reeks(N: int) -> int:
     return onder, boven
     
 def print_boodschap(onder: int, boven: int) -> None:
-    print('De langste reeks niet-priemgetallen onder de 10,000 begint op', , 'en eindigt bij 96')
+    print('De langste reeks niet-priemgetallen onder de 10,000 begint op', , 'en eindigt bij')
     print('De reeks is', boven-onder+1, 'lang.')
     
 if __name__ == '__main__':
