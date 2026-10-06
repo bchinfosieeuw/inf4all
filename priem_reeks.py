@@ -33,7 +33,6 @@ def zoek_langste_reeks(N: int) -> int:
     for i in range(1, N+1):
         if is_priem(i)==False:
             if i-iprev==1:
-                print(i)
                 count += 1
         else:
             iprev = i-1
