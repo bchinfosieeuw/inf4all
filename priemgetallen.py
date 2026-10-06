@@ -19,6 +19,7 @@ def is_priem(rangorde: int) -> bool:
 
 def print_priemen_tot(n: int) -> None:
     if is_priem(n):
+        
     
 if __name__ == '__main__':
     rangorde = get_positive_int()
