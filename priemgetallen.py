@@ -36,7 +36,7 @@ def print_priemen_tot(n: int) -> None:
     >>> print_priemen_tot(2)
     2
     
-    >>> print_priemen_tot(2)
+    >>> print_priemen_tot(5)
     2
     
     >>> print_priemen_tot(2)
