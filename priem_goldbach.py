@@ -3,7 +3,7 @@ from priem_getal import is_priem
 def apply_goldback(N: int) -> int:
     """
     """
-    is_priem()
+    is_priem(N)
     return even_getal
     
 if __name__ == '__main__':
