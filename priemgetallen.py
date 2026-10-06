@@ -30,6 +30,7 @@ def zoveelste_priem(n: int) -> int:
     """
     """
     i = 0
+    priem_n = 1
     while :
     return priem_n
     
