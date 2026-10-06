@@ -17,7 +17,7 @@ def zoek_langste_reeks(N: int) -> int:
     return maxlength
     
 def print_boodschap() -> None:
-    print('')
+    print('De langste reeks niet-priemgetallen onder de 100 begint op 90 en eindigt bij 96')
     print('')
     
 if __name__ == '__main__':
