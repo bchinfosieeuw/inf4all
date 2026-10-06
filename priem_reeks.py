@@ -10,6 +10,7 @@ def zoek_langste_reeks(N: int) -> int:
     else:
         length = 0
     return length
+    i += 1
     
 if __name__ == '__main__':
     length = zoek_langste_reeks(100)
