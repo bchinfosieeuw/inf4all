@@ -8,7 +8,7 @@ def get_positive_int() -> int:
     return result
     
 def is_priem(rangorde: int) -> bool:
-    for 
+    for i = 
     
 if __name__ == '__main__':
     rangorde = get_positive_int()
