@@ -17,6 +17,7 @@ def zoek_langste_reeks(N: int) -> int:
             length = 0
             onder = i
         i += 1
+    boven = onder + 
     return onder, boven
     
 def print_boodschap(maxlength: int) -> None:
