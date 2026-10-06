@@ -32,6 +32,8 @@ def is_priem(rangorde: int) -> bool:
 def print_priemen_tot(n: int) -> None:
     """
     Genereer een lijst met priemgetallen van 2 tot en met het ingevoerde getal.
+    
+    >>> 
     """
     for i in range(2, n):
         if is_priem(i):
