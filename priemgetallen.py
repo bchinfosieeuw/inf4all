@@ -35,7 +35,7 @@ def zoveelste_priem(n: int) -> int:
         if is_priem(priem_n):
             i += 1
         priem_n += 1
-    return priem_n
+    return priem_n-1
     
 if __name__ == '__main__':
     rangorde = get_positive_int()
