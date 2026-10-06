@@ -30,3 +30,11 @@ def is_priem(rangorde: int) -> bool:
         return False
 
 def print_priemen_tot(n: int) -> None:
+    numofdivisors = 0
+    for i in range(1, rangorde+1):
+        if (rangorde)%i==0:
+            numofdivisors += 1
+    if numofdivisors==2:
+        return True
+    else:
+        return False
