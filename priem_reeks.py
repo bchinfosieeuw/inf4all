@@ -1,0 +1,1 @@
+from priemgetal import is_priem
