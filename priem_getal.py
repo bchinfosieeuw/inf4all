@@ -41,7 +41,6 @@ def print_priemen_tot(n: int) -> None:
     3
     5
     7
-    11
     
     >>> print_priemen_tot(17)
     2
