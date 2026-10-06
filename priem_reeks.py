@@ -27,6 +27,7 @@ def zoek_langste_reeks(N: int) -> int:
             onder = i+1
             print('TF')
             print(i)
+            count += 1
         if is_priem(i)==False and is_priem(i+1)==True:
             onder = i+1
             print('FT')
@@ -35,7 +36,6 @@ def zoek_langste_reeks(N: int) -> int:
             onder = i+1
             print('FF')
             print(i)
-            count += 1
     print(count)
     return onder, boven
     
