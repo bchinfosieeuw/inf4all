@@ -8,6 +8,8 @@ def get_positive_int() -> int:
     return result
     
 def is_priem(rangorde: int) -> bool:
+    """
+    """
     numofdivisors = 0
     for i in range(1, rangorde+1):
         if (rangorde)%i==0:
