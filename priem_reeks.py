@@ -7,6 +7,11 @@ def zoek_langste_reeks(N: int) -> int:
     >>> zoek_langste_reeks(100)
     (90, 96)
     
+    >>> zoek_langste_reeks(100)
+    (90, 96)
+    
+    >>> zoek_langste_reeks(100)
+    (90, 96)
     
     """
     length = 0
