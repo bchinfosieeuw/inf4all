@@ -45,6 +45,10 @@ def print_priemen_tot(n: int) -> None:
     
     >>> print_priemen_tot(17)
     2
+    3
+    5
+    7
+    11
     """
     for i in range(2, n):
         if is_priem(i):
