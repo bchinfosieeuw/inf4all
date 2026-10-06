@@ -11,5 +11,5 @@ def apply_goldbach(N: int) -> int:
     return even_getal
     
 if __name__ == '__main__':
-    even_getal = apply_goldback(1000)
+    even_getal = apply_goldbach(1000)
     print(even_getal)
