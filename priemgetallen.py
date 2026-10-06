@@ -9,5 +9,6 @@ def get_positive_int() -> int:
     
 def is_priem() -> boolean:
     
+    
 if __name__ == '__main__':
     rangorde = get_positive_int()
