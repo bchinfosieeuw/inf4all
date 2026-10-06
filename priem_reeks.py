@@ -2,7 +2,7 @@ from priem_getal import is_priem
 
 def zoek_langste_reeks(N: int) -> int:
     """
-    Bepaal de ondergrens en bovengrens van de reeks niet-priemgetallen tot aan gegeven getal N.
+    Bepaal de ondergrens en bovengrens van de langste reeks niet-priemgetallen tot aan gegeven getal N.
     
     >>> zoek_langste_reeks(100)
     (90, 96)
@@ -71,6 +71,7 @@ def print_boodschap(onder: int, boven: int) -> None:
     print('De reeks is', reekslengte, 'lang.')
     
 if __name__ == '__main__':
-    (onder, boven) = zoek_langste_reeks(10000)"""diff(9552, 9586)==34"""
+    (onder, boven) = zoek_langste_reeks(100)
+    """diff(9552, 9586)==34"""
     print(onder, boven)
     """print_boodschap(onder, boven)"""
