@@ -15,7 +15,7 @@ def zoek_langste_reeks(N: int) -> int:
     """
     length = 0
     i = 2
-    maxlength = 0
+    maxlengthA = 0
     onder = 0
     mybool = True
     while i < N:
