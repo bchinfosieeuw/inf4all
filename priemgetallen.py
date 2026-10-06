@@ -24,4 +24,3 @@ if __name__ == '__main__':
     rangorde = get_positive_int()
     priembool = is_priem(rangorde)
     print_priemen_tot(100)
-    print(priembool)
