@@ -28,7 +28,6 @@ def zoek_langste_reeks(N: int) -> int:
                 onder_longest_sequence = i
                 if onder_longest_sequence > onder_longest_sequence_remem:
                     onder_longest_sequence_remem = onder_longest_sequence
-    print(onder_longest_sequence_remem)
     for i in range(1, N+1):
         if is_priem(i)==False:
             print(i)
