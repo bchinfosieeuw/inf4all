@@ -220,7 +220,6 @@ def display_header(month: int, year: int) -> None:
     print('         ', monthtxt, year, end="")
     
     print('---------------------------', end="")
-    print('\"')
     
     print('\"', end="")
     print('Zon Maa Din Woe Don Vri Zat', end="")
