@@ -22,7 +22,7 @@ def apply_goldbach(N: int) -> int:
     14 = 3 + 11
     16 = 3 + 13
     """
-    i1 = 0
+    q = 0
     for i in range(N+1):
         if (i+2)%2==0:
             for p in range(N+1):
