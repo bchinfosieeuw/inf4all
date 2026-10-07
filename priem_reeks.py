@@ -25,10 +25,10 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
             for j in range(i+1, N+1):
                 if is_priem(j)==False:
                     onder += 1
-                else:
-                    break
         if maxonder < onder:
             maxonder = onder
+                else:
+                    break
     maxonder = onder
     i = 2
     length = 0
