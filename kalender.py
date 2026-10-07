@@ -220,10 +220,8 @@ def display_header(month: int, year: int) -> None:
     print('         ', monthtxt, year, end="")
     
     print('---------------------------', end="")
-    
-    print('\"', end="")
+
     print('Zon Maa Din Woe Don Vri Zat', end="")
-    print('\"')
 
 def display_grid(month: int, year: int) -> None:
     """
