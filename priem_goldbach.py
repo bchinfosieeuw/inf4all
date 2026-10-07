@@ -31,5 +31,7 @@ def apply_goldbach(N: int) -> int:
                     if is_priem(q):
                         print(i, '=', p, '+', q)
                         break
+                    else:
+                        
 if __name__ == '__main__':
     apply_goldbach(1000)
