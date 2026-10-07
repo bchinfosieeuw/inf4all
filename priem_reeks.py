@@ -31,9 +31,10 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
             if mybool==True:
                 mybool = False
                 onder = i
-        elif maxlength <= length:
-            length = 0
-            mybool = True
+        else:
+            if maxlength <= length:
+                length = 0
+                mybool = True
         i += 1
     length = 0
     i = 2
