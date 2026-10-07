@@ -32,6 +32,6 @@ def apply_goldbach(N: int) -> int:
                         print(i, '=', p, '+', q)
                         break
                     else:
-                        print('Het getal', )
+                        print('Het getal', i, 'is niet te schrijven als ')
 if __name__ == '__main__':
     apply_goldbach(1000)
