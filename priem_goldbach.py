@@ -13,7 +13,7 @@ def apply_goldbach(N: int) -> int:
     >>> apply_goldbach(5)
     4 = 2 = 2
     
-    >>> apply_goldbach(5)
+    >>> apply_goldbach(16)
     """
     i1 = 0
     for i in range(N+1):
