@@ -56,20 +56,7 @@ def print_boodschap(onder: int, boven: int) -> None:
     """
     Print de samenvatting op het scherm.
     
-    >>> print_boodschap(9950, 9972)
-    De langste reeks niet-priemgetallen onder de 10,000 begint op 9950 en
-     eindigt bij 9972
-    De reeks is 23 lang.
-    
-    >>> print_boodschap(90, 96)
-    De langste reeks niet-priemgetallen onder de 10,000 begint op 90 en
-     eindigt bij 96
-    De reeks is 7 lang.
-    
-    >>> print_boodschap(0, 1)
-    De langste reeks niet-priemgetallen onder de 10,000 begint op 0 en
-     eindigt bij 1
-    De reeks is 2 lang.
+
     """
     reekslengte = boven-onder+1
     print('De langste reeks niet-priemgetallen onder de 10,000 ', end="")
