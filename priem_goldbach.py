@@ -14,7 +14,7 @@ def apply_goldbach(N: int) -> int:
     4 = 2 = 2
     
     >>> apply_goldbach(16)
-        4 = 2 = 2
+    4 = 2 = 2
     6 = 3 + 3
     8 = 3 + 5
     10 = 3 + 7
