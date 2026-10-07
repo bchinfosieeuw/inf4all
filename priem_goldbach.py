@@ -2,7 +2,7 @@ from priem_getal import is_priem
 
 def apply_goldbach(N: int) -> int:
     """
-    Schrijf alle even getallen tot en met N als optelling van 2 priemgetallen.
+    Gee alle even getallen tot en met N als optelling van 2 priemgetallen.
     
     >>> apply_goldbach(10)
     4 = 2 = 2
