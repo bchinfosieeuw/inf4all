@@ -32,4 +32,4 @@ def apply_goldbach(N: int) -> int:
                         print(i, '=', p, '+', q)
                         break
 if __name__ == '__main__':
-    apply_goldbach(16)
+    apply_goldbach(1000)
