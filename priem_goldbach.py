@@ -29,7 +29,7 @@ def apply_goldbach(N: int) -> int:
                 if is_priem(p):
                     q = i - p
                     if is_priem(q):
-                        print(i, '=', p, '+', i1)
+                        print(i, '=', p, '+', q)
                         break
 if __name__ == '__main__':
     apply_goldbach(16)
