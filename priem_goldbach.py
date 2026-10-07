@@ -1,6 +1,6 @@
 from priem_getal import is_priem
 
-def apply_goldbach(N: int) -> int:
+def apply_goldbach(N: int) -> None:
     """
     Geef een lijst van alle even getallen (groter dan 2) tot en met N als som van 2 priemgetallen.
     
