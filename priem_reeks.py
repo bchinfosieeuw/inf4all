@@ -23,14 +23,14 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     while i < N:
         if is_priem(i)==True:
             onder = i + 1
-            j = i + 0
+            j = i + 1
             while j < N:
                 if is_priem(j)==False:
                     length += 1
                 else:
                     break
                 j += 1
-            i += j+1
+            i += j
         i += 1
     maxonder = onder
     i = 2
