@@ -73,6 +73,6 @@ if __name__ == '__main__':
     """(onder, boven) = zoek_langste_reeks(20)
     print_boodschap(onder, boven)
     (onder, boven) = zoek_langste_reeks(100)
-    print_boodschap(onder, boven)
+    print_boodschap(onder, boven)"""
     (onder, boven) = zoek_langste_reeks(10000)
     print_boodschap(onder, boven)
