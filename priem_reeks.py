@@ -31,8 +31,6 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
                 else:
                     break
                 j += 1
-        else:
-            print('hallo')
         i += 1
     i = 2
     length = 0
