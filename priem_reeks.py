@@ -49,6 +49,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
                 if maxonder < onder:
                     maxonder = onder
         i += 1
+    onder = maxonder
     length = 0
     i = 2
     maxlength = 0
