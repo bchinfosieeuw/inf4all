@@ -11,7 +11,7 @@ def apply_goldbach(N: int) -> int:
         if (i+2)%2==0:
             for p in range(N+1):
                 if is_priem(p):
-                    print(i)
+                    print(p)
             print(i, '= ')
     
 if __name__ == '__main__':
