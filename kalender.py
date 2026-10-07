@@ -216,7 +216,7 @@ def display_header(month: int, year: int) -> None:
     
     print('---------------------------')
 
-    print('Zon Maa Din Woe Don Vri Zat', end="")
+    print('Zon Maa Din Woe Don Vri Zat')
 
 def display_grid(month: int, year: int) -> None:
     """
