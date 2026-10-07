@@ -14,9 +14,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     >>> zoek_langste_reeks(3)
     (0, 1)
     
-    zoek_langste_reeks(20)
-    8 9 10
-    14 15 16
+    3 
     """
     length = 0
     i = 2
