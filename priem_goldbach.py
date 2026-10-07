@@ -26,7 +26,7 @@ def apply_goldbach(N: int) -> int:
     for i in range(2, N+1):
         if (i+2)%2==0:
             for p in range(N+1):
-                if is_priem(p):
+                if is_priem(p)==True:
                     q = i - p
                     if is_priem(q):
                         print(i, '=', p, '+', q)
