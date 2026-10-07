@@ -8,6 +8,7 @@ def apply_goldbach(N: int) -> int:
     
     """
     for i in range(N+1):
+        if i
         if is_priem(i):
             print(i)
     
