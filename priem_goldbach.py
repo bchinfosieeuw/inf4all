@@ -7,9 +7,9 @@ def apply_goldbach(N: int) -> int:
     >>> apply_goldbach(1000)
     
     """
-    for i in range(N+1)
-    is_priem(N)
-    print(even_getal)
+    for i in range(N+1):
+        is_priem(N)
+        print(even_getal)
     
 if __name__ == '__main__':
     apply_goldbach(1000)
