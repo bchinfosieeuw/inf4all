@@ -15,6 +15,7 @@ def apply_goldbach(N: int) -> int:
                     i1 = i - p
                     for q in range(N+1):
                         if is_priem(p):
+                            
             print(i, '= ')
     
 if __name__ == '__main__':
