@@ -87,5 +87,5 @@ if __name__ == '__main__':
     boven = 0
     (onder, boven) = zoek_langste_reeks(20)
     print_boodschap(onder, boven)
-    (onder, boven) = zoek_langste_reeks(100)
+    (onder, boven) = zoek_langste_reeks(10000)
     print_boodschap(onder, boven)
