@@ -53,7 +53,7 @@ def days_from_1800_until_year(year: int) -> int:
     365
     
     >>> days_from_1800_until_year(1804)
-    1461
+    1460
     
     >>> days_from_1800_until_year(2026)
     82545
