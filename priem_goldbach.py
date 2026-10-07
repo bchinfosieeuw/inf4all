@@ -13,8 +13,7 @@ def apply_goldbach(N: int) -> int:
             for p in range(N+1):
                 if is_priem(p):
                     i1 = i - p
-                    for q in range(N+1):
-                        if is_priem(q):
+                    if is_priem(q):
                             
             print(i, '= ')
     
