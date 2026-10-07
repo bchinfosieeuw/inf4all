@@ -4,7 +4,8 @@ def apply_goldbach(N: int) -> int:
     """
     Comment
     
-    >>> apply_goldbach(1000)
+    >>> apply_goldbach(10)
+    4 = 2 = 2
     
     """
     i1 = 0
