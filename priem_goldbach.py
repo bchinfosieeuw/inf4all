@@ -33,7 +33,7 @@ def apply_goldbach(N: int) -> int:
                         break
                     elif is_priem(p)==False:
                         print('Het getal', i, 'is niet te schrijven als som van 2 priemgetallen.')
-                else:
+                elif :
                     print('Het getal', i, 'is niet te schrijven als som van 2 priemgetallen.')
 if __name__ == '__main__':
     apply_goldbach(1000)
