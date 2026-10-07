@@ -11,6 +11,9 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     >>> zoek_langste_reeks(10000)
     (9950, 9972)
     
+    >>> zoek_langste_reeks(10000)
+    (9950, 9972)
+    
     zoek_langste_reeks(3)
     (0, 1)
     """
