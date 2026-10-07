@@ -22,7 +22,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     mybool = True
     while i < N:
         if is_priem(i)==True:
-            onder = 
+            onder = i+1
             j = i + 1
             while j < N:
                 if is_priem(j)==False:
