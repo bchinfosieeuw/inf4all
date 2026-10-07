@@ -8,7 +8,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     >>> zoek_langste_reeks(100)
     (90, 96)
     
-    >>> zoek_langste_reeks(10000)
+    >>> zoek_langste_reeks(1000)
     (9950, 9972)
     
     >>> zoek_langste_reeks(10000)
