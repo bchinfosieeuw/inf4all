@@ -214,7 +214,6 @@ def display_header(month: int, year: int) -> None:
     print('\"', end="")
     print('Jaar: ', end="")
     print(year, end="")
-    print('\"')
     
     print('Maand: ', end="")
     print(month, end="")
