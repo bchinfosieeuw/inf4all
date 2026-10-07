@@ -28,7 +28,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
                 if is_priem(j)==False:
                     length += 1
                 j += 1
-            i += j
+            i += j+1
         i += 1
     maxonder = onder
     i = 2
