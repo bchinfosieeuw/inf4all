@@ -23,7 +23,7 @@ def apply_goldbach(N: int) -> int:
     16 = 3 + 13
     """
     q = 0
-    for i in range(N+1):
+    for i in range(2, N+1):
         if (i+2)%2==0:
             for p in range(N+1):
                 if is_priem(p):
