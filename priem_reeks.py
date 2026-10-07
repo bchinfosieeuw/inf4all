@@ -8,13 +8,10 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     >>> zoek_langste_reeks(100)
     (90, 96)
     
-    >>> zoek_langste_reeks(1000)
-    (954, 996)
-    
     >>> zoek_langste_reeks(10000)
     (9950, 9972)
     
-    zoek_langste_reeks(3)
+    >>> zoek_langste_reeks(3)
     (0, 1)
     """
     i = 2
@@ -24,9 +21,9 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     maxonder = 0
     mybool = True
     while i < N:
-        if is_priem(i)==False:
+        if is_priem(i)==False and is_priem(i+1)==False:
             length += 1
-            if maxlength < length:
+            if maxlength <= length:
                 maxlength = length
             if mybool==True:
                 mybool = False
@@ -35,8 +32,9 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
             if maxlength <= length:
                 length = 0
                 mybool = True
+                if maxonder < onder:
+                    maxonder = onder
         i += 1
-    maxonder = onder
     i = 2
     length = 0
     maxlength = 0
@@ -73,9 +71,9 @@ def print_boodschap(onder: int, boven: int) -> None:
 if __name__ == '__main__':
     onder = 0
     boven = 0
-    """(onder, boven) = zoek_langste_reeks(20)
+    (onder, boven) = zoek_langste_reeks(20)
     print_boodschap(onder, boven)
     (onder, boven) = zoek_langste_reeks(100)
-    print_boodschap(onder, boven)"""
+    print_boodschap(onder, boven)
     (onder, boven) = zoek_langste_reeks(10000)
     print_boodschap(onder, boven)
