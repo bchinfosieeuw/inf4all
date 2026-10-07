@@ -7,7 +7,7 @@ def apply_goldbach(N: int) -> int:
     >>> apply_goldbach(1000)
     
     """
-    i
+    i1 = 0
     for i in range(N+1):
         if (i+2)%2==0:
             for p in range(N+1):
