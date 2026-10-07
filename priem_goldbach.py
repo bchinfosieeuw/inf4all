@@ -18,6 +18,9 @@ def apply_goldbach(N: int) -> int:
     6 = 3 + 3
     8 = 3 + 5
     10 = 3 + 7
+    12 = 
+    14 = 
+    16 = 
     """
     i1 = 0
     for i in range(N+1):
