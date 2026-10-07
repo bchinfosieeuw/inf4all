@@ -6,7 +6,9 @@ def apply_goldbach(N: int) -> int:
     
     >>> apply_goldbach(10)
     4 = 2 = 2
-    
+    6 = 
+    8 = 
+    10 = 
     """
     i1 = 0
     for i in range(N+1):
