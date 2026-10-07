@@ -2,7 +2,7 @@ from priem_getal import is_priem
 
 def apply_goldbach(N: int) -> int:
     """
-    Comment
+    Check of het 
     
     >>> apply_goldbach(10)
     4 = 2 = 2
