@@ -9,6 +9,9 @@ def apply_goldbach(N: int) -> int:
     """
     for i in range(N+1):
         if (i+2)%2==0:
+            
+        if is_priem(i):
+            print(i)
             print(i, '= ')
     
 if __name__ == '__main__':
