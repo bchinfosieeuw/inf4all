@@ -22,7 +22,9 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     
     8 9 10 len==3
     
+    12 len==1
     
+    14 15 16 len==3
     
     
     """
