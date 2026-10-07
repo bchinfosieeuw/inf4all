@@ -8,7 +8,7 @@ def apply_goldbach(N: int) -> int:
     
     """
     for i in range(N+1):
-        is_priem(N)
+        if is_priem(N)
         print(even_getal)
     
 if __name__ == '__main__':
