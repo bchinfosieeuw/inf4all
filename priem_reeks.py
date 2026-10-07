@@ -15,7 +15,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     (0, 1)
     
       v
-    3 4 5
+    3 4 5 len==
     
     
     """
