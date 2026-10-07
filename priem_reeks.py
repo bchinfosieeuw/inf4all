@@ -18,7 +18,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     4
     
     zoek_langste_reeks(9)
-    
+    8
     
     """
     length = 0
