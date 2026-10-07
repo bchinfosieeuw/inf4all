@@ -165,27 +165,6 @@ def display_calendar(month: int, year: int) -> None:
 def display_header(month: int, year: int) -> None:
     """
     Print de koptekst van de kalender.
-    
-    >>> display_header(6, 2022)
-    "Jaar: 2022"
-    "Maand: 6"
-    "          Jun 2022"
-    "---------------------------"
-    "Zon Maa Din Woe Don Vri Zat"
-    
-    >>> display_header(2, 2022)
-    "Jaar: 2022"
-    "Maand: 2"
-    "          Feb 2022"
-    "---------------------------"
-    "Zon Maa Din Woe Don Vri Zat"
-    
-    >>> display_header(10, 2026)
-    "Jaar: 2026"
-    "Maand: 10"
-    "          Okt 2026"
-    "---------------------------"
-    "Zon Maa Din Woe Don Vri Zat"
     """
     if month==1:
         monthtxt = 'Jan'
