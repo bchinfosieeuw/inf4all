@@ -7,6 +7,7 @@ def apply_goldbach(N: int) -> int:
     >>> apply_goldbach(1000)
     
     """
+    
     is_priem(N)
     return even_getal
     
