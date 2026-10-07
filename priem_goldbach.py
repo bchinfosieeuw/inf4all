@@ -10,7 +10,7 @@ def apply_goldbach(N: int) -> int:
     8 = 3 + 5
     10 = 3 + 7
     
-    >>> apply_goldbach(10)
+    >>> apply_goldbach(5)
     4 = 2 = 2
     6 = 3 + 3
     8 = 3 + 5
