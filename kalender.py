@@ -37,7 +37,7 @@ def days_from_1800(month: int, year: int) -> int:
     1460
     
     >>> days_from_1800(5, 1804)
-    1582
+    1581
     """
     aantaldagen = days_from_1800_until_year(year)
     aantaldageninmaand = days_until_month(month, year)
