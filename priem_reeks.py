@@ -20,7 +20,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     
     6 len==1
     
-    8 9 10 len==2
+    8 9 10 len==3
     
     
     
