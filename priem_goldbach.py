@@ -20,7 +20,7 @@ def apply_goldbach(N: int) -> int:
     10 = 3 + 7
     12 = 5 + 7
     14 = 3 + 11
-    16 = 
+    16 = 3 + 13
     """
     i1 = 0
     for i in range(N+1):
