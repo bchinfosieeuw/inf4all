@@ -1,8 +1,9 @@
 from priem_getal import is_priem
 
-def apply_goldbach(N: int) -> int:
+def apply_goldbach(N: int) -> None:
     """
-    Geef een lijst van alle even getallen (groter dan 2) tot en met N als som van 2 priemgetallen.
+    Geef een lijst van alle even getallen (groter dan 2) tot en met N als som 
+     van 2 priemgetallen.
     
     >>> apply_goldbach(10)
     4 = 2 = 2
@@ -32,6 +33,9 @@ def apply_goldbach(N: int) -> int:
                         print(i, '=', p, '+', q)
                         break
                     elif is_priem(p)==False:
-                        print('Het getal', i, 'is niet te schrijven als som van 2 priemgetallen.')
+                        print('Het getal', i, end="")
+                        print('is niet te schrijven als', end="")
+                        print('som van 2 priemgetallen.')
+                        
 if __name__ == '__main__':
     apply_goldbach(1000)
