@@ -2,7 +2,7 @@ from priem_getal import is_priem
 
 def apply_goldbach(N: int) -> int:
     """
-    Check of alle even getallen tot
+    Check of alle even getallen tot en met 
     
     >>> apply_goldbach(10)
     4 = 2 = 2
