@@ -21,7 +21,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     onder = 0
     maxonder = 0
     mybool = True
-    while i < N+1:"""NOK"""
+    while i < N+1:
         if is_priem(i)==True:
             while is_priem(i+1+j)==False:
                 onder += 1
