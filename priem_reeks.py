@@ -21,13 +21,12 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     maxonder = 0
     mybool = True
     for i in range(N+1):
-        if is_priem(i)==False:
+        if is_priem(i)==True:
             for j in range(i+1, N+1):
                 if is_priem(j)==False:
                     onder += 1
                 else:
                     break
-            i += j
     maxonder = onder
     i = 2
     length = 0
