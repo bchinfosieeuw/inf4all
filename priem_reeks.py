@@ -11,7 +11,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     >>> zoek_langste_reeks(10000)
     (9552, 9586)
     
-    >>> zoek_langste_reeks(3)
+    >>> zoek_langste_reeks(20)
     (0, 1)
     """
     length = 0
