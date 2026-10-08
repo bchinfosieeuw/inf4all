@@ -12,4 +12,4 @@ print('Zon Maa Din Woe Don Vri Zat', end="")
 print('\"')
 range(10) geeft de getallen van 0 tot 10, dus eindigt bij 9
 range(1, 10) geeft de getallen 1 tot 10
-range(-2, 9, 2) feeft de getallen van -2
+range(-2, 9, 2) feeft de getallen van -2 tot 9, in stappen van 2
