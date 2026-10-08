@@ -34,7 +34,7 @@ def print_niet_priemen_van_tot(start:int, rangorde: int) -> None:
     for i in range(start, rangorde+1):
         if (rangorde)%i==0:
             numofdivisors += 1
-        if is_priem(i)==True:
+        if is_priem(i)==False:
             print(i)
         
 if __name__ == '__main__':
