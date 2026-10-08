@@ -40,6 +40,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
         if is_priem(i)==False:
             j = i
             
+            
         i += 1
         
     length = 0
