@@ -31,7 +31,7 @@ def is_priem(rangorde: int) -> bool:
 
 def print_niet_priemen_van_tot(start:int, rangorde: int) -> None:
     numofdivisors = 0
-    for i in range(1, rangorde+1):
+    for i in range(start, rangorde+1):
         if (rangorde)%i==0:
             numofdivisors += 1
         if is_priem(i)==True:
