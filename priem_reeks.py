@@ -40,8 +40,8 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     while i < N:
         while j < N:
             if j > i:
-            if is_priem(i)==True and is_priem(i+1)==True:
-                diff = 
+                if is_priem(i)==True and is_priem(i+1)==True:
+                    diff = 
         i += 1
     length = 0
     i = 2
