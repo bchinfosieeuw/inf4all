@@ -38,19 +38,19 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     maxonder = 0
     while i < N:
         if is_priem(i)==False:
-        if is_priem(i)==False and is_priem(i+1)==False:
-            length += 1
-            if maxlength <= length:
-                maxlength = length
-            if mybool==True:
-                mybool = False
-                onder = i
-        else:
-            if maxlength <= length:
-                length = 0
-                mybool = True
-                if maxonder < onder:
-                    maxonder = onder
+            if is_priem(i)==False and is_priem(i+1)==False:
+                length += 1
+                if maxlength <= length:
+                    maxlength = length
+                if mybool==True:
+                    mybool = False
+                    onder = i
+            else:
+                if maxlength <= length:
+                    length = 0
+                    mybool = True
+                    if maxonder < onder:
+                        maxonder = onder
         i += 1
     length = 0
     i = 2
