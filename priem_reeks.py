@@ -51,7 +51,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
         if length > maxlength:
             maxlength = length+1
     print("maxlength:", maxlength)
-    maxboven = maxonder + 
+    maxboven = maxonder + maxlength
     return maxonder, maxboven
     
 def print_boodschap(onder: int, boven: int) -> None:
