@@ -38,4 +38,4 @@ def print_niet_priemen_van_tot(rangorde: int) -> None:
             print(i)
         
 if __name__ == '__main__':
-    print_niet_priemen_van_tot(100)
+    print_niet_priemen_van_tot(50, 100)
