@@ -6,7 +6,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
      gegeven getal N.
     
     >>> zoek_langste_reeks(20)
-    (0, 1)
+    (8, 10)
     
     >>> zoek_langste_reeks(100)
     (90, 96)
