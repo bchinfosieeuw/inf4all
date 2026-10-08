@@ -38,4 +38,4 @@ def print_priemen_tot(rangorde: int) -> None:
             print(i)
         
 if __name__ == '__main__':
-    print_priemen_tot(100)
+    print_niet_priemen_tot(100)
