@@ -54,7 +54,7 @@ def print_boodschap(onder: int, boven: int) -> None:
 if __name__ == '__main__':
     onder = 0
     boven = 0
-    (onder, boven) = zoek_langste_reeks(20)
+    (onder, boven) = zoek_langste_reeks(3)
     print_boodschap(onder, boven)
     (onder, boven) = zoek_langste_reeks(100)
     print_boodschap(onder, boven)
