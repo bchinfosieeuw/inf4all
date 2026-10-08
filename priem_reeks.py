@@ -9,7 +9,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     (90, 96)
     
     >>> zoek_langste_reeks(10000)
-    (9950, 9972)
+    (9552, 9586)
     
     >>> zoek_langste_reeks(3)
     (0, 1)
