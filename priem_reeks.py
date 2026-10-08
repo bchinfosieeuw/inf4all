@@ -42,7 +42,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
             onder = i
             while j < N:
                 if is_priem(j)==True:
-                    
+                    boven = 
                     break
             j += 1
         i += 1
