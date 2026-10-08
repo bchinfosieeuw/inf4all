@@ -13,30 +13,53 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     
     >>> zoek_langste_reeks(3)
     (0, 1)
+    
+    2 len==1
+    
+    4 len==1
+    
+    6 len==1
+    
+    8 9 10 len==3
+    
+    12 len==1
+    
+    14 15 16 len==3
+    
+    18 len==1
+    
+    assert (9950, 9972) == (9552, 9586)
     """
-    i = 2
-    j = 0
     length = 0
+    i = 2
     maxlength = 0
     onder = 0
+    mybool = True
     maxonder = 0
-    mybool = True
-    while i < N+1:
-        while is_priem(i+1+j)==False:
-            onder += 1
-            j += 1
-        i += 1
-    maxonder = onder
-    i = 2
-    length = 0
-    maxlength = 0
-    boven = 0
-    maxboven = 0
-    mybool = True
     while i < N:
-        if is_priem(i)==True and is_priem(i+1)==False:
+        if is_priem(i)==False and is_priem(i+1)==False:
             length += 1
             if maxlength <= length:
+                maxlength = length
+            if mybool==True:
+                mybool = False
+                onder = i
+        else:
+            if maxlength <= length:
+                length = 0
+                mybool = True
+                if maxonder < onder:
+                    maxonder = onder
+        i += 1
+    length = 0
+    i = 2
+    maxlength = 0
+    boven = 0
+    mybool = True
+    while i < N:
+        if is_priem(i)==True:
+            length += 1
+            if maxlength < length:
                 maxlength = length
             if mybool==True:
                 mybool = False
@@ -45,10 +68,8 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
             if maxlength <= length:
                 length = 0
                 mybool = True
-                if maxboven < boven:
-                    maxboven = boven
         i += 1
-    return maxonder, maxboven-1
+    return maxonder, boven-1
     
 def print_boodschap(onder: int, boven: int) -> None:
     """
@@ -66,6 +87,4 @@ if __name__ == '__main__':
     (onder, boven) = zoek_langste_reeks(20)
     print_boodschap(onder, boven)
     (onder, boven) = zoek_langste_reeks(100)
-    print_boodschap(onder, boven)
-    (onder, boven) = zoek_langste_reeks(10000)
     print_boodschap(onder, boven)
