@@ -207,7 +207,6 @@ def display_grid(month: int, year: int) -> None:
                 print(" ", end="")
                 if i==10-3:
                     minus1 = 1
-        print(i+1, sep='', end="")
         if (index+i+1+7)%(7)==6:
             print("")
 
