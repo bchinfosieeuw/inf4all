@@ -50,25 +50,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
         if length > maxlength:
             maxlength = length+1
     print("maxlength:", maxlength)
-        
-    length = 0
-    i = 2
-    maxlength = 0
-    boven = 0
-    mybool = True
-    while i < N:
-        if is_priem(i)==True:
-            length += 1
-            if maxlength < length:
-                maxlength = length
-            if mybool==True:
-                mybool = False
-                boven = i
-        else:
-            if maxlength <= length:
-                length = 0
-                mybool = True
-        i += 1
+
     return maxonder, boven-1
     
 def print_boodschap(onder: int, boven: int) -> None:
