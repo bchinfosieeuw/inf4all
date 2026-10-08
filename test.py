@@ -10,4 +10,4 @@ print(f"{letter:>10}")
 print('\"', end="")
 print('Zon Maa Din Woe Don Vri Zat', end="")
 print('\"')
-range()
+range(10) geeft de getallen van 0 tot 
