@@ -5,7 +5,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     Bepaal de ondergrens en bovengrens van de reeks niet-priemgetallen tot aan
      gegeven getal N.
     
-    >>> zoek_langste_reeks(3)
+    >>> zoek_langste_reeks(20)
     (0, 1)
     
     >>> zoek_langste_reeks(100)
