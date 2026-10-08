@@ -13,22 +13,6 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     
     >>> zoek_langste_reeks(3)
     (0, 1)
-    
-    2 len==1
-    
-    4 len==1
-    
-    6 len==1
-    
-    8 9 10 len==3
-    
-    12 len==1
-    
-    14 15 16 len==3
-    
-    18 len==1
-    
-    assert (9950, 9972) == (9552, 9586)
     """
     length = 0
     i = 2
