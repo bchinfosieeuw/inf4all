@@ -44,6 +44,7 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
                     diff = j - i
             j += 1
         i += 1
+    print(diff)
     length = 0
     i = 2
     maxlength = 0
