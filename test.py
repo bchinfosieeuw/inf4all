@@ -17,4 +17,4 @@ range(-2, 9, 2) feeft de getallen van -2 tot 9, in stappen van 2
 .lower() geeft een nieuwe string met kleine letters
 .capitalize() geeft een nieuwe string, eerste letter wordt hoofdletter, rest kleine letters
 .isupper() bepaalt of de string alleen hoofdletters heeft
-.is
+.isalpha() bepaalt
