@@ -15,4 +15,4 @@ range(1, 10) geeft de getallen 1 tot 10
 range(-2, 9, 2) feeft de getallen van -2 tot 9, in stappen van 2
 .upper() geeft een nieuwe string met hoofdletters
 .lower() geeft een nieuwe string met kleine hoofdletters
-.capitalize() geeft een nieuwe string, eerste letter wordt hoofdletter
+.capitalize() geeft een nieuwe string, eerste letter wordt hoofdletter, rest kleine hoofdletters
