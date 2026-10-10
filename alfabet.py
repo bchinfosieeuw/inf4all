@@ -15,7 +15,7 @@ def compare(word1: str, word2: str) -> int:
 if __name__ == '__main__':
     word1 = "Taylor"
     word2 = "Lana"
-    myindex = compare("Taylor", "Lana")
+    myindex = compare(word1, "Lana")
     if index==-1:
         print("Woord 1:", word1)
     elif index==-1:
