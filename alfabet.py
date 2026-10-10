@@ -19,7 +19,7 @@ if __name__ == '__main__':
     print("Woord 1:", word1)
     print("Woord 2:", word2)
     if myindex==-1:
-        print(word1)
+        print(word1, " first")
     elif myindex==1:
         print(word2)
     else:
