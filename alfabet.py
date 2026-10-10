@@ -17,8 +17,8 @@ def compare(word1: str, word2: str) -> int:
     return 0
 
 if __name__ == '__main__':
-    word1 = "Daan"
-    word2 = "Daantje"
+    word1 = "Daantje"
+    word2 = "Daan"
     myindex = compare(word1, word2)
     print("Woord 1:", word1)
     print("Woord 2:", word2)
