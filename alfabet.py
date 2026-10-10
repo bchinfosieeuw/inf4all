@@ -16,3 +16,7 @@ if __name__ == '__main__':
     myindex = compare("Taylor", "Lana")
     if index==-1:
         print("")
+    elif index==-1:
+        print("")
+    if index==-1:
+        print("")
