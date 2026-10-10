@@ -16,7 +16,8 @@ if __name__ == '__main__':
     word1 = "Taylor"
     word2 = "Lana"
     myindex = compare(word1, word2)
-        print("Woord 2:", word2)
+    print("Woord 1:", word1)
+    print("Woord 2:", word2)
     if myindex==-1:
         print("Woord 1:", word1)
     elif myindex==1:
