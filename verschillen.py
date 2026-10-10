@@ -30,7 +30,7 @@ def count_difference(s1: str, s2: str) -> int:
     1
     
     >>> count_difference("abeeeec", "abdee")
-    1
+    3
     
     >>> count_difference("abeedec", "abdee")
     4
