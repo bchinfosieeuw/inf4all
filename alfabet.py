@@ -17,6 +17,6 @@ if __name__ == '__main__':
     if index==-1:
         print("Woord 1:", word1)
     elif index==-1:
-        print("Woord 2:")
+        print("Woord 2:", word2)
     else:
         print("No need to decide!")
