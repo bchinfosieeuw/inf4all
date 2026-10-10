@@ -13,7 +13,7 @@ def compare(word1: str, word2: str) -> int:
     return 0
 
 if __name__ == '__main__':
-    word1 = "Daan"
+    word1 = "shark"
     word2 = "Daantje"
     if len(word1) > len(word2):
         dummy = word1
