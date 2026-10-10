@@ -31,7 +31,7 @@ def count_difference(s1: str, s2: str) -> int:
     """
     diff = abs(len(s1)-len(s2))
     numofdiffs = 0
-    for i in range(diff, min(len(s1), len(s2))):
+    for i in range(min(len(s1), len(s2))):
         if s1[i]!=s2[i]:
             numofdiffs += 1
     return numofdiffs
