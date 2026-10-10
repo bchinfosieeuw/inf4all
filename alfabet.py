@@ -6,12 +6,13 @@ def compare(word1: str, word2: str) -> int:
     """
     for i in range(min(len(word1), len(word2))):
         if word1[i].lower() == word2[i].lower():
+            return 0
         elif word1[i].lower() <= word2[i].lower():
             return -1
         elif word1[i].lower() > word2[i].lower():
             return 1
         #el
-    return 0
+    
 
 if __name__ == '__main__':
     word1 = "amanda"
