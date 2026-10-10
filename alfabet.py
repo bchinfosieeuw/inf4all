@@ -5,7 +5,7 @@ def compare(word1: str, word2: str) -> int:
     
     """
     if len(word1) > len(word2):
-        print("")
+        print("omkeren")
         dummy = word1
         word1 = word2
         word2 = dummy
