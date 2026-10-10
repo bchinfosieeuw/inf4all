@@ -1,2 +1,2 @@
 def isspace(s: str) -> bool:
-    return s in 
+    return s in ""
