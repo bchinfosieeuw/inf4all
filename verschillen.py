@@ -21,7 +21,7 @@ def count_difference(s1: str, s2: str) -> int:
     Bepaalt hoeveel verschillen de strings hebben.
     
     >>> count_difference("abc", "abc")
-    False
+    0
     
     >>> count_difference("abc", "abd")
     True
