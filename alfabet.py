@@ -9,7 +9,7 @@ def compare(word1: str, word2: str) -> int:
     shark
     
     >>> compare("Daantje", "Daan")
-    shark
+    Daan
     
     >>> compare("shark", "sWoRd")
     shark
