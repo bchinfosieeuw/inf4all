@@ -9,4 +9,4 @@ def is_different(s1: str, s2: str) -> bool:
             return True
     return False
     
-is_different()
+is_different("", "")
