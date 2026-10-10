@@ -1,1 +1,1 @@
-def is_different(s: str) -> bool:
+def is_different(s1: str) -> bool:
