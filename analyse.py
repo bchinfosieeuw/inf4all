@@ -1,1 +1,1 @@
-def isspace
+def isspace(s: str)
