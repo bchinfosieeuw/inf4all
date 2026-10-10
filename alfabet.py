@@ -17,7 +17,7 @@ def compare(word1: str, word2: str) -> int:
     mymin = len(s1)
     if len(s2) < len(s1):
         mymin = len(s2)
-    for i in range(min(len(word1), len(word2))):
+    for i in range(mymin):
         if (word1[i].lower() == word2[i].lower()) and len(word1)==len(word2):
             print("", end="")
         else:
