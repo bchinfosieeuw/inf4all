@@ -1,6 +1,8 @@
 def compare(word1: str, word2: str) -> int:
     """
-    Decide which word 
+    Decide which word is the first alphabetically.
+    
+    
     """
 
 if __name__ == '__main__':
