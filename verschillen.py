@@ -29,7 +29,7 @@ def count_difference(s1: str, s2: str) -> int:
     >>> count_difference("abeeeec", "abdee")
     
     """
-    diff = abs(len(s1))
+    diff = abs(len(s1)-len(s2))
     for i in range(min(len(s1), len(s2))):
         if s1[i]!=s2[i]:
             return True
