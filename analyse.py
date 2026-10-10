@@ -1,1 +1,2 @@
-def isspace(s: str)
+def isspace(s: str) -> bool:
+    
