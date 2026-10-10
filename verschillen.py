@@ -5,7 +5,7 @@ def is_different(s1: str, s2: str) -> bool:
     >>> is_different("abc", "abc")
     False
     
-    >>> is_different("abeeeec", "abdee")
+    >>> is_different("abc", "abd")
     True
     
     >>> is_different("abeeeec", "abdee")
