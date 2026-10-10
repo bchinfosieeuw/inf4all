@@ -16,9 +16,6 @@ def compare(word1: str, word2: str) -> int:
     """
     signed1 = 1;
     if len(word1) > len(word2):
-        dummy = word1
-        word1 = word2
-        word2 = dummy
         signed1 = -1
     mymin = len(word1)
     if len(word2) < len(word1):
