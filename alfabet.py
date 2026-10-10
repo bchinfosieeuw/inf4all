@@ -5,7 +5,9 @@ def compare(word1: str, word2: str) -> int:
     
     """
     if len(word1) > len(word2):
-        
+        dummy = word1
+        word1 = word2
+        word2 = dummy
     for i in range(min(len(word1), len(word2))):
         if word1[i].lower() < word2[i].lower():
             return -1
