@@ -19,4 +19,4 @@ if __name__ == '__main__':
     elif index==-1:
         print("")
     else:
-        print("")
+        print("No need to decide!")
