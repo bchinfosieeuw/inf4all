@@ -25,7 +25,7 @@ def compare(word1: str, word2: str) -> int:
             print("", end="")
         else:
             if word1[i].lower() <= word2[i].lower():
-                return -1
+                return -1*signed1
             elif word1[i].lower() > word2[i].lower():
                 return 1
     return 0
