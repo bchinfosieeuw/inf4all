@@ -30,12 +30,10 @@ def compare(word1: str, word2: str) -> int:
 if __name__ == '__main__':
     word1 = "amanda"
     word2 = "Amanda"
-    signed1 = 1;
     if len(word1) > len(word2):
         dummy = word1
         word1 = word2
         word2 = dummy
-        signed1 = -1
     myindex = compare(word1, word2)
     print("Woord 1:", word1)
     print("Woord 2:", word2)
