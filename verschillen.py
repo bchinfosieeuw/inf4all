@@ -40,7 +40,7 @@ def count_difference(s1: str, s2: str) -> int:
     if len(s2) > len(s1):
         mymax = len(s2)
     numofdiffs = 0
-    for i in range(max(len(s1), len(s2))-diff):
+    for i in range(mymax-diff):
         if s1[i]!=s2[i]:
             numofdiffs += 1
     return numofdiffs
