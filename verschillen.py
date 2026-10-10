@@ -4,4 +4,4 @@ def is_different(s1: str, s2: str) -> bool:
     
     
     """
-    for i in 
+    for i in len(s1)
