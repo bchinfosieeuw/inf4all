@@ -37,3 +37,5 @@ def count_difference(s1: str, s2: str) -> int:
     return numofdiffs
     
 print(count_difference("abeeeec", "abdee"))
+print(count_difference("abeeeec", "abdee"))
+print(count_difference("abeeeec", "abdee"))
