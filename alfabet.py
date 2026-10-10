@@ -4,7 +4,7 @@ def compare(word1: str, word2: str) -> int:
     
     
     """
-    print()
+    print(word1[i].lower() > word2[i].lower())
     for i in range(min(len(word1), len(word2))):
         if word1[i].lower() < word2[i].lower():
             return -1
