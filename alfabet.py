@@ -4,8 +4,7 @@ def compare(word1: str, word2: str) -> int:
     
     
     """
-    diff = len(word1)-len(word2)
-    if diff > 0:
+    if len(word1) > len(word2):
         dummy = word1
         word1 = word2
         word2 = dummy
@@ -18,8 +17,8 @@ def compare(word1: str, word2: str) -> int:
     return 0
 
 if __name__ == '__main__':
-    word1 = "Daantje"
-    word2 = "Daan"
+    word1 = "Daan"
+    word2 = "Daantje"
     myindex = compare(word1, word2)
     print("Woord 1:", word1)
     print("Woord 2:", word2)
