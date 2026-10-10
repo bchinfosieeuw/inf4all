@@ -14,7 +14,7 @@ def is_different(s1: str, s2: str) -> bool:
     mymin = len(s1)
     if len(s2) < len(s1):
         mymin = len(s2)
-    if s1=="" or s2=="":
+    if s1====s2=="":
         return True
     for i in range(mymin):
         if s1[i]!=s2[i]:
