@@ -13,7 +13,7 @@ def compare(word1: str, word2: str) -> int:
             elif word1[i].lower() > word2[i].lower():
                 return 1
         #elif word1[i].lower() == word2[i].lower():
-    return 0
+        return 0
 
 if __name__ == '__main__':
     word1 = "Daan"
