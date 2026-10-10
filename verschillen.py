@@ -34,4 +34,4 @@ def count_difference(s1: str, s2: str) -> bool:
             return True
     return False
     
-print(is_different("abeeeec", "abdee"))
+print(count_difference("abeeeec", "abdee"))
