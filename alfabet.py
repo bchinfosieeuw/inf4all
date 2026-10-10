@@ -1,6 +1,6 @@
 def compare(word1: str, word2: str) -> int:
     """
-    Decide 
+    Decide which word 
     """
 
 if __name__ == '__main__':
