@@ -29,8 +29,8 @@ def count_difference(s1: str, s2: str) -> int:
     >>> count_difference("abeeeec", "abdee")
     1
     
-    >>> count_difference("abeeeec", "abdee")
-    1
+    >>> count_difference("abeedec", "abdee")
+    2
     """
     diff = abs(len(s1)-len(s2))
     numofdiffs = 0
