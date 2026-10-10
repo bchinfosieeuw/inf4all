@@ -1,1 +1,1 @@
-def isspace(s: str) -> bool:
+def is_different(s: str) -> bool:
