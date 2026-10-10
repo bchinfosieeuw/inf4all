@@ -5,12 +5,12 @@ def compare(word1: str, word2: str) -> int:
     
     """
     for i in range(min(len(word1), len(word2))):
+        elif i==range(min(len(word1), len(word2))):
+            return 0
         if word1[i].lower() <= word2[i].lower():
             return -1
         elif word1[i].lower() > word2[i].lower():
             return 1
-        elif i==range(min(len(word1), len(word2)))+1:
-            return 0
         #elif word1[i].lower() == word2[i].lower():
     return 0
 
