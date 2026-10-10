@@ -13,8 +13,8 @@ def compare(word1: str, word2: str) -> int:
     return 0
 
 if __name__ == '__main__':
-    word2 = "Taylor"
-    word1 = "Lana"
+    word1 = "Taylor"
+    word2 = "Lana"
     myindex = compare(word1, word2)
     if myindex==-1:
         print("Woord 1:", word1)
