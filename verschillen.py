@@ -20,13 +20,13 @@ def count_difference(s1: str, s2: str) -> bool:
     """
     Bepaalt hoeveel verschillen de strings hebben.
     
-    >>> is_different("abc", "abc")
+    >>> count_difference("abc", "abc")
     False
     
-    >>> is_different("abc", "abd")
+    >>> count_difference("abc", "abd")
     True
     
-    >>> is_different("abeeeec", "abdee")
+    >>> count_difference("abeeeec", "abdee")
     True
     """
     for i in range(min(len(s1), len(s2))):
