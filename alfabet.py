@@ -2,7 +2,7 @@ def compare(word1: str, word2: str) -> int:
     """
     Decide which word is the first alphabetically.
     
-    >>> compare()
+    >>> compare("Taylor", "")
     """
     for i in range(min(len(word1), len(word2))):
         if (word1[i].lower() == word2[i].lower()) and len(word1)==len(word2):
