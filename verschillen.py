@@ -12,7 +12,7 @@ def is_different(s1: str, s2: str) -> bool:
     True
     """
     myrange = len(s1)
-    if len(s2) > len(s1):
+    if len(s2) < len(s1):
         myrange = len(s2)
     for i in range(min(len(s1), len(s2))):
         if s1[i]!=s2[i]:
