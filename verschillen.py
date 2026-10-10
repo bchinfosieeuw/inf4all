@@ -34,6 +34,6 @@ def count_difference(s1: str, s2: str) -> int:
     for i in range(diff, max(len(s1), len(s2))):
         if s1[i]!=s2[i]:
             numofdiffs += 1
-    return False
+    return numofdiffs
     
 print(count_difference("abeeeec", "abdee"))
