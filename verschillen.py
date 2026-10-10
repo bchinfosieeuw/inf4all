@@ -33,7 +33,7 @@ def count_difference(s1: str, s2: str) -> int:
     1
     
     >>> count_difference("abeedec", "abdee")
-    2
+    4
     """
     diff = abs(len(s1)-len(s2))
     mymax = len(s1)
