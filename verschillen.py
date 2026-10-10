@@ -5,7 +5,7 @@ def is_different(s1: str, s2: str) -> bool:
     
     """
     for i in len(s1):
-        if s1[i]!=s2[i]
+        if s1[i]!=s2[i]:
             return True
     return False
     
