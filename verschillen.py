@@ -46,5 +46,3 @@ def count_difference(s1: str, s2: str) -> int:
         if s1[i]!=s2[i]:
             numofdiffs += 1
     return numofdiffs+diff
-
-print(is_different('', 'mamba'))
