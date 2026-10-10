@@ -8,10 +8,10 @@ def compare(word1: str, word2: str) -> int:
         if (word1[i].lower() == word2[i].lower()):
             print("hallo")
         else:
-        if word1[i].lower() <= word2[i].lower():
-            return -1
-        elif word1[i].lower() > word2[i].lower():
-            return 1
+            if word1[i].lower() <= word2[i].lower():
+                return -1
+            elif word1[i].lower() > word2[i].lower():
+                return 1
         #elif word1[i].lower() == word2[i].lower():
     return 0
 
