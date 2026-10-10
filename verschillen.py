@@ -18,7 +18,7 @@ def is_different(s1: str, s2: str) -> bool:
 
 def count_difference(s1: str, s2: str) -> bool:
     """
-    Bepaalt hoeveel verschillen .
+    Bepaalt hoeveel verschillen de strings hebben.
     
     >>> is_different("abc", "abc")
     False
