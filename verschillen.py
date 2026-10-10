@@ -45,4 +45,4 @@ def count_difference(s1: str, s2: str) -> int:
             numofdiffs += 1
     return numofdiffs+diff
 
-print(count_difference("abeedec", "abdee")
+print(count_difference("abeedec", "abdee"))
