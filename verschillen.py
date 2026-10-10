@@ -11,6 +11,7 @@ def is_different(s1: str, s2: str) -> bool:
     >>> is_different("abeeeec", "abdee")
     True
     """
+    num
     for i in range(min(len(s1), len(s2))):
         if s1[i]!=s2[i]:
             return True
