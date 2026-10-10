@@ -36,7 +36,7 @@ if __name__ == '__main__':
         word1 = word2
         word2 = dummy
         signed1 = -1
-    myindex = compare(word1, word2)*signed1
+    myindex = compare(word1, word2)
     print("Woord 1:", word1)
     print("Woord 2:", word2)
     if myindex==-1:
