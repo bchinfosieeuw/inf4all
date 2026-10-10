@@ -24,7 +24,7 @@ def count_difference(s1: str, s2: str) -> int:
     0
     
     >>> count_difference("abc", "abd")
-    True
+    1
     
     >>> count_difference("abeeeec", "abdee")
     True
