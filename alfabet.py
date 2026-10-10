@@ -5,7 +5,7 @@ def compare(word1: str, word2: str) -> int:
     
     """
     for i in min(len(word1), len(word2)):
-        if word1[i].lower() < 
+        if word1[i].lower() < word1[i].lower():
 
 if __name__ == '__main__':
     compare("Taylor", "Lana")
