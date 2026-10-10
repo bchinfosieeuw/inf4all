@@ -14,10 +14,7 @@ def compare(word1: str, word2: str) -> int:
     >>> compare("amanda", "Amanda")
     0
     """
-    signed1 = 1;
-    if len(word1) > len(word2):
-        signed1 = -1
-    mymin = len(word1)
+    mymin = len(s1)
     if len(word2) < len(word1):
         mymin = len(word2)
     for i in range(mymin):
@@ -25,9 +22,9 @@ def compare(word1: str, word2: str) -> int:
             print("", end="")
         else:
             if word1[i].lower() <= word2[i].lower():
-                return -1*signed1
+                return -1
             elif word1[i].lower() > word2[i].lower():
-                return 1*signed1
+                return 1
     return 0
 
 if __name__ == '__main__':
