@@ -21,6 +21,6 @@ if __name__ == '__main__':
     if myindex==-1:
         print(word1)
     elif myindex==1:
-        print("Woord 2:", word2)
+        print(word2)
     else:
         print("No need to decide!")
