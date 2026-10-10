@@ -4,6 +4,7 @@ def compare(word1: str, word2: str) -> int:
     
     
     """
+    diff = abs(len(s1)-len(s2))
     if len(word1) > len(word2):
         dummy = word1
         word1 = word2
