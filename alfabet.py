@@ -4,7 +4,7 @@ def compare(word1: str, word2: str) -> int:
     
     
     """
-    for i in 
+    for i in min(len(word1))
 
 if __name__ == '__main__':
     compare("Taylor", "Lana")
