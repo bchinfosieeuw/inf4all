@@ -43,5 +43,5 @@ def count_difference(s1: str, s2: str) -> int:
     for i in range(mymax-diff):
         if s1[i]!=s2[i]:
             numofdiffs += 1
-    return numofdiffs
+    return numofdiffs+diff
     
