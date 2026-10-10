@@ -5,7 +5,7 @@ def compare(word1: str, word2: str) -> int:
     
     """
     for i in range(min(len(word1), len(word2))):
-        if (word1[i].lower() == word2[i].lower()) or i==range(min(len(word1), len(word2))):
+        if (word1[i].lower() == word2[i].lower()) and i==range(min(len(word1), len(word2))):
             print("hallo")
             return 0
         if word1[i].lower() <= word2[i].lower():
@@ -16,8 +16,8 @@ def compare(word1: str, word2: str) -> int:
     return 0
 
 if __name__ == '__main__':
-    word1 = "shark"
-    word2 = "sWoRd"
+    word1 = "amanda"
+    word2 = "Amanda"
     if len(word1) > len(word2):
         dummy = word1
         word1 = word2
