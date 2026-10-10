@@ -11,7 +11,7 @@ def is_different(s1: str, s2: str) -> bool:
     >>> is_different("abeeeec", "abdee")
     True
     """
-    myrange = len(s1)
+    mymin = len(s1)
     if len(s2) < len(s1):
         myrange = len(s2)
     for i in range(min(len(s1), len(s2))):
