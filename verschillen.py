@@ -1,0 +1,1 @@
+def isspace(s: str) -> bool:
