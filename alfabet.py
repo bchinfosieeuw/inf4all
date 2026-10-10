@@ -15,6 +15,10 @@ def compare(word1: str, word2: str) -> int:
 if __name__ == '__main__':
     word1 = "Daan"
     word2 = "Daantje"
+    if len(word1) > len(word2):
+        dummy = word1
+        word1 = word2
+        word2 = dummy
     myindex = compare(word1, word2)
     print("Woord 1:", word1)
     print("Woord 2:", word2)
