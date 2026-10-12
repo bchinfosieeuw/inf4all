@@ -25,13 +25,13 @@ def check_letter(password: str) -> bool:
     >>> check_letter("AardappelTester123")
     True
     
-    >>> check_length("hoi")
+    >>> check_letter("hoi")
     False
     
-    >>> check_length("MyPassword")
+    >>> check_letter("MyPassword")
     False
     
-    >>> check_length("Psswrd1")
+    >>> check_letter("Psswrd1")
     False
     """
     containsUppercase = False
