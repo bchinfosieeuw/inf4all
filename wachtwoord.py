@@ -41,7 +41,7 @@ def check_password(password: str) -> bool:
         return False
 
 if __name__ == '__main__':
-    passwordProposal = input('Geef een wachtwoord:')
+    passwordProposal = input('Geef een wachtwoord: ')
     passwordValidity = check_password(passwordProposal)
     if passwordValidity==True:
         print('Het gegeven wachtwoord is valide.')
