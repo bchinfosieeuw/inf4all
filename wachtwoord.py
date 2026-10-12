@@ -27,4 +27,4 @@ if __name__ == '__main__':
     if passwordValidity==True:
         print('Het gegeven wachtwoord is valide.')
     else:
-        print('Het gegeven wachtwoord is valide.')
+        print('Het gegeven wachtwoord is niet valide.')
