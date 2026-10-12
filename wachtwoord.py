@@ -24,7 +24,7 @@ def check_number(password: str) -> bool:
     Controleer of het wachtwoord een cijfer bevat.
     Gebruik een loop om door password te lopen.
     """
-    contains 
+    containsNumber = False
 
 def check_password(password: str) -> bool:
     """
