@@ -50,4 +50,4 @@ if __name__ == '__main__':
         print('Grade 16+')
     else:
         print('Grade', index)
-    coleman_liau(10, 35, 4)
+    print(coleman_liau(10, 35, 4)
