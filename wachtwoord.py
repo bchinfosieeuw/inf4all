@@ -11,7 +11,7 @@ def check_length(password: str) -> bool:
     >>> check_length("MyPassword")
     False
     
-    >>> check_length("MyPswrd")
+    >>> check_length("Psswrd1")
     False
     """
     return len(password) >= 8
