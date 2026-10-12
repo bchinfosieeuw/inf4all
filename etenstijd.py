@@ -15,7 +15,6 @@ def meal(time: str) -> str | None:
     >>> meal(18:53
     Het is tijd voor avondeten
     
-    $ python etenstijd.py
     Hoe laat is het? 22:12
     """
     if time[0]=="0":
