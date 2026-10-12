@@ -37,7 +37,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     >>> coleman_liau(10, 35, 4)
     -117
     
-    >>> coleman_liau(100, 35, 4)
+    >>> coleman_liau(100, 70, 4)
     -117
     
     >>> coleman_liau(10, 35, 4)
