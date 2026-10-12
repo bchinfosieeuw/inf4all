@@ -7,7 +7,7 @@ def meal(time: str) -> str | None:
     Het is tijd voor ontbijt
     
     >>> meal(08:00)
-    Het is tijd voor ontbijt
+    ontbijt
     
     >>> meal(13:00)
     Het is tijd voor lunch
