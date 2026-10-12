@@ -11,7 +11,7 @@ def check_letter(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     for c in password:
-        if c.isupper():
+        if c.isupper()==True:
 
 def check_number(password: str) -> bool:
     """
