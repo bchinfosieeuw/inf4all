@@ -8,7 +8,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     >>> evaluate(100 - 9)
     91.0
     
-    >>> evaluate(1 + 1)
+    >>> evaluate(4 * -6)
     2.0
     
     >>> evaluate(1 + 1)
