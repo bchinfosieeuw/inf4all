@@ -30,5 +30,5 @@ def calculate_grade(time: str) -> str | None:
     9
     """
     if ...:
-        return 
+        return time
     return None
