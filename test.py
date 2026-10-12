@@ -29,4 +29,6 @@ def calculate_grade(time: str) -> str | None:
     ...     "Horatio, than are dreamt of in your philosophy.")
     9
     """
+    if ...:
+        
     return None
