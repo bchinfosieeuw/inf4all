@@ -39,5 +39,5 @@ if __name__ == '__main__':
         print('Below Grade 1')
     elif index >= 16:
         print('Grade 16+')
-    if index < 1:
+    else:
         print('Grade', index)
