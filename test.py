@@ -22,4 +22,4 @@ range(-2, 9, 2) feeft de getallen van -2 tot 9, in stappen van 2
 .isalpha() bepaalt of de string alleen letters heeft
 .isdigit() bepaalt of de string alleen cijfers heeft
 formula = input()
-    x, y, z = formula.split(" ")
+x, y, z = formula.split(" ")
