@@ -8,3 +8,4 @@ if __name__ == '__main__':
     x = int(formula.split(" "))
     y = formula.split(" ")
     z = int(formula.split(" "))
+    print(x)
