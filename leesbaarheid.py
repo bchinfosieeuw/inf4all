@@ -19,4 +19,4 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
 
 if __name__ == '__main__':
-    <Hoofdprogramma>
+    text = input('Text: ')
