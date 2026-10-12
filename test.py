@@ -27,3 +27,4 @@ x, y, z = formula.split(" ")
     >>> calculate_grade("There are more things in Heaven and Earth, "
     ...     "Horatio, than are dreamt of in your philosophy.")
     9
+    """
