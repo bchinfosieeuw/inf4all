@@ -2,6 +2,23 @@ def meal(time: str) -> str | None:
     """
     Converteert een tijd-string naar een maaltijd.
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
+    Hoe laat is het? 7:15
+Het is tijd voor ontbijt
+
+$ python etenstijd.py
+Hoe laat is het? 08:00
+Het is tijd voor ontbijt
+
+$ python etenstijd.py
+Hoe laat is het? 13:00
+Het is tijd voor lunch
+
+$ python etenstijd.py
+Hoe laat is het? 18:53
+Het is tijd voor avondeten
+
+$ python etenstijd.py
+Hoe laat is het? 22:12
     """
     if time[0]=="0":
         if time[1]=="7" or (time[1]=="8" and time[-1]=="0" and time[-2]=="0"):
