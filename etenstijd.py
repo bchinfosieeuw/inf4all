@@ -39,5 +39,3 @@ if __name__ == '__main__':
     maaltijd = meal(time)
     if maaltijd!=None:
         print("Het is tijd voor", maaltijd)
-    else:
-        print("allo")
