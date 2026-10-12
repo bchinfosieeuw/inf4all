@@ -80,7 +80,7 @@ def check_password(password: str) -> bool:
     False
     
     >>> check_password("Psswrd1")
-    True
+    False
     """
     if (check_length(password) and check_letter(password) and 
     check_number(password)):
