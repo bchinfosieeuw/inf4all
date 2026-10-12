@@ -12,7 +12,7 @@ def check_letter(password: str) -> bool:
     """
     for c in password:
         if c.isupper()==True:
-            
+            if 
 
 def check_number(password: str) -> bool:
     """
