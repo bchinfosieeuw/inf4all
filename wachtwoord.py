@@ -11,7 +11,7 @@ def check_letter(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     containsCapital = False
-    containsCapital = False
+    containsLowercase = False
     for c in password:
         if c.isupper()==True:
             
