@@ -4,7 +4,7 @@ def calculate_grade(text: str) -> int:
     en roept coleman_liau aan om grade te berekenen.
     
     >>> calculate_grade("One fish. Two fish. Red fish. Blue fish.")
-    9
+    -9
     
     >>> calculate_grade("Congratulations! Today is your day. You're "
     ...     "off to Great Places! You're off and away!")
