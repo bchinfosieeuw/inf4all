@@ -6,15 +6,12 @@ def meal(time: str) -> str | None:
     >>> meal(7:15)
     Het is tijd voor ontbijt
     
-    $ python etenstijd.py
     Hoe laat is het? 08:00
     Het is tijd voor ontbijt
     
-    $ python etenstijd.py
     Hoe laat is het? 13:00
     Het is tijd voor lunch
     
-    $ python etenstijd.py
     Hoe laat is het? 18:53
     Het is tijd voor avondeten
     
