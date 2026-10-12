@@ -26,6 +26,7 @@ def check_number(password: str) -> bool:
     """
     containsNumber = False
     for c in password:
+        
 
 def check_password(password: str) -> bool:
     """
