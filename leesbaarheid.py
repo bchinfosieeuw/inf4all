@@ -12,6 +12,7 @@ def calculate_grade(text: str) -> int:
     ...     "Horatio, than are dreamt of in your philosophy.")
     
     """
+    
     index = coleman_liau(words, sentences, letters)
     return index
 
