@@ -33,6 +33,7 @@ def meal(time: str) -> str | None:
             elif (time[0]=="1" and time[1]=="8") or (
             time[0]=="1" and time[1]=="9" and time[-1]=="0" and time[-2]=="0"):
                 return "avondeten"
+    return None
 
 if __name__ == '__main__':
     time = input("Hoe laat is het? ")
