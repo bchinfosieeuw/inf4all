@@ -12,7 +12,7 @@ def meal(time: str) -> str | None:
         elif time[0]=="12" or (time[0]=="13" and time[-1]=="0" and time[-2]=="0"):
             return "lunch"
         elif time[0]=="18" or (time[0]=="19" and time[-1]=="0" and time[-2]=="0"):
-            return "ontbijt"
+            return "avondeten"
     elif time[2]==":":
         print()
 
