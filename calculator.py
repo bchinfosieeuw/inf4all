@@ -6,5 +6,5 @@ def evaluate(x: int, y: str, z: int) -> float:
 if __name__ == '__main__':
     formula = input()
     x, y, z = formula.split(" ")
-    evaluate(
+    evaluate(int(x), y, int(z)
     print(x)
