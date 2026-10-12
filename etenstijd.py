@@ -8,7 +8,7 @@ def meal(time: str) -> str | None:
             time[i] = time[i+1]
         print(time)
     if time[1]==":"
-        
+        print()
     elif time[2]==":"
 
 if __name__ == '__main__':
