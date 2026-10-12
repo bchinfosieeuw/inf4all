@@ -23,6 +23,17 @@ def check_letter(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     
     >>> check_letter()
+        >>> check_length("AardappelTester123")
+    True
+    
+    >>> check_length("hoi")
+    False
+    
+    >>> check_length("MyPassword")
+    False
+    
+    >>> check_length("Psswrd1")
+    False
     """
     containsUppercase = False
     containsLowercase = False
