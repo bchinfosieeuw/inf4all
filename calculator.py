@@ -9,7 +9,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     elif y=="*":
         return float(x * z)
     elif y=="/":
-        return float(x) / z)
+        return float(x) / float(z)
 
 if __name__ == '__main__':
     formula = input()
