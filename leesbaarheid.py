@@ -57,4 +57,3 @@ if __name__ == '__main__':
         print('Grade 16+')
     else:
         print('Grade', index)
-    print(coleman_liau(25, 3, 6))
