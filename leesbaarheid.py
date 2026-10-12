@@ -21,6 +21,9 @@ def calculate_grade(text: str) -> int:
         if c in ".!":
             sentences += 1
     letters = 1
+    for c in text:
+        if c in ".!":
+            sentences += 1
     index = coleman_liau(words, sentences, letters)
     return index
 
