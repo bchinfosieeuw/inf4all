@@ -37,3 +37,7 @@ if __name__ == '__main__':
     index = calculate_grade(text)
     if index < 1:
         print('Below Grade 1')
+    elif index < 1:
+        print('Below Grade 1')
+    if index < 1:
+        print('Below Grade 1')
