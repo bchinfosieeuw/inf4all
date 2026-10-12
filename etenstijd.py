@@ -2,6 +2,7 @@ def meal(time: str) -> str | None:
     """
     Converteert een tijd-string naar een maaltijd.
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
+    
     Hoe laat is het? 7:15
 Het is tijd voor ontbijt
 
