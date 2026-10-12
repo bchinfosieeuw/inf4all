@@ -70,7 +70,17 @@ def check_password(password: str) -> bool:
     """
     Controleer of aan alledrie de eisen is voldaan.
     
-    >>> check_password
+    >>> check_number("AardappelTester123")
+    True
+    
+    >>> check_number("hoi")
+    False
+    
+    >>> check_number("MyPassword")
+    False
+    
+    >>> check_number("Psswrd1")
+    True
     """
     if (check_length(password) and check_letter(password) and 
     check_number(password)):
