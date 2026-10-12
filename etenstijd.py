@@ -3,7 +3,7 @@ def meal(time: str) -> str | None:
     Converteert een tijd-string naar een maaltijd.
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     """
-    if time[0]=="0"
+    if time[0]=="0":
         for i in range(4)
             time[i] = time[i+1]
         print(time)
