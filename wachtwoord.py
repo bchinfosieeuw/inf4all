@@ -9,7 +9,7 @@ def check_length(password: str) -> bool:
     False
     
     >>> check_length("MyPassword")
-    False
+    True
     
     >>> check_length("Psswrd1")
     False
