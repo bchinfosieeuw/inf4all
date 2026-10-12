@@ -4,7 +4,7 @@ def meal(time: str) -> str | None:
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     """
     if time[0]=="0":
-        for i in range(4)
+        for i in range(4):
             time[i] = time[i+1]
         print(time)
     if time[1]==":":
