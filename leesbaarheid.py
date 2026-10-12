@@ -41,7 +41,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     -36
     
     >>> coleman_liau(25, 3, 6)
-    -117
+    -18
     """
     L = 100*(letters / words)
     S = 100*(sentences / words)
