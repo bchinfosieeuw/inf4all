@@ -4,16 +4,16 @@ def meal(time: str) -> str | None:
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     
     >>> meal("7:15")
-    'ontbijt
+    'ontbijt'
     
     >>> meal("08:00")
-    ontbijt
+    'ontbijt'
     
     >>> meal("13:00")
-    lunch
+    'lunch'
     
     >>> meal("18:53")
-    avondeten
+    'avondeten'
     
     >>> meal("22:12")
     None
