@@ -7,7 +7,7 @@ def meal(time: str) -> str | None:
     if time[0]=="0":
         i = 1
     if time[1]==":":
-        if time[0]=="7" or (time[0]=="8" and )
+        if time[0]=="7" or (time[0]=="8" and time[])
     elif time[2]==":":
         print()
 
