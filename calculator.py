@@ -12,7 +12,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     -24.0
     
     >>> evaluate(3 / 8)
-    2.0
+    0.375
     """
     if y=="+":
         return float(x + z)
