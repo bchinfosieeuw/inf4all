@@ -9,7 +9,7 @@ def meal(time: str) -> str | None:
         print(time)
     if time[1]==":":
         print()
-    elif time[2]==":"
+    elif time[2]==":":
         print()
 
 if __name__ == '__main__':
