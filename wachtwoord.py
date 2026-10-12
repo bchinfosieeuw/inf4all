@@ -32,7 +32,7 @@ def check_letter(password: str) -> bool:
     True
     
     >>> check_letter("Psswrd1")
-    False
+    True
     """
     containsUppercase = False
     containsLowercase = False
