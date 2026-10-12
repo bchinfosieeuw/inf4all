@@ -21,7 +21,9 @@ def check_password(password: str) -> bool:
     Controleer of aan alledrie de eisen is voldaan.
     """
     if check_length() and check_letter() and check_number():
-        
+        return True
+    else:
+        return False
 
 if __name__ == '__main__':
     passwordProposal = input('Geef een wachtwoord:')
