@@ -7,7 +7,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     elif y=="-":
         return x - z + 0.0
     elif y=="*":
-        return x + z + 0.0
+        return x * z + 0.0
     elif y=="+":
         return x + z + 0.0
 
