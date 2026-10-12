@@ -16,7 +16,7 @@ def calculate_grade(text: str) -> int:
     for c in text:
         if c==" ":
             words += 1
-    sentences = 1
+    sentences = 0
     for c in text:
         if c in ".!":
             sentences += 1
