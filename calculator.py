@@ -4,8 +4,8 @@ def evaluate(x: int, y: str, z: int) -> float:
     """
     if y=="+":
         return x + z + 0.0
-    elif y=="+":
-        return x + z + 0.0
+    elif y=="-":
+        return x - z + 0.0
     elif y=="+":
         return x + z + 0.0
     elif y=="+":
