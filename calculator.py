@@ -3,13 +3,13 @@ def evaluate(x: int, y: str, z: int) -> float:
     Bereken het resultaat van de operatie y toegepast op x en z.
     """
     if y=="+":
-        return x + z + 0.0
+        return x + z
     elif y=="-":
-        return x - z + 0.0
+        return x - z
     elif y=="*":
-        return x * z + 0.0
+        return x * z
     elif y=="/":
-        return x / z + 0.0
+        return x / z
 
 if __name__ == '__main__':
     formula = input()
