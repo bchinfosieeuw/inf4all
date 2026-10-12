@@ -6,7 +6,7 @@ def evaluate(x: int, y: str, z: int) -> float:
         return x + z + 0.0
     elif y=="+":
         return x + z + 0.0
-    if y=="+":
+    elif y=="+":
         return x + z + 0.0
     if y=="+":
         return x + z + 0.0
