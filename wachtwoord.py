@@ -29,7 +29,7 @@ def check_letter(password: str) -> bool:
     False
     
     >>> check_letter("MyPassword")
-    False
+    True
     
     >>> check_letter("Psswrd1")
     False
