@@ -5,5 +5,5 @@ def meal(time: str) -> str | None:
     """
 
 if __name__ == '__main__':
-    time = input("")
+    time = input("Hoe laat is het?")
     meal()
