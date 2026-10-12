@@ -36,3 +36,4 @@ if __name__ == '__main__':
     text = input('Text: ')
     index = calculate_grade(text)
     if index < 1:
+        
