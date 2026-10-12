@@ -24,7 +24,7 @@ def calculate_grade(text: str) -> int:
     for c in text:
         if c.isalpha():
             letters += 1
-    index = round(coleman_liau(words, sentences, letters))
+    index = coleman_liau(words, sentences, letters)
     return index
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
