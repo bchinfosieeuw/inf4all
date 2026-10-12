@@ -6,6 +6,7 @@ def meal(time: str) -> str | None:
     i = 0
     if time[0]=="0":
         
+    else:
     if time[1]==":":
         if time[0]=="7" or (time[0]=="8" and time[-1]=="0" and time[-2]=="0"):
             return "ontbijt"
