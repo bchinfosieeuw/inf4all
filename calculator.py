@@ -5,11 +5,11 @@ def evaluate(x: int, y: str, z: int) -> float:
     if y=="+":
         return float(x + z)
     elif y=="-":
-        return x - z
+        return float(x - z)
     elif y=="*":
-        return x * z
+        return float(x * z)
     elif y=="/":
-        return x // z
+        return float(x // z)
 
 if __name__ == '__main__':
     formula = input()
