@@ -5,7 +5,7 @@ def meal(time: str) -> str | None:
     """
     if time[0]=="0"
         for i in range(4)
-            time[i]
+            time[i] = time[i]
     if time[1]==":"
         
     elif time[2]==":"
