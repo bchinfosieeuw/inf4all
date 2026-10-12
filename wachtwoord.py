@@ -6,7 +6,7 @@ def check_length(password: str) -> bool:
     True
     
     >>> check_length("hoi")
-    3
+    False
     """
     return len(password) >= 8
 
