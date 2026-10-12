@@ -22,4 +22,4 @@ def check_password(password: str) -> bool:
     """
 
 if __name__ == '__main__':
-    password_va
+    passwordValidity = check_password()
