@@ -34,3 +34,4 @@ def calculate_grade(time: str) -> str | None:
     return None
 from priem_getal import is_priem
 def zoek_langste_reeks(N: int) -> tuple[int, int]:
+    return minonder, minboven-1
