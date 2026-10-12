@@ -15,6 +15,8 @@ def check_letter(password: str) -> bool:
     for c in password:
         if c.isupper()==True:
             containsUppercase = True
+        if c.islower()==True:
+            
 
 def check_number(password: str) -> bool:
     """
