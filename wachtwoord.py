@@ -55,7 +55,7 @@ def check_number(password: str) -> bool:
     False
     
     >>> check_number("MyPassword")
-    True
+    False
     
     >>> check_number("Psswrd1")
     True
