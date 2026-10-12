@@ -3,19 +3,19 @@ def meal(time: str) -> str | None:
     Converteert een tijd-string naar een maaltijd.
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     
-    >>> meal("7:15)
+    >>> meal("7:15")
     ontbijt
     
-    >>> meal(08:00)
+    >>> meal("08:00")
     ontbijt
     
-    >>> meal(13:00)
+    >>> meal("13:00")
     lunch
     
-    >>> meal(18:53)
+    >>> meal("18:53")
     avondeten
     
-    >>> meal(22:12)
+    >>> meal("22:12")
     None
     """
     if time[0]=="0":
