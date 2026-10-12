@@ -10,6 +10,7 @@ def check_letter(password: str) -> bool:
     kleine letter bevat.
     Gebruik een loop om door password te lopen.
     """
+    
     for c in password:
         if c.isupper()==True:
             
