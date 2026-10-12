@@ -21,5 +21,5 @@ range(-2, 9, 2) feeft de getallen van -2 tot 9, in stappen van 2
 .isupper() bepaalt of de string alleen hoofdletters heeft
 .isalpha() bepaalt of de string alleen letters heeft
 .isdigit() bepaalt of de string alleen cijfers heeft
-formula = input()
+formula = input()#
 x, y, z = formula.split(" ")
