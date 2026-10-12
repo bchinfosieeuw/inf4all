@@ -4,7 +4,8 @@ def meal(time: str) -> str | None:
     De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
     """
     if time[1]==":"
-    elif time[1]==":"
+        
+    elif time[2]==":"
 
 if __name__ == '__main__':
     time = input("Hoe laat is het?")
