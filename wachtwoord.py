@@ -26,3 +26,5 @@ if __name__ == '__main__':
     passwordValidity = check_password(passwordProposal)
     if passwordValidity==True:
         print('Het gegeven wachtwoord is valide.')
+    if passwordValidity==True:
+        print('Het gegeven wachtwoord is valide.')
