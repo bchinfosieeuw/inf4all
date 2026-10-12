@@ -7,5 +7,5 @@ if __name__ == '__main__':
     formula = input()
     x = int(formula.split(0))
     y = formula.split(1)
-    z = int(formula.split(" "))
+    z = int(formula.split(2))
     print(x)
