@@ -16,6 +16,7 @@ def meal(time: str) -> str | None:
     avondeten
     
     >>> meal(22:12)
+    None
     """
     if time[0]=="0":
         if time[1]=="7" or (time[1]=="8" and time[-1]=="0" and time[-2]=="0"):
