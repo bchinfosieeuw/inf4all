@@ -6,10 +6,10 @@ def meal(time: str) -> str | None:
     >>> meal(7:15)
     Het is tijd voor ontbijt
     
-    >>> meal(08:00
+    >>> meal(08:00)
     Het is tijd voor ontbijt
     
-    >>> meal(13:00
+    >>> meal(13:00)
     Het is tijd voor lunch
     
     >>> meal(18:53)
