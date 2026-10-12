@@ -1,0 +1,97 @@
+def check_length(password: str) -> bool:
+    """
+    Controleer of het wachtwoord minstens 8 karakters bevat.
+    
+    >>> check_length("AardappelTester123")
+    True
+    
+    >>> check_length("hoi")
+    False
+    
+    >>> check_length("MyPassword")
+    True
+    
+    >>> check_length("Psswrd1")
+    False
+    """
+    return len(password) >= 8
+
+def check_letter(password: str) -> bool:
+    """
+    Controleer of het wachtwoord zowel een grote als een
+    kleine letter bevat.
+    Gebruik een loop om door password te lopen.
+    
+    >>> check_letter("AardappelTester123")
+    True
+    
+    >>> check_letter("hoi")
+    False
+    
+    >>> check_letter("MyPassword")
+    True
+    
+    >>> check_letter("Psswrd1")
+    True
+    """
+    containsUppercase = False
+    containsLowercase = False
+    for c in password:
+        if c.isupper()==True:
+            containsUppercase = True
+        if c.islower()==True:
+            containsLowercase = True
+    return containsUppercase==containsLowercase==True
+
+def check_number(password: str) -> bool:
+    """
+    Controleer of het wachtwoord een cijfer bevat.
+    Gebruik een loop om door password te lopen.
+    
+    >>> check_number("AardappelTester123")
+    True
+    
+    >>> check_number("hoi")
+    False
+    
+    >>> check_number("MyPassword")
+    False
+    
+    >>> check_number("Psswrd1")
+    True
+    """
+    containsNumber = False
+    for c in password:
+        if c.isdigit()==True:
+            containsNumber = True
+    return containsNumber==True
+
+def check_password(password: str) -> bool:
+    """
+    Controleer of aan alledrie de eisen is voldaan.
+    
+    >>> check_password("AardappelTester123")
+    True
+    
+    >>> check_password("hoi")
+    False
+    
+    >>> check_password("MyPassword")
+    False
+    
+    >>> check_password("Psswrd1")
+    False
+    """
+    if (check_length(password) and check_letter(password) and 
+    check_number(password)):
+        return True
+    else:
+        return False
+
+if __name__ == '__main__':
+    passwordProposal = input('Geef een wachtwoord: ')
+    passwordValidity = check_password(passwordProposal)
+    if passwordValidity==True:
+        print('Het gegeven wachtwoord is valide.')
+    else:
+        print('Het gegeven wachtwoord is niet valide.')
