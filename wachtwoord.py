@@ -48,16 +48,16 @@ def check_number(password: str) -> bool:
     Controleer of het wachtwoord een cijfer bevat.
     Gebruik een loop om door password te lopen.
     
-    >>> check_letter("AardappelTester123")
+    >>> check_number("AardappelTester123")
     True
     
-    >>> check_letter("hoi")
+    >>> check_number("hoi")
     False
     
-    >>> check_letter("MyPassword")
+    >>> check_number("MyPassword")
     True
     
-    >>> check_letter("Psswrd1")
+    >>> check_number("Psswrd1")
     True
     """
     containsNumber = False
