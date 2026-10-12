@@ -7,4 +7,4 @@ if __name__ == '__main__':
     formula = input()
     x, y, z = formula.split(" ")
     resultaat = evaluate(int(x), y, int(z))
-    print(x)
+    print(resultaat)
