@@ -20,7 +20,7 @@ def calculate_grade(text: str) -> int:
     for c in text:
         if c in ".!":
             sentences += 1
-    letters = 1
+    letters = 0
     for c in text:
         if c.isalpha():
             letters += 1
