@@ -34,7 +34,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
     Berekent de index volgens de Coleman Liau-formule.
     
-    >>> coleman_liau(10, 35, )
+    >>> coleman_liau(10, 35, 4)
     """
     L = 100*(letters / words)
     S = 100*(sentences / words)
