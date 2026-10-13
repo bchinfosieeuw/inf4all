@@ -4,6 +4,6 @@ Je kunt ook de type hints checken. Installeer dan mypy via het commando pip3 ins
 mypy --strict --ignore-missing-imports programma.py
 
 Vragen:
-- waarom main methode? modules importeren negeert main als filenaam niet overeenkomst met 
+- waarom main methode? modules importeren negeert main als filenaam niet overeenkomt met main
 - waarom is 0.41*100 = niet precies 41? float moet in 8 bits passen
 - 
