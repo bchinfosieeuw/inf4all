@@ -5,5 +5,5 @@ mypy --strict --ignore-missing-imports programma.py
 
 Vragen:
 - waarom main methode?
-- waarom is 0.41*100 = niet precies 41?
+- waarom is 0.41*100 = niet precies 41? Moet 
 - 
