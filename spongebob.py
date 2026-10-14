@@ -45,11 +45,11 @@ def spongebob2(s: str) -> str:
             else:
                 result += s[i]
         else:
-            for char in s:
+            for char2 in s:
                 if (i+2)%2==1:
-                    result += char.upper()
+                    result += char2.upper()
                 else:
-                    result += char
+                    result += char2
     return result
     
 print(spongebob2('hello world!'))
