@@ -22,7 +22,7 @@ def autocorrect(s: str) -> str:
             if char in ".,!" and char!=s[-1]:
                 result += " "
             elif char in ".,!":
-                
+                result += "-"
         i += 1
     return result
 
