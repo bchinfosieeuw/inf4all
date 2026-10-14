@@ -28,3 +28,6 @@ def autocorrect(s: str) -> str:
     return result
 
 print(autocorrect('------AA---'))
+print(autocorrect('------AA---'))
+print(autocorrect('------AA---'))
+print(autocorrect('------AA---'))
