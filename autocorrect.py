@@ -21,9 +21,9 @@ def autocorrect(s: str) -> str:
             mybool = False
             result += s[i-1]
         elif (i == len(s) - 2 and s[i]==s[i+1]
-        ) or char.isalnum() or not(s[i-2] in ".,!- " and s[i-1] in ".,!- "):
+        ) or char.isalnum() or not(s[i-2] in ".,!-Y " and s[i-1] in ".,!-Y "):
             result += char
-            if char in ".,!-" and char!=s[-1]:
+            if char in ".,!-Y" and char!=s[-1]:
                 result += " "
         i += 1
     return result
