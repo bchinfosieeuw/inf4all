@@ -1,4 +1,4 @@
-def autocorrect(s: str) -> str:
+def spongebob(s: str) -> str:
     """
     Remove double leestekens and double spaces from the string.
     
