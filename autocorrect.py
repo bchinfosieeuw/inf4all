@@ -13,7 +13,7 @@ def autocorrect(s: str) -> str:
     """
     result = ""
     for char in s:
-        if 
+        if c.isalnum()
         result += char * i
     return result
     
