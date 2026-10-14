@@ -11,7 +11,6 @@ def convert(s: str) -> str:
     >>> convert('readFromFile')
     'read_from_file'
     """
-    i = 0
     result = ""
     while i < len(s):
         result += s[i]
