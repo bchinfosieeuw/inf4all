@@ -14,6 +14,6 @@ def autocorrect(s: str) -> str:
     result = ""
     for char in s:
         if not char.isalnum():
-            result += char * i
+            result += char
     return result
     
