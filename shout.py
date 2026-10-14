@@ -1,14 +1,14 @@
-def remove_vowels(s: str) -> str:
+def shout(s: str) -> str:
     """
     Each token, repeatedly increased by 1 occurence, is printed.
     
-    >>> remove_vowels('just setting up my twitter')
+    >>> shout('just setting up my twitter')
     'jst sttng p my twttr'
     
-    >>> remove_vowels('python')
+    >>> shout('python')
     'pythn'
     
-    >>> remove_vowels('Amsterdam')
+    >>> shout('Amsterdam')
     'mstrdm'
     """
     nieuwe_string = ""
