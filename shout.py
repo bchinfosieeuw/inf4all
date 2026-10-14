@@ -9,7 +9,7 @@ def shout(s: str) -> str:
     'PYTHON!!!!'
     
     >>> shout('Hello hello')
-        'mstrdm'
+    'mstrdm'
     """
     nieuwe_string = ""
     for teken in s:
