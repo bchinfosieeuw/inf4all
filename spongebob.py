@@ -39,10 +39,10 @@ def spongebob2(s: str) -> str:
     for char in s:
         if char.isalpha():
             i += 1
-            if (i+2)%2==0:
-                result += s[i].upper()
-            else:
-                result += s[i]
+        if (i+2)%2==0:
+            result += s[i].upper()
+        else:
+            result += s[i]
     return result
     
 print(spongebob2('hello world!'))
