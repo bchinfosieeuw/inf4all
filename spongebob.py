@@ -36,6 +36,7 @@ def spongebob2(s: str) -> str:
     """
     result = ""
     i = -1
+    j = -1
     for char in s:
         if s[i+1]!=" ":
             if char.isalpha():
