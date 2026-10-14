@@ -6,10 +6,10 @@ def stretch(s: str) -> str:
     "'abbccc'"
     
     >>> stretch('Hoi!')
-    "Hooiii!!!!"
+    "'Hooiii!!!!'"
     
     >>> stretch('Hallo')
-    "Haalllllllooooo"
+    "'Haalllllllooooo'"
     """
     i = 1
     result = "'"
