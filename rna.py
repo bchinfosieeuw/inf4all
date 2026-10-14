@@ -21,8 +21,8 @@ def transcribe_dna_to_rna(dna: str) -> str:
             result += "U"
         elif char.upper()=="G":
             result += "C"
-        elif char.upper()=="A":
-            result += "U"
+        elif char.upper()=="C":
+            result += "G"
         elif char.upper()=="A":
             result += "U"
     return result
