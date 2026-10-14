@@ -25,7 +25,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     check aanroepen).
     
     >>> check_input('ATGC')
-    True
+    UACG
     
     >>> check_input('atGcAgtAttGCA')
     True
