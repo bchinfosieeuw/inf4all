@@ -16,7 +16,7 @@ def yell(s: str) -> str:
     while i < len(s):
         result += s[i]
         if s[i] in "!?":
-            
+            result += s[i]
         i += 1
     return result
     
