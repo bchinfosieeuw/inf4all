@@ -20,7 +20,7 @@ def spongebob1(s: str) -> str:
             result += s[i].upper()
     return result
 
-def spongebob1(s: str) -> str:
+def spongebob2(s: str) -> str:
     """
     Leave the chars of the string alternately on lowercase or convert to 
     uppercase.
