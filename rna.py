@@ -3,6 +3,7 @@ def check_input(dna: str) -> bool:
     Controleert of de input een correcte DNA-string is.
     Accepteert zowel hoofd- als kleine letters.
     """
+    return 
 
 def transcribe_dna_to_rna(dna: str) -> str:
     """
