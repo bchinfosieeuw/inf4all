@@ -6,7 +6,7 @@ def yell(s: str) -> str:
     'Can't shake it off of me!!'
     
     >>> yell('Who the hell put the muffins the freezer?')
-    'Hooiii!!!!'
+    'Who the hell put the muffins the freezer??'
     
     >>> yell('Hallo')
     'Haalllllllooooo'
