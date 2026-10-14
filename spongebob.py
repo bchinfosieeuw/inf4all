@@ -50,6 +50,7 @@ def spongebob2(s: str) -> str:
                 result += char.upper()
             else:
                 result += char
+            j += 1
     return result
     
 print(spongebob2('hello world!'))
