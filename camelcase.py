@@ -20,4 +20,4 @@ def convert(s: str) -> str:
     
 if __name__ == '__main__':
     s = input('camelCase: ')
-    print(convert(s))
+    print('snake_case:', convert(s))
