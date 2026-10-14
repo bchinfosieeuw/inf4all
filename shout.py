@@ -14,7 +14,7 @@ def shout(s: str) -> str:
     nieuwe_string = ""
     for teken in s:
         if teken.lower() in "aeiou":
-            nieuwe_string += ""
+            nieuwe_string += upper()
         else:
             nieuwe_string += teken
     return nieuwe_string
