@@ -10,7 +10,7 @@ def spongebob1(s: str) -> str:
     'JA Ja JA'
     
     >>> spongebob1('nee nee nee')
-    'nEe nee nee'
+    'nEe nEe nee'
     """
     result = ""
     for i in range(len(s)):
