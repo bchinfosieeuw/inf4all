@@ -16,7 +16,7 @@ def autocorrect(s: str) -> str:
     for char in s:
         if len(s)==1:
             result = char
-        elif 
+        elif i-1
         elif (i == len(s) - 2 and s[i]==s[i+1]
         ) or char.isalnum() or not(s[i-2] in ".,!- " and s[i-1] in ".,!- "):
             result += char
