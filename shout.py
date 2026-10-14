@@ -8,7 +8,7 @@ def shout(s: str) -> str:
     >>> shout('python!!')
     'PYTHON!!!!'
     
-    >>> shout('')
+    >>> shout('Hello hello')
     'mstrdm'
     """
     nieuwe_string = ""
