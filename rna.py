@@ -5,6 +5,12 @@ def check_input(dna: str) -> bool:
     
     >>> check_input('ATGC')
     
+    
+    >>> check_input('ATGC')
+    
+    
+    >>> check_input('ATGC')
+    
     """
     for char in dna:
         if char not in "agctAGCT":
