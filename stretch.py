@@ -16,7 +16,7 @@ def stretch(s: str) -> str:
     for char in s:
         result += char * i
         i += 1
-    result += 
+    result += "\'"
     return result
     
 if __name__ == '__main__':
