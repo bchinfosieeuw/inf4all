@@ -2,13 +2,13 @@ def autocorrect(s: str) -> str:
     """
     Each token, repeatedly increased by 1 occurence, is printed.
     
-    >>> stretch('abc')
+    >>> autocorrect('abc')
     'abbccc'
     
-    >>> stretch('Hoi!')
+    >>> autocorrect('Hoi!')
     'Hooiii!!!!'
     
-    >>> stretch('Hallo')
+    >>> autocorrect('Hallo')
     'Haalllllllooooo'
     """
     i = 1
