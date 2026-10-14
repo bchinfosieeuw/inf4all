@@ -20,3 +20,4 @@ def stretch(s: str) -> str:
     
 if __name__ == '__main__':
     stretch('abc')
+    print(result)
