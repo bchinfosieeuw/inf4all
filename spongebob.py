@@ -20,4 +20,4 @@ def spongebob1(s: str) -> str:
             result += s[i].upper()
     return result
 
-print(spongebob1('Ja Ja Ja.'))
+print(spongebob1('nee nee nee'))
