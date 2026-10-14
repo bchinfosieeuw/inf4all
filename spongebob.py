@@ -32,7 +32,7 @@ def spongebob2(s: str) -> str:
     'JA JA Ja'
     
     >>> spongebob2('nee nee nee')
-    'nEe nEe nEe'
+    'nEe NeE nEe'
     """
     result = ""
     i = -1
