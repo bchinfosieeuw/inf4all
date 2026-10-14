@@ -13,8 +13,8 @@ def convert(s: str) -> str:
     """
     result = ""
     for teken in s:
-        if s[i] not in "_":
-            result += s[i]
+        if teken not in "_":
+            result += teken
     return result
     
 if __name__ == '__main__':
