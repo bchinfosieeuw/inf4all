@@ -3,13 +3,13 @@ def stretch(s: str) -> str:
     Each token, repeatedly increased by 1 occurence, is printed.
     
     >>> stretch('abc')
-    "'abbccc'"
+    'abbccc'
     
     >>> stretch('Hoi!')
-    "'Hooiii!!!!'"
+    'Hooiii!!!!'
     
     >>> stretch('Hallo')
-    "'Haalllllllooooo'"
+    'Haalllllllooooo'
     """
     i = 1
     result = "'"
