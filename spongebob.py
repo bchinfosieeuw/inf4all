@@ -53,4 +53,4 @@ def spongebob2(s: str) -> str:
             j += 1
     return result
     
-print(spongebob2('nee nee nee'))
+print(spongebob1('nee nee nee'))
