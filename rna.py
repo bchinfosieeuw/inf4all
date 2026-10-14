@@ -31,7 +31,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     UACGUCAUAACGU
     
     >>> check_input('CGGTA')
-    False
+    GCCAU
     """
     result = ""
     for char in dna:
