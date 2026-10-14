@@ -14,7 +14,7 @@ def autocorrect(s: str) -> str:
     result = ""
     i = 0
     for char in s:
-        if s[0]==char and "-" in char:
+        if s[0]=="-" and char in "-":
             result += "-"
         if len(s)==1:
             result = char
