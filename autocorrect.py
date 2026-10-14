@@ -5,7 +5,7 @@ def autocorrect(s: str) -> str:
     >>> autocorrect('---')
     '-'
     
-    >>> autocorrect('Hoi!')
+    >>> autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.')
     'Hooiii!!!!'
     
     >>> autocorrect('Hallo')
