@@ -16,6 +16,5 @@ def stretch(s: str) -> str:
     for char in s:
         result += char * i
         i += 1
-    result += "'"
     return result
     
