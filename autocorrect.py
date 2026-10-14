@@ -27,7 +27,8 @@ def autocorrect(s: str) -> str:
                 result += " "
         i += 1
     return result
-    
+
+autocorrect('           ')
 print(autocorrect('------AA---'))
 print(autocorrect('---'))
 print(autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.'))
