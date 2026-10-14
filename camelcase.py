@@ -16,7 +16,6 @@ def convert(s: str) -> str:
         result += s[i]
         if s[i] in "!?":
             result += s[i]
-        i += 1
     return result
     
 if __name__ == '__main__':
