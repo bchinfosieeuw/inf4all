@@ -1,6 +1,6 @@
 def spongebob1(s: str) -> str:
     """
-    Convert the chars of the string alternately to .
+    Convert the chars of the string alternately to lower.
     
     >>> autocorrect('---')
     '-'
