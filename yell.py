@@ -18,3 +18,5 @@ def stretch(s: str) -> str:
         i += 1
     return result
     
+if __name__ == '__main__':
+    
