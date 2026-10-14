@@ -23,5 +23,3 @@ def autocorrect(s: str) -> str:
                 result += " "
         i += 1
     return result
-
-print(autocorrect('!!!'))
