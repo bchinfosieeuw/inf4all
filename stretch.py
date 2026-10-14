@@ -9,7 +9,7 @@ def stretch(s: str) -> str:
     "'Hooiii!!!!'"
     
     >>> stretch('Hallo')
-    'Haalllllllooooo'"
+    "'Haalllllllooooo'"
     """
     i = 1
     result = "\'"
