@@ -2,7 +2,7 @@ def convert(s: str) -> str:
     """
     Returns string with double exclamation-signs and questionmarks.
     
-    >>> convert("Can't shake it off of me!")
+    >>> convert("check")
     "Can't shake it off of me!!"
     
     >>> convert('Who the hell put the muffins the freezer?')
