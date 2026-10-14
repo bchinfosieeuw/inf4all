@@ -2,13 +2,13 @@ def yell(s: str) -> str:
     """
     Each token, repeatedly increased by 1 occurence, is printed.
     
-    >>> stretch('abc')
+    >>> yell('abc')
     'abbccc'
     
-    >>> stretch('Hoi!')
+    >>> yell('Hoi!')
     'Hooiii!!!!'
     
-    >>> stretch('Hallo')
+    >>> yell('Hallo')
     'Haalllllllooooo'
     """
     i = 0
