@@ -15,6 +15,8 @@ def spongebob1(s: str) -> str:
     for i in range(len(s)):
         if (i+2)%2==0:
             result += s[i]
+        else:
+            
     return result
 
 print(spongebob1('hello world!'))
