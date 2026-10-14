@@ -42,7 +42,7 @@ def spongebob2(s: str) -> str:
                 i += 1
             if (i+2)%2==1:
                 result += s[i].upper()
-            elif char in " ":
+            else if char not in " ":
                 result += s[i]
     return result
     
