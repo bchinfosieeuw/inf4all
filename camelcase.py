@@ -22,4 +22,4 @@ def convert(s: str) -> str:
     
 if __name__ == '__main__':
     s = input()
-    print(yell(s))
+    print(convert(s))
