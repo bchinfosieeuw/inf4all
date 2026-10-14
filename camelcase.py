@@ -2,13 +2,13 @@ def convert(s: str) -> str:
     """
     Returns string with double exclamation-signs and questionmarks.
     
-    >>> yell("Can't shake it off of me!")
+    >>> convert("Can't shake it off of me!")
     "Can't shake it off of me!!"
     
-    >>> yell('Who the hell put the muffins the freezer?')
+    >>> convert('Who the hell put the muffins the freezer?')
     'Who the hell put the muffins the freezer??'
     
-    >>> yell('Cringe? CRINGE!')
+    >>> convert('Cringe? CRINGE!')
     'Cringe?? CRINGE!!'
     """
     i = 0
