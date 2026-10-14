@@ -30,7 +30,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     >>> check_input('atGcAgtAttGCA')
     UACGUCAUAACGU
     
-    >>> check_input('hello')
+    >>> check_input('GCC')
     False
     """
     result = ""
