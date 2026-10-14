@@ -11,7 +11,7 @@ def yell(s: str) -> str:
     >>> stretch('Hallo')
     'Haalllllllooooo'
     """
-    i = 1
+    i = 0
     result = ""
     for char in s:
         result += char * i
