@@ -24,4 +24,4 @@ def autocorrect(s: str) -> str:
         i += 1
     return result
 
-autocorrect('------AA---')
+print(autocorrect('------AA---')
