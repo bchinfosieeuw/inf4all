@@ -35,6 +35,7 @@ def spongebob2(s: str) -> str:
     'nEe nEe nEe'
     """
     result = ""
+    i = 0
     for char in s:
         if (i+2)%2==0:
             result += s[i]
