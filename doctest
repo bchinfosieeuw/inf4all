@@ -8,4 +8,5 @@ Vragen:
 - waarom is 0.41*100 = niet precies 41? float moet in 8 bits passen
 - hoe .split gebruiken op string met onbekend aantal comma's?
 - hoe copy-paste gebruiken in de Terra terminal?
-
+- analyse.py wordt leeggemaakt en verplaatst
+- 
