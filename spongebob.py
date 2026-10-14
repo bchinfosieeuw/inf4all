@@ -48,9 +48,9 @@ def spongebob2(s: str) -> str:
         else:
             if (i+2)%2==1:
                 tussen += char.upper()
+                result += tussen
             else:
                 tussen += char
-                result += tussen
     return result
     
 print(spongebob2('hello world!'))
