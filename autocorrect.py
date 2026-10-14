@@ -17,4 +17,4 @@ def autocorrect(s: str) -> str:
             result += char
     print(result)
     return result
-    
+
