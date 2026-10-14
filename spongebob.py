@@ -37,10 +37,7 @@ def spongebob2(s: str) -> str:
     result = ""
     i = 0
     for char in s:
-        if s[i]==s[i+1]==" ":
-            result = result
-            i += 1
-        elif char.isalpha():
+        if char.isalpha():
             i += 1
             if (i+2)%2==0:
                 result += s[i].upper()
