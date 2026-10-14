@@ -23,3 +23,4 @@ def autocorrect(s: str) -> str:
 
 autocorrect('---')
 autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.')
+autocorrect('Dit hier,, dit kan niet de bedoeling   zijn..')
