@@ -3,7 +3,7 @@ def convert(s: str) -> str:
     Converts string format from camelCase to snake_case.
     
     >>> convert('check')
-    "check"
+    'check'
     
     >>> convert('convertInput')
     'convert_input'
