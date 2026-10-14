@@ -12,7 +12,7 @@ def stretch(s: str) -> str:
     Haalllllllooooo
     """
     i = 1
-    result = ""
+    result = "\'"
     for char in s:
         result += char * i
         i += 1
