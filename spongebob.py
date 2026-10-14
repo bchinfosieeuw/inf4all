@@ -42,7 +42,7 @@ def spongebob2(s: str) -> str:
         else:
             result += s[i].upper()
         if char.isalpha()
-        i += 1
+            i += 1
     return result
     
 print(spongebob2('hello world!'))
