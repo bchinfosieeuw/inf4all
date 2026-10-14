@@ -9,7 +9,7 @@ def convert(s: str) -> str:
     'convert_input'
     
     >>> convert('readFromFile')
-    'Cringe?? CRINGE!!'
+    'read_from_file'
     """
     i = 0
     result = ""
