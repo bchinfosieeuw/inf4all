@@ -45,7 +45,7 @@ def spongebob2(s: str) -> str:
             else:
                 result += s[i]
         else:
-            if char.isalpha():
+            if not char.isalpha():
                 result += char
     return result
     
