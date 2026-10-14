@@ -13,7 +13,7 @@ def spongebob1(s: str) -> str:
     """
     result = ""
     for i in range(len(s)):
-        i += 1
+        if 
     return result
 
 print(spongebob1('hello world!'))
