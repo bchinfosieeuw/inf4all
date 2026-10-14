@@ -25,13 +25,13 @@ def spongebob2(s: str) -> str:
     Leave only the letters of the string alternately on lowercase or convert to 
     uppercase.
     
-    >>> spongebob1('hello world!')
+    >>> spongebob2('hello world!')
     'hElLo WoRlD!'
     
-    >>> spongebob1('Ja Ja Ja.')
+    >>> spongebob2('Ja Ja Ja.')
     'JA JA Ja'
     
-    >>> spongebob1('nee nee nee')
+    >>> spongebob2('nee nee nee')
     'nEe nEe nEe'
     """
     result = ""
