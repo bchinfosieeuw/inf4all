@@ -4,7 +4,7 @@ def spongebob1(s: str) -> str:
     uppercase.
     
     >>> spongebob1('hello world!')
-    '-'
+    'hElLo wOrLd!'
     
     >>> spongebob1('Dit hier,, dit kan niet de bedoeling   zijn.')
     'Dit hier, dit kan niet de bedoeling zijn.'
