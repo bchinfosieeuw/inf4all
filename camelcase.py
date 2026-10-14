@@ -1,6 +1,6 @@
 def convert(s: str) -> str:
     """
-    Returns string with double exclamation-signs and questionmarks.
+    Converts string format from .
     
     >>> convert("check")
     "check"
