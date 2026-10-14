@@ -12,7 +12,7 @@ def convert(s: str) -> str:
     'read_from_file'
     """
     result = ""
-    while i < len(s):
+    for teken in s:
         result += s[i]
         if s[i] in "!?":
             result += s[i]
