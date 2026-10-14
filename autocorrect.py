@@ -15,19 +15,13 @@ def autocorrect(s: str) -> str:
     i = 0
     for char in s:
         if len(s)==1:
-            result = char
+            result =
         elif (i == len(s) - 2 and s[i]==s[i+1]
-        ) or char.isalnum() or not(s[i-1] in ".,!-") and s[i] in ".,!- ":
+        ) or char.isalnum() or not(s[i-1] in ".,!- ") and s[i] in ".,! ":
             result += char
-            if char in ".,!-" and char!=s[-1]:
+            if char in ".,!" and char!=s[-1]:
                 result += " "
-                i += 1
-            #if s[0]=="-" and char in "-":
-            #    result += "-"
         i += 1
     return result
 
-print(autocorrect('------AA---'))
-print(autocorrect('---'))
-print(autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.'))
-print(autocorrect('Hallo Hallo'))
+print(autocorrect('!'))
