@@ -21,7 +21,3 @@ def autocorrect(s: str) -> str:
                 result += " "
         i += 1
     return result
-
-autocorrect('---')
-autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.')
-autocorrect('Hallo Hallo')
