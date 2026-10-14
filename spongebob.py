@@ -1,7 +1,7 @@
 def spongebob1(s: str) -> str:
     """
-    Leave all the chars of the string alternately on lowercase or convert to 
-    uppercase.
+    Leave all the chars of the string alternately on lowercase 
+    or convert to uppercase.
     
     >>> spongebob1('hello world!')
     'hElLo wOrLd!'
