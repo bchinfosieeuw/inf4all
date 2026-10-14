@@ -14,7 +14,7 @@ def yell(s: str) -> str:
     i = 0
     result = ""
     while i < len(s):
-        result += 
+        result += s[i]
         i += 1
     return result
     
