@@ -35,7 +35,6 @@ def spongebob2(s: str) -> str:
     'nEe nEe nEe'
     """
     result = ""
-    tussen = ""
     i = -1
     for char in s:
         if s[i+1]!=" ":
@@ -47,10 +46,9 @@ def spongebob2(s: str) -> str:
                 result += s[i]
         else:
             if (i+2)%2==1:
-                tussen += char.upper()
-                result += tussen
+                result += char.upper()
             else:
-                tussen += char
+                result += s[i]
     return result
     
 print(spongebob2('hello world!'))
