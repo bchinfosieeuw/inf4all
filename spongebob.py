@@ -43,7 +43,7 @@ def spongebob2(s: str) -> str:
             result += s[i].upper()
         if char.isalpha():
             i += 1
-        elif i < len(s) and char==" ":
+        elif i < len(s) - 1 and char==" ":
             i += 2
     return result
     
