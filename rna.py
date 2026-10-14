@@ -24,13 +24,13 @@ def transcribe_dna_to_rna(dna: str) -> str:
     Ga ervan uit dat een valide string wordt gegeven (dus geen
     check aanroepen).
     
-    >>> check_input('ATGC')
+    >>> transcribe_dna_to_rna('ATGC')
     'UACG'
     
-    >>> check_input('atGcAgtAttGCA')
+    >>> transcribe_dna_to_rna('atGcAgtAttGCA')
     'UACGUCAUAACGU'
     
-    >>> check_input('CGGTA')
+    >>> transcribe_dna_to_rna('CGGTA')
     'GCCAU'
     """
     result = ""
