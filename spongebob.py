@@ -3,13 +3,13 @@ def spongebob1(s: str) -> str:
     Leave the chars of the string alternately on lowercase or convert to 
     uppercase.
     
-    >>> autocorrect('---')
+    >>> spongebob1('---')
     '-'
     
-    >>> autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.')
+    >>> spongebob1('Dit hier,, dit kan niet de bedoeling   zijn.')
     'Dit hier, dit kan niet de bedoeling zijn.'
     
-    >>> autocorrect('Hallo Hallo')
+    >>> spongebob1('Hallo Hallo')
     'Hallo Hallo'
     """
     result = ""
