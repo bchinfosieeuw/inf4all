@@ -1,3 +1,4 @@
+python3 -m doctest -v is_even.py
 """Comment"""
 #Comment
 print(round(7.8))
