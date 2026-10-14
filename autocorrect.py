@@ -19,4 +19,4 @@ def autocorrect(s: str) -> str:
     return result
 
 autocorrect('---')
-autocorrect('---')
+autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.')
