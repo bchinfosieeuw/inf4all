@@ -1,6 +1,6 @@
 def spongebob1(s: str) -> str:
     """
-    Remove double leestekens and double spaces from the string.
+    Convert .
     
     >>> autocorrect('---')
     '-'
