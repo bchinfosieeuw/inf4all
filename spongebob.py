@@ -29,7 +29,7 @@ def spongebob2(s: str) -> str:
     'hElLo WoRlD!'
     
     >>> spongebob1('Ja Ja Ja.')
-    'JA Ja JA.'
+    'JA JA Ja'
     
     >>> spongebob1('nee nee nee')
     'nEe nEe nEe'
@@ -53,4 +53,4 @@ def spongebob2(s: str) -> str:
             j += 1
     return result
     
-print(spongebob2('nee nee nee'))
+print(spongebob2('Ja Ja Ja'))
