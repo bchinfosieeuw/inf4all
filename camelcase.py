@@ -19,5 +19,5 @@ def convert(s: str) -> str:
     return result
     
 if __name__ == '__main__':
-    s = input()
+    s = input(camelCase)
     print(convert(s))
