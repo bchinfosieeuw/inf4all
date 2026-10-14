@@ -36,7 +36,6 @@ def spongebob2(s: str) -> str:
     """
     result = ""
     i = -1
-    j = -1
     for char in s:
         if s[i+1]!=" ":
             if char.isalpha():
@@ -46,13 +45,10 @@ def spongebob2(s: str) -> str:
             else:
                 result += s[i]
         else:
-            for char2 in s:
-                if char.isalpha():
-                    j += 1
-                if (j+2)%2==1:
-                    result += char2.upper()
-                else:
-                    result += char2
+            if (i+2)%2==1:
+                result += char.upper()
+            else:
+                result += char
     return result
     
 print(spongebob2('hello world!'))
