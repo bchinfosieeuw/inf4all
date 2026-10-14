@@ -1,4 +1,4 @@
-def stretch(s: str) -> str:
+def autocorrect(s: str) -> str:
     """
     Each token, repeatedly increased by 1 occurence, is printed.
     
