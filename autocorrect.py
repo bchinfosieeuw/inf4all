@@ -19,3 +19,4 @@ def autocorrect(s: str) -> str:
     return result
 
 autocorrect('---')
+autocorrect('---')
