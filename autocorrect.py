@@ -8,8 +8,8 @@ def autocorrect(s: str) -> str:
     >>> autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.')
     'Dit hier, dit kan niet de bedoeling zijn.'
     
-    >>> autocorrect('Hallo')
-    'Hallo'
+    >>> autocorrect('Hallo Hallo')
+    'Hallo Hallo'
     """
     i = 1
     result = ""
