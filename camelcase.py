@@ -13,7 +13,6 @@ def convert(s: str) -> str:
     """
     result = ""
     for teken in s:
-        result += s[i]
         if s[i] not in "_":
             result += s[i]
     return result
