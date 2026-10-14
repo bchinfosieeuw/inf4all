@@ -5,7 +5,7 @@ def yell(s: str) -> str:
     >>> yell('Can't shake it off of me!')
     'Can't shake it off of me!!'
     
-    >>> yell('Hoi!')
+    >>> yell('Who the hell put the muffins the freezer?')
     'Hooiii!!!!'
     
     >>> yell('Hallo')
