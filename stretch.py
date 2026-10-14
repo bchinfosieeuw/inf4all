@@ -17,4 +17,5 @@ def stretch(s: str) -> str:
         result += char * i
         i += 1
     print(result)
+    
 stretch('abc')
