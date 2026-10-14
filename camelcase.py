@@ -1,4 +1,4 @@
-def yell(s: str) -> str:
+def convert(s: str) -> str:
     """
     Returns string with double exclamation-signs and questionmarks.
     
