@@ -8,3 +8,34 @@ Vragen:
 - waarom is 0.41*100 = niet precies 41? float moet in 8 bits passen
 - hoe .split gebruiken op string met onbekend aantal comma's?
 - hoe copy-paste gebruiken in de Terra terminal?
+
+def autocorrect(s: str) -> str:
+    """
+    Remove double leestekens and double spaces from the string.
+    
+    >>> autocorrect('---')
+    '-'
+    
+    >>> autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.')
+    'Dit hier, dit kan niet de bedoeling zijn.'
+    
+    >>> autocorrect('Hallo Hallo')
+    'Hallo Hallo'
+    """
+    result = ""
+    i = 1
+    for char in s:
+        if len(s)==1:
+            result = char
+        elif (i == len(s) - 2 and s[i]==s[i+1]
+        ) or char.isalnum() or not(s[i-2] in ".,!- " and s[i-1] in ".,!- "):
+            result += char
+            if char in ".,!-" and char!=s[-1]:
+                result += " "
+        i += 1
+    return result
+    
+print(autocorrect('------AA---'))
+print(autocorrect('---'))
+print(autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.'))
+print(autocorrect('Hallo Hallo'))
