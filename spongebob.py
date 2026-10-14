@@ -9,7 +9,7 @@ def spongebob1(s: str) -> str:
     >>> spongebob1('Ja Ja Ja.')
     'JA Ja JA'
     
-    >>> spongebob1('Hallo Hallo')
+    >>> spongebob1('Nee')
     'Hallo Hallo'
     """
     result = ""
