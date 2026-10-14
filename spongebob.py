@@ -12,7 +12,6 @@ def spongebob1(s: str) -> str:
     'Hallo Hallo'
     """
     result = ""
-    i = 1
     for char in s:
         i += 1
     return result
