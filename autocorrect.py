@@ -15,6 +15,5 @@ def autocorrect(s: str) -> str:
     for char in s:
         if 
         result += char * i
-        i += 1
     return result
     
