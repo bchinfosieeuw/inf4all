@@ -13,7 +13,8 @@ def yell(s: str) -> str:
     """
     i = 0
     result = ""
-    while i < len(s)
+    while i < len(s):
+        i += 1
     return result
     
 if __name__ == '__main__':
