@@ -3,7 +3,7 @@ def yell(s: str) -> str:
     Each token, repeatedly increased by 1 occurence, is printed.
     
     >>> yell("Can't shake it off of me!")
-    'Can't shake it off of me!!'
+    'Can't shake it off of me!!"
     
     >>> yell('Who the hell put the muffins the freezer?')
     'Who the hell put the muffins the freezer??'
