@@ -46,7 +46,7 @@ def spongebob2(s: str) -> str:
                 result += s[i]
         else:
             if (i+2)%2==1:
-                result += s[.upper()
+                result += s[i].upper()
             else:
                 result += char
     return result
