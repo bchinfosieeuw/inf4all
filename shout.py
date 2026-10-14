@@ -15,7 +15,7 @@ def shout(s: str) -> str:
     for teken in s:
         nieuwe_string += nieuwe_string.upper()
         if teken in "!":
-            nieuwe_string += teken + \b
+            nieuwe_string += teken + ''\b'
     return nieuwe_string
     
 if __name__ == '__main__':
