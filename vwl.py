@@ -11,12 +11,13 @@ def remove_vowels(s: str) -> str:
     >>> remove_vowels('Hallo')
     'Haalllllllooooo'
     """
-    i = 1
-    result = ""
-    for char in s:
-        result += char * i
-        i += 1
-    return result
+    nieuwe_string = ""
+    for teken in s:
+        if teken.lower() in "aeiou":
+            nieuwe_string += "*"
+        else:
+            nieuwe_string += teken
+    return nieuwe_string
     
 if __name__ == '__main__':
     s = input()
