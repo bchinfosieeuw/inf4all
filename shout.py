@@ -1,6 +1,6 @@
 def shout(s: str) -> str:
     """
-    .
+    Makes all .
     
     >>> shout('Who the hell put the muffins the freezer?')
     'WHO THE HELL PUT THE MUFFINS THE FREEZER?'
