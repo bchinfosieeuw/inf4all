@@ -2,7 +2,7 @@ def yell(s: str) -> str:
     """
     Each token, repeatedly increased by 1 occurence, is printed.
     
-    >>> yell('abc')
+    >>> yell('Can't shake it off of me!')
     'abbccc'
     
     >>> yell('Hoi!')
