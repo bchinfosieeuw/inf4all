@@ -20,8 +20,7 @@ def autocorrect(s: str) -> str:
         ) or char.isalnum() or not(s[i-1] in ".,!- " and s[i] in ".,!- "):
             result += char
             if char in ".,!-" and char!=s[-1]:
-                #result += " "
-                break
+                result += " "
         i += 1
     return result
     
