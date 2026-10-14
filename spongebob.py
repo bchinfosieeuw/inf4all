@@ -50,7 +50,7 @@ def spongebob2(s: str) -> str:
                 tussen += char.upper()
             else:
                 tussen += char
-        result += tussen
+            result += tussen
     return result
     
 print(spongebob2('hello world!'))
