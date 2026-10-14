@@ -2,7 +2,7 @@ def autocorrect(s: str) -> str:
     """
     Each token, repeatedly increased by 1 occurence, is printed.
     
-    >>> autocorrect('abc')
+    >>> autocorrect('---')
     'abbccc'
     
     >>> autocorrect('Hoi!')
