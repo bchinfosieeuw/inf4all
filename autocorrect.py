@@ -17,7 +17,7 @@ def autocorrect(s: str) -> str:
         if (i == len(s) - 2 and s[i]==s[i+1]
         ) or char.isalnum() or not(s[i-1] in "., ") and s[i] in "., ":
             result += char
-            if 
+            if char in 
         i += 1
     print(result)
     return result
