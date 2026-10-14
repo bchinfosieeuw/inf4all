@@ -28,4 +28,4 @@ def spongebob(s: str) -> str:
         i += 1
     return result
 
-print(spongebob('hello world!'))
+print(spongebob1('hello world!'))
