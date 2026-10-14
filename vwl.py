@@ -6,10 +6,10 @@ def remove_vowels(s: str) -> str:
     'jst sttng p my twttr'
     
     >>> remove_vowels('python!')
-    'pyth*n'
+    'pythn'
     
     >>> remove_vowels('Amsterdam')
-    '*mst*rd*m'
+    'mstrdm'
     """
     nieuwe_string = ""
     for teken in s:
