@@ -41,7 +41,7 @@ def spongebob2(s: str) -> str:
             i += 1
         elif not char.isalpha() and (i+2)%2==0:
             result += s[i].upper()
-        else:
+        elif not char.isalpha():
             result += s[i]
     return result
     
