@@ -42,7 +42,7 @@ def spongebob2(s: str) -> str:
                 i += 1
             if (i+2)%2==1:
                 result += s[i].upper()
-            else:
+            else if :
                 result += s[i]
     return result
     
