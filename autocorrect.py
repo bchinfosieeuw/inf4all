@@ -1,6 +1,6 @@
 def autocorrect(s: str) -> str:
     """
-    Remove .
+    Remove double .
     
     >>> autocorrect('---')
     '-'
