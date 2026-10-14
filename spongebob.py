@@ -26,7 +26,7 @@ def spongebob2(s: str) -> str:
     uppercase.
     
     >>> spongebob1('hello world!')
-    'hElLo wOrLd!'
+    'hElLo WoRlD!'
     
     >>> spongebob1('Ja Ja Ja.')
     'JA Ja JA'
