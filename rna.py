@@ -13,5 +13,5 @@ def transcribe_dna_to_rna(dna: str) -> str:
     """
 
 if __name__ == '__main__':
-    s = input('camelCase: ')
+    s = input('DNA: ')
     print('snake_case:', convert(s))
