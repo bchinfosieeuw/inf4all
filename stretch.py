@@ -3,7 +3,7 @@ def stretch(s: str) -> str:
     Each token, repeatedly increased by 1 occurence, is printed.
     
     >>> stretch('abc')
-    "abbccc"
+    "'abbccc'"
     
     >>> stretch('Hoi!')
     "Hooiii!!!!"
