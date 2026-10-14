@@ -6,7 +6,7 @@ def spongebob1(s: str) -> str:
     >>> spongebob1('hello world!')
     'hElLo wOrLd!'
     
-    >>> spongebob1('Dit hier,, dit kan niet de bedoeling   zijn.')
+    >>> spongebob1('Ja Ja Ja.')
     'Dit hier, dit kan niet de bedoeling zijn.'
     
     >>> spongebob1('Hallo Hallo')
