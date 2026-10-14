@@ -35,7 +35,7 @@ def spongebob2(s: str) -> str:
     'nEe nEe nEe'
     """
     result = ""
-    i = 0
+    i = -1
     for char in s:
         if char.isalpha():
             i += 1
