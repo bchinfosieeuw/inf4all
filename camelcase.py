@@ -6,7 +6,7 @@ def convert(s: str) -> str:
     "check"
     
     >>> convert('convertInput')
-    'Who the hell put the muffins the freezer??'
+    'convert_input'
     
     >>> convert('Cringe? CRINGE!')
     'Cringe?? CRINGE!!'
