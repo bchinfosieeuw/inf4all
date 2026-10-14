@@ -19,5 +19,5 @@ def stretch(s: str) -> str:
     return result
     
 if __name__ == '__main__':
-    stretch('abc')
+    result = stretch('abc')
     print(result)
