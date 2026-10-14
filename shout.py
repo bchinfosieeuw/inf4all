@@ -1,6 +1,6 @@
 def shout(s: str) -> str:
     """
-    Each token, repeatedly increased by 1 occurence, is printed.
+    .
     
     >>> shout('Who the hell put the muffins the freezer?')
     'WHO THE HELL PUT THE MUFFINS THE FREEZER?'
