@@ -12,7 +12,7 @@ def autocorrect(s: str) -> str:
     'Hallo Hallo'
     """
     result = ""
-    i = 0
+    i = -1
     for char in s:
         if len(s)==1:
             result = char
