@@ -25,13 +25,13 @@ def transcribe_dna_to_rna(dna: str) -> str:
     check aanroepen).
     
     >>> check_input('ATGC')
-    'UACG
+    'UACG'
     
     >>> check_input('atGcAgtAttGCA')
-    UACGUCAUAACGU
+    'UACGUCAUAACGU'
     
     >>> check_input('CGGTA')
-    GCCAU
+    'GCCAU'
     """
     result = ""
     for char in dna:
