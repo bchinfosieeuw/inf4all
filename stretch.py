@@ -17,3 +17,6 @@ def stretch(s: str) -> str:
         result += char * i
         i += 1
     print(result)
+    
+if __name__ == '__main__':
+    
