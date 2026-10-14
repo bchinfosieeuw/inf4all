@@ -15,7 +15,7 @@ def convert(s: str) -> str:
     for teken in s:
         if teken.isupper():
             result += "_"
-        result += teken
+        result += teken.lower()
     return result
     
 if __name__ == '__main__':
