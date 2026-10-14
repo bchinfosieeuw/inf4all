@@ -17,7 +17,7 @@ def autocorrect(s: str) -> str:
     for char in s:
         if len(s)==1:
             result = char
-        elif s[0] in ".,!-" and mybool==True:
+        elif s[0] in ".,!-Y" and mybool==True:
             mybool = False
             result += s[i-1]
         elif (i == len(s) - 2 and s[i]==s[i+1]
