@@ -9,7 +9,7 @@ def remove_vowels(s: str) -> str:
     'Hooiii!!!!'
     
     >>> remove_vowels('Amsterdam')
-    'Haalllllllooooo'
+    '*mst*rd*m'
     """
     nieuwe_string = ""
     for teken in s:
