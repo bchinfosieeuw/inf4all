@@ -11,10 +11,9 @@ def autocorrect(s: str) -> str:
     >>> autocorrect('Hallo Hallo')
     'Hallo Hallo'
     """
-    i = 1
     result = ""
     for char in s:
-        if
+        if 
         result += char * i
         i += 1
     return result
