@@ -14,7 +14,7 @@ def convert(s: str) -> str:
     result = ""
     for teken in s:
         result += teken
-        if teken.:
+        if teken.isupper():
             result += "_"
     return result
     
