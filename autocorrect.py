@@ -20,6 +20,7 @@ def autocorrect(s: str) -> str:
             if char in ".,":
                 result += " "
         i += 1
+    print(result)
     return result
 
 autocorrect('---')
