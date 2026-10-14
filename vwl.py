@@ -6,7 +6,7 @@ def remove_vowels(s: str) -> str:
     'abbccc'
     
     >>> remove_vowels('python!')
-    'Hooiii!!!!'
+    'pyth*n'
     
     >>> remove_vowels('Amsterdam')
     '*mst*rd*m'
