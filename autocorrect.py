@@ -14,6 +14,7 @@ def autocorrect(s: str) -> str:
     i = 1
     result = ""
     for char in s:
+        if
         result += char * i
         i += 1
     return result
