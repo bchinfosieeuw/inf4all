@@ -13,7 +13,7 @@ def shout(s: str) -> str:
     """
     nieuwe_string = ""
     for teken in s:
-        nieuwe_string += nieuwe_string.upper()
+        nieuwe_string += teken.upper()
         if teken in "!":
             nieuwe_string += teken
     return nieuwe_string
