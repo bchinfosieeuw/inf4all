@@ -9,7 +9,7 @@ def yell(s: str) -> str:
     'Who the hell put the muffins the freezer??'
     
     >>> yell('Cringe? CRINGE!')
-    'Haalllllllooooo'
+    'Cringe?? CRINGE!!'
     """
     i = 0
     result = ""
