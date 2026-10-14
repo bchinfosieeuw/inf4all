@@ -3,7 +3,7 @@ def remove_vowels(s: str) -> str:
     Each token, repeatedly increased by 1 occurence, is printed.
     
     >>> remove_vowels('just setting up my twitter')
-    'abbccc'
+    'jst sttng p my twttr'
     
     >>> remove_vowels('python!')
     'pyth*n'
