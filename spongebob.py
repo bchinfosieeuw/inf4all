@@ -1,6 +1,6 @@
 def spongebob1(s: str) -> str:
     """
-    Convert .
+    Convert the letters of the .
     
     >>> autocorrect('---')
     '-'
