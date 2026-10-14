@@ -3,7 +3,7 @@ def shout(s: str) -> str:
     Each token, repeatedly increased by 1 occurence, is printed.
     
     >>> shout('Who the hell put the muffins the freezer?')
-    'jst sttng p my twttr'
+    'WHO THE HELL PUT THE MUFFINS THE FREEZER?'
     
     >>> shout('python')
     'pythn'
