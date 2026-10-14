@@ -1,6 +1,6 @@
 def yell(s: str) -> str:
     """
-    Each token, repeatedly increased by 1 occurence, is printed.
+    .
     
     >>> yell("Can't shake it off of me!")
     "Can't shake it off of me!!"
