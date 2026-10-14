@@ -22,7 +22,7 @@ def spongebob1(s: str) -> str:
 
 def spongebob2(s: str) -> str:
     """
-    Leave the chars of the string alternately on lowercase or convert to 
+    Leave the letter of the string alternately on lowercase or convert to 
     uppercase.
     
     >>> spongebob1('hello world!')
