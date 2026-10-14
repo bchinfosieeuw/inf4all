@@ -1,14 +1,14 @@
-def stretch(s: str) -> str:
+def remove_vowels(s: str) -> str:
     """
     Each token, repeatedly increased by 1 occurence, is printed.
     
-    >>> stretch('abc')
+    >>> remove_vowels('abc')
     'abbccc'
     
-    >>> stretch('Hoi!')
+    >>> remove_vowels('Hoi!')
     'Hooiii!!!!'
     
-    >>> stretch('Hallo')
+    >>> remove_vowels('Hallo')
     'Haalllllllooooo'
     """
     i = 1
