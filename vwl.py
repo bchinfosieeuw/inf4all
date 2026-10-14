@@ -5,7 +5,7 @@ def remove_vowels(s: str) -> str:
     >>> remove_vowels('abc')
     'abbccc'
     
-    >>> remove_vowels('Hoi!')
+    >>> remove_vowels('python!')
     'Hooiii!!!!'
     
     >>> remove_vowels('Amsterdam')
