@@ -1,6 +1,6 @@
 def yell(s: str) -> str:
     """
-    Returns string with double exclamation questionmarks.
+    Returns string with double exclamation-signs and questionmarks.
     
     >>> yell("Can't shake it off of me!")
     "Can't shake it off of me!!"
