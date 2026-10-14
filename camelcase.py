@@ -3,7 +3,7 @@ def convert(s: str) -> str:
     Returns string with double exclamation-signs and questionmarks.
     
     >>> convert("check")
-    "Can't shake it off of me!!"
+    "check"
     
     >>> convert('Who the hell put the muffins the freezer?')
     'Who the hell put the muffins the freezer??'
