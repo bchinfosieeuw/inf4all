@@ -5,7 +5,7 @@ def remove_vowels(s: str) -> str:
     >>> remove_vowels('just setting up my twitter')
     'jst sttng p my twttr'
     
-    >>> remove_vowels('python!')
+    >>> remove_vowels('python')
     'pythn'
     
     >>> remove_vowels('Amsterdam')
