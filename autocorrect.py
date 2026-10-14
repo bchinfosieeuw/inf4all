@@ -14,7 +14,8 @@ def autocorrect(s: str) -> str:
     result = ""
     i = 0
     for char in s:
-        if (i == len(s) - 2 and s[i]==s[i+1]) or (char.isalnum() and char in " "):
+        if (i == len(s) - 2 and s[i]==s[i+1]) or (
+            char.isalnum() and char in " "):
             result += char
         i += 1
     print(result)
