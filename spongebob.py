@@ -43,6 +43,8 @@ def spongebob2(s: str) -> str:
             result += s[i].upper()
         if char.isalpha():
             i += 1
+        elif char==" ":
+            
     return result
     
 print(spongebob2('hello world!'))
