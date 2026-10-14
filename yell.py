@@ -5,11 +5,11 @@ def yell(s: str) -> str:
     >>> yell("Can't shake it off of me!")
     "Can't shake it off of me!!"
     
-    >>> yell("Who the hell put the muffins the freezer?")
-    "Who the hell put the muffins the freezer??"
+    >>> yell('Who the hell put the muffins the freezer?')
+    'Who the hell put the muffins the freezer??'
     
-    >>> yell("Cringe? CRINGE!")
-    "Cringe?? CRINGE!!"
+    >>> yell('Cringe? CRINGE!')
+    'Cringe?? CRINGE!!'
     """
     i = 0
     result = ""
