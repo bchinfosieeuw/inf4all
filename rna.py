@@ -4,7 +4,7 @@ def check_input(dna: str) -> bool:
     Accepteert zowel hoofd- als kleine letters.
     """
     for char in dna:
-        if char not in "AGCT":
+        if char not in "agctAGCT":
             return False
     return True
 
