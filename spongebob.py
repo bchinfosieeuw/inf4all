@@ -28,4 +28,4 @@ def spongebob(s: str) -> str:
         i += 1
     return result
 
-print(autocorrect('           '))
+print(spongebob('           '))
