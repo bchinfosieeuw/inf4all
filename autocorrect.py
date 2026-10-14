@@ -12,12 +12,14 @@ def autocorrect(s: str) -> str:
     'Hallo Hallo'
     """
     result = ""
-    i = -1
+    i = 0
     for char in s:
         if (i == len(s) - 2 and s[i]==s[i+1]
-        ) or char.isalnum() or not(s[i-1] in ".,!- ") and s[i] in ".,!- ":
+        ) or char.isalnum() or not(s[i-1] in ".,!- ") and s[i] in ".,! ":
             result += char
-            if char in ".,!-" and char!=s[-1]:
+            if char in ".,!" and char!=s[-1]:
                 result += " "
         i += 1
     return result
+
+print(autocorrect('--'))
