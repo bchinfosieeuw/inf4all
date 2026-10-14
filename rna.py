@@ -6,7 +6,7 @@ def check_input(dna: str) -> bool:
     >>> check_input('ATGC')
     
     
-    >>> check_input('ATGC')
+    >>> check_input('atGcAgtAttGCA')
     
     
     >>> check_input('ATGC')
