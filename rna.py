@@ -20,11 +20,11 @@ def transcribe_dna_to_rna(dna: str) -> str:
         if char.upper()=="A":
             result += "U"
         elif char.upper()=="A":
-            result += char.upper()
+            result += "U"
         elif char.upper()=="A":
-            result += char.upper()
+            result += "U"
         elif char.upper()=="A":
-            result += char.upper()
+            result += "U"
     return result
 
 if __name__ == '__main__':
