@@ -1,6 +1,6 @@
 def remove_vowels(s: str) -> str:
     """
-    Returns string without vowels.
+    Returns the string without vowels.
     
     >>> remove_vowels('just setting up my twitter')
     'jst sttng p my twttr'
