@@ -8,7 +8,7 @@ def yell(s: str) -> str:
     >>> yell('Who the hell put the muffins the freezer?')
     'Who the hell put the muffins the freezer??'
     
-    >>> yell('Hallo')
+    >>> yell('Cringe? CRINGE!')
     'Haalllllllooooo'
     """
     i = 0
