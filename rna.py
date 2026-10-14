@@ -17,4 +17,4 @@ if __name__ == '__main__':
     if check_input(s)==True:
         print('RNA:', transcribe_dna_to_rna(s))
     else:
-        print
+        print('')
