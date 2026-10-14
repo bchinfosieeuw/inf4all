@@ -14,8 +14,6 @@ def autocorrect(s: str) -> str:
     result = ""
     i = 0
     for char in s:
-        if s[0]=="-" and char in "-":
-            result += "-"
         if len(s)==1:
             result = char
         elif (i == len(s) - 2 and s[i]==s[i+1]
@@ -23,6 +21,8 @@ def autocorrect(s: str) -> str:
             result += char
             if char in ".,!" and char!=s[-1]:
                 result += " "
+            elif s[0]=="-" and char in "-":
+                result += "-"
         i += 1
     return result
 
