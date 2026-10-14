@@ -6,7 +6,7 @@ def shout(s: str) -> str:
     'WHO THE HELL PUT THE MUFFINS THE FREEZER?'
     
     >>> shout('python!')
-    'pythn'
+    'PYTHON!!'
     
     >>> shout('Amsterdam')
     'mstrdm'
