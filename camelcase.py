@@ -1,6 +1,6 @@
 def convert(s: str) -> str:
     """
-    Converts string format from camelCase to .
+    Converts string format from camelCase to snake_case.
     
     >>> convert("check")
     "check"
