@@ -8,7 +8,7 @@ def remove_vowels(s: str) -> str:
     >>> remove_vowels('Hoi!')
     'Hooiii!!!!'
     
-    >>> remove_vowels('Hallo')
+    >>> remove_vowels('Amsterdam')
     'Haalllllllooooo'
     """
     nieuwe_string = ""
