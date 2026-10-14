@@ -45,8 +45,8 @@ def spongebob2(s: str) -> str:
             else:
                 result += s[i]
         else:
-            i += 1
             result += " "
+            i += 1
     return result
     
 print(spongebob2('hello world!'))
