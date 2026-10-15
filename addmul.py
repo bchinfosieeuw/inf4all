@@ -26,7 +26,7 @@ def add23(n: int, m: int) -> int:
     m1 = int(str(m)[-2])
     m10 = 0
     if len(str(m))==3:
-        m10 = int(str(m)[-2])
+        m10 = int(str(m)[-3])
     
     if n1 + m1 >= 10:
         numOfCarries += 1
