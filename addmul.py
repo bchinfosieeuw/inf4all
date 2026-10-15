@@ -10,8 +10,8 @@ def add(n: int, m: int) -> int:
 
 def mul(n: int, m: int) -> int:
     numOfCarries = 0
-    for i in range (n):
-        for j in range (m):
+    # i in range (n):
+    #    for j in range (m):
     return numOfCarries
     
 if __name__ == '__main__':
