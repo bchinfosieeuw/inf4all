@@ -1,6 +1,6 @@
 def add(n: int, m: int) -> int:
     i = 0
-    carry = ""
+    carry = 0
     while i < len(s):
         result += s[i]
         if s[i] in "!?":
