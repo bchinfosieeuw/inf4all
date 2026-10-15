@@ -1,7 +1,7 @@
 def add(n: int, m: int) -> int:
     numOfCarries = 0
     n1 = (n+10)%10
-    n10 = (n+10)%10
+    n10 = (n+100)%100
     for i in range (n):
         for j in range (m):
     return numOfCarries
