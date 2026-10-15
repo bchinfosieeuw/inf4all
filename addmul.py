@@ -68,8 +68,8 @@ def mul(n: int, m: int) -> int:
     s30 = 0
     if len(str(r3))==2:
         s30 = int(str(r3)[-2])
-    s4 = int(str(r1)[-1])
-    s10 = 0
+    s4 = int(str(r4)[-1])
+    s40 = 0
     if len(str(r1))==2:
         s10 = int(str(r1)[-2])
     
