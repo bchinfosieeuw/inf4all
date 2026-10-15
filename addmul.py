@@ -3,6 +3,7 @@ def add(n: int, m: int) -> int:
     n1 = (n+10)%10
     n10 = (n+100)%100
     print(n1)
+    print(n10)
     #for i in range (n):
     #    for j in range (m):
     return numOfCarries
