@@ -86,7 +86,7 @@ def mul(n: int, m: int) -> int:
             numOfCarries += 1
             
     print('n:', n)
-    print('n:', n)
+    print('m:', m)
     
     return numOfCarries
     
