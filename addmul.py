@@ -28,7 +28,7 @@ def mul(n: int, m: int) -> int:
     if len(str(m))==2:
         m10 = int(str(m)[-2])
     
-    n1 * m1
+    k1 = n1 * m1
     if n1 * m1 >= 10:
         numOfCarries += 1
     if n1 * m10 >= 10:
