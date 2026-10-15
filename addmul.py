@@ -34,7 +34,7 @@ def mul(n: int, m: int) -> int:
     k4 = n10 * m10
     
     h1 = int(str(k1)[-1])
-    n10 = 0
+    h10 = 0
     if len(str(n))==2:
         n10 = int(str(n)[-2])
     
