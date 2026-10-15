@@ -79,7 +79,7 @@ if __name__ == '__main__':
                 if numOfCarriesMul==2:# and maxOfCarriesMul > maxOfCarriesMulremem:
                     maxOfCarriesMul += 1
                     #maxOfCarriesMulremem = maxOfCarriesMul
-                    print('n:', n)
-                    print('m:', m)
+                    #print('n:', n)
+                    #print('m:', m)
     print(maxOfCarriesAdd)
     print(maxOfCarriesMul)
