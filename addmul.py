@@ -10,7 +10,7 @@ def add(n: int, m: int) -> int:
         m10 = int(str(m)[-2])
     if n1 + m1 >= 10:
         numOfCarries += 1
-        
+    k
     if n10 + m10 + (n1 + m1) >= 10:
         numOfCarries += 1
     return numOfCarries
