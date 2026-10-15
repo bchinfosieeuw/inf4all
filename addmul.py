@@ -8,6 +8,7 @@ def add(n: int, m: int) -> int:
         for j1 in range (m):
             if n1 + m1 >= 10:
                 numOfCarries += 1
+                break
         for j10 in range (m):
             if n10 + m10 >= 10:
                 numOfCarries += 1
