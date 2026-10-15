@@ -50,28 +50,6 @@ def mul(n: int, m: int) -> int:
     if len(str(k4))==2:
         h40 = int(str(k4)[-2])
         
-    r1 = int(str(h1) + str(h10))
-    r2 = int(str(h2) + str(h20))
-    r3 = int(str(h3) + str(h30))
-    r4 = int(str(h4) + str(h40))
-    
-    
-    s1 = int(str(r1)[-1])
-    s10 = 0
-    if len(str(r1))==2:
-        s10 = int(str(r1)[-2])
-    s2 = int(str(r2)[-1])
-    s20 = 0
-    if len(str(r2))==2:
-        s20 = int(str(r2)[-2])
-    s3 = int(str(r3)[-1])
-    s30 = 0
-    if len(str(r3))==2:
-        s30 = int(str(r3)[-2])
-    s4 = int(str(r4)[-1])
-    s40 = 0
-    if len(str(r4))==2:
-        s40 = int(str(r4)[-2])
     
     
     if h10 + h2 + h3 >= 10:
