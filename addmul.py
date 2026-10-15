@@ -1,4 +1,4 @@
-def yell(s: str) -> str:
+def add(s: str) -> str:
     i = 0
     result = ""
     while i < len(s):
