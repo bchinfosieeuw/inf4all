@@ -7,4 +7,4 @@ def add(n: int, m: int) -> int:
     
 if __name__ == '__main__':
     s = input()
-    print(add(s))
+    print(add(n, m))
