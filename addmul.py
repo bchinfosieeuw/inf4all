@@ -10,7 +10,7 @@ def add(n: int, m: int) -> int:
         m10 = int(str(m)[-2])
     if n1 + m1 >= 10:
         numOfCarries += 1
-    if n10 + m10 + numOfCarries >= 10:
+    if n10 + m10 >= 10:
         numOfCarries += 1
     return numOfCarries
 
@@ -26,7 +26,7 @@ def mul(n: int, m: int) -> int:
         m10 = int(str(m)[-2])
     if n1 * m1 >= 10:
         numOfCarries += 1
-    if n1 * m10 + numOfCarries >= 10:
+    if n1 * m10 >= 10:
         numOfCarries += 1
     if n10 * m1 >= 10:
         numOfCarries += 1
