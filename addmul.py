@@ -36,7 +36,7 @@ def mul(n: int, m: int) -> int:
     
 if __name__ == '__main__':
     N = int(input('N: '))
-    #M = int(input('M: '))
+    M = int(input('M: '))
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
     numOfCarriesMul = 0
@@ -51,7 +51,5 @@ if __name__ == '__main__':
         #for m in range(M+1):
                 if numOfCarriesMul==2:# and numOfCarriesMul > maxOfCarriesMul:
                     maxOfCarriesMul += 1
-                    if numOfCarriesAdd > maxOfCarriesAdd and numOfCarriesMul < maxOfCarriesMul:
-                        print('hallo:', maxOfCarriesMul)
     print(maxOfCarriesAdd)
     print(maxOfCarriesMul)
