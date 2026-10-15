@@ -52,24 +52,7 @@ def mul(n: int, m: int) -> int:
         h40 = int(str(k4)[-2])
     
     if add(h10, add(h2, h3)) >= 10:
-        numOfCarries += 1
-        if add(h20, add(h30, h4)) >= 10:
-            numOfCarries += 1
-            if h4 >= 10:
-                numOfCarries += 1
-        elif add(h20, add(h30, h4)) >= 10:
-            numOfCarries += 1
-            if h4 >= 10:
-                numOfCarries += 1
-    else:
-        if add(h20, add(h30, h4)) >= 10:
-            numOfCarries += 1
-            if h4 >= 10:
-                numOfCarries += 1
-        elif add(h20, add(h30, h4)) >= 10:
-            numOfCarries += 1
-            if h4 >= 10:
-                numOfCarries += 1
+    numOfCarries
     
     
     return numOfCarries
