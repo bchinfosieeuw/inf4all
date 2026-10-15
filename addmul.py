@@ -6,8 +6,8 @@ def add(n: int, m: int) -> int:
         n10 = int(str(n)[-2])
     m1 = int(str(m)[-1])
     m10 = 0
-    if len(str(n))==2:
-        n10 = int(str(n)[-2])
+    if len(str(m))==2:
+        m10 = int(str(m)[-2])
     mybool1 = False
     mybool10 = False
     for i in range (n):
