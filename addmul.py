@@ -53,11 +53,11 @@ def mul(n: int, m: int) -> int:
     k3 = n10 * m1 * 10
     k4 = n10 * m10 * 100
     
-    if len(str(3))<=2 and len(str(6))<=2:
-        numOfCarries += add(3, 6)
+    if len(str(k1))<=2 and len(str(k2))<=2:
+        numOfCarries += add(k1, k2)
     elif len(str(k1))==2 and len(str(k2))==3:
         numOfCarries += add23(k1, k2)
-    print("hallo:", numOfCarries)
+    #print("hallo:", numOfCarries)
     
     h1 = int(str(k1)[-1])
     h10 = 0
