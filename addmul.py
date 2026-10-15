@@ -51,6 +51,6 @@ if __name__ == '__main__':
         #for m in range(M+1):
                 if numOfCarriesMul==2:# and numOfCarriesMul > maxOfCarriesMul:
                     maxOfCarriesMul += 1
-                    if numOfCarriesAdd > maxOfCarriesAdd:
+                    if numOfCarriesAdd > maxOfCarriesAdd and :
     print(maxOfCarriesAdd)
     print(maxOfCarriesMul)
