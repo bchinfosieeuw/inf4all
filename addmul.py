@@ -1,7 +1,7 @@
 def add(n: int, m: int) -> int:
     numOfCarries = 0
     n1 = int(str(n)[-1])
-    n10 = (n+100)%100
+    n10 = int(str(n)[-2])
     print(n1)
     print(n10)
     #for i in range (n):
