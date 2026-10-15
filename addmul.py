@@ -76,7 +76,7 @@ def mul(n: int, m: int) -> int:
     
     if s10 + s2 + s3 >= 10:
         numOfCarries += 1
-        if n10 + m10 + 1 >= 10:
+        if n20 + m10 + 1 >= 10:
             numOfCarries += 1
     elif n10 + m10 >= 10:
         numOfCarries += 1
