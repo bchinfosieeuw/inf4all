@@ -33,7 +33,6 @@ def mul(n: int, m: int) -> int:
     k3 = n10 * m1
     k4 = n10 * m10
     
-    
     h1 = int(str(n)[-1])
     
     
