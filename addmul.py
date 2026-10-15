@@ -48,7 +48,7 @@ def add33(n: int, m: int) -> int:
     m1 = 0
     m10 = 0
     m100 = 0
-    n1 = int(str(n)[-1])
+    m1 = int(str(n)[-1])
     n10 = int(str(n)[-2])
     n100 = int(str(n)[-3])
     
