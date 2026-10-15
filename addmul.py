@@ -88,7 +88,7 @@ def mul(n: int, m: int) -> int:
     return numOfCarries
     
 if __name__ == '__main__':
-    N = 20#int(input('N: '))
+    N = 21#int(input('N: '))
     #M = int(input('M: '))
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
