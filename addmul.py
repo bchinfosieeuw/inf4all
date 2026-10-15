@@ -35,7 +35,7 @@ if __name__ == '__main__':
     for n in range(N):
         for m in range(M):
             numOfCarriesAdd = add(n, m)
-            if numOfCarriesAdd
+            if numOfCarriesAdd==
     #numOfCarriesMul = mul(n, m)
     print(numOfCarriesAdd)
     #print(numOfCarriesMul)
