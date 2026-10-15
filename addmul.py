@@ -37,7 +37,7 @@ def mul(n: int, m: int) -> int:
 
     
     if add(k1, k2)==1:
-        
+        numOfCarries += 1
     elif add(h10, add(h2, h3))==2:
         
     
