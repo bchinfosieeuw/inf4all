@@ -57,7 +57,8 @@ def mul(n: int, m: int) -> int:
             numOfCarries += 1
             if h4 + 1 >= 10:
                 numOfCarries += 1
-        elif 
+        elif add(h20, add(h30, h4)) >= 10:
+            
     
     
     return numOfCarries
