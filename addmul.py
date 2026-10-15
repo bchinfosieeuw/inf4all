@@ -30,6 +30,7 @@ def mul(n: int, m: int) -> int:
 if __name__ == '__main__':
     n = int(input('n: '))
     m = int(input('m: '))
+    
     numOfCarriesAdd = add(n, m)
     #numOfCarriesMul = mul(n, m)
     print(numOfCarriesAdd)
