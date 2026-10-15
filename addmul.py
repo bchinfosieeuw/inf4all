@@ -31,6 +31,7 @@ if __name__ == '__main__':
     N = int(input('N: '))
     M = int(input('M: '))
     numOfCarriesAdd = 0
+    numOfCarriesAdd = 0
     for n in range(N):
         for m in range(M):
             numOfCarriesAdd = add(n, m)
