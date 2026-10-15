@@ -12,7 +12,7 @@ def add(n: int, m: int) -> int:
         numOfCarries += 1
         if n10 + m10 + 1 >= 10:
             numOfCarries += 1
-    elif n10 + m10 + 1 >= 10:
+    elif n10 + m10 >= 10:
         numOfCarries += 1
     return numOfCarries
 
