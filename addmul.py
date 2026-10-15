@@ -9,6 +9,6 @@ if __name__ == '__main__':
     n = int(input('n:'))
     m = int(input('m:'))
     numOfCarriesAdd = add(n, m)
-    numOfCarriesAdd = add(n, m)
+    numOfCarriesMul = add(n, m)
     print(numOfCarriesAdd)
     print(numOfCarriesMul)
