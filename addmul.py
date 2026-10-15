@@ -12,6 +12,7 @@ def add(n: int, m: int) -> int:
         for j10 in range (m):
             if n10 + m10 >= 10:
                 numOfCarries += 1
+                break
     return numOfCarries
 
 def mul(n: int, m: int) -> int:
