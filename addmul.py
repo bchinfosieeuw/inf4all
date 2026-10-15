@@ -53,7 +53,7 @@ def mul(n: int, m: int) -> int:
     k3 = n10 * m1 * 10
     k4 = n10 * m10 * 100
     
-    numOfCarries += add23(54, k2)
+    numOfCarries += add23(54, 630)
     print("hallo:", numOfCarries)
     
     h1 = int(str(k1)[-1])
