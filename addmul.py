@@ -47,8 +47,8 @@ if __name__ == '__main__':
             if numOfCarriesAdd==1:
                 maxOfCarriesAdd += 1
                 for n2 in range(N):
-                    for m in range(M):
-                        numOfCarriesMul = mul(n, m)
+                    for m2 in range(M):
+                        numOfCarriesMul = mul(n2, m2)
                         if numOfCarriesMul==2:
                             maxOfCarriesMul += 1
     numOfCarriesMul = mul(n, m)
