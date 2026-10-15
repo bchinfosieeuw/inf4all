@@ -37,6 +37,10 @@ def mul(n: int, m: int) -> int:
     h10 = 0
     if len(str(k1))==2:
         h10 = int(str(k1)[-2])
+    h2 = int(str(k2)[-1])
+    h20 = 0
+    if len(str(k1))==2:
+        h10 = int(str(k1)[-2])
     
     
     
