@@ -5,7 +5,7 @@ def add(n: int, m: int) -> int:
     m1 = int(str(m)[-1])
     m10 = int(str(m)[-2])
     for i in range (n1):
-        for j in range (m):
+        for j in range (m1):
             if i + 
     return numOfCarries
 
