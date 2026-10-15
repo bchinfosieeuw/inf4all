@@ -27,7 +27,6 @@ def mul(n: int, m: int) -> int:
     if n1 * m1 >= 10:
         numOfCarries += 1
     if n1 * m10 >= 10:
-        print(n1 * m10)
         numOfCarries += 1
     if n10 * m1 >= 10:
         numOfCarries += 1
@@ -36,7 +35,7 @@ def mul(n: int, m: int) -> int:
     return numOfCarries
     
 if __name__ == '__main__':
-    N = 36#int(input('N: '))
+    N = int(input('N: '))
     #M = int(input('M: '))
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
