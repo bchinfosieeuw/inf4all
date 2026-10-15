@@ -6,6 +6,7 @@ def add(n: int, m: int) -> int:
     m10 = int(str(m)[-2])
     mybool1 = False
     for i in range (n):
+        if mybool1==False:
         for j1 in range (m):
             if n1 + m1 >= 10:
                 numOfCarries += 1
