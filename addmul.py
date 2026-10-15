@@ -76,4 +76,4 @@ if __name__ == '__main__':
                 maxOfCarriesAdd += 1
     numOfCarriesMul = mul(n, m)
     print(maxOfCarriesAdd)
-    print(numOfCarriesMul)
+    print(maxOfCarriesMul)
