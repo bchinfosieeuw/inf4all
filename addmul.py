@@ -5,7 +5,7 @@ def add(n: int, m: int) -> int:
         for j in range (m):
     return numOfCarries
 
-def add(n: int, m: int) -> int:
+def mul(n: int, m: int) -> int:
     i = 0
     numOfCarries = 0
     for i in range (n):
