@@ -73,6 +73,7 @@ def mul(n: int, m: int) -> int:
     if len(str(r4))==2:
         s40 = int(str(r4)[-2])
     
+    
     if n1 + m1 >= 10:
         numOfCarries += 1
         if n10 + m10 + 1 >= 10:
