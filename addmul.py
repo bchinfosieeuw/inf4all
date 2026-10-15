@@ -6,7 +6,7 @@ def add(n: int, m: int) -> int:
         if s[i] in "!?":
             result += s[i]
         i += 1
-    return result
+    return numOfCarries
     
 if __name__ == '__main__':
     s = input()
