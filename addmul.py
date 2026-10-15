@@ -49,5 +49,6 @@ if __name__ == '__main__':
             numOfCarriesMul = mul(n, m)
             if numOfCarriesMul==2:# and numOfCarriesMul > maxOfCarriesMul:
                 maxOfCarriesMul += 1
+            if 
     print(maxOfCarriesAdd)
     print(maxOfCarriesMul)
