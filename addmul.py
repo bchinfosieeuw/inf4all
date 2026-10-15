@@ -11,7 +11,7 @@ def add(n: int, m: int) -> int:
     mybool1 = False
     mybool10 = False
     if n1 + m1 >= 10:
-                    numOfCarries += 1
+        numOfCarries += 1
                     mybool1 = True
                     break
         if mybool10==False:
