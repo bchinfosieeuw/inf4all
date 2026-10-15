@@ -36,7 +36,7 @@ def mul(n: int, m: int) -> int:
     
 
     
-    if add(h10, add(h2, h3))==1:
+    if add(k1, k2)==1:
         
     elif add(h10, add(h2, h3))==2:
         
