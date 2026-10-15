@@ -62,7 +62,7 @@ if __name__ == '__main__':
     M = int(input('M: '))
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
-    for n in range(N):
+    for n in range(N+1):
         for m in range(M):
             numOfCarriesAdd = add(n, m)
             if numOfCarriesAdd==1:
