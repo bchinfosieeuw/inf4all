@@ -49,7 +49,6 @@ def mul(n: int, m: int) -> int:
     h40 = 0
     if len(str(k4))==2:
         h40 = int(str(k4)[-2])
-        
     
     
     if h10 + h2 + h3 >= 10:
