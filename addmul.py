@@ -35,8 +35,8 @@ def mul(n: int, m: int) -> int:
     m10 = 0
     if len(str(m))==2:
         m10 = int(str(m)[-2])
-    mybool1 = False
-    mybool10 = False
+    mybool1A = False
+    mybool10A = False
     for i in range (n):
         if mybool1==False:
             for j1 in range (m):
