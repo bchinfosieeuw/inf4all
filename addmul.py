@@ -8,4 +8,5 @@ def add(n: int, m: int) -> int:
 if __name__ == '__main__':
     n = int(input('n:'))
     m = int(input('m:'))
-    print(add(n, m))
+    numOfCarriesAdd
+    print()
