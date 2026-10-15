@@ -27,6 +27,7 @@ def mul(n: int, m: int) -> int:
     if n1 * m1 >= 10:
         numOfCarries += 1
     if n1 * m10 >= 10:
+        print()
         numOfCarries += 1
     if n10 * m1 >= 10:
         numOfCarries += 1
