@@ -27,8 +27,29 @@ def add(n: int, m: int) -> int:
 
 def mul(n: int, m: int) -> int:
     numOfCarries = 0
-    # i in range (n):
-    #    for j in range (m):
+    n1 = int(str(n)[-1])
+    n10 = 0
+    if len(str(n))==2:
+        n10 = int(str(n)[-2])
+    m1 = int(str(m)[-1])
+    m10 = 0
+    if len(str(m))==2:
+        m10 = int(str(m)[-2])
+    mybool1 = False
+    mybool10 = False
+    for i in range (n):
+        if mybool1==False:
+            for j1 in range (m):
+                if n1 + m1 >= 10:
+                    numOfCarries += 1
+                    mybool1 = True
+                    break
+        if mybool10==False:
+            for j10 in range (m):
+                if n10 + m10 >= 10:
+                    numOfCarries += 1
+                    mybool10 = True
+                    break
     return numOfCarries
     
 if __name__ == '__main__':
