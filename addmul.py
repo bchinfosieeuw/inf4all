@@ -14,6 +14,7 @@ def add(n: int, m: int) -> int:
         for j10 in range (m):
             if n10 + m10 >= 10:
                 numOfCarries += 1
+                mybool10 = True
                 break
     return numOfCarries
 
