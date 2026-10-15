@@ -1,4 +1,4 @@
-def add(n: int, m: int) -> int:
+def add22(n: int, m: int) -> int:
     numOfCarries = 0
     n1 = int(str(n)[-1])
     n10 = 0
