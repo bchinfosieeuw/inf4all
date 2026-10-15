@@ -33,6 +33,16 @@ def mul(n: int, m: int) -> int:
     k3 = n10 * m1
     k4 = n10 * m10
     
+    
+    n1 = int(str(n)[-1])
+    n10 = 0
+    if len(str(n))==2:
+        n10 = int(str(n)[-2])
+    m1 = int(str(m)[-1])
+    m10 = 0
+    if len(str(m))==2:
+        m10 = int(str(m)[-2])
+    
     if k1 + k1 >= 10:
         numOfCarries += 1
     if k1 + k10 >= 10:
