@@ -41,6 +41,7 @@ def mul(n: int, m: int) -> int:
     #elif add(h10, add(h2, h3))==2:
     #    numOfCarries += 2
     numOfCarries += add(k1, k2)
+    print
     numOfCarries += add(k3, k4)
     numOfCarries += add(k1+k2, k3+k4)
     
