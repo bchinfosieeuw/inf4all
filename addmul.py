@@ -53,7 +53,7 @@ def mul(n: int, m: int) -> int:
     carry = 0
     if h10 + h2 + h3 >= 10:
         numOfCarries += 1
-        carry = str(h10 + h2 + h3)[-2]
+        carry = (str(h10 + h2 + h3)[-2])
         if h20 + h30 + h4 + 1 >= 10:
             numOfCarries += 1
             if h40 + 1 >= 10:
