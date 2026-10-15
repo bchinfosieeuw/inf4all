@@ -76,7 +76,7 @@ if __name__ == '__main__':
                 maxOfCarriesAddremem = maxOfCarriesAdd
     #for n in range(N+1):
         #for m in range(M+1):
-                if numOfCarriesMul==2 and maxOfCarriesMul > maxOfCarriesAddremem:
+                if numOfCarriesMul==2 and maxOfCarriesMul > maxOfCarriesMulremem:
                     maxOfCarriesMul += 1
                     maxOfCarriesMulremem = maxOfCarriesMul
                     #print('n:', n)
