@@ -14,7 +14,7 @@ def add(n: int, m: int) -> int:
             numOfCarries += 1
     elif n10 + m10 >= 10:
         numOfCarries += 1
-    print(numOfCarries)
+    #print(numOfCarries)
     return numOfCarries
 
 def mul(n: int, m: int) -> int:
