@@ -56,7 +56,7 @@ def mul(n: int, m: int) -> int:
     r4 = int(str(h4) + str(h40))
     
     
-    if r1 + m1 >= 10:
+    if r1 + r2 >= 10:
         numOfCarries += 1
         if n10 + m10 + 1 >= 10:
             numOfCarries += 1
