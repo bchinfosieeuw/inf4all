@@ -39,13 +39,13 @@ if __name__ == '__main__':
     M = int(input('M: '))
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
+    numOfCarriesMul = 0
+    maxOfCarriesMul = 0
     for n in range(N+1):
         for m in range(M+1):
             numOfCarriesAdd = add(n, m)
             if numOfCarriesAdd==1:
                 maxOfCarriesAdd += 1
-    numOfCarriesMul = 0
-    maxOfCarriesMul = 0
     for n in range(N):
         for m in range(M):
             numOfCarriesMul = mul(n, m)
