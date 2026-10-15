@@ -41,7 +41,7 @@ def add33(n: int, m: int) -> int:
     numOfCarries = 0
     n1 = int(str(n)[-1])
     n10 = int(str(n)[-2])
-    n100 = int(str(n)[-3])\
+    n100 = int(str(n)[-3])
     m1 = int(str(m)[-1])
     m10 = int(str(m)[-2])
     m100 = int(str(m)[-3])
