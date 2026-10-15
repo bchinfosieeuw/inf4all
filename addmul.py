@@ -31,7 +31,7 @@ def add23(n: int, m: int) -> int:
     
     if n10 + m1 >= 10:
         numOfCarries += 1
-        if n10 + m10 + 1 >= 10:
+        if m10 + 1 >= 10:
             numOfCarries += 1
     elif n10 + m10 >= 10:
         numOfCarries += 1
