@@ -52,8 +52,6 @@ if __name__ == '__main__':
                 if numOfCarriesMul==2:# and numOfCarriesMul > maxOfCarriesMul:
                     maxOfCarriesMul += 1
                     break
-                else:
-                    break
             else:
                 break
     print(maxOfCarriesAdd)
