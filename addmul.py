@@ -36,7 +36,7 @@ def mul(n: int, m: int) -> int:
     
 if __name__ == '__main__':
     N = 5#int(input('N: '))
-    M = 4#int(input('M: '))
+    M = 5#int(input('M: '))
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
     for n in range(N+1):
