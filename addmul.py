@@ -55,7 +55,7 @@ def mul(n: int, m: int) -> int:
     
     if len(str(k1))<=2 and len(str(k2))<=2:
         numOfCarries += add(k1, k2)
-    elif len(str(k1))==2 and len(k2)==3:
+    elif len(str(k1))==2 and len(str(k2))==3:
         numOfCarries += add23(k1, k2)
     #print("hallo:", numOfCarries)
     
