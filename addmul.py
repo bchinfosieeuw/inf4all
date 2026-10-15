@@ -75,7 +75,7 @@ if __name__ == '__main__':
             if numOfCarriesAdd==1:
                 maxOfCarriesAdd += 1
     numOfCarriesMul = 0
-    maxOfCarriesAdd = 0
+    maxOfCarriesMul = 0
     for n in range(N):
         for m in range(M):
             numOfCarriesAdd = add(n, m)
