@@ -6,7 +6,8 @@ def add(n: int, m: int) -> int:
     m10 = int(str(m)[-2])
     for i in range (n):
         for j in range (m):
-            if n1 + m1 >= 10
+            if n1 + m1 >= 10:
+                
     return numOfCarries
 
 def mul(n: int, m: int) -> int:
