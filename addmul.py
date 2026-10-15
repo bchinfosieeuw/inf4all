@@ -71,7 +71,7 @@ def mul(n: int, m: int) -> int:
     s4 = int(str(r4)[-1])
     s40 = 0
     if len(str(r4))==2:
-        s40 = int(str(r1)[-2])
+        s40 = int(str(r4)[-2])
     
     
     return numOfCarries
