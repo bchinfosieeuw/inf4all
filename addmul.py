@@ -51,6 +51,9 @@ def mul(n: int, m: int) -> int:
         h40 = int(str(k4)[-2])
         
     r1 = int(str(h1) + str(h10))
+    r1 = int(str(h1) + str(h10))
+    r1 = int(str(h1) + str(h10))
+    r1 = int(str(h1) + str(h10))
     
     
     numOfCarries += add(k1, k2*10)
