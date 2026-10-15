@@ -42,7 +42,7 @@ def mul(n: int, m: int) -> int:
             for j1 in range (m):
                 if n1 * m1 >= 10:
                     numOfCarries += 1
-                    mybool1 = True
+                    mybool1A = True
                     break
         if mybool10A==False:
             for j10 in range (m):
