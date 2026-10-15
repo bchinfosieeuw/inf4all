@@ -100,14 +100,14 @@ if __name__ == '__main__':
         for m in range(N+1):
             numOfCarriesAdd = add(n, m)
             numOfCarriesMul = mul(n, m)
-            if numOfCarriesAdd==1 and maxOfCarriesAdd > maxOfCarriesAddremem:
+            if numOfCarriesAdd==1:# and maxOfCarriesAdd > maxOfCarriesAddremem:
                 maxOfCarriesAdd += 1
-                maxOfCarriesAddremem = maxOfCarriesAdd
+                #maxOfCarriesAddremem = maxOfCarriesAdd
     #for n in range(N+1):
         #for m in range(M+1):
-                if numOfCarriesMul==2 and maxOfCarriesMul > maxOfCarriesMulremem:
+                if numOfCarriesMul==2:# and maxOfCarriesMul > maxOfCarriesMulremem:
                     maxOfCarriesMul += 1
-                    maxOfCarriesMulremem = maxOfCarriesMul
+                    #maxOfCarriesMulremem = maxOfCarriesMul
                     #print('n:', n)
                     #print('m:', m)
     print(maxOfCarriesAdd)
