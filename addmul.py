@@ -35,11 +35,11 @@ def mul(n: int, m: int) -> int:
     
     if k1 + k1 >= 10:
         numOfCarries += 1
-    if n1 k m10 >= 10:
+    if n1 + m10 >= 10:
         numOfCarries += 1
-    if n10 * m1 >= 10:
+    if n10 + m1 >= 10:
         numOfCarries += 1
-    if n10 * m10 >= 10:
+    if n10 + m10 >= 10:
         numOfCarries += 1
     return numOfCarries
     
