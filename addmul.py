@@ -2,8 +2,8 @@ def add(n: int, m: int) -> int:
     numOfCarries = 0
     n1 = int(str(n)[-1])
     n10 = int(str(n)[-2])
-    #for i in range (n):
-    #    for j in range (m):
+    for i in range (n):
+        for j in range (m):
     return numOfCarries
 
 def mul(n: int, m: int) -> int:
