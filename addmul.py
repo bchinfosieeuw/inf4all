@@ -3,7 +3,7 @@ def add(n: int, m: int) -> int:
     n1 = int(str(n)[-1])
     n10 = int(str(n)[-2])
     m1 = int(str(m)[-1])
-    m10 = int(str(n)[-2])
+    m10 = int(str(m)[-2])
     for i in range (n):
         for j in range (m):
     return numOfCarries
