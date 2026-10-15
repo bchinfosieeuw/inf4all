@@ -1,5 +1,6 @@
 def add(n: int, m: int) -> int:
     i = 0
+    j = 
     numOfCarries = 0
     for i in range (n):
         for j in range (m):
