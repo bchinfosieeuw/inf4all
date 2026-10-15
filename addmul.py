@@ -7,11 +7,11 @@ def add(n: int, m: int) -> int:
     mybool1 = False
     for i in range (n):
         if mybool1==False:
-        for j1 in range (m):
-            if n1 + m1 >= 10:
-                numOfCarries += 1
-                mybool1 = True
-                break
+            for j1 in range (m):
+                if n1 + m1 >= 10:
+                    numOfCarries += 1
+                    mybool1 = True
+                    break
         for j10 in range (m):
             if n10 + m10 >= 10:
                 numOfCarries += 1
