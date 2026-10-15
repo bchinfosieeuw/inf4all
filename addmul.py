@@ -80,7 +80,7 @@ def mul(n: int, m: int) -> int:
             numOfCarries += 1
             if s40 + 1 >= 10:
                 numOfCarries += 1
-    elif s20 + s30 +s4 >= 10:
+    elif s20 + m30 +s4 >= 10:
         numOfCarries += 1
         if s40 + 1 >= 10:
             numOfCarries += 1
@@ -88,7 +88,7 @@ def mul(n: int, m: int) -> int:
     return numOfCarries
     
 if __name__ == '__main__':
-    N = 21#int(input('N: '))
+    N = 99#int(input('N: '))
     #M = int(input('M: '))
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
