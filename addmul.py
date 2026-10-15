@@ -1,7 +1,7 @@
 def add(n: int, m: int) -> int:
     i = 0
     numOfCarries = 0
-    while i < len(s):
+    for i in range (n):
         result += s[i]
         if s[i] in "!?":
             result += s[i]
