@@ -30,15 +30,11 @@ def mul(n: int, m: int) -> int:
     
     k1 = n1 * m1
     k2 = n1 * m10
-    k3 = n10 * m1# * 10
-    k4 = n10 * m10# * 100
+    k3 = n10 * m1
+    k4 = n10 * m10
     
 
     
-    #if add(k1, k2)==1:
-    #    numOfCarries += 1
-    #elif add(h10, add(h2, h3))==2:
-    #    numOfCarries += 2
     numOfCarries += add(k1, k2*10)
     numOfCarries += add(k3*10, k4*100)
     numOfCarries += add((k1+k2*10)//10, (k3*10+k4*100)//100)
