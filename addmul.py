@@ -62,7 +62,7 @@ def add24(n: int, m: int) -> int:
         n10 = int(str(n)[-2])
     m1 = 0
     m10 = 0
-    if len(str(m))==3:
+    if len(str(m))==4:
         m1 = int(str(m)[-2])
         m10 = int(str(m)[-3])
     
