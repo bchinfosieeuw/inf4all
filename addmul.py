@@ -84,7 +84,7 @@ def mul(n: int, m: int) -> int:
         numOfCarries += 1
         if s40 + 1 >= 10:
             numOfCarries += 1
-    print(n, n)
+    print('n:', n)
     
     return numOfCarries
     
