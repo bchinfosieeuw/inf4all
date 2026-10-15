@@ -19,8 +19,8 @@ def add(n: int, m: int) -> int:
 
 def mul(n: int, m: int) -> int:
     numOfCarries = 0
-            n = 98
-            m = 91
+    n = 98
+    m = 91
     n1 = int(str(n)[-1])
     n10 = 0
     if len(str(n))==2:
