@@ -53,7 +53,7 @@ def mul(n: int, m: int) -> int:
     
     if add(h10, add(h2, h3))==1:
         
-    elif 
+    elif add(h10, add(h2, h3))==2:
         
     
     
