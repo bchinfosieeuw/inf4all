@@ -5,6 +5,7 @@ def add(n: int, m: int) -> int:
     m1 = int(str(m)[-1])
     m10 = int(str(m)[-2])
     mybool1 = False
+    mybool10 = False
     for i in range (n):
         if mybool1==False:
             for j1 in range (m):
