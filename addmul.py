@@ -45,6 +45,8 @@ if __name__ == '__main__':
             numOfCarriesAdd = add(n, m)
             if numOfCarriesAdd==1:# and numOfCarriesAdd > mymaxAdd:
                 mymaxAdd += 1
+                if numOfCarriesAdd > mymaxAdd:
+                    
     numOfCarriesMul = 0
     maxOfCarriesMul = 0
     for n in range(N+1):
