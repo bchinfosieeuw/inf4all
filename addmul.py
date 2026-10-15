@@ -1,4 +1,4 @@
-def add(s: str) -> str:
+def add(n: int, m: int) -> str:
     i = 0
     result = ""
     while i < len(s):
