@@ -46,10 +46,10 @@ if __name__ == '__main__':
             numOfCarriesAdd = add(n, m)
             numOfCarriesMul = mul(n, m)
             if numOfCarriesAdd==1:# and numOfCarriesAdd > maxOfCarriesAdd:
-                maxOfCarriesAdd += 1
     #for n in range(N+1):
         #for m in range(M+1):
                 if numOfCarriesMul==2:# and numOfCarriesMul > maxOfCarriesMul:
+                    maxOfCarriesAdd += 1
                     maxOfCarriesMul += 1
     print(maxOfCarriesAdd)
     print(maxOfCarriesMul)
