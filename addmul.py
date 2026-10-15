@@ -57,7 +57,7 @@ def mul(n: int, m: int) -> int:
     
     
     s1 = int(str(r1)[-1])
-    n10 = 0
+    s10 = 0
     if len(str(n))==2:
         n10 = int(str(n)[-2])
     m1 = int(str(m)[-1])
