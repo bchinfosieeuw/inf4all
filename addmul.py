@@ -42,6 +42,7 @@ def mul(n: int, m: int) -> int:
     #    numOfCarries += 2
     numOfCarries += add(k1, k2)
     
+    
     return numOfCarries
     
 if __name__ == '__main__':
