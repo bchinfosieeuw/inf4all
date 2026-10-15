@@ -37,7 +37,7 @@ def add23(n: int, m: int) -> int:
         numOfCarries += 1
     return numOfCarries
     
-def add23(n: int, m: int) -> int:
+def add33(n: int, m: int) -> int:
     numOfCarries = 0
     n1 = int(str(n)[-1])
     n10 = 0
