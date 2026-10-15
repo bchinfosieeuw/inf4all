@@ -1,16 +1,4 @@
 def yell(s: str) -> str:
-    """
-    Returns string with double exclamation-signs and questionmarks.
-    
-    >>> yell("Can't shake it off of me!")
-    "Can't shake it off of me!!"
-    
-    >>> yell('Who the hell put the muffins the freezer?')
-    'Who the hell put the muffins the freezer??'
-    
-    >>> yell('Cringe? CRINGE!')
-    'Cringe?? CRINGE!!'
-    """
     i = 0
     result = ""
     while i < len(s):
