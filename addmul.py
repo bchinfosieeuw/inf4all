@@ -42,7 +42,7 @@ def add33(n: int, m: int) -> int:
     n1 = 0
     n10 = 0
     if len(str(n))==3:
-        m1 = int(str(m)[-2])
+        m1 = int(str(n)[-2])
         m10 = int(str(m)[-3])
     m1 = 0
     m10 = 0
