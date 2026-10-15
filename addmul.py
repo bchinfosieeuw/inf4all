@@ -1,6 +1,6 @@
 def add(n: int, m: int) -> int:
     numOfCarries = 0
-    n1 = int(str(n+1)[-1])
+    n1 = int(str(n)[-1])
     n10 = 0
     if len(str(n))==2:
         n10 = int(str(n)[-2])
