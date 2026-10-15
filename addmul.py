@@ -51,7 +51,7 @@ def mul(n: int, m: int) -> int:
     if len(str(k4))==2:
         h40 = int(str(k4)[-2])
     
-    if 
+    if add(h10, add(h2, h3))
     numOfCarries += 
     
     
