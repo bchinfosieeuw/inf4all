@@ -6,5 +6,5 @@ def add(n: int, m: int) -> int:
     return numOfCarries
     
 if __name__ == '__main__':
-    n = int(input(''))
+    n = int(input('n:'))
     print(add(n, m))
