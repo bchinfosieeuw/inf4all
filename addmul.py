@@ -36,6 +36,8 @@ def mul(n: int, m: int) -> int:
     
     h1 = int(str(n)[-1])
     
+    
+    
     numOfCarries += add(k1, k2*10)
     numOfCarries += add(k3*10, k4*100)
     numOfCarries += add((k1+k2*10)//10, (k3*10+k4*100)//100)
