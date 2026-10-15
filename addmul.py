@@ -26,11 +26,8 @@ def mul(n: int, m: int) -> int:
     m10 = 0
     if len(str(m))==2:
         m10 = int(str(m)[-2])
-    for i in range (n):
-        if mybool1A==False:
-            for j1 in range (m):
-                if n1 * m1 >= 10:
-                    numOfCarries += 1
+    if n1 * m1 >= 10:
+        numOfCarries += 1
                     mybool1A = True
                     break
         if mybool10A==False:
