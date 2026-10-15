@@ -28,8 +28,8 @@ def mul(n: int, m: int) -> int:
     return numOfCarries
     
 if __name__ == '__main__':
-    N = int(input('n: '))
-    m = int(input('m: '))
+    N = int(input('N: '))
+    M = int(input('M: '))
     
     numOfCarriesAdd = add(n, m)
     #numOfCarriesMul = mul(n, m)
