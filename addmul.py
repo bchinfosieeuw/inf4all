@@ -30,9 +30,9 @@ def mul(n: int, m: int) -> int:
         m10 = int(str(m)[-2])
     
     k1 = n1 * m1
-    k2 = n1 * m10 * 10
-    k3 = n10 * m1 * 10
-    k4 = n10 * m10 * 100
+    k2 = n1 * m10# * 10
+    k3 = n10 * m1# * 10
+    k4 = n10 * m10# * 100
     
 
     
