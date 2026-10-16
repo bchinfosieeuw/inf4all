@@ -29,7 +29,7 @@ def count_carries_in_addition(a: int, b: int) -> int:
     return carry_count
 
 def count_carries_and_double_carries(a: int, b: int):
-    """
+    #"""
     Counts:
     1. Total carry occurrences during manual multiplication.
     2. Occurrences where carry is used consecutively twice.
