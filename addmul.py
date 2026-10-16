@@ -72,7 +72,7 @@ if __name__ == '__main__':
         for m in range(N+1):
             try:
                 numOfCarriesAdd = count_carries_in_addition(n, m)
-                """#extra is 0 or 1 applies to 
+                """#extra is 0 or 1 applies to first 
                 extra = 0
                 if len(str(int(str(n)[-1])*int(str(m)[-1])))==1:
                     extra = 0
