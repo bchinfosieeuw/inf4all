@@ -69,7 +69,7 @@ if __name__ == '__main__':
     numOfCarriesMul = 0
     maxOfCarriesMul = 0
     for n in range(N+1):
-        for m in range(n,N+1):
+        for m in range(n, N+1):
             #n=76
             #m=19
             numofdigits_n = len(str(n))
