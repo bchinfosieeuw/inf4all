@@ -27,51 +27,6 @@ def count_carries_in_addition(a: int, b: int) -> int:
         b //= 10
 
     return carry_count
-
-def count_carries_and_double_carries(a: int, b: int):
-    """
-    Counts:
-    1. Total carry occurrences during manual multiplication.
-    2. Occurrences where carry is used consecutively twice.
-    Works for integers up to 100.
-    """
-    # Input validation
-    if not isinstance(a, int) or not isinstance(b, int):
-        raise ValueError("Inputs must be integers.")
-    if abs(a) > 100 or abs(b) > 100:
-        raise ValueError("Inputs must be <= 100 in absolute value.")
-
-    # Ignore sign for carry counting
-    a, b = abs(a), abs(b)
-
-    total_carries = 0
-    double_carries = 0
-
-    a_digits = list(map(int, str(a)))[::-1]  # Least significant digit first
-    b_digits = list(map(int, str(b)))[::-1]
-
-    # Simulate manual multiplication
-    for bd in b_digits:
-        carry = 0
-        prev_carry = False  # Tracks if previous step had a carry
-        for ad in a_digits:
-            product = ad * bd + carry
-            if product >= 10:
-                total_carries += 1
-                if prev_carry:  # Carry occurred in previous step too
-                    double_carries += 1
-                carry = product // 10
-                prev_carry = True
-            else:
-                carry = 0
-                prev_carry = False
-        # If carry remains after finishing this row
-        if carry > 0:
-            total_carries += 1
-            if prev_carry:
-                double_carries += 1
-
-    return total_carries, double_carries
     
 def count_carries_in_multiplication(a: int, b: int) -> int:
     """
