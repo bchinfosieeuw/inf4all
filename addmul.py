@@ -117,8 +117,8 @@ if __name__ == '__main__':
         for m in range(n, N+1):
             #n=3
             #m=2
-            n=76
-            m=19
+            #n=76
+            #m=19
             #n=64
             #m=16
             numofdigits_n = len(str(n))
