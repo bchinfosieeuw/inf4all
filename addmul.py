@@ -141,12 +141,12 @@ if __name__ == '__main__':
                         #print(f"Number of carry operations mul: {numOfCarriesMul}")
                         if numOfCarriesMul==2+extra:#total==3 and #numofdigits_n-1:
                             maxOfCarriesMul += 1
-                            print('n:', n)
-                            print('m:', m)
+                            #print('n:', n)
+                            #print('m:', m)
                             if n==76 an m==19:
                                 print('76 19 ja')
                             if n==64 an m==16:
-                                print('64 19 ja')
+                                print('64 16 ja')
                             #break
                     except ValueError as e:
                         print(f"Error: {e}")
