@@ -119,8 +119,8 @@ if __name__ == '__main__':
             #m=2
             #n=76
             #m=19
-            n=64
-            m=16
+            #n=64
+            #m=16
             numofdigits_n = len(str(n))
             try:
                 numOfCarriesAdd = count_carries_in_addition(n, m)
@@ -136,8 +136,8 @@ if __name__ == '__main__':
                 if numOfCarriesAdd==1:
                     try:
                         maxOfCarriesAdd += 1
-                        total, numOfCarriesMul = count_carries_and_double_carries(n, m)
-                        #numOfCarriesMul = count_carries_in_multiplication(n, m)
+                        #total, numOfCarriesMul = count_carries_and_double_carries(n, m)
+                        numOfCarriesMul = count_carries_in_multiplication(n, m)
                         #print(f"Number of carry operations mul: {numOfCarriesMul}")
                         if numOfCarriesMul==2+extra:#total==3 and #numofdigits_n-1:
                             maxOfCarriesMul += 1
