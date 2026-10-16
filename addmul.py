@@ -115,7 +115,7 @@ if __name__ == '__main__':
     maxOfCarriesMul = 0
     for n in range(N+1):
         for m in range(n, N+1):
-            n=72
+            n=73
             m=12
             #n=64
             #m=16
