@@ -152,16 +152,16 @@ if __name__ == '__main__':
     maxOfCarriesMul = 0
     for n in range(N+1):
         for m in range(N+1):
-            n=76
-            m=19
+            #n=76
+            #m=19
             numOfCarriesAdd = add22(n, m)
             numOfCarriesMul = mul(n, m)
             if numOfCarriesAdd==1:
                 maxOfCarriesAdd += 1
-            if numOfCarriesMul==2:
-                maxOfCarriesMul += 1
-                print('n:', n)
-                print('m:', m)
+                if numOfCarriesMul==2:
+                    maxOfCarriesMul += 1
+                    print('n:', n)
+                    print('m:', m)
                     #break
     #print(maxOfCarriesAdd)
     print(maxOfCarriesMul)
