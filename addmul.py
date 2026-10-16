@@ -63,7 +63,7 @@ def count_carries_in_multiplication(a: int, b: int) -> int:
     return carries
     
 if __name__ == '__main__':
-    N = 99
+    N = 64
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
     numOfCarriesMul = 0
