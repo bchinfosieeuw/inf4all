@@ -96,7 +96,7 @@ def add34(n: int, m: int) -> int:
     return numOfCarries
 
 def mul(n: int, m: int) -> int:
-    numOfCarries = -1
+    numOfCarries = 0
     n1 = int(str(n)[-1])
     n10 = 0
     if len(str(n))==2:
