@@ -132,7 +132,7 @@ def mul(n: int, m: int) -> int:
     elif len(str(k4plus))==3 and len(str(k4))==4:
         numOfCarries += add34(k4plus, k4)
     else:
-        print("hallo1")
+        print("halloC")
         
         
         
