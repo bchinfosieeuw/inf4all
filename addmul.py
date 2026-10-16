@@ -123,7 +123,7 @@ def mul(n: int, m: int) -> int:
         numOfCarries += add23(k3, k3plus)
     elif len(str(k3))==3 and len(str(k3plus))==3:
         numOfCarries += add33(k3, k3plus)
-    if len(str(k4))<=2 and len(str(k4plus))==3:
+    elif len(str(k4))<=2 and len(str(k4plus))==3:
         numOfCarries += add23(k4, k4plus)
     elif len(str(k4))==3 and len(str(k4plus))==3:
         numOfCarries += add33(k4, k4plus)
