@@ -152,7 +152,7 @@ if __name__ == '__main__':
     for n in range(N+1):
         for m in range(N+1):
             n=64
-            m=19
+            m=16
             numOfCarriesAdd = add22(n, m)
             numOfCarriesMul = mul(n, m)
             if numOfCarriesAdd==1:
