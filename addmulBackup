@@ -72,11 +72,14 @@ if __name__ == '__main__':
         for m in range(N+1):
             try:
                 numOfCarriesAdd = count_carries_in_addition(n, m)
+                """#extra is 0 or 1 applies to first adding number in multiplication which can have 1 or 2 digits.
                 extra = 0
                 if len(str(int(str(n)[-1])*int(str(m)[-1])))==1:
                     extra = 0
                 elif len(str(int(str(n)[-1])*int(str(m)[-1])))==2:
                     extra = 1
+                """
+                extra = len(str(int(str(n)[-1])*int(str(m)[-1])))-1
                 if numOfCarriesAdd==1:
                     try:
                         maxOfCarriesAdd += 1
@@ -90,4 +93,4 @@ if __name__ == '__main__':
             except ValueError as e:
                 print(f"Error: {e}")
     print('Number of pairs of which in addition only 1 carry is used:', maxOfCarriesAdd)
-    print('Number of pairs of which in multiplication exactly 2 carries are used:', maxOfCarriesMul)
+    print('Number of pairs of which also in multiplication exactly 2 carries are used:', maxOfCarriesMul)
