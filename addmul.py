@@ -138,7 +138,6 @@ if __name__ == '__main__':
                         maxOfCarriesAdd += 1
                         #total, numOfCarriesMul = count_carries_and_double_carries(n, m)
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
-                        #print(f"Number of carry operations mul: {numOfCarriesMul}")
                         if numOfCarriesMul==2+extra:
                             maxOfCarriesMul += 1
                             print('n:', n)
