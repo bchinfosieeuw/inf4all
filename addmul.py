@@ -143,9 +143,9 @@ if __name__ == '__main__':
                             maxOfCarriesMul += 1
                             #print('n:', n)
                             #print('m:', m)
-                            if n==76 an m==19:
+                            if n==76 and m==19:
                                 print('76 19 ja')
-                            if n==64 an m==16:
+                            if n==64 and m==16:
                                 print('64 16 ja')
                             #break
                     except ValueError as e:
