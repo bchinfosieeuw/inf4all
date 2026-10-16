@@ -124,7 +124,6 @@ if __name__ == '__main__':
             #numofdigits_n = len(str(n))
             try:
                 numOfCarriesAdd = count_carries_in_addition(n, m)
-                #print(f"Number of carry operations add: {numOfCarriesAdd}")
                 extra = 0
                 if len(str(int(str(n)[-1])*int(str(m)[-1])))==1:
                     extra = 0
