@@ -78,6 +78,8 @@ if __name__ == '__main__':
                     extra = 0
                 elif len(str(int(str(n)[-1])*int(str(m)[-1])))==2:
                     extra = 1
+                """
+                extra
                 if numOfCarriesAdd==1:
                     try:
                         maxOfCarriesAdd += 1
