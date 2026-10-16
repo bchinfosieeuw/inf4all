@@ -154,7 +154,7 @@ if __name__ == '__main__':
         for m in range(N+1):
             #n=76
             #m=19
-            numOfCarriesAdd = add23(n, m)
+            numOfCarriesAdd = add22(n, m)
             numOfCarriesMul = mul(n, m)
             if numOfCarriesAdd==1:
                 maxOfCarriesAdd += 1
