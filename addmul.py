@@ -121,7 +121,6 @@ if __name__ == '__main__':
             #m=19
             #n=64
             #m=16
-            #numofdigits_n = len(str(n))
             try:
                 numOfCarriesAdd = count_carries_in_addition(n, m)
                 extra = 0
