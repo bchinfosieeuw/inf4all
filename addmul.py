@@ -149,8 +149,8 @@ if __name__ == '__main__':
     maxOfCarriesAdd = 0
     numOfCarriesMul = 0
     maxOfCarriesMul = 0
-    for n in range(N+0):
-        for m in range(N+0):
+    for n in range(N+1):
+        for m in range(N+1):
             #n=76
             #m=19
             numOfCarriesAdd = add22(n, m)
