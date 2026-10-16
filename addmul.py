@@ -133,7 +133,7 @@ if __name__ == '__main__':
                 elif len(str(int(str(n)[-1])*int(str(m)[-1])))==2:
                     extra = 1
                     #print('hetis2')
-                if numOfCarriesAdd==1:
+                if numOfCarriesAdd==1+extra:
                     try:
                         maxOfCarriesAdd += 1
                         #total, numOfCarriesMul = count_carries_and_double_carries(n, m)
