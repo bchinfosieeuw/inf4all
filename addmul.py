@@ -131,11 +131,11 @@ if __name__ == '__main__':
                         #total, numOfCarriesMul = count_carries_and_double_carries(n, m)
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
                         extra = 0
-                        print('len:', len(str(n*m)))
-                        if len(str(n*m))==1:
+                        #print('len:', len(str(int(str(n)[-1])*int(str(m)[-1]))))
+                        if len(str(int(str(n)[-1])*int(str(m)[-1])))==1:
                             extra = 0
                             print('hetis1')
-                        elif len(str(n*m))==2:
+                        elif len(str(int(str(n)[-1])*int(str(m)[-1])))==2:
                             extra = 1
                             print('hetis2')
                         #print(f"Number of carry operations mul: {numOfCarriesMul}")
