@@ -159,7 +159,7 @@ if __name__ == '__main__':
                 maxOfCarriesAdd += 1
                 if numOfCarriesMul==2:
                     maxOfCarriesMul += 1
-                    #print('n:', n)
-                    #print('m:', m)
+                    print('n:', n)
+                    print('m:', m)
     print(maxOfCarriesAdd)
     print(maxOfCarriesMul)
