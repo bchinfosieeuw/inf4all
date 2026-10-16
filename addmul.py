@@ -69,7 +69,7 @@ if __name__ == '__main__':
     numOfCarriesMul = 0
     maxOfCarriesMul = 0
     for n in range(N+1):
-        for m in range(n, N+1):
+        for m in range(n,N+1):
             #n=76
             #m=19
             numofdigits_n = len(str(n))
@@ -81,7 +81,7 @@ if __name__ == '__main__':
                         maxOfCarriesAdd += 1
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
                         #print(f"Number of carry operations mul: {numOfCarriesMul}")
-                        if numOfCarriesMul==2:#numofdigits_n-1:
+                        if numOfCarriesMul==numofdigits_n-1:
                             maxOfCarriesMul += 1
                             print('n:', n)
                             print('m:', m)
