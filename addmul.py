@@ -1,4 +1,4 @@
-def count_carries(a: int, b: int) -> int:
+def count_carries_in_addition(a: int, b: int) -> int:
     """
     Count the number of carry operations when adding two integers.
     Works for integers up to 100 (and beyond).
