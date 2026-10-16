@@ -136,7 +136,6 @@ if __name__ == '__main__':
                 if numOfCarriesAdd==1:
                     try:
                         maxOfCarriesAdd += 1
-                        #total, numOfCarriesMul = count_carries_and_double_carries(n, m)
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
                         if numOfCarriesMul==2+extra:
                             maxOfCarriesMul += 1
