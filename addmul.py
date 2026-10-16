@@ -125,12 +125,12 @@ if __name__ == '__main__':
             try:
                 numOfCarriesAdd = count_carries_in_addition(n, m)
                 #print(f"Number of carry operations add: {numOfCarriesAdd}")
-                        extra = 0
-                        #print('len:', len(str(int(str(n)[-1])*int(str(m)[-1]))))
-                        if len(str(int(str(n)[-1])*int(str(m)[-1])))==1:
-                            extra = 0
-                            print('hetis1')
-                        elif len(str(int(str(n)[-1])*int(str(m)[-1])))==2:
+                extra = 0
+                #print('len:', len(str(int(str(n)[-1])*int(str(m)[-1]))))
+                if len(str(int(str(n)[-1])*int(str(m)[-1])))==1:
+                extra = 0
+                print('hetis1')
+                elif len(str(int(str(n)[-1])*int(str(m)[-1])))==2:
                             extra = 1
                             print('hetis2')
                 if numOfCarriesAdd==1:
