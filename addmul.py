@@ -157,9 +157,8 @@ if __name__ == '__main__':
             numOfCarriesMul = mul(n, m)
             if numOfCarriesAdd==1:
                 maxOfCarriesAdd += 1
-                if numOfCarriesMul==2:# and maxOfCarriesMul > maxOfCarriesMulremem:
+                if numOfCarriesMul==2:
                     maxOfCarriesMul += 1
-                    #maxOfCarriesMulremem = maxOfCarriesMul
                     #print('n:', n)
                     #print('m:', m)
     print(maxOfCarriesAdd)
