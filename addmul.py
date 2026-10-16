@@ -110,6 +110,7 @@ def mul(n: int, m: int) -> int:
     k2 = n1 * m10 * 10
     k3plus = k1 + k2
     k3 = n10 * m1 * 10
+    k3plus = k1 + k2
     k4 = n10 * m10 * 100
     
     if len(str(k1))<=2 and len(str(k2))<=2:
