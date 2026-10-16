@@ -140,7 +140,7 @@ if __name__ == '__main__':
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
                         #print(f"Number of carry operations mul: {numOfCarriesMul}")
                         if numOfCarriesMul==2+extra:#total==3 and #numofdigits_n-1:
-                            maxOfCarriesMul += 1-extra
+                            maxOfCarriesMul += 1
                             print('n:', n)
                             print('m:', m)
                             #break
