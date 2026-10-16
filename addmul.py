@@ -134,7 +134,7 @@ def mul(n: int, m: int) -> int:
         
         
         
-    print("hallo:", numOfCarries)
+    #print("hallo:", numOfCarries)
     
 
     
