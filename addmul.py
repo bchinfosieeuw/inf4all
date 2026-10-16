@@ -90,4 +90,4 @@ if __name__ == '__main__':
             except ValueError as e:
                 print(f"Error: {e}")
     print('Number of pairs of which in addition only 1 carry is used:', maxOfCarriesAdd)
-    print(maxOfCarriesMul)
+    print('Number of pairs of which in addition only 1 carry is used:', maxOfCarriesMul)
