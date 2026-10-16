@@ -131,7 +131,8 @@ if __name__ == '__main__':
                         extra = 0
                         if len(str(n*m)[-1])==1
                             print('hetis1')
-                        el
+                        elif len(str(n*m)[-1])==2
+                            print
                         #print(f"Number of carry operations mul: {numOfCarriesMul}")
                         if numOfCarriesMul==2:#total==3 and #numofdigits_n-1:
                             maxOfCarriesMul += 1
