@@ -81,11 +81,9 @@ def add34(n: int, m: int) -> int:
     n100 = int(str(n)[-3])
     if len(str(n))==2:
         n10 = int(str(n)[-2])
-    m1 = 0
-    m10 = 0
-    if len(str(m))==4:
-        m1 = int(str(m)[-3])
-        m10 = int(str(m)[-4])
+    n1 = int(str(n)[-1])
+    n10 = int(str(n)[-2])
+    n100 = int(str(n)[-3])
     
     if n10 + m1 >= 10:
         numOfCarries += 1
