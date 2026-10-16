@@ -81,7 +81,7 @@ if __name__ == '__main__':
                         maxOfCarriesAdd += 1
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
                         #print(f"Number of carry operations mul: {numOfCarriesMul}")
-                        if numOfCarriesMul==numofdigits_n-1 or numOfCarriesMul==numofdigits_n:
+                        if numOfCarriesMul==numofdigits_n-1:
                             maxOfCarriesMul += 1
                             print('n:', n)
                             print('m:', m)
