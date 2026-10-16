@@ -76,7 +76,7 @@ if __name__ == '__main__':
             try:
                 numOfCarriesAdd = count_carries_in_addition(n, m)
                 #print(f"Number of carry operations add: {numOfCarriesAdd}")
-                if numOfCarriesAdd==1:
+                if numOfCarriesAdd==2:
                     try:
                         maxOfCarriesAdd += 1
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
