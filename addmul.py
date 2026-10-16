@@ -124,9 +124,9 @@ if __name__ == '__main__':
                 if numOfCarriesAdd==1:
                     try:
                         maxOfCarriesAdd += 1
-                        numOfCarriesMul, doubles  = count_carries_and_double_carries(n, m)
+                        total, numOfCarriesMul = count_carries_and_double_carries(n, m)
                         #print(f"Number of carry operations mul: {numOfCarriesMul}")
-                        if numOfCarriesMul==3:#numofdigits_n-1:
+                        if numOfCarriesMul==2:#numofdigits_n-1:
                             maxOfCarriesMul += 1
                             print('n:', n)
                             print('m:', m)
