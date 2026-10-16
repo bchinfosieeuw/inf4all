@@ -63,8 +63,8 @@ def add24(n: int, m: int) -> int:
     m1 = 0
     m10 = 0
     if len(str(m))==4:
-        m1 = int(str(m)[-2])
-        m10 = int(str(m)[-3])
+        m1 = int(str(m)[-3])
+        m10 = int(str(m)[-4])
     
     if n10 + m1 >= 10:
         numOfCarries += 1
