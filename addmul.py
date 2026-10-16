@@ -1,148 +1,66 @@
-def add22(n: int, m: int) -> int:
-    numOfCarries = 0
-    n1 = int(str(n)[-1])
-    n10 = 0
-    if len(str(n))==2:
-        n10 = int(str(n)[-2])
-    m1 = int(str(m)[-1])
-    m10 = 0
-    if len(str(m))==2:
-        m10 = int(str(m)[-2])
-    
-    if n1 + m1 >= 10:
-        numOfCarries += 1
-        if n10 + m10 + 1 >= 10:
-            numOfCarries += 1
-    elif n10 + m10 >= 10:
-        numOfCarries += 1
-    return numOfCarries
-    
-def add23(n: int, m: int) -> int:
-    numOfCarries = 0
-    n1 = int(str(n)[-1])
-    n10 = 0
-    if len(str(n))==2:
-        n10 = int(str(n)[-2])
-    m1 = 0
-    m10 = 0
-    if len(str(m))==3:
-        m1 = int(str(m)[-2])
-        m10 = int(str(m)[-3])
-    
-    if n10 + m1 >= 10:
-        numOfCarries += 1
-        if m10 + 1 >= 10:
-            numOfCarries += 1
-    elif m10 >= 10:
-        numOfCarries += 1
-    return numOfCarries
-    
-def add33(n: int, m: int) -> int:
-    numOfCarries = 0
-    n1 = int(str(n)[-1])
-    n10 = int(str(n)[-2])
-    n100 = int(str(n)[-3])
-    m1 = int(str(m)[-1])
-    m10 = int(str(m)[-2])
-    m100 = int(str(m)[-3])
-    
-    if n1 + m1 >= 10:
-        numOfCarries += 1
-        if m10 + 1 >= 10:
-            numOfCarries += 1
-    elif m10 >= 10:
-        numOfCarries += 1
-    return numOfCarries
-    
-def add24(n: int, m: int) -> int:
-    numOfCarries = 0
-    n1 = int(str(n)[-1])
-    n10 = 0
-    if len(str(n))==2:
-        n10 = int(str(n)[-2])
-    m1 = 0
-    m10 = 0
-    if len(str(m))==4:
-        m1 = int(str(m)[-3])
-        m10 = int(str(m)[-4])
-    
-    if n10 + m1 >= 10:
-        numOfCarries += 1
-        if m10 + 1 >= 10:
-            numOfCarries += 1
-    elif m10 >= 10:
-        numOfCarries += 1
-    return numOfCarries
-    
-def add34(n: int, m: int) -> int:
-    numOfCarries = 0
-    n1 = int(str(n)[-1])
-    n10 = int(str(n)[-2])
-    n100 = int(str(n)[-3])
-    if len(str(n))==2:
-        n10 = int(str(n)[-2])
-    m1 = 0
-    m10 = 0
-    if len(str(m))==4:
-        m1 = int(str(m)[-3])
-        m10 = int(str(m)[-4])
-    
-    if n10 + m1 >= 10:
-        numOfCarries += 1
-        if m10 + 1 >= 10:
-            numOfCarries += 1
-    elif m10 >= 10:
-        numOfCarries += 1
-    return numOfCarries
+def count_carries(a: int, b: int) -> int:
+    """
+    Count the number of carry operations when adding two integers.
+    Works for integers up to 100 (and beyond).
+    """
+    # Input validation
+    if not (isinstance(a, int) and isinstance(b, int)):
+        raise ValueError("Inputs must be integers.")
+    if a < 0 or b < 0:
+        raise ValueError("Inputs must be non-negative integers.")
+    if a > 100 or b > 100:
+        raise ValueError("Inputs must be <= 100.")
 
-def mul(n: int, m: int) -> int:
-    numOfCarries = 0
-    n1 = int(str(n)[-1])
-    n10 = 0
-    if len(str(n))==2:
-        n10 = int(str(n)[-2])
-    m1 = int(str(m)[-1])
-    m10 = 0
-    if len(str(m))==2:
-        m10 = int(str(m)[-2])
-    
-    k1 = n1 * m1
-    k2 = n1 * m10 * 10
-    k3plus = k1 + k2
-    k3 = n10 * m1 * 10
-    k4plus = k3plus + k3
-    k4 = n10 * m10 * 100
-    
-    if len(str(k1))<=2 and len(str(k2))<=2:
-        numOfCarries += add22(k1, k2)
-    elif len(str(k1))<=2 and len(str(k2))==3:
-        numOfCarries += add23(k1, k2)
-    if len(str(k3))<=2 and len(str(k3plus))<=2:
-        numOfCarries += add22(k3, k3plus)
-    elif len(str(k3))<=2 and len(str(k3plus))==3:
-        numOfCarries += add23(k3, k3plus)
-    elif len(str(k3))==3 and len(str(k3plus))==3:
-        numOfCarries += add33(k3, k3plus)
-    if len(str(k4plus))<=2 and len(str(k4))==3:
-        numOfCarries += add23(k4plus, k4)
-    elif len(str(k4plus))==3 and len(str(k4))==3:
-        numOfCarries += add33(k4plus, k4)
-    elif len(str(k4plus))<=2 and len(str(k4))==4:
-        numOfCarries += add24(k4plus, k4)
-    elif len(str(k4plus))==3 and len(str(k4))==4:
-        numOfCarries += add34(k4plus, k4)
-        
-        
-        
-        
-    #print("hallo:", numOfCarries)
-    
+    carry_count = 0
+    carry = 0
 
-    
+    # Simulate manual addition
+    while a > 0 or b > 0:
+        digit_a = a % 10
+        digit_b = b % 10
+        if digit_a + digit_b + carry >= 10:
+            carry_count += 1
+            carry = 1
+        else:
+            carry = 0
+        a //= 10
+        b //= 10
 
-            
-    
-    return numOfCarries
+    return carry_count
+
+def count_carries_in_multiplication(a: int, b: int) -> int:
+    """
+    Counts the number of carry operations during manual multiplication of two integers.
+    Works for integers up to 100 (but can handle larger too).
+    """
+    # Input validation
+    if not isinstance(a, int) or not isinstance(b, int):
+        raise ValueError("Inputs must be integers.")
+    if abs(a) > 100 or abs(b) > 100:
+        raise ValueError("Inputs must be <= 100 in absolute value.")
+
+    # Handle negatives by ignoring sign for carry counting
+    a, b = abs(a), abs(b)
+
+    carries = 0
+    a_digits = list(map(int, str(a)))[::-1]  # Reverse for least significant digit first
+    b_digits = list(map(int, str(b)))[::-1]
+
+    # Simulate manual multiplication
+    for i, bd in enumerate(b_digits):
+        carry = 0
+        for ad in a_digits:
+            product = ad * bd + carry
+            if product >= 10:
+                carries += 1
+                carry = product // 10
+            else:
+                carry = 0
+        # If carry remains after finishing this row, count it
+        if carry > 0:
+            carries += 1
+
+    return carries
     
 if __name__ == '__main__':
     N = 99
@@ -154,14 +72,23 @@ if __name__ == '__main__':
         for m in range(N+1):
             #n=76
             #m=19
-            numOfCarriesAdd = add22(n, m)
-            numOfCarriesMul = mul(n, m)
-            if numOfCarriesAdd==1:
-                maxOfCarriesAdd += 1
-                if numOfCarriesMul==2:
-                    maxOfCarriesMul += 1
-                    print('n:', n)
-                    print('m:', m)
-                    #break
-    #print(maxOfCarriesAdd)
+            numofdigits_n = len(str(n))
+            try:
+                numOfCarriesAdd = count_carries(n, m)
+                #print(f"Number of carry operations add: {numOfCarriesAdd}")
+                if numOfCarriesAdd==1:
+                    try:
+                        maxOfCarriesAdd += 1
+                        numOfCarriesMul = count_carries_in_multiplication(n, m)
+                        #print(f"Number of carry operations mul: {numOfCarriesMul}")
+                        if numOfCarriesMul==numofdigits_n-1:
+                            maxOfCarriesMul += 1
+                            print('n:', n)
+                            print('m:', m)
+                            #break
+                    except ValueError as e:
+                        print(f"Error: {e}")
+            except ValueError as e:
+                print(f"Error: {e}")
+    print(maxOfCarriesAdd)
     print(maxOfCarriesMul)
