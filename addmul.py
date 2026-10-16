@@ -135,7 +135,7 @@ if __name__ == '__main__':
                         if len(str(n*m))==1:
                             extra = 0
                             print('hetis1')
-                        elif len(str(int(str(n)[-1])*int(str(m)[-1])))==2:
+                        elif len(str(n*m))==2:
                             extra = 1
                             print('hetis2')
                         #print(f"Number of carry operations mul: {numOfCarriesMul}")
