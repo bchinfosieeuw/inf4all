@@ -63,32 +63,31 @@ def count_carries_in_multiplication(a: int, b: int) -> int:
     return carries
     
 if __name__ == '__main__':
-    N = int(input('Enter a maximum number: '))
+    N = 99
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
     numOfCarriesMul = 0
     maxOfCarriesMul = 0
     for n in range(N+1):
         for m in range(N+1):
-            if n!=m:
-                try:
-                    numOfCarriesAdd = count_carries_in_addition(n, m)
+            try:
+                numOfCarriesAdd = count_carries_in_addition(n, m)
+                extra = 0
+                if len(str(int(str(n)[-1])*int(str(m)[-1])))==1:
                     extra = 0
-                    if len(str(int(str(n)[-1])*int(str(m)[-1])))==1:
-                        extra = 0
-                    elif len(str(int(str(n)[-1])*int(str(m)[-1])))==2:
-                        extra = 1
-                    if numOfCarriesAdd==1:
-                        try:
-                            maxOfCarriesAdd += 1
-                            numOfCarriesMul = count_carries_in_multiplication(n, m)
-                            if numOfCarriesMul==2+extra:
-                                maxOfCarriesMul += 1
-                                print('n:', n)
-                                print('m:', m)
-                        except ValueError as e:
-                            print(f"Error: {e}")
-                except ValueError as e:
-                    print(f"Error: {e}")
+                elif len(str(int(str(n)[-1])*int(str(m)[-1])))==2:
+                    extra = 1
+                if numOfCarriesAdd==1:
+                    try:
+                        maxOfCarriesAdd += 1
+                        numOfCarriesMul = count_carries_in_multiplication(n, m)
+                        if numOfCarriesMul==2+extra:
+                            maxOfCarriesMul += 1
+                            print('n:', n)
+                            print('m:', m)
+                    except ValueError as e:
+                        print(f"Error: {e}")
+            except ValueError as e:
+                print(f"Error: {e}")
     print(maxOfCarriesAdd)
     print(maxOfCarriesMul)
