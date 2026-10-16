@@ -146,7 +146,7 @@ if __name__ == '__main__':
                             if n==76 an m==19:
                                 print('76 19 ja')
                             if n==64 an m==16:
-                                print('76 19 ja')
+                                print('64 19 ja')
                             #break
                     except ValueError as e:
                         print(f"Error: {e}")
