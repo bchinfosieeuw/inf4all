@@ -115,8 +115,10 @@ if __name__ == '__main__':
     maxOfCarriesMul = 0
     for n in range(N+1):
         for m in range(n, N+1):
-            n=76
-            m=19
+            #n=76
+            #m=19
+            n = 64
+            m = 16
             numofdigits_n = len(str(n))
             try:
                 numOfCarriesAdd = count_carries_in_addition(n, m)
