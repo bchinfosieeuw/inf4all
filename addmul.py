@@ -128,10 +128,10 @@ if __name__ == '__main__':
                 extra = 0
                 #print('len:', len(str(int(str(n)[-1])*int(str(m)[-1]))))
                 if len(str(int(str(n)[-1])*int(str(m)[-1])))==1:
-                    extra = 0+1
+                    extra = 0
                     #print('hetis1')
                 elif len(str(int(str(n)[-1])*int(str(m)[-1])))==2:
-                    extra = 1+1
+                    extra = 1
                     #print('hetis2')
                 if numOfCarriesAdd==1:
                     try:
@@ -139,7 +139,7 @@ if __name__ == '__main__':
                         #total, numOfCarriesMul = count_carries_and_double_carries(n, m)
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
                         #print(f"Number of carry operations mul: {numOfCarriesMul}")
-                        if numOfCarriesMul==2+extra-1:#total==3 and #numofdigits_n-1:
+                        if numOfCarriesMul==2+extra:#total==3 and #numofdigits_n-1:
                             maxOfCarriesMul += 1
                             print('n:', n)
                             print('m:', m)
