@@ -74,7 +74,7 @@ if __name__ == '__main__':
             #m=19
             numofdigits_n = len(str(n))
             try:
-                numOfCarriesAdd = count_carries(n, m)
+                numOfCarriesAdd = count_carries_in_addition(n, m)
                 #print(f"Number of carry operations add: {numOfCarriesAdd}")
                 if numOfCarriesAdd==1:
                     try:
