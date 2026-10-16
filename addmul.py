@@ -89,5 +89,5 @@ if __name__ == '__main__':
                         print(f"Error: {e}")
             except ValueError as e:
                 print(f"Error: {e}")
-    print('', maxOfCarriesAdd)
+    print('Number of ', maxOfCarriesAdd)
     print(maxOfCarriesMul)
