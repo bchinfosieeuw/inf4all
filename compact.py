@@ -33,7 +33,7 @@ def compact(lst: list[object]) -> None:
     [1]
     """
     newlist = []
-    for i in range(len(lst)+1):
+    for i in range(len(lst)):
         if not (lst[i]==False and lst[i]==0 and lst[i]==''):
             newlist[i] = lst[i]
 
