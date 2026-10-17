@@ -38,7 +38,7 @@ def list_count_even(lst: list[int]) -> int:
 
 def list_get_even(lst: list[int]) -> list[int]:
     """
-    Check if all integers in the list are even numbers.
+    Return a list of only the even nu.
     
     >>> list_get_even([2, 4, 5, 6])
     3
