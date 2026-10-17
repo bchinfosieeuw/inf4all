@@ -11,4 +11,5 @@ def list_check_all_even(lst: list[int]) -> bool:
     >>> list_check_all_even([])
     True
     """
+    
     return checkbool
