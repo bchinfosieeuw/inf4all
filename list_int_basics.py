@@ -54,8 +54,3 @@ def list_get_even(lst: list[int]) -> list[int]:
         if (lst[i]+2)%2==0:
             newlst.append(lst[i])
     return newlst
-
-lst = []
-#print(list_check_all_even(lst))
-#print(list_count_even(lst))
-print(list_get_even(lst))
