@@ -33,10 +33,10 @@ def list_contains_no_element(lst: list[object], elt: object) -> bool:
     False
     """
     i = 0
-    foundbool = False
+    foundbool = True
     while i < len(lst):
         if lst[i]!=elt:
-            foundbool = True
+            foundbool = False
         i += 1
     return foundbool
     
