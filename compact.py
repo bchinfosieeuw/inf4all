@@ -38,3 +38,5 @@ def compact(lst: list[object]) -> None:
             newlist[i].remove
         else:
             newlist[i] = lst[i]
+
+print()
