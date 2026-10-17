@@ -9,7 +9,7 @@ def count_carries_in_addition(a: int, b: int) -> int:
     if a < 0 or b < 0:
         raise ValueError("Inputs must be non-negative integers.")
     #if a > 100 or b > 100:
-        raise ValueError("Inputs must be <= 100.")
+    #    raise ValueError("Inputs must be <= 100.")
 
     carry_count = 0
     carry = 0
