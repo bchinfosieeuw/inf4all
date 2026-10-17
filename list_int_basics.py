@@ -55,7 +55,7 @@ def list_get_even(lst: list[int]) -> list[int]:
             newlst.append(lst[i])
     return newlst
 
-lst = [2, 4, 5, 6]
+lst = [2, 4, 8, 6]
 #print(list_check_all_even(lst))
 #print(list_count_even(lst))
 print(list_get_even(lst))
