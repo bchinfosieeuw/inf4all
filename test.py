@@ -38,3 +38,4 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
     return minonder, minboven-1
 import random
 random.randint(a, b)
+def rotate(lst: list[object]) -> None:
