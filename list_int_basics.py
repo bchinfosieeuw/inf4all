@@ -14,3 +14,5 @@ def list_check_all_even(lst: list[int]) -> bool:
     for i in range(len(lst)):
         print('hallo')
     return checkbool
+    
+list_check_all_even
