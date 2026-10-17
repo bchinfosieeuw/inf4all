@@ -33,7 +33,7 @@ def compact(lst: list[object]) -> None:
     [1]
     """
     for i in range(len(lst)):
-        if i < len(lst)-1:
+        if if not x / if x:
             lst[i] = lst[i+1]
         else:
             lst[-1] = dummy
