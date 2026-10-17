@@ -24,7 +24,7 @@ def rotate(lst: list[object]) -> None:
     
     >>> n1 = [1]
     >>> rotate(n1)
-    [2, 1, 2, 1]
+    [1]
     """
     dummy = lst[0]
     for i in range(len(lst)):
