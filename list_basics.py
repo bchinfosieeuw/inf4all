@@ -12,7 +12,7 @@ def list_contains_element(lst: list[object], elt: object) -> bool:
     False
     """
     foundbool = False
-    for i in range(len(lst):
+    for i in range(len(lst)):
         if lst[i]==elt:
             foundbool = True
     return foundbool
