@@ -3,7 +3,7 @@ def rotate(lst: list[object]) -> None:
     Rotate the list to the left.
     """
     newlst = ""
-    for i in len(lst)
+    for i in range(len(lst)
     print(newlst)
 
 if __name__ == '__main__':
