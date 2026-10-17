@@ -2,6 +2,8 @@ def rotate(lst: list[object]) -> None:
     """
     Rotate the list to the left.
     """
+    newlst = ""
+    
     print(newlst)
 
 if __name__ == '__main__':
