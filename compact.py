@@ -1,4 +1,4 @@
-def compact(lst: list[object]) -> list[int]:
+def compact(lst: list[object]) -> list[objects]:
     """
     Remove falsy items such as False, 0 or ''.
     
