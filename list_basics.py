@@ -45,7 +45,7 @@ def list_count_element(lst: list[object], elt: object) -> int:
     Count how many times an element is contained in the list.
     
     >>> list_count_element(['0thobj', '1stobj', 2, 3.0], 2)
-    False
+    1
     
     >>> list_count_element(['0thobj', '1stobj', 2, 3.0], 3)
     False
