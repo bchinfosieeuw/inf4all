@@ -24,7 +24,7 @@ def compact(lst: list[object]) -> None:
             
     if len(lst)==1:
         dummy = lst[0]
-    for i in range(len(lst)):
+    else for i in range(len(lst)):
         if i < len(lst)-1:
             lst[i] = lst[i+1]
         else:
