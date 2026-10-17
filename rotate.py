@@ -5,6 +5,7 @@ def rotate(lst: list[object]) -> None:
     lst.append(lst[0])
     for i in range(len(lst)):
         lst[i-1] = lst[i]
+    lst.remove(lst)
     print(lst)
 
 if __name__ == '__main__':
