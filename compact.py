@@ -16,6 +16,11 @@ def compact(lst: list[object]) -> None:
     >>> compact(n1)
     >>> n1
     [1, 4, 5]
+    
+    >>> n1 = [1, 0, 0, 4, 5]
+    >>> compact(n1)
+    >>> n1
+    [1, 4, 5]
     """
     newlist = []
     for i in range(len(lst)):
