@@ -16,7 +16,7 @@ def compact(lst: list[object]) -> list[objects]:
     """
     newlist = []
     for i in range(len(lst)):
-        if lst[i]!=False and lst[i]!=0 and lst[i]!='':
+        if lst[i]!=False and lst[i]!=0 and lst[i]!='' and lst[i]!='':
             newlist.append(lst[i])
     #print(newlist)
     return newlist
