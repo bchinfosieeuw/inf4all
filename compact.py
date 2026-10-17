@@ -9,13 +9,9 @@ def compact(lst: list[object]) -> list[objects]:
     [1, 3, 4, 5]
     
     >>> compact([1, 0, 0, 4, 5])
-    >>> compact(n1)
-    >>> n1
     [1, 4, 5]
     
     >>> compact([0])
-    >>> compact(n1)
-    >>> n1
     []
     """
     newlist = []
