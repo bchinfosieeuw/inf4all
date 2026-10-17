@@ -18,7 +18,7 @@ def rotate(lst: list[object]) -> None:
     for i in range(len(lst)):
         lst[i-1] = lst[i]
         if i==len(lst):
-            lst[i-1].append()
+            lst[i-2].append(lst[i-1])
     lst.remove(lst[-1])
     print(lst)
 
