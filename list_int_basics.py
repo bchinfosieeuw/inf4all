@@ -9,6 +9,6 @@ def list_check_all_even(lst: list[int]) -> bool:
     True
     
     >>> list_check_all_even([])
-    False
+    True
     """
     return checkbool
