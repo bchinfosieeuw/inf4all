@@ -18,6 +18,7 @@ def compact(lst: list[object]) -> None:
     []
     """
     newlist = []
+    my1 = 0
     if lst[0]==0:
         my1 = 1
     for i in range(len(lst)):
