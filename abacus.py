@@ -82,7 +82,7 @@ if __name__ == '__main__':
                     extra = 1
                 """
                 extra = len(str(int(str(n)[-1])*int(str(m)[-1])))-1
-                if numOfCarriesAdd==1:
+                if numOfCarriesAdd==addcarry:
                     try:
                         maxOfCarriesAdd += 1
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
