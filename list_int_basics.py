@@ -41,7 +41,7 @@ def list_get_even(lst: list[int]) -> list[int]:
     Return a new list of only the even numbers in the old list.
     
     >>> list_get_even([2, 4, 5, 6])
-    3
+    [2, 4, 6]
     
     >>> list_get_even([2, 4, 8, 6])
     4
