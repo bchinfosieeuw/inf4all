@@ -47,7 +47,7 @@ def list_get_even(lst: list[int]) -> list[int]:
     [2, 4, 8, 6]
     
     >>> list_get_even([])
-    0
+    []
     """
     newlst = []
     for i in range(len(lst)):
