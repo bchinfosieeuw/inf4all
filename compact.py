@@ -3,12 +3,12 @@ def compact(lst: list[object]) -> None:
     Rotate the list to the left.
     
     >>> n1 = [1, 2, 3]
-    >>> rotate(n1)
+    >>> compact(n1)
     >>> n1
     [2, 3, 1]
     
     >>> n1 = [1, 2, 3, 4, 5]
-    >>> rotate(n1)
+    >>> compact(n1)
     >>> n1
     [2, 3, 4, 5, 1]
     
