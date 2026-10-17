@@ -23,4 +23,4 @@ def compact(lst: list[object]) -> None:
             newlist[i] = lst[i]
     print(newlist)
     
-compact()
+compact([1, False, True, '', 'yes', 0])
