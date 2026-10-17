@@ -52,7 +52,7 @@ def list_get_even(lst: list[int]) -> list[int]:
     newlst = []
     for i in range(len(lst)):
         if (lst[i]+2)%2==0:
-            n += 1
+            newlst.
     return n
 
 lst = [2, 4, 5, 6]
