@@ -18,7 +18,7 @@ def compact(lst: list[object]) -> None:
     []
     """
     newlist = []
-    for i in range(len(lst)):
+    for i in range(len(lst)+1):
         if lst[0]==0:
             break
         elif not (lst[i]==False or lst[i]==0 or lst[i]==''):
