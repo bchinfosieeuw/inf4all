@@ -6,6 +6,16 @@ def rotate(lst: list[object]) -> None:
     >>> rotate(n1)
     >>> n1
     [2, 3, 1]
+    
+    >>> n1 = [1, 2, 3]
+    >>> rotate(n1)
+    >>> n1
+    [2, 3, 1]
+    
+    >>> n1 = [1, 2, 3]
+    >>> rotate(n1)
+    >>> n1
+    [2, 3, 1]
     """
     lst.append(lst[0])
     for i in range(len(lst)):
