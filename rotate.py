@@ -2,6 +2,14 @@ def rotate(lst: list[object]) -> None:
     """
     Rotate the list to the left.
     
+
+    dummy = lst[0]
+    for i in range(len(lst)):
+        if i < len(lst)-1:
+            lst[i] = lst[i+1]
+        else:
+            lst[-1] = dummy
+
     >>> n1 = [1, 2, 3]
     >>> rotate(n1)
     [2, 3, 1]
@@ -26,9 +34,3 @@ def rotate(lst: list[object]) -> None:
     >>> rotate(n1)
     [1]
     """
-    dummy = lst[0]
-    for i in range(len(lst)):
-        if i < len(lst)-1:
-            lst[i] = lst[i+1]
-        else:
-            lst[-1] = dummy
