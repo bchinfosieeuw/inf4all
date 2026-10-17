@@ -20,7 +20,7 @@ def compact(lst: list[object]) -> None:
     newlist = lst
     for i in range(len(lst)):
         if not (lst[i]==False or lst[i]==0 or lst[i]==''):
-            newlist.append(lst[i])
+            newlist[i] = lst[i])
     print(newlist)
 
 compact([1, False, True, '', "yes", 0])
