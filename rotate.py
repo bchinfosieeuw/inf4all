@@ -1,6 +1,6 @@
 def rotate(lst: list[object]) -> None:
     """
-    
+    Rotate the list to the left.
     """
 
 if __name__ == '__main__':
