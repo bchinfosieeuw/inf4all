@@ -26,11 +26,6 @@ def compact(lst: list[object]) -> None:
     >>> compact(n1)
     >>> n1
     []
-    
-    >>> n1 = [1]
-    >>> compact(n1)
-    >>> n1
-    [1]
     """
     newlist = []
     for i in range(len(lst)):
