@@ -19,8 +19,3 @@ def rotate(lst: list[object]) -> None:
         lst[i-1] = lst[i]
     lst.remove(lst[-1])
     print(lst)
-
-if __name__ == '__main__':
-    rotate([1, 2, 3])
-    """
-    """
