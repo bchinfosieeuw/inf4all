@@ -19,3 +19,4 @@ def rotate(lst: list[object]) -> None:
         lst[i-1] = lst[i]
     lst.remove(lst[-1])
     print(lst)
+
