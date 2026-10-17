@@ -37,4 +37,4 @@ def compact(lst: list[object]) -> None:
         if not x / if x:
             newlist[i] = lst[i+1]
         else:
-            newlist[i] = dummy
+            newlist[i] = lst[i]
