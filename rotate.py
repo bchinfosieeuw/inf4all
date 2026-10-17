@@ -1,7 +1,7 @@
 def rotate(lst: list[object]) -> None:
     """
     Rotate the list to the left.
-    """
+"""
 
     dummy = lst[0]
     for i in range(len(lst)):
