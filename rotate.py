@@ -14,12 +14,10 @@ def rotate(lst: list[object]) -> None:
     >>> rotate(n1)
     [2, 1, 2, 1]
     """
-    lst.append(lst[-1])
-    j = 0
+    lst.append(lst[0])
     for i in range(len(lst)):
         lst[i-1] = lst[i]
-        j = i
-    lst.remove(lst[j])
+    lst.remove(lst[-1])
     print(lst)
 
 rotate([1, 2, 1, 2])
