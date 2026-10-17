@@ -5,9 +5,9 @@ def list_contains_element(lst: list[object], elt: object) -> bool:
     True
     """
     i = 0
-    while lst[i]==elt:
-        
-        i += 1
     foundbool = False
+    while lst[i]==elt:
+        foundbool = False
+        i += 1
     
     return foundbool
