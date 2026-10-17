@@ -22,7 +22,7 @@ def compact(lst: list[object]) -> None:
         if not (lst[i]==False or lst[i]==0 or lst[i]==''):
             newlist.append(lst[i])
     if newlist[0]==0:
-        lst.remove(i)
+        newlist.remove(i)
     print(newlist)
 
 compact([0, 1, 2, 3, 4, 5])
