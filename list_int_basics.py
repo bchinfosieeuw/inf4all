@@ -44,7 +44,7 @@ def list_get_even(lst: list[int]) -> list[int]:
     [2, 4, 6]
     
     >>> list_get_even([2, 4, 8, 6])
-    4
+    [2, 4, 6]
     
     >>> list_get_even([])
     0
