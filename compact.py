@@ -9,12 +9,12 @@ def compact(lst: list[object]) -> None:
     
     >>> n1 = [1, 2, 3, 4, 5]
     >>> compact(n1)
-    n1
+    >>> n1
     [1, 2, 3, 4, 5]
     
     >>> n1 = []
     >>> compact(n1)
-    n1
+    >>> n1
     []
     
     >>> n1 = [0]
