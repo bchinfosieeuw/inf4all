@@ -77,6 +77,7 @@ def list_count_elements(lst: list[object], lst_elt: list[object]) -> int:
     i = 0
     n = 0
     while i < len(lst):
+        while i < len(lst):
         if lst_elt[i]==elt:
             n += 1
         i += 1
