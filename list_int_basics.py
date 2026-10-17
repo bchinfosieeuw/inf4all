@@ -30,7 +30,7 @@ def list_count_even(lst: list[int]) -> int:
     >>> list_check_all_even([])
     True
     """
-    checkbool = True
+    n = True
     for i in range(len(lst)):
         if (lst[i]+2)%2==1:
             checkbool = False
