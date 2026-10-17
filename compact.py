@@ -17,10 +17,10 @@ def compact(lst: list[object]) -> None:
     >>> n1
     []
     """
-    newlist = lst
+    newlist = []
     for i in range(len(lst)):
-        if not (lst[i]==False) or not (lst[i]==0) or not (lst[i]==''):
-            newlist[i] = lst[i]
+        if not (lst[i]==False or lst[i]==0 or lst[i]==''):
+            newlist.append(lst[i])
     print(newlist)
 
-compact([1, False, True, '', "yes", 0])
+compact()
