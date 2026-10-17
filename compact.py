@@ -12,7 +12,7 @@ def compact(lst: list[object]) -> None:
     >>> n1
     [1, 3, 4, 5]
     
-    >>> n1 = [1, 0, 3, 4, 5]
+    >>> n1 = [1, 0, 0, 4, 5]
     >>> compact(n1)
     >>> n1
     [1]
