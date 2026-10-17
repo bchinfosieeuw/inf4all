@@ -11,7 +11,7 @@ def list_check_all_even(lst: list[int]) -> bool:
     >>> list_check_all_even([])
     True
     """
-    checkbool = False
+    checkbool = True
     for i in range(len(lst)):
         if (lst[i]+2%2)==0:
             
