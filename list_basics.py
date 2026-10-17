@@ -1,6 +1,6 @@
 def list_contains_element(lst: list[object], elt: object) -> bool:
     """
-    Check if 
+    Check if an element 
     >>> list_contains_element(['0thobj', '1stobj', 2, 3.0], 2)
     True
     """
