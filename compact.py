@@ -26,3 +26,4 @@ def compact(lst: list[object]) -> None:
     print(newlist)
     
 compact([1, 2, 3, 4, 5])
+compact([1, 2, 3, 4, 5])
