@@ -7,7 +7,7 @@ def list_contains_element(lst: list[object], elt: object) -> bool:
     i = 0
     foundbool = False
     if elt.isdigit()==True:
-        elt = int
+        elt = int(elt)
     while i < len(lst):
         if lst[i]==elt:
             foundbool = True
