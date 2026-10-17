@@ -24,7 +24,7 @@ def list_contains_no_element(lst: list[object], elt: object) -> bool:
     Check if an element is contained in the list.
     
     >>> list_contains_no_element(['0thobj', '1stobj', 2, 3.0], 2)
-    True
+    False
     
     >>> list_contains_no_element(['0thobj', '1stobj', 2, 3.0], 3)
     True
