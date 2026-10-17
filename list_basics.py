@@ -50,7 +50,7 @@ def list_count_element(lst: list[object], elt: object) -> int:
     0
     """
     n = 0
-    while i < len(lst):
+    for i in range(len(lst)):
         if lst[i]==elt:
             n += 1
     return n
