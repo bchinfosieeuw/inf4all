@@ -18,7 +18,7 @@ def list_check_all_even(lst: list[int]) -> bool:
     return checkbool
 
 def list_count_even(lst: list[int]) -> int:
-        """
+    """
     Check if all integers in the list are even numbers.
     
     >>> list_check_all_even([2, 4, 5, 6])
