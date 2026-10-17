@@ -36,8 +36,8 @@ def count_carries_in_multiplication(a: int, b: int) -> int:
     # Input validation
     if not isinstance(a, int) or not isinstance(b, int):
         raise ValueError("Inputs must be integers.")
-    if abs(a) > 100 or abs(b) > 100:
-        raise ValueError("Inputs must be <= 100 in absolute value.")
+    #if abs(a) > 100 or abs(b) > 100:
+    #    raise ValueError("Inputs must be <= 100 in absolute value.")
 
     # Handle negatives by ignoring sign for carry counting
     a, b = abs(a), abs(b)
