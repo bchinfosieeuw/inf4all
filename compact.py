@@ -1,6 +1,6 @@
 def compact(lst: list[object]) -> None:
     """
-    Remove falsy items such as .
+    Remove falsy items such as False, zoals 0 of ''.
     
     >>> n1 = [1, 2, 3]
     >>> compact(n1)
