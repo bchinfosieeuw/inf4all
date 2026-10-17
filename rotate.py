@@ -10,10 +10,10 @@ def rotate(lst: list[object]) -> None:
         else:
             lst[-1] = dummy
 
-    >>> n1 = [1, 2, 3]
-    >>> rotate(n1)
-    [2, 3, 1]
-    
+>>> n1 = [1, 2, 3]
+>>> rotate(n1)
+[2, 3, 1]
+
 >>> n1 = [1, 2, 3, 4, 5]
 >>> rotate(n1)
 [2, 3, 4, 5, 1]
