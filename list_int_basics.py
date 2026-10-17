@@ -11,6 +11,7 @@ def list_check_all_even(lst: list[int]) -> bool:
     >>> list_check_all_even([])
     True
     """
+    checkbool = False
     for i in range(len(lst)):
         print('hallo')
     return checkbool
