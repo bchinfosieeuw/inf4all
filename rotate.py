@@ -28,6 +28,3 @@ def rotate(lst: list[object]) -> None:
         else:
             lst[-1] = dummy
     print(lst)
-
-rotate([1, 2, 3])
-rotate([1, 2, 1, 2])
