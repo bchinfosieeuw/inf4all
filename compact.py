@@ -21,3 +21,11 @@ def compact(lst: list[object]) -> None:
     for i in range(len(lst)):
         if not (lst[i]==False or lst[i]==0 or lst[i]==''):
             newlist.append(lst[i])
+            
+                if len(lst) > 0:
+        dummy = lst[0]
+    for i in range(len(lst)):
+        if i < len(lst)-1:
+            lst[i] = lst[i+1]
+        else:
+            lst[-1] = dummy
