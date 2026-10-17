@@ -64,7 +64,7 @@ def count_carries_in_multiplication(a: int, b: int) -> int:
     
 if __name__ == '__main__':
     N = int(input('Enter a maximum number: '))
-    N = int(input('Enter a maximum number: '))
+    N = int(input('Enter tha number: '))
     N = int(input('Enter a maximum number: '))
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
