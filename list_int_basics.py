@@ -49,7 +49,7 @@ def list_get_even(lst: list[int]) -> list[int]:
     >>> list_get_even([])
     0
     """
-    newlst
+    newlst = []
     for i in range(len(lst)):
         if (lst[i]+2)%2==0:
             n += 1
