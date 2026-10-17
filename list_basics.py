@@ -63,7 +63,8 @@ def list_count_element(lst: list[object], elt: object) -> int:
     
 def list_count_elements(lst: list[object], lst_elt: list[object]) -> int:
     """
-    Count how many times all elements from the 2nd list are contained in the 1st list.
+    Count how many times all elements from the 2nd list are contained in the
+     1st list.
     
     >>> list_count_elements(['0', '1st', 2, 3.0], ['0', '1st', 2.0, 3.1, 4.0])
     3
