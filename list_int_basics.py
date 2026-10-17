@@ -21,14 +21,14 @@ def list_count_even(lst: list[int]) -> int:
     """
     Check if all integers in the list are even numbers.
     
-    >>> list_check_all_even([2, 4, 5, 6])
-    False
+    >>> list_count_even([2, 4, 5, 6])
+    3
     
-    >>> list_check_all_even([2, 4, 8, 6])
-    True
+    >>> list_count_even([2, 4, 8, 6])
+    4
     
-    >>> list_check_all_even([])
-    True
+    >>> list_count_even([])
+    0
     """
     n = 0
     for i in range(len(lst)):
