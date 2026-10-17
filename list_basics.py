@@ -15,7 +15,6 @@ def list_contains_element(lst: list[object], elt: object) -> bool:
     for i < len(lst):
         if lst[i]==elt:
             foundbool = True
-        i += 1
     return foundbool
     
 def list_contains_no_element(lst: list[object], elt: object) -> bool:
