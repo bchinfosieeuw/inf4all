@@ -20,4 +20,3 @@ def rotate(lst: list[object]) -> None:
             lst[i] = lst[i+1]
         else:
             lst[-1] = dummy
-    print(lst)
