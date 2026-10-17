@@ -10,7 +10,7 @@ def rotate(lst: list[object]) -> None:
     >>> rotate(n1)
     [2, 3, 4, 5, 1]
     
-    >>> n1 = [1, 2, "1", 2]
+    >>> n1 = [1, 2, "", 2]
     >>> rotate(n1)
     [2, 1, 2, 1]
     """
