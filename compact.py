@@ -27,6 +27,7 @@ def compact(lst: list[object]) -> None:
     for i in range(len(lst)):
         if lst[i]!=False and lst[i]!=0 and lst[i]!='':
             newlist.append(lst[i])
+        j += 1
     #print(newlist)
     
 #compact([0])
