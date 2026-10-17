@@ -21,7 +21,7 @@ def compact(lst: list[object]) -> None:
     for i in range(len(lst)):
         if lst[0]==0:
             newlist = newlist
-        if not (lst[i]==False or lst[i]==0 or lst[i]==''):
+        elif not (lst[i]==False or lst[i]==0 or lst[i]==''):
             newlist.append(lst[i])
     print(newlist)
 
