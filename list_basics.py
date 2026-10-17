@@ -8,6 +8,6 @@ def list_contains_element(lst: list[object], elt: object) -> bool:
     foundbool = False
     while i < len(lst):
         if lst[i]==elt:
-        foundbool = False
+            foundbool = True
         i += 1
     return foundbool
