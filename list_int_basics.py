@@ -7,5 +7,8 @@ def list_check_all_even(lst: list[int]) -> bool:
     
     >>> list_check_all_even([2, 4, 8, 6])
     True
+    
+    >>> list_check_all_even([2, 4, 5, 6])
+    False
     """
     return checkbool
