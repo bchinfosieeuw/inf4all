@@ -12,6 +12,16 @@ def compact(lst: list[object]) -> None:
     >>> n1
     [1, 2, 3, 4, 5]
     
+    >>> n1 = [1, 2, 1, 2]
+    >>> compact(n1)
+    >>> n1
+    [2, 1, 2, 1]
+    
+    >>> n1 = [1, 2, 3, 2, 1]
+    >>> compact(n1)
+    >>> n1
+    [2, 3, 2, 1, 1]
+    
     >>> n1 = []
     >>> compact(n1)
     >>> n1
@@ -21,8 +31,6 @@ def compact(lst: list[object]) -> None:
     for i in range(len(lst)):
         if not (lst[i]==False or lst[i]==0 or lst[i]==''):
             newlist.append(lst[i])
-    if newlist[0]==0:
-        newlist.remove(i)
     print(newlist)
 
-compact([0, 1, 2, 3, 4, 5])
+compact([1, False, True, '', "yes", 0])
