@@ -32,7 +32,7 @@ def compact(lst: list[object]) -> None:
     >>> n1
     [1]
     """
-    newlist = 
+    newlist = []
     for i in range(len(lst)):
         if not x / if x:
             lst[i] = lst[i+1]
