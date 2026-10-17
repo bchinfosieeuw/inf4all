@@ -1,1 +1,1 @@
-def rotate(lst: list[object]) -> None:
+def compact(lst: list[object]) -> None:
