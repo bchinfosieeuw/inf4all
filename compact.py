@@ -2,7 +2,7 @@ def compact(lst: list[object]) -> None:
     """
     Remove falsy items such as False, 0 or ''.
     
-    >>> n1 = [1, 2, 3]
+    >>> n1 = [1, False, True, '', "yes", 0]
     >>> compact(n1)
     >>> n1
     [2, 3, 1]
