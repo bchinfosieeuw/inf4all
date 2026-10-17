@@ -12,10 +12,10 @@ def compact(lst: list[object]) -> None:
     >>> n1
     [1, 3, 4, 5]
     
-    >>> n1 = [0]
+    >>> n1 = [0, 1]
     >>> compact(n1)
     >>> n1
-    []
+    [1]
     """
     newlist = []
     for i in range(len(lst)):
