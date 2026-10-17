@@ -15,5 +15,5 @@ def list_check_all_even(lst: list[int]) -> bool:
         print('hallo')
     return checkbool
 
-lst = 
+lst = [2, 4, 5, 6]
 list_check_all_even
