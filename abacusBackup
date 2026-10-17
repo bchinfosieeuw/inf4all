@@ -8,8 +8,8 @@ def count_carries_in_addition(a: int, b: int) -> int:
         raise ValueError("Inputs must be integers.")
     if a < 0 or b < 0:
         raise ValueError("Inputs must be non-negative integers.")
-    if a > 100 or b > 100:
-        raise ValueError("Inputs must be <= 100.")
+    #if a > 100 or b > 100:
+    #    raise ValueError("Inputs must be <= 100.")
 
     carry_count = 0
     carry = 0
@@ -36,8 +36,8 @@ def count_carries_in_multiplication(a: int, b: int) -> int:
     # Input validation
     if not isinstance(a, int) or not isinstance(b, int):
         raise ValueError("Inputs must be integers.")
-    if abs(a) > 100 or abs(b) > 100:
-        raise ValueError("Inputs must be <= 100 in absolute value.")
+    #if abs(a) > 100 or abs(b) > 100:
+    #    raise ValueError("Inputs must be <= 100 in absolute value.")
 
     # Handle negatives by ignoring sign for carry counting
     a, b = abs(a), abs(b)
@@ -64,6 +64,8 @@ def count_carries_in_multiplication(a: int, b: int) -> int:
     
 if __name__ == '__main__':
     N = int(input('Enter a maximum number: '))
+    addcarry = int(input('Enter the number of times a carry for addition is allowed: '))
+    mulcarry = int(input('Enter the number of times a carry for multiplication is allowed: '))
     numOfCarriesAdd = 0
     maxOfCarriesAdd = 0
     numOfCarriesMul = 0
@@ -80,11 +82,11 @@ if __name__ == '__main__':
                     extra = 1
                 """
                 extra = len(str(int(str(n)[-1])*int(str(m)[-1])))-1
-                if numOfCarriesAdd==1:
+                if numOfCarriesAdd==addcarry:
                     try:
                         maxOfCarriesAdd += 1
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
-                        if numOfCarriesMul==2+extra:#and n != m #and n >= m
+                        if numOfCarriesMul==mulcarry+extra:#and n != m #and n >= m
                             maxOfCarriesMul += 1
                             print('n:', n)
                             print('m:', m)
@@ -92,5 +94,5 @@ if __name__ == '__main__':
                         print(f"Error: {e}")
             except ValueError as e:
                 print(f"Error: {e}")
-    print('Number of pairs of which in addition only 1 carry is used:', maxOfCarriesAdd)
-    print('Number of pairs of which also in multiplication exactly 2 carries are used:', maxOfCarriesMul)
+    print('Number of pairs of which in addition only', addcarry, 'carry is used:', maxOfCarriesAdd)
+    print('Number of pairs of which also in multiplication exactly', mulcarry, 'carries are used:', maxOfCarriesMul)
