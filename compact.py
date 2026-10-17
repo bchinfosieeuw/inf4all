@@ -1,6 +1,6 @@
 def compact(lst: list[object]) -> None:
     """
-    Rotate the list to the left.
+    Remove falsy .
     
     >>> n1 = [1, 2, 3]
     >>> compact(n1)
