@@ -21,3 +21,4 @@ def rotate(lst: list[object]) -> None:
     print(lst)
 
 rotate([1, 2, 1, 2])
+rotate([1, 2, 1, 2])
