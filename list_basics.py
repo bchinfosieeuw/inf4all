@@ -10,5 +10,4 @@ def list_contains_element(lst: list[object], elt: object) -> bool:
         if lst[i]==elt:
         foundbool = False
         i += 1
-    
     return foundbool
