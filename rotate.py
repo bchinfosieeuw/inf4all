@@ -22,7 +22,7 @@ def rotate(lst: list[object]) -> None:
     print(lst)
     """
     for i in range(len(lst)):
-        if i < len(lst):
+        if i < len(lst)-1:
             lst[i] = lst[i+1]
     print(lst)
 
