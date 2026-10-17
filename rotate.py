@@ -4,7 +4,7 @@ def rotate(lst: list[object]) -> None:
     """
     newlst = ""
     for i in range(len(lst)+1):
-        lst[i-2] = lst[i]
+        lst[i-2] = lst[i-1]
     print(lst)
 
 if __name__ == '__main__':
