@@ -32,8 +32,6 @@ def compact(lst: list[object]) -> None:
     >>> n1
     [1]
     """
-    if len(lst) > 0:
-        dummy = lst[0]
     for i in range(len(lst)):
         if i < len(lst)-1:
             lst[i] = lst[i+1]
