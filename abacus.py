@@ -86,7 +86,7 @@ if __name__ == '__main__':
                     try:
                         maxOfCarriesAdd += 1
                         numOfCarriesMul = count_carries_in_multiplication(n, m)
-                        if numOfCarriesMul==2+extra:#and n != m #and n >= m
+                        if numOfCarriesMul==addcarry+extra:#and n != m #and n >= m
                             maxOfCarriesMul += 1
                             print('n:', n)
                             print('m:', m)
