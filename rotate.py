@@ -21,7 +21,7 @@ def rotate(lst: list[object]) -> None:
     lst.remove(lst[-2])
     print(lst)
     """
-    for i in range(len(lst)-1):
+    for i in range(len(lst)):
         if 
         lst[i] = lst[i+1]
     print(lst)
