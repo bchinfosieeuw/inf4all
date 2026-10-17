@@ -69,7 +69,8 @@ def list_count_elements(lst: list[object], lst_elt: list[object]) -> int:
     ['0thobj', '1stobj', 2.0, 3.1, 4.0])
     3
     
-    >>> list_count_elements(['0thobj', '1stobj', 2, 3.0], ['0thobj', '1stobj', 2.0, 3.0, 4.0])
+    >>> list_count_elements(['0thobj', '1stobj', 2, 3.0],
+    ['0thobj', '1stobj', 2.0, 3.0, 4.0])
     4
     
     >>> list_count_elements(['0thobj', '1stobj', 2, 3.0], [])
