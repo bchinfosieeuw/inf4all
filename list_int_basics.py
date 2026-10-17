@@ -13,7 +13,7 @@ def list_check_all_even(lst: list[int]) -> bool:
     """
     checkbool = False
     for i in range(len(lst)):
-        if 
+        if i
     return checkbool
 
 lst = [2, 4, 5, 6]
