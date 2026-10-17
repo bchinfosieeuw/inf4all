@@ -19,7 +19,7 @@ def list_contains_element(lst: list[object], elt: object) -> bool:
         i += 1
     return foundbool
     
-def list_contains_element(lst: list[object], elt: object) -> bool:
+def list_contains_no_element(lst: list[object], elt: object) -> bool:
     """
     Check if an element is contained in the list.
     
