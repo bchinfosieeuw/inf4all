@@ -23,3 +23,4 @@ def compact(lst: list[object]) -> None:
             newlist.append(lst[i])
     print(newlist)
 
+compact()
