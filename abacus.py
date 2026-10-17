@@ -95,4 +95,4 @@ if __name__ == '__main__':
             except ValueError as e:
                 print(f"Error: {e}")
     print('Number of pairs of which in addition only', addcarry, 'carry is used:', maxOfCarriesAdd)
-    print('Number of pairs of which also in multiplication exactly 2 carries are used:', maxOfCarriesMul)
+    print('Number of pairs of which also in multiplication exactly', addcarry, 'carries are used:', maxOfCarriesMul)
