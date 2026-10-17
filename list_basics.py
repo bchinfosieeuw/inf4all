@@ -42,7 +42,7 @@ def list_contains_no_element(lst: list[object], elt: object) -> bool:
     
 def list_count_element(lst: list[object], elt: object) -> int:
     """
-    Check if an element is not contained in the list.
+    Count how many times an element is contained in the list.
     
     >>> list_count_element(['0thobj', '1stobj', 2, 3.0], 2)
     False
