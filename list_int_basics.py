@@ -36,7 +36,7 @@ def list_count_even(lst: list[int]) -> int:
             n += 1
     return n
 
-
+def list_get_even(lst: list[int]) -> list[int]:
 
 lst = [2, 4, 5, 6]
 #print(list_check_all_even(lst))
