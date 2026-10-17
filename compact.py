@@ -13,22 +13,22 @@ def compact(lst: list[object]) -> None:
     [2, 3, 4, 5, 1]
     
     >>> n1 = [1, 2, 1, 2]
-    >>> rotate(n1)
+    >>> compact(n1)
     >>> n1
     [2, 1, 2, 1]
     
     >>> n1 = [1, 2, 3, 2, 1]
-    >>> rotate(n1)
+    >>> compact(n1)
     >>> n1
     [2, 3, 2, 1, 1]
     
     >>> n1 = []
-    >>> rotate(n1)
+    >>> compact(n1)
     >>> n1
     []
     
     >>> n1 = [1]
-    >>> rotate(n1)
+    >>> compact(n1)
     >>> n1
     [1]
     """
