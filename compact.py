@@ -28,6 +28,7 @@ def compact(lst: list[object]) -> list[objects]:
             newlist.append(lst[i])
         print(i)
     #print(newlist)
+    return newlist
     
 if __name__ == '__main__':
     compact([0])
