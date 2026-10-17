@@ -41,4 +41,5 @@ def list_contains_no_element(lst: list[object], elt: object) -> bool:
     return foundbool
     
 #print(list_contains_element(['0thobj', '1stobj', 2, 3.0], 3))
+#print(list_contains_no_element(['0thobj', '1stobj', 2, 3.0], 3))
 print(list_contains_no_element(['0thobj', '1stobj', 2, 3.0], 3))
