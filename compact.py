@@ -30,6 +30,6 @@ def compact(lst: list[object]) -> list[objects]:
     return newlist
     
 if __name__ == '__main__':
-    compact([0])
+    print(compact([0])
     compact([1, 2, 3, 4, 5])
     compact([0, 1, 2, 3, 4, 5])
