@@ -39,4 +39,4 @@ def compact(lst: list[object]) -> None:
         else:
             newlist[i] = lst[i]
 
-print(compact([1, False, True, '', "yes",]))
+print(compact([1, False, True, '', "yes", 0]))
