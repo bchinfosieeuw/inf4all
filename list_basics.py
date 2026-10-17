@@ -63,4 +63,4 @@ def list_count_element(lst: list[object], elt: object) -> int:
     
 #print(list_contains_element(['0thobj', '1stobj', 2, 3.0], 3))
 #print(list_contains_no_element(['0thobj', '1stobj', 2, 3.0], 3))
-print(list_count_element(['0thobj', '1stobj', 2, 3.0], ''2''))
+print(list_count_element(['0thobj', '1stobj', 2, 3.0], 'h'))
