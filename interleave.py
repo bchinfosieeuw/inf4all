@@ -33,7 +33,7 @@ def interleave(lst1: list[object], lst2: list[object], mybool: bool) -> list[obj
     
 if __name__ == '__main__':
     print(interleave([0, 1, 2, 3], [4, 5, 6, 7]))
-    print(interleave([0, 1, 2, 3, 8, 9], [4, 5, 6, 7]))
+    print(interleave([0, 1, 2, 3, 8, 9], [4, 5, 6, 7], True))
     print(interleave([0, 1, 2, 3, 8, 9], [4, 5, 6, 7]))
     print(interleave([0], [1]))
     print(interleave([], []))
