@@ -11,7 +11,7 @@ def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
     >>> interleave([0], [1])
     [0, 1]
     
-    >>> interleave([0, 1, 2, 3], 2)
+    >>> interleave([], 2)
     [[0, 1], [2, 3]]
     """
     newlist = []
