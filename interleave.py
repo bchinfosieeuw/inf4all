@@ -1,6 +1,6 @@
 def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
     """
-    Place chucks of length n in a new list of lists.
+    Make list out of .
     
     >>> interleave([0, 1, 2, 3], 1)
     [[0], [1], [2], [3]]
