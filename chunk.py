@@ -1,4 +1,4 @@
-def chunk(lst: list[object]) -> list[objects]:
+def chunk(lst: list[object], n: int) -> list[objects]:
     """
     Remove falsy items such as False, 0 or ''.
     
