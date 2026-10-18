@@ -25,5 +25,3 @@ if __name__ == '__main__':
     print(interleave([0, 1, 2, 3, 8, 9], [4, 5, 6, 7]))
     print(interleave([0], [1]))
     print(interleave([], []))
-    print(interleave([0, 1, 2, 3], 2))
-    print(interleave([0, 1, 2, 3], 5))
