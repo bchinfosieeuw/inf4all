@@ -1,6 +1,6 @@
 def uniq(lst: list[object]) -> list[objects]:
     """
-    Remove double items such as False, 0 or ''.
+    Remove double items from list.
     
     >>> uniq([1, 2, 3, 2, 5])
     [1, 2, 3, 5]
