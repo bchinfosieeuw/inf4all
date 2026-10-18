@@ -20,11 +20,11 @@ def chunk(lst: list[object], n: int) -> list[objects]:
     for i in range(len(lst)):
         if i < n+j:
             templist.append(lst[i-j])
+            j += 1
         if i == n+j:
             newlist.append(templist)
             templist = []
             #i -= 1
-            j += 1
     #print(newlist)
     return newlist
     
