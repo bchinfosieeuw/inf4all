@@ -1,6 +1,6 @@
 def chunk(lst: list[object], n: int) -> list[objects]:
     """
-    Place the first n elements in a new list.
+    Place the first n elements of the list in a new list.
     
     >>> chunk([1, 2, 3, 2, 5], 3)
     [1, 2, 3]
