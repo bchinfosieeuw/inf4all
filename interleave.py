@@ -1,6 +1,6 @@
 def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
     """
-    Make list out of 2.
+    Make list out of 2 separate lists in which the elements are .
     
     >>> interleave([0, 1, 2, 3], 1)
     [[0], [1], [2], [3]]
