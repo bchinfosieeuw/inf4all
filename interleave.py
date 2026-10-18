@@ -26,10 +26,10 @@ def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
         if len(lst1) > len(lst2):
             k = 0
             #newlist.append(lst1[len(lst1)+len(lst2)-abs(len(lst1)-len(lst2))-4])#print(i)
-            newlist.append(lst1[len(lst1)+len(lst2)-abs(len(lst1)-len(lst2))-2])
+            newlist.append(lst1[len(lst1)+len(lst2)-abs(len(lst1)-len(lst2))-3])
         elif len(lst1) < len(lst2):
             k = 0
-            newlist.append(lst2[len(lst1)+len(lst2)-abs(len(lst1)-len(lst2))-2])
+            newlist.append(lst2[len(lst1)+len(lst2)-abs(len(lst1)-len(lst2))-3])
     return newlist
     
 if __name__ == '__main__':
