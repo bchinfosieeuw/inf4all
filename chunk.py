@@ -5,6 +5,9 @@ def chunk(lst: list[object], n: int) -> list[objects]:
     >>> chunk([0, 1, 2, 3], 1)
     [[0], [1], [2], [3]]
     
+    >>> chunk([1, 0, 3, 4, 5], 4)
+    [[1, 0, 3, 4], [0, 3, 4, 5]]
+    
     >>> chunk([1, 0, 0, 4, 5], 5)
     [[1, 0, 0, 4, 5]]
     
@@ -27,4 +30,4 @@ if __name__ == '__main__':
     print(chunk([0, 1, 2, 3], 1))
     print(chunk([1, 0, 0, 4, 5], 5))
     print(chunk([0], 1))
-    #print(chunk([1, 0, 3, 4, 5], 4))
+    print(chunk([1, 0, 3, 4, 5], 4))
