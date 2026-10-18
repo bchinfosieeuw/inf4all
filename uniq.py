@@ -18,6 +18,8 @@ def uniq(lst: list[object]) -> list[objects]:
     for i in range(len(lst)):
         if :
             newlist.append(lst[i])
+        else:
+            
     #print(newlist)
     return newlist
     
