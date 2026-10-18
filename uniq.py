@@ -1,4 +1,4 @@
-def compact(lst: list[object]) -> list[objects]:
+def uniq(lst: list[object]) -> list[objects]:
     """
     Remove falsy items such as False, 0 or ''.
     
