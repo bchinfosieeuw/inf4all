@@ -21,22 +21,18 @@ def chunk(lst: list[object], n: int) -> list[objects]:
     [[0, 1, 2, 3]]
     """
     templist = []
-    templistLast = []
     newlist = []
     j = 0
     for i in range(len(lst)):
         if i < n+j:
             templist.append(lst[i])
         if len(templist)==n:
-            templistLast = templist
             newlist.append(templist)
             i += n-1
             templist = []
             j += n+1
         elif i==j+1:
             newlist.append(templist)
-        if templist==templistLast:
-            break
     return newlist
     
 if __name__ == '__main__':
