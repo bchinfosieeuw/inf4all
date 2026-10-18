@@ -1,4 +1,4 @@
-def interleave(lst: list[object], lst: list[object]) -> list[object]:
+def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
     """
     Place chucks of length n in a new list of lists.
     
