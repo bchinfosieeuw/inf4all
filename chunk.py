@@ -14,7 +14,8 @@ def chunk(lst: list[object], n: int) -> list[objects]:
     >>> chunk([0], 1)
     [[0]]
     
-    >>> [[0, 1], [2, 3]]
+    >>> chunk([[0, 1], [2, 3]])
+    
     """
     templist = []
     newlist = []
