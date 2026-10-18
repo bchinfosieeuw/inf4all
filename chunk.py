@@ -24,7 +24,7 @@ def chunk(lst: list[object], n: int) -> list[objects]:
             newlist.append(templist)
             templist = []
             i -= 1
-            j += 1
+            j += 2
     #print(newlist)
     return newlist
     
