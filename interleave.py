@@ -23,17 +23,7 @@ def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
     newlist = []
     j = 0
     for i in range(len(lst)):
-        if i < n+j:
-            templist.append(lst[i])
-        if len(templist)==n:
-            newlist.append(templist)
-            i += n-1
-            templist = []
-            j += n+1
-        elif i==j+1:
-            newlist.append(templist)
-        if n <= len(lst):
-            j+=1
+        if 
     return newlist
     
 if __name__ == '__main__':
