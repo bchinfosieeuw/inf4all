@@ -1,4 +1,5 @@
-def interleave(lst1: list[object], lst2: list[object], mybool: bool) -> list[object]:
+def interleave(lst1: list[object], lst2: list[object], mybool: bool)
+-> list[object]:
     """
     Make list out of 2 separate lists in which the elements are listed alternately.
     
