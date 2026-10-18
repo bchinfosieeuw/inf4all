@@ -14,6 +14,7 @@ def chunk(lst: list[object], n: int) -> list[objects]:
     >>> chunk([0], 1)
     [0]
     """
+    templist = []
     newlist = []
     for i in range(len(lst)):
         if not(lst[i] in newlist):
