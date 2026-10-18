@@ -24,12 +24,12 @@ def interleave(lst1: list[object], lst2: list[object], mybool: bool) -> list[obj
             newlist.append(lst2[i-j-1])
             j += 1
     if mybool==True:
-    if len(lst1) < len(lst2):
-        for n in range(len(lst1), len(lst1)+k):
-            newlist.append(lst2[n])
-    elif len(lst1) > len(lst2):
-        for n in range(len(lst2), len(lst2)+k):
-            newlist.append(lst1[n])
+        if len(lst1) < len(lst2):
+            for n in range(len(lst1), len(lst1)+k):
+                newlist.append(lst2[n])
+        elif len(lst1) > len(lst2):
+            for n in range(len(lst2), len(lst2)+k):
+                newlist.append(lst1[n])
     return newlist
     
 if __name__ == '__main__':
