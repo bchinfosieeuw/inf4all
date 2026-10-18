@@ -39,3 +39,4 @@ if __name__ == '__main__':
     print(chunk([0], 1))
     print(chunk([1, 0, 3, 4, 5], 4))
     print(chunk([0, 1, 2, 3], 2))
+    print(chunk([0, 1, 2, 3], 5))
