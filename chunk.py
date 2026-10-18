@@ -23,6 +23,6 @@ def chunk(lst: list[object], n: int) -> list[objects]:
     return newlist
     
 if __name__ == '__main__':
-    print(chunk([0]))
+    print(chunk([0], 1))
     print(chunk([1, 2, 3, 2, 5]))
     print(chunk([1, 0, 0, 4, 5]))
