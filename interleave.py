@@ -12,7 +12,7 @@ def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
     [0, 1]
     
     >>> interleave([], []])
-    [[0, 1], [2, 3]]
+    []
     """
     newlist = []
     j = 0
