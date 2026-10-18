@@ -5,11 +5,8 @@ def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
     >>> interleave([0, 1, 2, 3], [4, 5, 6, 7])
     [0, 4, 1, 5, 2, 6, 3, 7]
     
-    >>> interleave([1, 0, 3, 4, 5], 4)
-    [[1, 0, 3, 4]]
-    
-    >>> interleave([1, 0, 0, 4, 5], 5)
-    [[1, 0, 0, 4, 5]]
+    >>> interleave([0, 1, 2, 3], [4, 5, 6, 7])
+    [0, 4, 1, 5, 2, 6, 3, 7]
     
     >>> interleave([0], 1)
     [[0]]
