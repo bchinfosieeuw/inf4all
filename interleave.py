@@ -21,7 +21,7 @@ def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
             newlist.append(lst1[i])
         else:
             newlist.append(lst2[i-1])
-            i -=
+            j += 1
     return newlist
     
 if __name__ == '__main__':
