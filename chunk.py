@@ -1,6 +1,6 @@
 def chunk(lst: list[object], n: int) -> list[objects]:
     """
-    Remove falsy items such as False, 0 or ''.
+    Place all items from .
     
     >>> chunk([1, 0, 3, 4, 5], 5)
     [[1], [0], [3], [4], [5]]
