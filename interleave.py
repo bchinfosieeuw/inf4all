@@ -2,22 +2,22 @@ def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
     """
     Place chucks of length n in a new list of lists.
     
-    >>> chunk([0, 1, 2, 3], 1)
+    >>> interleave([0, 1, 2, 3], 1)
     [[0], [1], [2], [3]]
     
-    >>> chunk([1, 0, 3, 4, 5], 4)
+    >>> interleave([1, 0, 3, 4, 5], 4)
     [[1, 0, 3, 4]]
     
-    >>> chunk([1, 0, 0, 4, 5], 5)
+    >>> interleave([1, 0, 0, 4, 5], 5)
     [[1, 0, 0, 4, 5]]
     
-    >>> chunk([0], 1)
+    >>> interleave([0], 1)
     [[0]]
     
-    >>> chunk([0, 1, 2, 3], 2)
+    >>> interleave([0, 1, 2, 3], 2)
     [[0, 1], [2, 3]]
     
-    >>> chunk([0, 1, 2, 3], 5)
+    >>> interleave([0, 1, 2, 3], 5)
     [[0, 1, 2, 3]]
     """
     newlist = []
