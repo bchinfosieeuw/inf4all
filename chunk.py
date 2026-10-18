@@ -21,6 +21,7 @@ def chunk(lst: list[object], n: int) -> list[objects]:
     [[0, 1, 2, 3]]
     """
     templist = []
+    templistLast = []
     newlist = []
     j = 0
     for i in range(len(lst)):
