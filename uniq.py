@@ -23,5 +23,5 @@ def uniq(lst: list[object]) -> list[objects]:
     
 if __name__ == '__main__':
     print(uniq([0]))
-    print(uniq([1, 2, 3, 4, 5]))
+    print(uniq([1, 2, 3, 2, 5]))
     print(uniq([0, 1, 2, 3, 4, 5]))
