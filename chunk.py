@@ -9,7 +9,7 @@ def chunk(lst: list[object], n: int) -> list[objects]:
     [1, 0, 3, 4, 5]
     
     >>> chunk([1, 0, 4, 5], 4)
-    [1, 0, 4, 5]
+    [[1], 0, 4, 5]
     
     >>> chunk([0], 1)
     [[0]]
