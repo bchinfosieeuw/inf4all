@@ -18,7 +18,7 @@ def chunk(lst: list[object], n: int) -> list[objects]:
     newlist = []
     j = 0
     for i in range(len(lst)):
-        if i < n+j:
+        if i < n+j+len(templist):
             templist.append(lst[i])
         if len(templist)==n:
             newlist.append(templist)
