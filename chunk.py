@@ -1,6 +1,6 @@
 def chunk(lst: list[object], n: int) -> list[objects]:
     """
-    Place all items from .
+    Place all items from the list in sublists.
     
     >>> chunk([1, 0, 3, 4, 5], 5)
     [[1], [0], [3], [4], [5]]
