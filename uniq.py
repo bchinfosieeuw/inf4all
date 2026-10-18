@@ -16,7 +16,7 @@ def uniq(lst: list[object]) -> list[objects]:
     """
     newlist = []
     for i in range(len(lst)):
-        if lst[i]:
+        if lst[i]!=newlist:
             newlist.append(lst[i])
         else:
             
