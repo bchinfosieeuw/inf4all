@@ -2,13 +2,13 @@ def chunk(lst: list[object]) -> list[objects]:
     """
     Remove falsy items such as False, 0 or ''.
     
-    >>> uniq([1, 2, 3, 2, 5])
+    >>> chunk([1, 2, 3, 2, 5])
     [1, 2, 3, 5]
     
-    >>> uniq([1, 0, 3, 4, 5])
+    >>> chunk([1, 0, 3, 4, 5])
     [1, 0, 3, 4, 5]
     
-    >>> uniq([1, 0, 0, 4, 5])
+    >>> chunk([1, 0, 0, 4, 5])
     [1, 0, 4, 5]
     
     >>> uniq([0])
