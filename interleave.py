@@ -8,6 +8,9 @@ def interleave(lst1: list[object], lst2: list[object], mybool: bool) -> list[obj
     >>> interleave([0, 1, 2, 3, 8, 9], [4, 5, 6, 7], True)
     [0, 4, 1, 5, 2, 6, 3, 7, 8, 9]
     
+    >>> interleave([0, 1, 2, 3, 8, 9], [4, 5, 6, 7], False)
+    [0, 4, 1, 5, 2, 6, 3, 7, 8, 9]
+    
     >>> interleave([0], [1], True)
     [0, 1]
     
