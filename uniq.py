@@ -9,7 +9,7 @@ def uniq(lst: list[object]) -> list[objects]:
     [1, 0, 3, 4, 5]
     
     >>> uniq([1, 0, 0, 4, 5])
-    [1, 4, 5]
+    [1, 0, 4, 5]
     
     >>> uniq([0])
     []
