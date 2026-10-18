@@ -20,7 +20,6 @@ def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
     >>> chunk([0, 1, 2, 3], 5)
     [[0, 1, 2, 3]]
     """
-    templist = []
     newlist = []
     j = 0
     for i in range(len(lst)):
