@@ -25,7 +25,7 @@ def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
             newlist.append(lst2[i-j-1])
             j += 1
     if len(lst1) < len(lst2):
-        for n in range(len(lst1), k):
+        for n in range(len(lst1), len(lst1)+k):
             diffList.append(lst2[n])
     elif len(lst1) > len(lst2):
         for n in range(len(lst2), k):
