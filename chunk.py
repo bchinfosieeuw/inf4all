@@ -33,7 +33,7 @@ def chunk(lst: list[object], n: int) -> list[objects]:
             j += n+1
         elif i==j+1:
             newlist.append(templist)
-            j += n+1
+            i += n-1
     return newlist
     
 if __name__ == '__main__':
