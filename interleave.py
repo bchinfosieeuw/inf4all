@@ -2,7 +2,7 @@ def interleave(lst1: list[object], lst2: list[object], mybool: bool) -> list[
     object]:
     """
     Make list out of 2 separate lists in which the elements are listed
-    alternately.
+     alternately.
     
     >>> interleave([0, 1, 2, 3], [4, 5, 6, 7], True)
     [0, 4, 1, 5, 2, 6, 3, 7]
