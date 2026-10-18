@@ -2,7 +2,7 @@ def chunk(lst: list[object], n: int) -> list[objects]:
     """
     Place all items from the list in sublists.
     
-    >>> chunk([1, 0, 3, 4, 5], 5)
+    >>> chunk([1, 0, 3, 4, 5], 3)
     [[1], [0], [3], [4], [5]]
     
     >>> chunk([1, 0, 4, 5], 4)
