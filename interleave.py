@@ -15,6 +15,7 @@ def interleave(lst1: list[object], lst2: list[object]) -> list[object]:
     []
     """
     newlist = []
+    diffList = []
     j = 0
     k = abs(len(lst1)-len(lst2))
     for i in range(len(lst1)+len(lst2)-k):
