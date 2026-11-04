@@ -7,7 +7,7 @@ Vragen:
 - waarom main methode? modules importeren negeert main als filenaam van executed .py file niet overeenkomt met modulenaam
 - waarom is 0.41*100 = niet precies 41? float moet in 8 bits passen
 - hoe .split gebruiken op string met onbekend aantal comma's? naam@hotmail.com is mailadres met standaard 2 delen
-- hoe copy-paste gebruiken in de Terra terminal? ctrl+shift
+- hoe copy-paste gebruiken in de Terra terminal? ctrl+shift is 
 - analyse.py wordt leeggemaakt en verplaatst
 - autocorrect.py en spongebob.py juiste benadering?
 - rotate.py en chunk.py juiste benadering?
