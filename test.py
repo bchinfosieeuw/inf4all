@@ -39,3 +39,4 @@ def zoek_langste_reeks(N: int) -> tuple[int, int]:
 import random
 random.randint(a, b)
 def rotate(lst: list[object]) -> None:
+if true
