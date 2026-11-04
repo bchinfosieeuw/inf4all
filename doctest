@@ -9,5 +9,5 @@ Vragen:
 - hoe .split gebruiken op string met onbekend aantal comma's? naam@hotmail.com is mailadres met standaard 2 delen
 - hoe copy-paste gebruiken in de Terra terminal? ctrl+shift+v is paste, copy werkt niet
 - analyse.py wordt leeggemaakt en verplaatst: bug in code of systeem
-- autocorrect.py en spongebob.py juiste benadering? autocorrect met or or
+- autocorrect.py en spongebob.py juiste benadering? autocorrect met sowieso de eerste or or
 - rotate.py en chunk.py juiste benadering?
