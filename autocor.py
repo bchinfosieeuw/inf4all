@@ -13,7 +13,7 @@ def autocorrect(s: str) -> str:
     """
     result = ""
     mybool = True
-    for char in s:
+    for i in s:
         
     return result
 
