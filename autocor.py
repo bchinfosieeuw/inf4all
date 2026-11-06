@@ -14,7 +14,7 @@ def autocorrect(s: str) -> str:
     result = ""
     mybool = True
     for i in range(len(s)):
-        
+        print(s[i])
     return result
 
 print(autocorrect('           '))
