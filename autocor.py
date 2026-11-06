@@ -15,7 +15,7 @@ def autocorrect(s: str) -> str:
     interpunctions = ".,;- "
     for i in range(len(s)):
         if s[i-1] in interpunctions:
-            
+            result += s[i]
         if s[i] not in interpunctions:
             result += s[i]
         elif s[i]!=s[i-1]:
