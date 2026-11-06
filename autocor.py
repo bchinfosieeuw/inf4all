@@ -1,6 +1,6 @@
 def autocorrect(s: str) -> str:
     """
-    Remove double leestekens and double spaces from the string.
+    Remove double interpunctions and double spaces from the string.
     
     >>> autocorrect('---')
     '-'
