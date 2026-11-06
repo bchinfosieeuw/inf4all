@@ -12,7 +12,7 @@ def autocorrect(s: str) -> str:
     'Hallo Hallo'
     """
     result = ""
-    mybool = True
+    interpunctions = ""
     for i in range(len(s)):
         if s[i]!=s[i-1] and :
             result += s[i]#print(s[i])
