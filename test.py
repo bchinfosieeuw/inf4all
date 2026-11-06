@@ -22,7 +22,7 @@ range(-2, 9, 2) feeft de getallen van -2 tot 9, in stappen van 2
 .isupper() bepaalt of de string alleen hoofdletters heeft
 .isalpha() bepaalt of de string alleen letters heeft
 .isdigit() bepaalt of de string alleen cijfers heeft
-.is_integer() bepaalt of het een geheel getal is heeft
+.is_integer() bepaalt of het een geheel getal is
 formula = input()#2 + 3
 x, y, z = formula.split(" ")
 def calculate_grade(time: str) -> str | None:
