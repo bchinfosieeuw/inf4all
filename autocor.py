@@ -19,7 +19,7 @@ def autocorrect(s: str) -> str:
         elif s[i] not in interpunctions:
             result += s[i]
         elif s[i]!=s[i-1]:
-            result += s[i]#print(s[i])
+            result += s[i]
     return result
 
 print(autocorrect('           '))
