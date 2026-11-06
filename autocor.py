@@ -14,10 +14,10 @@ def autocorrect(s: str) -> str:
     result = ""
     interpunctions = ".,;- "
     for i in range(len(s)):
-        if s[i] not in interpunctions:
-            result += s[i]
         elif s[i]!=s[i-1]:
             result += s[i]#print(s[i])
+        if s[i] not in interpunctions:
+            result += s[i]
     return result
 
 print(autocorrect('           '))
