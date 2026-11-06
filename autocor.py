@@ -12,7 +12,6 @@ def autocorrect(s: str) -> str:
     'Hallo Hallo'
     """
     result = ""
-    i = 1
     mybool = True
     for char in s:
         
