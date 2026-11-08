@@ -96,6 +96,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
             extra = 0
         else:
             if sentence[i]==" ":
+                length += 1
             else:
                 length += 1
     return result
