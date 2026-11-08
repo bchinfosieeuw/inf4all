@@ -88,9 +88,9 @@ def reverse_long_words(sentence: str, n: int) -> str:
             elif dwoor!=" ":
                 result += dwoor + ""
             else:
-                #if length > 0:
-                mywoord = woord[length]
-            woord = mywoord
+                if length > 0:
+                    mywoord = woord[length]
+                woord = mywoord
             woord = ''
             dwoor = ''
             length = 0
