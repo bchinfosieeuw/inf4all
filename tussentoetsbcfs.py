@@ -97,7 +97,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
             length = 0
             extra = 0
         else :
-            length += 1
+            length += 1+extra
     return result
     
 print(reverse_long_words('dit is een lange lange zin.', 3))
