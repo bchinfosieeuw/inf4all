@@ -71,7 +71,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
     'dit is een egnal egnal zin.'
     
     >>> reverse_long_words('', 3)
-    'dit is een egnal zin.'
+    ''
     """
     result = ''
     woord = ''
