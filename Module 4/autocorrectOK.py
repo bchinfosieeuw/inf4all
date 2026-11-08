@@ -12,7 +12,7 @@ def autocorrect(s: str) -> str:
     'Hallo Hallo'
     """
     result = ""
-    interpunctions = ".,;- "
+    interpunctions = ".,!- "
     for i in range(len(s)):
         if i==1:
             result += s[i]
