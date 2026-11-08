@@ -94,7 +94,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
             dwoor = ''
             length = 0
             extra = 0
-            length -= 1
+            length += 1
         else :
             pass#length += 1
     return result
