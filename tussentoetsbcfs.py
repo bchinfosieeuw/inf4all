@@ -89,7 +89,6 @@ def reverse_long_words(sentence: str, n: int) -> str:
                     result += "."
             elif droow!=" ":
                 result += droow
-                length += 1
             woord = ''
             droow = ''
             length = 0
@@ -97,4 +96,4 @@ def reverse_long_words(sentence: str, n: int) -> str:
             length += 1
     return result
     
-print(reverse_long_words('dit is een lange lange zin. Dit zeker ook', 3))
+print(reverse_long_words('dit is een lange lange zin. Dit zeker ook.', 3))
