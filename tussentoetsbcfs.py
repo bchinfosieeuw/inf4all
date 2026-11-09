@@ -99,7 +99,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
         else:
             length += 1
     myresult = result
-    if enddot==True:
+    if enddot==False:
         for i in range(1, len(sentence)):
             result = myresult
     return result
