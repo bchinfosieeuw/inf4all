@@ -97,4 +97,5 @@ def reverse_long_words(sentence: str, n: int) -> str:
     return result
     
 print(reverse_long_words('dit is een lange lange zin. Dit zeker ook.', 3))
+print(reverse_long_words('dit is een lange lange zin. Dit zeker ook.', 3))
 print(reverse_long_words('dit is een lange lange zin. Dit zeker ook', 3))
