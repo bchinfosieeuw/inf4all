@@ -92,7 +92,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
             woord = ''
             droow = ''
             length = 0
-        else:
+        el or "." not in woord:
             length += 1
     return result
     
