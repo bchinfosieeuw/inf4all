@@ -80,7 +80,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
     for i in range(1, len(sentence)):
         woord += sentence[i-1]
         droow = sentence[i] + droow
-        if sentence[i] in ". " and sentence[i-1] not in ".":
+        if sentence[i] in ". ":
             if length <= n:
                 result += woord
                 if sentence[i] in "." and sentence[i-1] in ".":
@@ -96,4 +96,4 @@ def reverse_long_words(sentence: str, n: int) -> str:
             length += 1
     return result
     
-print(reverse_long_words('dit is een lange lange zin. Dit zeker ook', 3))
+print(reverse_long_words('dit is een lange lange zin. Dit zeker ook.', 3))
