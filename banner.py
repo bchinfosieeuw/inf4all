@@ -33,7 +33,7 @@ def print_banner(lst: list[object]):
     Vita
     ##########
     
-    >>> print_banner(["Hallo", "Tutta", "la", "Vita"])
+    >>> print_banner(["Hallo", "Hallo", "Hallo", "Vita"])
     ##########
     Margherita
     Tutta
