@@ -9,9 +9,9 @@ def selection_sort(l: list[int]) -> list[int]:
     for j in range(1, len(l)-1):
         if l[j+k] < min:
             min = l[j+k]
+            k+=1
         if j+k==len(l)-2:
             print(min)
-            k+=1
         #print(l)
     return l
 
