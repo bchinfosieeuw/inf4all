@@ -62,4 +62,5 @@ def string_to_list(s: str) -> list[objects]:
     """
     >>> string_to_list()
     """
+    resultlist = []
     return resultlist
