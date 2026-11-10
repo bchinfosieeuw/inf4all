@@ -13,6 +13,8 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         else:
             result.append(lst2[j])
             j += 1
+    myh = 0
+    myk = 0
     for h in range(i, len(lst1)):
         print('H')
     for k in range(j, len(lst2)):
