@@ -23,6 +23,6 @@ def longest_word_from_list(lst: list[object]) -> str:
 
 def print_banner(lst: list[object]):
     """
-    Print 
+    Print the items of the list, with 
     >>> 
     """
