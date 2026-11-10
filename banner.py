@@ -5,7 +5,8 @@ def longest_word_from_list(lst: list[object]) -> str:
     >>> longest_word_from_list(['d', 'dd', 'ddd', 'dd'])
     ddd
     
-    >>> longest_word_from_list(['Hallo', 'Zeker', 'Hoi'])
+    >>> lon
+    gest_word_from_list(['Hallo', 'Zeker', 'Hoi'])
     'Hallo'
     
     >>> longest_word_from_list(['', '', 'ddd'])
