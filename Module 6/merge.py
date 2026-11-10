@@ -1,0 +1,37 @@
+def merge_lists(lst1: list[int], lst2: list[int]) -> list[int]:
+    """
+    Merge two sorted lists of integers into one sorted list.
+    
+    >>> merge_lists([1, 2, 5], [4, 5, 6])
+    [1, 2, 4, 5, 5, 6]
+    
+    >>> merge_lists([1, 2, 5], [4, 5, 6, 9])
+    [1, 2, 4, 5, 5, 6, 9]
+    
+    >>> merge_lists([1, 2, 3, 5, 9, 9], [4, 5, 6])
+    [1, 2, 3, 4, 5, 5, 6, 9, 9]
+    """
+    result = []
+    i = 0
+    j = 0
+    while (i<len(lst1) and j<len(lst2)):
+        if lst1[i] < lst2[j]:
+            result.append(lst1[i])
+            i += 1
+        else:
+            result.append(lst2[j])
+            j += 1
+    myh = 0
+    myk = 0
+    for h in range(i, len(lst1)):
+        myh += 1
+    for k in range(j, len(lst2)):
+        myk += 1
+    for n in range(myh+myk):
+        if myh!=0:
+            result.append(lst1[i+n])
+        elif myk!=0:
+            result.append(lst2[j+n])
+    return result
+    
+print(merge_lists([1, 2, 5], [4, 5, 6]))
