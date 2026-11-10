@@ -10,6 +10,8 @@ def selection_sort(l: list[int]) -> list[int]:
                 dummy = l[i]
                 l[i] = l[i-1]
                 l[i-1] = dummy
+            else:
+                i -= 1
             i = j
     return l
     
