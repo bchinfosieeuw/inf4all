@@ -13,6 +13,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         else:
             result.append(lst2[j])
             j += 1
+    longest = 0
     if i<j:
         result.append(lst2[j])
     elif j>i:
