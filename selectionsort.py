@@ -15,6 +15,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 print(l)
                 #j -= 1
         min = max(l)
+        j+=1
         #min = max(l)
     return l
 
