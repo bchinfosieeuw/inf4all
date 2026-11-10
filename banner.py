@@ -8,7 +8,7 @@ def longest_word_from_list(lst: list[object]) -> str:
     longest = ''
     prevlen = 0
     for i in range(len(lst)):
-        if len(lst[i]) >= prevlen:
+        if len(lst[i]) > prevlen:
             prevlen = len(lst[i])
             longest = lst[i]
     return longest
