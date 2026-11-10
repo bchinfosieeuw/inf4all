@@ -82,7 +82,7 @@ def string_to_list(s: str) -> list[objects]:
             woord += s[-1]
             resultlist.append(woord)
         if c!=" ":
-        woord += c
+            woord += c
         i += 1
     return resultlist
     
