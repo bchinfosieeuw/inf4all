@@ -13,7 +13,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 #print(l[j])
             elif j==len(l)-2:
                 pass#print(min)
-                dummy = 
+                dummy = l[j]
             #print(l)
     return l
 
