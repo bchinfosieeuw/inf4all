@@ -28,4 +28,4 @@ def print_banner(lst: list[object]):
     
     """
     
-print()
+print(print_banner())
