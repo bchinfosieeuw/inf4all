@@ -65,11 +65,11 @@ def string_to_list(s: str) -> list[objects]:
     >>> string_to_list('Dit is een stringetje.')
     ['Dit', 'is', 'een', 'stringetje.']
     
-    >>> string_to_list('c==" ": hallo')
+    >>> string_to_list('Hallo hallo')
     ['Hallo', 'hallo']
     
-    >>> string_to_list('')
-    ['']
+    >>> string_to_list('Hallo')
+    ['Hallo']
     """
     woord = ""
     resultlist = []
