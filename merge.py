@@ -1,6 +1,6 @@
 def merge_lists(lst1: list[int], lst2: list[int]) -> list:
     """
-    Merge two sorted lists of integers into a sorted list.
+    Merge two sorted lists of integers into one sorted list.
     
     >>> merge_lists([1, 2, 5], [4, 5, 6])
     [1, 2, 4, 5, 5, 6]
