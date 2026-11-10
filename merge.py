@@ -34,4 +34,4 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list[int]:
             result.append(lst2[j+n])
     return result
     
-#print(merge_lists([1, 2, 5], [4, 5, 6]))
+print(merge_lists([1, 2, 5], [4, 5, 6]))
