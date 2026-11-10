@@ -22,7 +22,8 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         myk += 1
         #print('K')
     for n in range(max(myh, myk)):
-        if 
+        if myh!=0:
+            
     return result
     
 print(merge_lists([1, 2, 5], [4, 5, 6]))
