@@ -10,8 +10,8 @@ def selection_sort(l: list[int]) -> list[int]:
         for i in range(1, j):
             if l[j] < min:
                 min = l[j]
-                dummy = l[i+k-1]
-                l[i+k-1] = l[j]
+                dummy = l[i+k-j]
+                l[i+k-j] = l[j]
                 l[j] = dummy
             else:
                 min = max(l)
