@@ -18,7 +18,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         longest = 2
     elif i>j:
         longest = 1
-    for k in range(len(lst1)-len(lst2))
+    for k in range(i-j)
     return result
     
 print(merge_lists([1, 2, 5], [4, 5, 6]))
