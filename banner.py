@@ -37,7 +37,7 @@ def print_banner(lst: list[object]):
     ##########
     Hallo
     Hallo
-    la
+    hallo
     Hallo
     ##########
     
