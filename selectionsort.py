@@ -11,7 +11,7 @@ def selection_sort(l: list[int]) -> list[int]:
             if l[j] < min:
                 min = l[j]
                 print(l[j])
-            if j==len(l)-2:
+            elif j==len(l)-2:
                 print("min: " + str(min))
             #print(l)
     return l
