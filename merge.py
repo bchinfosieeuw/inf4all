@@ -17,7 +17,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
     if i<j:
         remain = 2
     elif j>i:
-        result.append(lst1[i])
+        remain = 1
     else:
         result.append(lst2[j])
     diff = abs(len(lst1)-len(lst2))-2
