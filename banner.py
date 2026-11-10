@@ -32,6 +32,22 @@ def print_banner(lst: list[object]):
     la
     Vita
     ##########
+    
+    >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
+    ##########
+    Margherita
+    Tutta
+    la
+    Vita
+    ##########
+    
+    >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
+    ##########
+    Margherita
+    Tutta
+    la
+    Vita
+    ##########
     """
     lengthlongest = len(longest_word_from_list(lst))
     for i in range(lengthlongest):
