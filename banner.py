@@ -88,3 +88,5 @@ def string_to_list(s: str) -> list[objects]:
     
 #print(string_to_list('Dit is een stringetje.'))
 
+if __name__ == '__main__':
+    
