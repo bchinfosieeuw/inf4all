@@ -21,6 +21,8 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
     for k in range(abs(i-j)):
         if longest==2:
             print('hallo2')
+        if longest==1:
+            print('hallo1')
     return result
     
 print(merge_lists([1, 2, 5], [4, 5, 6]))
