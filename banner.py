@@ -9,7 +9,7 @@ def longest_word_from_list(lst: list[object]) -> str:
     'Hallo'
     
     >>> longest_word_from_list(['', '', 'ddd'])
-    ''
+    'ddd'
     """
     longest = ''
     prevlen = 0
