@@ -7,7 +7,7 @@ def selection_sort(l: list[int]) -> list[int]:
     for i in range(len(l)):
         if l[i+1] < l[i]:
             dummy = l[i+1]
-            l[i] = 
+            l[i] = l[i]
     return l
     
 print(selection_sort([2, 3, 1]))#[1, 2, 3]
