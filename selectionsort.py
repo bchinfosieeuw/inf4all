@@ -18,7 +18,6 @@ def selection_sort(l: list[int]) -> list[int]:
 #123564
 #123546
 #123456
-#
 print(selection_sort([2, 3, 1]))#[1, 2, 3]
 print(selection_sort([3, 2, 1]))#[1, 2, 3]
 print(selection_sort([3, 1, 2]))#[1, 2, 3]
