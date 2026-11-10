@@ -62,7 +62,7 @@ def string_to_list(s: str) -> list[objects]:
     """
     Convert sentence, separated by spaces, to list of words.
     
-    >>> string_to_list(Dit is een stringetje.)
+    >>> string_to_list('Dit is een stringetje.)
     ['Dit', 'is', 'een', 'stringetje.']
     
     >>> string_to_list(Hallo hallo)
