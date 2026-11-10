@@ -87,3 +87,4 @@ def string_to_list(s: str) -> list[objects]:
     return resultlist
     
 #print(string_to_list('Dit is een stringetje.'))
+
