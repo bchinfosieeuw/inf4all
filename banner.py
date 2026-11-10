@@ -58,4 +58,4 @@ def print_banner(lst: list[object]):
         
 #print(print_banner(["Margherita", "Tutta", "la", "Vita"]))
 
-def 
+def string_to_list
