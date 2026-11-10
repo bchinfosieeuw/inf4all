@@ -34,12 +34,12 @@ def print_banner(lst: list[object]):
     ##########
     
     >>> print_banner(["Hallo", "Hallo", "hallo", "Hallo"])
-    ##########
+    #####
     Hallo
     Hallo
     hallo
     Hallo
-    ##########
+    #####
     
     >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
     ##########
