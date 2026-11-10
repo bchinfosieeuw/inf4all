@@ -89,6 +89,6 @@ def string_to_list(s: str) -> list[objects]:
 #print(string_to_list('Dit is een stringetje.'))
 
 if __name__ == '__main__':
-    message = input('Please write your message:')
+    message = input('Please write your message: ')
     mylist = string_to_list(message)
     print_banner(mylist)
