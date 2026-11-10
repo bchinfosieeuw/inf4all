@@ -6,10 +6,10 @@ def selection_sort(l: list[int]) -> list[int]:
     """
     min = max(l)
     k = 0
-    for j in range(0, len(l)-1):
+    for j in range(1, len(l)-1):
         if l[j] < min:
             print(l[j])
-        #print(l)
+        print(l)
     return l
 
 #521364
