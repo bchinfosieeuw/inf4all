@@ -90,3 +90,4 @@ def string_to_list(s: str) -> list[objects]:
 
 if __name__ == '__main__':
     message = input('Please write your message:')
+    
