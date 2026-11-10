@@ -5,6 +5,7 @@ def selection_sort(l: list[int]) -> list[int]:
     Moet wel `l` returnen.
     """
     min = max(l)
+    k = 0
     for i in range(len(l)+k):
         if l[i] < min:
             min = l[i]
