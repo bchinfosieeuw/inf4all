@@ -66,7 +66,7 @@ def string_to_list(s: str) -> list[objects]:
     woord = ""
     resultlist = []
     for c in s:
-        if c==" " or s[i+1]:
+        if c==" " or s[-1]:
             resultlist.append(woord)
             woord = ""
         woord += c
