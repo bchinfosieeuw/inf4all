@@ -1,1 +1,1 @@
-def longest_word_from_list() -> 
+def longest_word_from_list(lst: list[object]) -> 
