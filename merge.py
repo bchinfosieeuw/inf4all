@@ -25,7 +25,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         if myh!=0:
             result.append(lst1[i+n])
         elif myk!=0:
-            result.append(lst1[i+n])
+            result.append(lst2[i+n])
     return result
     
 print(merge_lists([1, 2, 5], [4, 5, 6]))
