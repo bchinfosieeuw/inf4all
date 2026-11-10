@@ -13,7 +13,7 @@ def selection_sort(l: list[int]) -> list[int]:
         for j in range(len(l)):
             #print(j)
             dummy = l[j-1]
-            l[j-1] = l[j]
+            l[j-1] = l[j-1]
             l[j] = dummy
     return l
     
