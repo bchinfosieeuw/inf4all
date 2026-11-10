@@ -21,4 +21,4 @@ def longest_word_from_list(lst: list[object]) -> str:
     
 #print(longest_word_from_list(['d', 'dd', 'ddd', 'dd']))
 print(longest_word_from_list(['Hallo', 'Zeker', 'Hoi']))
-print(longest_word_from_list(['d', 'dd', 'ddd', 'dd']))
+print(longest_word_from_list(['', '', 'ddd']))
