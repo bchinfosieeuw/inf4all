@@ -11,7 +11,7 @@ def selection_sort(l: list[int]) -> list[int]:
             min = l[i]
         k += 1
         for j in range(len(l)):
-            print(j)
+            #print(j)
     return l
     
 print(selection_sort([2, 3, 1]))#[1, 2, 3]
