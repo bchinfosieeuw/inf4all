@@ -13,7 +13,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         else:
             result.append(lst2[j])
             j += 1
-    for h < range(lst1[i])
+    for h < range(i, lst1[i])
     return result
     
 print(merge_lists([1, 2, 5], [4, 5, 6]))
