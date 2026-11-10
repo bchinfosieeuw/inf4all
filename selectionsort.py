@@ -5,7 +5,7 @@ def selection_sort(l: list[int]) -> list[int]:
     Moet wel `l` returnen.
     """
     for i in range(1, len(l)-1):
-        if l[]
+        if l[i]
     return l
 
 #521364
