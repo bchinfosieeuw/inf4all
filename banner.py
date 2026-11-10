@@ -6,7 +6,7 @@ def longest_word_from_list(lst: list[object]) -> str:
     ddd
     """
     longest = ''
-    for i in 
+    for i in range(len(lst))
     return longest
     
 longest_word_from_list(['d', 'dd', 'ddd', 'dd'])
