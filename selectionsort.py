@@ -9,7 +9,7 @@ def selection_sort(l: list[int]) -> list[int]:
     for j in range(1, len(l)-1):
         if l[j] < min:
             k = l[j]
-        if l[j]==len(l)-2:
+        if l[j]==len(l)-0:
             print(k)
         #print(l)
     return l
