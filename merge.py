@@ -30,6 +30,6 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
 print(merge_lists([1, 2, 5], [4, 5, 6]))
 print(merge_lists([1, 2, 5, 7], [4, 5, 6, 9]))
 print(merge_lists([1, 2, 5], [4, 5, 6, 9]))
-print(merge_lists([1, 2, 5], [4, 5, 6, 9, 9]))
+print(merge_lists([1, 2, 5], [4, 5, 6, 9]))
 print(merge_lists([1, 2, 5, 9], [4, 5, 6]))
 print(merge_lists([1, 2, 5, 9, 9], [4, 5, 6]))
