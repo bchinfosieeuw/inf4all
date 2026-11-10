@@ -14,7 +14,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 l[i-1] = l[j]
                 l[j] = dummy
             else:
-                min = max(l)-1
+                min = max(l)+1
         print(l)
                 #j -= 1
     #min = max(l)
