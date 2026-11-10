@@ -17,9 +17,9 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         result.append(lst2[j])
     elif j>i:
         result.append(lst1[i])
-    diff = abs(len(lst1)-len(lst2))-3
+    diff = abs(len(lst1)-len(lst2))-2
     for k in range(abs(i-j), max(len(lst1), len(lst2))-abs(i-j)+diff):
-        result.append(lst2[k])
+        result.append(lst2[j-i])
     return result
     
 print(merge_lists([1, 2, 5], [4, 5, 6]))
