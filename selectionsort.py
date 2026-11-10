@@ -17,7 +17,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 dummy = l[j]
                 l[j] = l[j-1]
                 l[j-1] = dummy
-            #print(l)
+            print(l)
     return l
 
 #521364
