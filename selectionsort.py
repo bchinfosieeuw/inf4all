@@ -5,7 +5,7 @@ def selection_sort(l: list[int]) -> list[int]:
     Moet wel `l` returnen.
     """
     for i in range(len(l)):
-        if l[i+1] < l[i]:
+        if l[i] < l[i-1]:
             dummy = l[i+1]
             l[i+1] = l[i]
             l[i] = dummy
