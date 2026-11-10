@@ -25,4 +25,5 @@ def print_banner(lst: list[object]):
     """
     Print the items of the list, with recognition of the langest word.
     >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
+    
     """
