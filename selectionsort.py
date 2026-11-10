@@ -4,7 +4,7 @@ def selection_sort(l: list[int]) -> list[int]:
     Er wordt geen nieuwe lijst gemaakt.
     Moet wel `l` returnen.
     """
-    min = 0
+    min = max(l)
     for j in range(1, len(l)-1):
         for i in range(1, j):
             if l[i] < l[i-1]:
