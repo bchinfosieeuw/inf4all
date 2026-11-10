@@ -21,7 +21,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
     for k in range(j, len(lst2)):
         myk += 1
         #print('K')
-    for n in range()
+    for n in range(max(myh, myk))
     return result
     
 print(merge_lists([1, 2, 5], [4, 5, 6]))
