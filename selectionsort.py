@@ -7,8 +7,8 @@ def selection_sort(l: list[int]) -> list[int]:
     min = max(l)
     for j in range(1, len(l)-1):
         for i in range(1, j):
-            if l[i] < min:
-                min = l[i]
+            if l[j] < min:
+                min = l[j]
             print(min)
         min = max(l)
     return l
