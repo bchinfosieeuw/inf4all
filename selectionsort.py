@@ -6,11 +6,7 @@ def selection_sort(l: list[int]) -> list[int]:
     """
     irem = 0
     for i in range(len(l)-0):
-        if l[i] < l[i-1]:
-            dummy = l[i]
-            l[i] = l[i-1]
-            l[i-1] = dummy
-        irem = i
+        
     return l
     
 print(selection_sort([2, 3, 1]))#[1, 2, 3]
