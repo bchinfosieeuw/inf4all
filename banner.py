@@ -27,3 +27,5 @@ def print_banner(lst: list[object]):
     >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
     
     """
+    
+print()
