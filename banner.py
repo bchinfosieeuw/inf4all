@@ -1,6 +1,6 @@
 def longest_word_from_list(lst: list[object]) -> str:
     """
-    Give 
+    Determine 
     >>> longest_word_from_list(['d', 'dd', 'ddd', 'dd'])
     ddd
     """
