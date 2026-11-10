@@ -9,7 +9,9 @@ def selection_sort(l: list[int]) -> list[int]:
         if l[i] < min:
             min = l[i]
             for j in range(len(l)-i):
-                
+                                dummy = l[i]
+                l[i] = l[i-1]
+                l[i-1] = dummy
     return l
     
 print(selection_sort([2, 3, 1]))#[1, 2, 3]
