@@ -61,7 +61,7 @@ def print_banner(lst: list[object]):
 def string_to_list(s: str) -> list[objects]:
     """
     >>> string_to_list(Dit is een stringetje)
-    ['', ]
+    ['', '', '', '']
     """
     resultlist = []
     return resultlist
