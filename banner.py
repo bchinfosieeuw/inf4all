@@ -55,10 +55,10 @@ def print_banner(lst: list[object]):
         print('#', end="")
     print()
     for i in range(len(lst)):
-        print(lst[i])
         if lst[i]==0:
             print(" ")
         else:
+            print(lst[i])
     for i in range(lengthlongest):
         print('#', end="")
         
