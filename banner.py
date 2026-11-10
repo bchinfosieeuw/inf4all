@@ -60,7 +60,7 @@ def print_banner(lst: list[object]):
 
 def string_to_list(s: str) -> list[objects]:
     """
-    Convert spaces
+    Convert string to list
     >>> string_to_list(Dit is een stringetje.)
     ['Dit', 'is', 'een', 'stringetje.']
     """
