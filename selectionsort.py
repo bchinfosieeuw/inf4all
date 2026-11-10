@@ -6,7 +6,7 @@ def selection_sort(l: list[int]) -> list[int]:
     """
     print(len(l))
     for i in range(1, len(l)):
-        
+        pass
     return l
 
 #521364
