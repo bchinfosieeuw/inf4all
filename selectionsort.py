@@ -12,7 +12,7 @@ def selection_sort(l: list[int]) -> list[int]:
             #print(min)
             dummy = l[j]
             l[j] = l[i]
-            l[j] = dummy
+            l[i] = dummy
         #min = max(l)
     return l
 
