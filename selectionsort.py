@@ -4,9 +4,10 @@ def selection_sort(l: list[int]) -> list[int]:
     Er wordt geen nieuwe lijst gemaakt.
     Moet wel `l` returnen.
     """
-    min = 0
+    min = 2
     for i in range(len(l)):
-        if l[i] < 
+        if l[i] < min:
+            
     return l
     
 print(selection_sort([2, 3, 1]))#[1, 2, 3]
