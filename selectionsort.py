@@ -10,7 +10,7 @@ def selection_sort(l: list[int]) -> list[int]:
         if l[j+k] < min:
             min = l[j+k]
             k+=1
-        if j+k==len(l)-2:
+        elif j+k==len(l)-2:
             print(min)
         #print(l)
     return l
