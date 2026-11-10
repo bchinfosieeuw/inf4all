@@ -13,7 +13,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         else:
             result.append(lst2[j])
             j += 1
-    if i<j:
+    if i<=j:
         result.append(lst2[j])
     elif j>i:
         result.append(lst1[i])
