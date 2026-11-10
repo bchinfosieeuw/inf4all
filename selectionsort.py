@@ -12,7 +12,7 @@ def selection_sort(l: list[int]) -> list[int]:
         k += 1
         for j in range(len(l)):
             #print(j)
-            l[j]
+            dummy = l[j]
     return l
     
 print(selection_sort([2, 3, 1]))#[1, 2, 3]
