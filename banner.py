@@ -68,7 +68,7 @@ def string_to_list(s: str) -> list[objects]:
     for c in s:
         if c==" ":
             resultlist.append(woord)
-        woord
+        woord += 
     return resultlist
     
 print(string_to_list('Dit is een stringetje.'))
