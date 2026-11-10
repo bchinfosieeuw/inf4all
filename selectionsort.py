@@ -9,7 +9,7 @@ def selection_sort(l: list[int]) -> list[int]:
             dummy = l[i]
             l[i] = l[i-1]
             l[i-1] = dummy
-        i -= 2
+        i -= 3
     return l
     
 print(selection_sort([2, 3, 1]))#[1, 2, 3]
