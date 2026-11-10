@@ -66,7 +66,7 @@ def string_to_list(s: str) -> list[objects]:
     ['Dit', 'is', 'een', 'stringetje.']
     
     >>> string_to_list(Dit is een stringetje.)
-    ['Hallo', 'is', 'een', 'stringetje.']
+    ['Hallo', 'hallo', 'een', 'stringetje.']
     
     >>> string_to_list(Dit is een stringetje.)
     ['Dit', 'is', 'een', 'stringetje.']
