@@ -13,10 +13,10 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         else:
             result.append(lst2[j])
             j += 1
-    if i<j:
-        result.append(lst2[j])
-    elif j>i:
-        result.append(lst1[i])
+    #if i<j:
+    #    result.append(lst2[j])
+    #elif j>i:
+    #    result.append(lst1[i])
     if len(lst1)<=len(lst2):
         result.append(lst2[j])
         diff = abs(len(lst1)-len(lst2))-2
