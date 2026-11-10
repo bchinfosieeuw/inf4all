@@ -66,4 +66,4 @@ def string_to_list(s: str) -> list[objects]:
     resultlist = []
     return resultlist
     
-print(string_to_list(Dit is een stringetje.'))
+print(string_to_list('Dit is een stringetje.'))
