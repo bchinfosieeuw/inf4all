@@ -6,7 +6,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
     result = []
     i = 0
     j = 0
-    while len(lst1)(i<len(lst1) and j<len(lst2)):
+    while len(lst1)+(i<len(lst1) and j<len(lst2)):
         if lst1[i] <= lst2[j]:
             result.append(lst1[i])
             i += 1
