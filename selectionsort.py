@@ -13,11 +13,10 @@ def selection_sort(l: list[int]) -> list[int]:
                 dummy = l[i+k-1]
                 l[i+k-1] = l[j]
                 l[j] = dummy
+                j+=1
             else:
                 min = max(l)
                 k += 1
-                i+=1
-                j+=1
         print(l)
                 #j -= 1
     #min = max(l)
