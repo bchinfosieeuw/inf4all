@@ -54,7 +54,7 @@ def print_banner(lst: list[str]) -> None:
     for i in range(len(lst)):
         print(lst[i])
     for i in range(lengthlongest):
-        print('#')
+        print('#', end="")
         
 #print(print_banner(["Margherita", "Tutta", "la", "Vita"]))
 
