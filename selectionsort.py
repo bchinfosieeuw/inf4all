@@ -5,3 +5,4 @@ def selection_sort(l: list[int]) -> list[int]:
     Moet wel `l` returnen.
     """
     
+print(selection_sort())
