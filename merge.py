@@ -19,7 +19,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         myh += 1
         print('H')
     for k in range(j, len(lst2)):
-        myh += 1
+        myk += 1
         print('K')
     return result
     
