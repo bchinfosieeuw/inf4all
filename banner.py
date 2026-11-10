@@ -31,5 +31,5 @@ def print_banner(lst: list[object]):
     for i in range(lengthlongest-1):
         print('#', end="")
     for i in range():
-    
+        print(lst[i])
 print(print_banner(["Margherita", "Tutta", "la", "Vita"]))
