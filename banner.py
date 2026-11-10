@@ -42,10 +42,10 @@ def print_banner(lst: list[object]):
     Hallo
     #####
     
-    >>> print_banner(["Margherita", "", "la", "Vita"])
+    >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
     ##########
     Margherita
-    
+    Tutta
     la
     Vita
     ##########
@@ -55,10 +55,7 @@ def print_banner(lst: list[object]):
         print('#', end="")
     print()
     for i in range(len(lst)):
-        if lst[i]==1:
-            print(" ")
-        else:
-            print(lst[i])
+        print(lst[i])
     for i in range(lengthlongest):
         print('#', end="")
         
