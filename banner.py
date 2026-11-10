@@ -66,4 +66,4 @@ def string_to_list(s: str) -> list[objects]:
     resultlist = []
     return resultlist
     
-string_to_list())
+print(string_to_list())
