@@ -60,4 +60,5 @@ def print_banner(lst: list[object]):
 
 def string_to_list(s: str) -> list[objects]:
     """
+    >>> 
     """
