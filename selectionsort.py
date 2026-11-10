@@ -13,7 +13,7 @@ def selection_sort(l: list[int]) -> list[int]:
             i = j
     return l
 
-#
+#521364
 #
 #
 #
