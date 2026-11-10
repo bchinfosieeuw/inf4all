@@ -4,5 +4,8 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
     [1, 2, 4, 5, 5, 6]
     """
     return = []
+    i = 0
+    j = 0
+    
     while 
     return result
