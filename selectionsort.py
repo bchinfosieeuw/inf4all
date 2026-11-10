@@ -14,9 +14,9 @@ def selection_sort(l: list[int]) -> list[int]:
             elif j==len(l)-2:
                 print("min: " + str(min))
                 k+=1
-                dummy = l[j]
-                l[j] = l[j-1]
-                l[j-1] = dummy
+            dummy = l[j]
+            l[j] = l[j-1]
+            l[j-1] = dummy
             #print(l)
     return l
 
