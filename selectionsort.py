@@ -10,7 +10,7 @@ def selection_sort(l: list[int]) -> list[int]:
             if l[j] < l[j-i]:
                 dummy = l[j]
                 l[j] = l[j-i]
-                l[j-i] = dummy
+                l[j-i+1] = dummy
             #i = j
     return l
     
