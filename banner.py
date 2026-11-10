@@ -70,7 +70,7 @@ def string_to_list(s: str) -> list[objects]:
         if c==" ":
             resultlist.append(woord)
             woord = ""
-        elif (i==len(s)-1 and s[-1]==s[len(s)-1]):
+        elif (i==len(s)-1 and s[-1]==s[len(s)-1]:
         woord += c
         i += 1
     return resultlist
