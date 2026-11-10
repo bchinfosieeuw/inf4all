@@ -59,4 +59,5 @@ def print_banner(lst: list[object]):
 #print(print_banner(["Margherita", "Tutta", "la", "Vita"]))
 
 def string_to_list(s: str) -> list[objects]:
-    
+    """
+    """
