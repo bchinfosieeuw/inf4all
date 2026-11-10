@@ -20,7 +20,6 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
     else:
         result.append(lst2[j])
     diff = abs(len(lst1)-len(lst2))-2
-    print(diff)
     for k in range(abs(i-j)+0, max(len(lst1), len(lst2))-abs(i-j)+diff):
         result.append(lst2[j-i])
     return result
