@@ -19,7 +19,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
         result.append(lst1[i])
     else:
         result.append(lst2[j])
-    for k in range()
+    for k in range(abs(i-j))
     return result
     
 print(merge_lists([1, 2, 5], [4, 5, 6]))
