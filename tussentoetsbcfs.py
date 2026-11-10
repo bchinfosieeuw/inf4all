@@ -1,7 +1,7 @@
 def split_capitalized(strs: list[str]) -> list[list[str]]:
     """
     >>> split_capitalized['Adam', 'fiets', 'Utr', '']
-    [['Adam', 'Utr'], ['fiets', '']]
+    '[['Adam', 'Utr'], ['fiets', '']]'
     
     >>> split_capitalized['Hallo', 'Hallo', 'hallo', 'hoi']
     [['Hallo', 'Hallo'], ['hallo', 'hoi']]
