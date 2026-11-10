@@ -17,10 +17,10 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
     myk = 0
     for h in range(i, len(lst1)):
         myh += 1
-        print('H')
+        #print('H')
     for k in range(j, len(lst2)):
         myk += 1
-        print('K')
+        #print('K')
     return result
     
 print(merge_lists([1, 2, 5], [4, 5, 6]))
