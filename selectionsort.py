@@ -12,10 +12,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 min = l[j]
             elif j==len(l)-2:
                 print(min)
-            dummy = l[i]
-            l[i] = l[i-1]
-            l[i-1] = dummy
-    print(l)
+            #print(l)
     return l
 
 #521364
