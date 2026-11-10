@@ -11,7 +11,7 @@ def selection_sort(l: list[int]) -> list[int]:
             if l[j] < min:
                 min = l[j]
                 dummy = l[i+k-1]
-                l[i+k-1] = l[j]
+                l[i+k-1*k] = l[j]
                 l[j] = dummy
             else:
                 min = max(l)
