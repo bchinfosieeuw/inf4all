@@ -14,7 +14,7 @@ def selection_sort(l: list[int]) -> list[int]:
     return l
 
 #521364
-#
+#125364
 #
 #
 #
