@@ -1,0 +1,94 @@
+def longest_word_from_list(lst: list[str]) -> str:
+    """
+    Determine the longest word from the list.
+    
+    >>> longest_word_from_list(['d', 'dd', 'ddd', 'dd'])
+    'ddd'
+    
+    >>> longest_word_from_list(['Hallo', 'Zeker', 'Hoi'])
+    'Hallo'
+    
+    >>> longest_word_from_list(['', '', 'ddd'])
+    'ddd'
+    """
+    longest = ''
+    prevlen = 0
+    for i in range(len(lst)):
+        if len(lst[i]) > prevlen:
+            prevlen = len(lst[i])
+            longest = lst[i]
+    return longest
+    
+#print(longest_word_from_list(['d', 'dd', 'ddd', 'dd']))
+
+def print_banner(lst: list[object]):
+    """
+    Print the items of the list, with recognition of the langest word.
+    
+    >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
+    ##########
+    Margherita
+    Tutta
+    la
+    Vita
+    ##########
+    
+    >>> print_banner(["Hallo", "Hallo", "hallo", "Hallo", "Hallo"])
+    #####
+    Hallo
+    Hallo
+    hallo
+    Hallo
+    Hallo
+    #####
+    
+    >>> print_banner(["Margherita"])
+    ##########
+    Margherita
+    ##########
+    """
+    lengthlongest = len(longest_word_from_list(lst))
+    for i in range(lengthlongest):
+        print('#', end="")
+    print()
+    for i in range(len(lst)):
+        print(lst[i])
+    for i in range(lengthlongest):
+        print('#', end="")
+        
+#print(print_banner(["Margherita", "Tutta", "la", "Vita"]))
+
+def string_to_list(s: str) -> list[objects]:
+    """
+    Convert sentence, separated by spaces, to list of words.
+    
+    >>> string_to_list('Dit is een stringetje.')
+    ['Dit', 'is', 'een', 'stringetje.']
+    
+    >>> string_to_list('Hallo hallo')
+    ['Hallo', 'hallo']
+    
+    >>> string_to_list('Hallo')
+    ['Hallo']
+    """
+    woord = ""
+    resultlist = []
+    i = 0
+    for c in s:
+        if c==" ":
+            resultlist.append(woord)
+            woord = ""
+        elif i==len(s)-1 and s[-1]==s[len(s)-1]:
+            woord += s[-1]
+            resultlist.append(woord)
+        if c!=" ":
+            woord += c
+        i += 1
+    return resultlist
+    
+#print(string_to_list('Dit is een stringetje.'))
+
+if __name__ == '__main__':
+    message = input('Please write your message: ')
+    mylist = string_to_list(message)
+    print_banner(mylist)
