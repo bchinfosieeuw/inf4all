@@ -10,7 +10,7 @@ def selection_sort(l: list[int]) -> list[int]:
             if l[i] < min:
                 min = l[i]
         print(min)
-            
+        min = max(l)
     return l
 
 #521364
