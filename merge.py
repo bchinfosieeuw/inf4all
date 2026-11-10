@@ -15,7 +15,7 @@ def merge_lists(lst1: list[int], lst2: list[int]) -> list:
             j += 1
     if i<j+1:
         result.append(lst1[i])
-    elif j>i:
+    elif j>i+1:
         result.append(lst2[j])
     return result
     
