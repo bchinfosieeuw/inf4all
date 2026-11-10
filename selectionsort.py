@@ -6,4 +6,4 @@ def selection_sort(l: list[int]) -> list[int]:
     """
     return l
     
-print(selection_sort(['B', 'C', 'A']))#ABC
+print(selection_sort([2, 'C', 'A']))#ABC
