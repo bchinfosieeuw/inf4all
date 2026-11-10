@@ -81,7 +81,7 @@ def string_to_list(s: str) -> list[objects]:
         elif i==len(s)-1 and s[-1]==s[len(s)-1]:
             woord += s[-1]
             resultlist.append(woord)
-        if 
+        if c!=" ":
         woord += c
         i += 1
     return resultlist
