@@ -22,4 +22,5 @@ def longest_word_from_list(lst: list[object]) -> str:
 #print(longest_word_from_list(['d', 'dd', 'ddd', 'dd']))
 
 def print_banner(lst: list[object]):
-    
+    """
+    """
