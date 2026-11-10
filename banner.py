@@ -60,7 +60,7 @@ def print_banner(lst: list[object]):
 
 def string_to_list(s: str) -> list[objects]:
     """
-    Convert sentence to list of words, separated by spaces
+    Convert sentence to list of words, separated by spaces.
     >>> string_to_list(Dit is een stringetje.)
     ['Dit', 'is', 'een', 'stringetje.']
     """
