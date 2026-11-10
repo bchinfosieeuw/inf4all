@@ -64,7 +64,8 @@ def string_to_list(s: str) -> list[objects]:
     ['Dit', 'is', 'een', 'stringetje.']
     """
     resultlist = []
-    for s in s:
+    for c in s:
+        
     return resultlist
     
 print(string_to_list('Dit is een stringetje.'))
