@@ -11,7 +11,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 l[i] = l[i-1]
                 l[i-1] = dummy
             else:
-                i = j
+                j = i
             i = j
     return l
     
