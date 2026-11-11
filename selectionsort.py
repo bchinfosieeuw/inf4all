@@ -40,7 +40,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 l[j] = dummy
             #i = j
         #k += 1
-        i = 2
+        i = 3
         print(l)
     return l
 
