@@ -13,7 +13,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 print(l[j])
             elif j==len(l)-2:
                 print("min: " + str(min))
-                #k+=1
+                k+=1
             #print(l)
     return l
 
