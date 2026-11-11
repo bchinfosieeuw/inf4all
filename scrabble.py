@@ -25,6 +25,7 @@ def compute_letter_score(letter: str) -> int:
     aan de letterscore wordt toegekend.
     
     >>> compute_letter_score("A")
+    
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     letterscore = 0
