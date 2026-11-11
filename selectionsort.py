@@ -28,7 +28,7 @@ def selection_sort(l: list[int]) -> list[int]:
     >>> selection_sort([3, 1, 2, 4, 6, 5])
     [1, 2, 3, 4, 5, 6]
     """
-    k = 1
+    k = 0
     m = 0
     print(l)
     for i in range(1, len(l)-1):
