@@ -22,6 +22,7 @@ def compute_letter_score(letter: str) -> int:
 
 if __name__ == '__main__':
     word1 = input("Woord van speler 1: ")
+    word2 = input("Woord van speler 1: ")
     score1 = compute_score()
     score2 = compute_score()
     print("Speler 1:", end="")
