@@ -8,6 +8,9 @@ def compute_score(word: str) -> int:
     afzonderlijk naar compute_letter_score wordt gestuurd om het aantal punten 
     te bepalen van deze letter. Speciale karakters en getallen worden genegeerd
     waarbij er geen score voor deze tekens wordt opgeteld.
+    
+    >>> compute_letter_score("a")
+    1
     """
     wordscore = 0
     for i in range(len(word)):
