@@ -36,5 +36,5 @@ def selection_sort(l: list[int]) -> list[int]:
         print(l)
     return l
 
-#print(selection_sort([5, 2, 1, 3, 6, 4]))
 #print(selection_sort([2, 3, 1]))
+#print(selection_sort([5, 2, 1, 3, 6, 4]))
