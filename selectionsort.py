@@ -35,10 +35,10 @@ def selection_sort(l: list[int]) -> list[int]:
         #if l[i] < l[i-1] and len(l) > 3:
         #    k = 1
         for j in range(i+0+0+m, len(l)+0):
-            if l[j+m] < l[i+m]:
-                dummy = l[i-k+m]
-                l[i-k+m] = l[j+m]
-                l[j+m] = dummy
+            if l[j+m] < l[i]:
+                dummy = l[i-k]
+                l[i-k] = l[j]
+                l[j] = dummy
                 
                 #k = i-1
                 #k = j-i+1
