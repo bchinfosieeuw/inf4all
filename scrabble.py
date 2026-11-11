@@ -18,7 +18,7 @@ def compute_letter_score(letter: str) -> int:
     Bereken en return de score voor één enkele letter.
     In het alfabet zitten alleen kleine letters, en compute_letter_score krijgt 
     alleen kleine letters ingevoerd. De for loop herhaalt het aantal keer dat 
-    er letters zijn in dit alfabet. In
+    er letters zijn in dit alfabet. Indien een letter op 
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     letterscore = 0
