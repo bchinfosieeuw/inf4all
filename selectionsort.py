@@ -7,7 +7,7 @@ def selection_sort(l: list[int]) -> list[int]:
     jrem = 0
     for i in range(len(l)-1):
         for j in range(len(l)+1):
-                print(l)
+            print(l)
             if l[i] < l[i-1]:
                 dummy = l[i]
                 l[i] = l[i-1]
