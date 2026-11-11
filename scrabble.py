@@ -31,7 +31,8 @@ def compute_letter_score(letter: str) -> int:
     In het alfabet zitten alleen kleine letters, en 
     compute_letter_score krijgt alleen kleine letters ingevoerd. 
     De for loop herhaalt het aantal keer dat er letters zijn in 
-    dit alfabet. De positie van de ingevoerde letter in het alfabet wordt bepaald, waarna het aantal punten volgens de global POINTS 
+    dit alfabet. De positie van de ingevoerde letter in het alfabet 
+    wordt bepaald, waarna het aantal punten volgens de global POINTS 
     aan de letterscore wordt toegekend.
     
     >>> compute_letter_score("A")
