@@ -19,7 +19,7 @@ def selection_sort(l: list[int]) -> list[int]:
     >>> selection_sort([2, 3, 1, 4, 6, 5])
     [1, 2, 3, 4, 5, 6]
     
-    >>> selection_sort([5, 2, 1, 3, 6, 4])
+    >>> selection_sort([3, 1, 2, 4, 6, 5])
     [1, 2, 3, 4, 5, 6]
     """
     k = 0
