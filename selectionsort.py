@@ -13,7 +13,12 @@ def selection_sort(l: list[int]) -> list[int]:
                 l[i-1] = dummy
             i = j
     return l
-    
+
+#521364
+#125364
+#123564
+#123465
+#123456
 print(selection_sort([5, 2, 1, 3, 6, 4]))#[1, 2, 3, 4, 5, 6]
 print(selection_sort([2, 3, 1]))#[1, 2, 3]
 print(selection_sort([3, 2, 1]))#[1, 2, 3]
