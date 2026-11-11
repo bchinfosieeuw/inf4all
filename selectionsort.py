@@ -43,7 +43,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 break
             #i = j
             else:
-                i+=1
+                i-=1
         print(l)
         #if l[i+1] < l[i]:
         #    break
