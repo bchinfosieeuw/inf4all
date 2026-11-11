@@ -41,7 +41,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 
                 k = i-1
                 break
-            i = j+1
+            i = j-1
         print(l)
         #if l[i+1] < l[i]:
         #    break
