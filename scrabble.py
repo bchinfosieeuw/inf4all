@@ -27,7 +27,7 @@ if __name__ == '__main__':
     score1 = compute_score(word1)
     score2 = compute_score(word2)
     print("Speler 1:", end="")
-    print(score1, end="")
+    print(score1)
     print("Speler 1:", end="")
     print(score2, end="")
     #print("winner")
