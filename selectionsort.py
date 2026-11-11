@@ -39,7 +39,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 l[i-1] = l[j]
                 l[j] = dummy
                 
-                k = i+2
+                k = i+1
                 break
             #i = j
         
