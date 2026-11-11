@@ -23,4 +23,4 @@ def compute_letter_score(letter: str) -> int:
 if __name__ == '__main__':
     score1 = compute_score()
     score2 = compute_score()
-    print
+    print("Speler 1:")
