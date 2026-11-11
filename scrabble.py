@@ -10,7 +10,7 @@ def compute_score(word: str) -> int:
     """
     wordscore = 0
     for i in range(len(word)):
-        if
+        if 
         wordscore += compute_letter_score(word[i].lower())
     return wordscore
 
