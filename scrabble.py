@@ -7,6 +7,7 @@ def compute_score(word: str) -> int:
     """
     for i in range(len(word)):
         compute_letter_score(word[i])
+    return 
 
 def compute_letter_score(letter: str) -> int:
     """
