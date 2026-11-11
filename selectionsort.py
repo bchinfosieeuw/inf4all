@@ -7,6 +7,9 @@ def selection_sort(l: list[int]) -> list[int]:
     >>> selection_sort([2, 3, 1])
     [1, 2, 3]
     
+    >>> selection_sort([2, 3, 1])
+    [1, 2, 3]
+    
     >>> selection_sort([3, 2, 1])
     [1, 2, 3]
     
