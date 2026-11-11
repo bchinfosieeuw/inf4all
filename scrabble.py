@@ -19,7 +19,7 @@ def compute_letter_score(letter: str) -> int:
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     letterscore = 0
     for i in range(len(alphabet)):
-        letterscore = int(alphabet[i])
+        letterscore = int(alphabet[i], 10)
     return letterscore
 
 if __name__ == '__main__':
