@@ -29,5 +29,5 @@ if __name__ == '__main__':
     print("Speler 1:", end="")
     print(score1)
     print("Speler 1:", end="")
-    print(score2, end="")
+    print(score2)
     #print("winner")
