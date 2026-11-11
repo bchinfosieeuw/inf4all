@@ -23,6 +23,8 @@ def compute_letter_score(letter: str) -> int:
     er letters zijn in dit alfabet. De positie van de ingevoerde letter in het 
     alfabet wordt bepaald, waarna het aantal punten volgens de global POINTS 
     aan de letterscore wordt toegekend.
+    
+    >>> 
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     letterscore = 0
