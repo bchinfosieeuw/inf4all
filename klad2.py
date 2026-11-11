@@ -4,22 +4,16 @@ def selection_sort(l: list[int]) -> list[int]:
     Er wordt geen nieuwe lijst gemaakt.
     Moet wel `l` returnen.
     """
-    min = max(l)
-    k = 0
-    for j in range(1, len(l)-1):
-        for i in range(1, j):
-            if l[j] < min:
-                min = l[j]
-                dummy = l[i+k-1]
-                l[i+k-1] = l[j]
-                l[j] = dummy
-            else:
-                min = max(l)
-                j += k
-                k += 1
+    jrem = 0
+    print(l)
+    for i in range(len(l)-1):
+        for j in range(i, len(l)+1):
+            if l[i] < l[i-1]:
+                dummy = l[i]
+                l[i] = l[i-1]
+                l[i-1] = dummy
+            i = j
         print(l)
-                #j -= 1
-    #min = max(l)
     return l
 
 #521364
