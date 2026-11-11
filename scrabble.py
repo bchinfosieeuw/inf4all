@@ -12,7 +12,7 @@ def compute_score(word: str) -> int:
     >>> compute_score("Hallo")
     8
     
-    >>> compute_score("Hallo")
+    >>> compute_score("Doei")
     8
     
     >>> compute_score("Hallo")
