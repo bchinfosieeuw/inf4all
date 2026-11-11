@@ -5,8 +5,8 @@ def selection_sort(l: list[int]) -> list[int]:
     Moet wel `l` returnen.
     """
     print(l)
-    for i in range(-2, len(l)-1):
-        for j in range(i-1, len(l)+1):
+    for i in range(-1, len(l)-1):
+        for j in range(i-2, len(l)+1):
             if l[i] < l[i-1]:
                 dummy = l[i]
                 l[i] = l[i-1]
