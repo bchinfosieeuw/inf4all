@@ -37,7 +37,7 @@ if __name__ == '__main__':
     print("Speler 1: ", end="")
     print(word1)
     print("Speler 2: ", end="")
-    print(score2)
+    print(word2)
     if score1 > score2:
         print("Speler 1 wint!")
     elif score1 < score2:
