@@ -38,4 +38,5 @@ if __name__ == '__main__':
     print(score1)
     print("Speler 2: ", end="")
     print(score2)
-    #print("winner")
+    if score1 > score2:
+        print 
