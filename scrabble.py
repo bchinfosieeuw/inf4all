@@ -9,7 +9,7 @@ def compute_score(word: str) -> int:
     te bepalen van deze letter. Speciale karakters en getallen worden genegeerd
     waarbij er geen score voor deze tekens wordt opgeteld.
     
-    >>> compute_score("a")
+    >>> compute_score("Hallo")
     1
     """
     wordscore = 0
