@@ -24,7 +24,7 @@ if __name__ == '__main__':
     word1 = input("Woord van speler 1: ")
     word2 = input("Woord van speler 2: ")
     score1 = compute_score(word1)
-    score2 = compute_score()
+    score2 = compute_score(word2)
     print("Speler 1:", end="")
     print(score1, end="")
     print("Speler 1:", end="")
