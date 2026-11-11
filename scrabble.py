@@ -4,7 +4,7 @@ POINTS = [1, 3, 3,  2, 1, 4, 2, 4, 1, 8, 5, 1,  3,
 def compute_score(word: str) -> int:
     """
     Bereken en return de score voor het woord.
-    Gebruikt een for loop 
+    Gebruikt for om door 
     """
     wordscore = 0
     for i in range(len(word)):
