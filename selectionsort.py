@@ -42,7 +42,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 k = i-1
                 break
             i = j
-        for 
+        for m in range
         print(l)
     return l
 
