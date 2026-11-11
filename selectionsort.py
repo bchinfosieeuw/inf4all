@@ -43,7 +43,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 break
             i = j
         
-            print(l)
+        print(l)
     return l
 
 #521364
