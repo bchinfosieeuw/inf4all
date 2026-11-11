@@ -59,10 +59,10 @@ if __name__ == '__main__':
     word2 = input("Woord van speler 2: ")
     score1 = compute_score(word1)
     score2 = compute_score(word2)
-    print("Speler 1: ", end="")
-    print(word1)
-    print("Speler 2: ", end="")
-    print(word2)
+    #print("Speler 1: ", end="")
+    #print(word1)
+    #print("Speler 2: ", end="")
+    #print(word2)
     if score1 > score2:
         print("Speler 1 wint!")
     elif score1 < score2:
