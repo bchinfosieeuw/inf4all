@@ -42,8 +42,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 k = i-1
                 break
             i = j
-        for m in range(1, len(l)-1):
-            if l[j] < l[i]:
+        if if l[j] < l[i]:
         print(l)
     return l
 
