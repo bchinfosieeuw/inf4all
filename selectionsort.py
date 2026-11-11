@@ -11,7 +11,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 dummy = l[i]
                 l[i] = l[i-1]
                 l[i-1] = dummy
-            #i = j
+            i = j
         print(l)
     return l
 
@@ -24,5 +24,5 @@ def selection_sort(l: list[int]) -> list[int]:
 #print(selection_sort([2, 3, 1]))#[1, 2, 3]
 #print(selection_sort([3, 2, 1]))#[1, 2, 3]
 #print(selection_sort([3, 1, 2]))#[1, 2, 3]
-#print(selection_sort([2, 3, 1, 4, 6, 5]))#[1, 2, 3, 4, 5, 6]
-print(selection_sort([3, 1, 2, 4, 6, 5]))#[1, 2, 3, 4, 5, 6]
+print(selection_sort([2, 3, 1, 4, 6, 5]))#[1, 2, 3, 4, 5, 6]
+#print(selection_sort([3, 1, 2, 4, 6, 5]))#[1, 2, 3, 4, 5, 6]
