@@ -30,7 +30,7 @@ def compute_letter_score(letter: str) -> int:
     >>> compute_letter_score("a")
     1
     
-    >>> compute_letter_score("a")
+    >>> compute_letter_score("z")
     1
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
