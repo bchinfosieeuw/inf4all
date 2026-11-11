@@ -15,7 +15,7 @@ def compute_score(word: str) -> int:
     >>> compute_score("Doei")
     5
     
-    >>> compute_score("Hallo")
+    >>> compute_score("Hardly?")
     8
     """
     wordscore = 0
