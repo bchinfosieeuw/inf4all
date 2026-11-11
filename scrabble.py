@@ -20,7 +20,7 @@ def compute_letter_score(letter: str) -> int:
     alleen kleine letters ingevoerd. De for loop herhaalt het aantal keer dat 
     er letters zijn in dit alfabet. De positie van de ingevoerde letter in het 
     alfabet wordt bepaald, waarna het aantal punten volgens de global POINTS 
-    
+    aa
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     letterscore = 0
