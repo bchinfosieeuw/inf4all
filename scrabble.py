@@ -7,8 +7,7 @@ def compute_score(word: str) -> int:
     Gebruikt for om door het ingetypte woord te loopen waarbij 
     elke letter afzonderlijk naar compute_letter_score wordt 
     gestuurd om het aantal punten te bepalen van deze letter. 
-    Speciale karakters en getallen worden genegeerd
-    waarbij er geen score voor deze tekens wordt opgeteld.
+    Speciale karakters en getallen worden genegeerd waarbij er geen score voor deze tekens wordt opgeteld.
     
     >>> compute_score("Hallo")
     8
