@@ -6,7 +6,7 @@ def compute_score(word: str) -> int:
     Bereken en return de score voor het woord.
     Gebruikt for om door het ingetypte woord te loopen waarbij elke letter 
     afzonderlijk naar compute_letter_score wordt gestuurd om het aantal punten 
-    te bepalen van deze letter. Speciale karakters 
+    te bepalen van deze letter. Speciale karakters worden 
     """
     wordscore = 0
     for i in range(len(word)):
