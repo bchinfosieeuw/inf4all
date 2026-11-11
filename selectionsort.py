@@ -53,8 +53,8 @@ def selection_sort(l: list[int]) -> list[int]:
 #123456
 #print(selection_sort([2, 3, 1]))
 #print(selection_sort([5, 2, 1, 3, 6, 4]))#[1, 2, 3, 4, 5, 6]
-print(selection_sort([2, 3, 1]))#[1, 2, 3]
-#print(selection_sort([3, 2, 1]))#[1, 2, 3]
+#print(selection_sort([2, 3, 1]))#[1, 2, 3]
+print(selection_sort([3, 2, 1]))#[1, 2, 3]
 #print(selection_sort([3, 1, 2]))#[1, 2, 3]
 #print(selection_sort([2, 3, 1, 4, 6, 5]))#[1, 2, 3, 4, 5, 6]
 #print(selection_sort([3, 1, 2, 4, 6, 5]))#[1, 2, 3, 4, 5, 6]
