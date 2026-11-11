@@ -10,7 +10,7 @@ def compute_score(word: str) -> int:
     waarbij er geen score voor deze tekens wordt opgeteld.
     
     >>> compute_score("Hallo")
-    1
+    8
     """
     wordscore = 0
     for i in range(len(word)):
