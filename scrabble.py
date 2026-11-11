@@ -42,3 +42,5 @@ if __name__ == '__main__':
         print("Speler 1 wint!")
     elif score1 < score2:
         print("Speler 2 wint!")
+    else:
+        print("")
