@@ -32,7 +32,7 @@ def selection_sort(l: list[int]) -> list[int]:
     print(l)
     for i in range(-2, len(l)-1):
         if len(l) > 3:
-            k = -1
+            k = 1
         for j in range(i-k, len(l)+1):
             if l[i] < l[i-1]:
                 dummy = l[i]
