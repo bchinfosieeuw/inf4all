@@ -31,7 +31,7 @@ def selection_sort(l: list[int]) -> list[int]:
     k = 1
     m = 0
     print(l)
-    for i in range(1, len(l)-1):
+    for i in range(1+m, len(l)-1):
         #if l[i] < l[i-1] and len(l) > 3:
         #    k = 1
         for j in range(i+0+k, len(l)+0):
