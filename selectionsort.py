@@ -47,7 +47,8 @@ def selection_sort(l: list[int]) -> list[int]:
             
                 
             #i = j
-        m+=1
+            else:
+                m+=1
         print(l)
     return l
 
