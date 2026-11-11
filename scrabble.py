@@ -16,7 +16,7 @@ def compute_score(word: str) -> int:
     5
     
     >>> compute_score("Hardly?")
-    8
+    13
     """
     wordscore = 0
     for i in range(len(word)):
