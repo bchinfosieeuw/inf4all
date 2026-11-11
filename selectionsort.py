@@ -33,6 +33,7 @@ def selection_sort(l: list[int]) -> list[int]:
     for i in range(-2, len(l)-1):
         if l[i] < l[i-1] and len(l) > 3 and mybool==False:
             k = 1
+            mybool = True
         for j in range(i-k, len(l)+1):
             if l[i] < l[i-1]:
                 dummy = l[i]
