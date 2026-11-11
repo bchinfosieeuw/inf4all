@@ -17,7 +17,7 @@ def compute_letter_score(letter: str) -> int:
     """
     Bereken en return de score voor één enkele letter.
     In het alfabet zitten allen kleine letters, en compute_letter_score krijgt 
-    alleen 
+    alleen kleine letters 
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     letterscore = 0
