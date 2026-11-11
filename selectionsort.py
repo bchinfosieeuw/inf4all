@@ -29,12 +29,10 @@ def selection_sort(l: list[int]) -> list[int]:
     [1, 2, 3, 4, 5, 6]
     """
     k = 0
-    mybool = False
     print(l)
     for i in range(-2, len(l)-1):
-        if l[i] < l[i-1] and len(l) > 3 and mybool==False:
+        if l[i] < l[i-1] and len(l) > 3:
             k = 1
-            mybool = True
         for j in range(i-k, len(l)+1):
             if l[i] < l[i-1]:
                 dummy = l[i]
