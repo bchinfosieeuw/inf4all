@@ -48,5 +48,5 @@ print(selection_sort([1, 2, 3, 4, 5, 6]))
 #print(selection_sort([2, 3, 1]))#[1, 2, 3]
 #print(selection_sort([3, 2, 1]))#[1, 2, 3]
 #print(selection_sort([3, 1, 2]))#[1, 2, 3]
-print(selection_sort([2, 3, 1, 4, 6, 5]))#[1, 2, 3, 4, 5, 6]
+#print(selection_sort([2, 3, 1, 4, 6, 5]))#[1, 2, 3, 4, 5, 6]
 #print(selection_sort([3, 1, 2, 4, 6, 5]))#[1, 2, 3, 4, 5, 6]
