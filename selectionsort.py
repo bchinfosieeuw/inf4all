@@ -42,7 +42,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 #k = i-1
                 #k = j-i+1
                 k-=1
-                i-=3
+                i-=4
                 break
             #i = j
         
