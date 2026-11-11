@@ -11,6 +11,12 @@ def compute_score(word: str) -> int:
     
     >>> compute_score("Hallo")
     8
+    
+    >>> compute_score("Hallo")
+    8
+    
+    >>> compute_score("Hallo")
+    8
     """
     wordscore = 0
     for i in range(len(word)):
