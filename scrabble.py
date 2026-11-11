@@ -24,6 +24,6 @@ if __name__ == '__main__':
     score1 = compute_score()
     score2 = compute_score()
     print("Speler 1:", end="")
-    print("Speler 1:", end="")
+    print(score1, end="")
     print("Speler 1:", end="")
     print("Speler 2:", end="")
