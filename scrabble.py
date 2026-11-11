@@ -52,7 +52,7 @@ if __name__ == '__main__':
     score1 = compute_score(word1)
     score2 = compute_score(word2)
     print("Speler 1: ", end="")
-    print(word1)
+    print(score1)
     print("Speler 2: ", end="")
     print(word2)
     if score1 > score2:
