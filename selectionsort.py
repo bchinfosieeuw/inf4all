@@ -44,8 +44,6 @@ def selection_sort(l: list[int]) -> list[int]:
         l[current] = l[i]
         l[i] = dummy
         print(l)
-        #if l[i+1] < l[i]:
-        #    break
     return l
 
 #521364
