@@ -33,7 +33,7 @@ def selection_sort(l: list[int]) -> list[int]:
         print(l)
         #min = max(l)
         for k in range(len[l]):
-            if l[k] > min:
+            if l[k] > min:#set min to maximum of list
                 min = l[k]
         for j in range(i, len(l)):
             if l[j] < min:
