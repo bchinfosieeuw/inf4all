@@ -39,9 +39,9 @@ def selection_sort(l: list[int]) -> list[int]:
                 min = l[j]
                 #k = i-1
                 #break
-                dummy = l[i-k]
-                l[i-k] = l[j]
-                l[j] = dummy
+            dummy = l[i-k]
+            l[i-k] = l[j]
+            l[j] = dummy
             #i = j
         print(l)
         #if l[i+1] < l[i]:
