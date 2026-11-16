@@ -40,7 +40,7 @@ def selection_sort(l: list[int]) -> list[int]:
         dummy = l[current]
         l[current] = l[i]
         l[i] = dummy
-        print(l)
+        #print(l)
     return l
 
 #521364
