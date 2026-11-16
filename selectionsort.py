@@ -40,9 +40,6 @@ def selection_sort(l: list[int]) -> list[int]:
             if l[j] < min:#l[j] < l[i]:
                 min = l[j]
                 current = j
-                #k = i-1
-                #break
-        #dummy = min#l[i-k]
         dummy = l[current]
         l[current] = l[i]
         l[i] = dummy
