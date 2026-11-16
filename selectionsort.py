@@ -40,7 +40,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 #k = i-1
                 #break
             dummy = min#l[i-k]
-            l[i-k] = l[j]
+            min = l[j]
             l[j] = dummy
             #i = j
         print(l)
