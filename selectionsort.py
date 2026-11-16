@@ -32,8 +32,6 @@ def selection_sort(l: list[int]) -> list[int]:
     print(l)
     current = 0
     for i in range(len(l)-1):
-        #if l[i] < l[i-1] and len(l) > 3:
-        #    k = 1
         min = max(l)
         for j in range(i+0, len(l)):
             if l[j] < min:
