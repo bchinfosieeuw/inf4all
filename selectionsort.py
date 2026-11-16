@@ -43,7 +43,7 @@ def selection_sort(l: list[int]) -> list[int]:
                 #break
         #dummy = min#l[i-k]
         dummy = l[current]
-        l[current] = 
+        l[current] = l[0]
         l[current] = min
         min = dummy#l[j]
         l[i] = min
