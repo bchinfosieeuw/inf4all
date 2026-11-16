@@ -37,7 +37,7 @@ def selection_sort(l: list[int]) -> list[int]:
         #    k = 1
         for j in range(i+0, len(l)):
             if l[j] < min:#l[j] < l[i]:
-                #min = l[j]
+                min = l[j]
                 current = j
                 #k = i-1
                 #break
