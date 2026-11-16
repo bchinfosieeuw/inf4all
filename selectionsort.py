@@ -31,11 +31,12 @@ def selection_sort(l: list[int]) -> list[int]:
     k = 0
     print(l)
     min = max(l)
-    
+    current = 0
     for i in range(len(l)-1):
         #if l[i] < l[i-1] and len(l) > 3:
         #    k = 1
         for j in range(i+0, len(l)):
+            cur
             if l[j] < min:#l[j] < l[i]:
                 min = l[j]
                 #k = i-1
