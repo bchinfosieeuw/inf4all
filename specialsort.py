@@ -52,4 +52,4 @@ def special_sort(l: list[int]) -> list[int]:
 #print(special_sort([2, 3, 1]))
 #print(special_sort([2, 3, 1]))
 #print(special_sort([3, 2, 1]))
-print(special_sort([3, 1, 2]))
+#print(special_sort([3, 1, 2]))
