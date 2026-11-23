@@ -113,3 +113,4 @@ print(reverse_long_words('dit is een lange lange zin. Dit zeker ookal..', 3))#NO
 print(reverse_long_words('dit is een lange lange zin. Dit zeker ookal.', 3))
 print(reverse_long_words('dit is een lange lange zin. Dit zeker ookal', 3))
 print(reverse_long_words('dit is een lange lange zin. Dit zeker ookal. Had je', 3))#NOK
+print(reverse_long_words('dit is een lange lange zin. Dit zeker ookal.. Had je', 3))#NOK
