@@ -48,7 +48,7 @@ def special_sort(l: list[int]) -> list[int]:
 #251364
 #152364
 #125364
-#
+#12
 #
 print(special_sort([5, 2, 1, 3, 6, 4]))
 #print(special_sort([2, 3, 1, 4, 6, 5]))
