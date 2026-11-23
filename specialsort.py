@@ -29,7 +29,7 @@ def special_sort(l: list[int]) -> list[int]:
     [1, 2, 3, 4, 5, 6]
     """
     current = 0
-    for i in range(len(l)-1):
+    for i in range(len(l)-0):
         print(l)
         #min = 0
         for k in range(i+1, len(l)):
