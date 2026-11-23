@@ -44,11 +44,7 @@ def special_sort(l: list[int]) -> list[int]:
         l[i] = dummy
     return l
 
-#521364
-#125364
-#123564
-#123465
-#123456
+
 #print(special_sort([5, 2, 1, 3, 6, 4]))
 #print(special_sort([2, 3, 1, 4, 6, 5]))
 #print(special_sort([3, 1, 2, 4, 6, 5]))
