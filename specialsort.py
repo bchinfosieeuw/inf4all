@@ -35,7 +35,7 @@ def special_sort(l: list[int]) -> list[int]:
         for k in range(len(l)):
             if l[k] < l[i]:
                 dummy = l[k]
-                l[current] = l[i]
+                l[k] = l[i]
                 l[i] = dummy
     return l
 
