@@ -102,7 +102,6 @@ def reverse_long_words(sentence: str, n: int) -> str:
     myresult = result
     dotresult = ''
     if enddot==False:
-        print(woord[0])
         for i in range(len(sentence)-1):
             dotresult += myresult[i]
         result = dotresult
