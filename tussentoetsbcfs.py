@@ -83,7 +83,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
         enddot = False
     for i in range(1, len(sentence)):
         if "." in droow:
-            break
+            result += "$"
         woord += sentence[i-1]
         droow = sentence[i] + droow
         if sentence[i] in ". ":
