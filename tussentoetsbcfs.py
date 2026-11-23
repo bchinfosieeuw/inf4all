@@ -99,7 +99,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
         else:
             length += 1
         if woord!="" and droow[0]==".":
-            i+=1#print(123)
+            i+=2#print(123)
     myresult = result
     dotresult = ''
     if enddot==False:
