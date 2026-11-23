@@ -91,7 +91,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
                     result += "."
                 if len(sentence)==i+1:
                     result += "."
-            elif droow!=" " or (droow!=='' and droow[0]!="."):
+            elif droow!=" " or (droow!='' and droow[0]!="."):
                 result += droow
             woord = ''
             droow = ''
