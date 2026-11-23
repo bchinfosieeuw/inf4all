@@ -37,8 +37,7 @@ def special_sort(l: list[int]) -> list[int]:
                 dummy = l[k]
                 l[k] = l[i]
                 l[i] = dummy
-                k-=1#i+=1
-                #break
+                k-=1
     return l
 
 #521364
