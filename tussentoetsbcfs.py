@@ -79,6 +79,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
     length = 0
     enddot = True
     hallo = "hallo"
+    print(hallo[0])
     if sentence[len(sentence)-1]!=". ":
         sentence += "."
         enddot = False
