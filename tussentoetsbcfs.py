@@ -78,12 +78,11 @@ def reverse_long_words(sentence: str, n: int) -> str:
     droow = ''
     length = 0
     enddot = True
-    hallo = "hallo"
-    print(hallo[0])
     if sentence[len(sentence)-1]!=". ":
         sentence += "."
         enddot = False
     for i in range(1, len(sentence)):
+        print(woord[0])
         #if 
         woord += sentence[i-1]
         droow = sentence[i] + droow
