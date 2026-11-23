@@ -1,31 +1,31 @@
-def selection_sort(l: list[int]) -> list[int]:
+def special_sort(l: list[int]) -> list[int]:
     """
     Sorteert de lijst `l` door deze aan te passen.
     Er wordt geen nieuwe lijst gemaakt.
     Moet wel `l` returnen.
     
-    >>> selection_sort([1, 2, 3])
+    >>> special_sort([1, 2, 3])
     [1, 2, 3]
     
-    >>> selection_sort([2, 3, 1])
+    >>> special_sort([2, 3, 1])
     [1, 2, 3]
     
-    >>> selection_sort([3, 2, 1])
+    >>> special_sort([3, 2, 1])
     [1, 2, 3]
     
-    >>> selection_sort([3, 1, 2])
+    >>> special_sort([3, 1, 2])
     [1, 2, 3]
     
-    >>> selection_sort([1, 2, 3, 4, 5, 6])
+    >>> special_sort([1, 2, 3, 4, 5, 6])
     [1, 2, 3, 4, 5, 6]
     
-    >>> selection_sort([5, 2, 1, 3, 6, 4])
+    >>> special_sort([5, 2, 1, 3, 6, 4])
     [1, 2, 3, 4, 5, 6]
     
-    >>> selection_sort([2, 3, 1, 4, 6, 5])
+    >>> special_sort([2, 3, 1, 4, 6, 5])
     [1, 2, 3, 4, 5, 6]
     
-    >>> selection_sort([3, 1, 2, 4, 6, 5])
+    >>> special_sort([3, 1, 2, 4, 6, 5])
     [1, 2, 3, 4, 5, 6]
     """
     current = 0
@@ -49,10 +49,10 @@ def selection_sort(l: list[int]) -> list[int]:
 #123564
 #123465
 #123456
-#print(selection_sort([5, 2, 1, 3, 6, 4]))
-#print(selection_sort([2, 3, 1, 4, 6, 5]))
-#print(selection_sort([3, 1, 2, 4, 6, 5]))
-#print(selection_sort([2, 3, 1]))
-#print(selection_sort([2, 3, 1]))
-#print(selection_sort([3, 2, 1]))
-#print(selection_sort([3, 1, 2]))
+#print(special_sort([5, 2, 1, 3, 6, 4]))
+#print(special_sort([2, 3, 1, 4, 6, 5]))
+#print(special_sort([3, 1, 2, 4, 6, 5]))
+#print(special_sort([2, 3, 1]))
+#print(special_sort([2, 3, 1]))
+#print(special_sort([3, 2, 1]))
+#print(special_sort([3, 1, 2]))
