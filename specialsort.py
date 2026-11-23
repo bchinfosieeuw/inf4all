@@ -30,7 +30,7 @@ def special_sort(l: list[int]) -> list[int]:
     """
     current = 0
     for i in range(len(l)-1):
-        print(l)
+        #print(l)
         for k in range(i+1, len(l)):
             if l[k] < l[i]:
                 dummy = l[k]
@@ -45,7 +45,7 @@ def special_sort(l: list[int]) -> list[int]:
 #125364
 #123564
 #123546
-print(special_sort([5, 2, 1, 3, 6, 4]))
+#print(special_sort([5, 2, 1, 3, 6, 4]))
 #print(special_sort([2, 3, 1, 4, 6, 5]))
 #print(special_sort([3, 1, 2, 4, 6, 5]))
 #print(special_sort([2, 3, 1]))
