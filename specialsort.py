@@ -32,12 +32,12 @@ def special_sort(l: list[int]) -> list[int]:
     for i in range(len(l)-1):
         print(l)
         #min = 0
-        for k in range(i+1, len(l)-1):
+        for k in range(i+1, len(l)):
             if l[k] < l[i]:
                 dummy = l[k]
                 l[k] = l[i]
                 l[i] = dummy
-                i-=1
+                i+=1
                 break
     return l
 
