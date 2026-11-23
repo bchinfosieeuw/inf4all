@@ -102,10 +102,10 @@ def reverse_long_words(sentence: str, n: int) -> str:
     myresult = result
     dotresult = ''
     if enddot==False:
+        print(woord[0])
         for i in range(len(sentence)-1):
             dotresult += myresult[i]
         result = dotresult
-        print(woord[0])
     return result
     
 print(reverse_long_words('dit is een lange lange zin. Dit zeker ook..', 3))#NOK
