@@ -99,6 +99,8 @@ def reverse_long_words(sentence: str, n: int) -> str:
         else:
             if "." not in droow:
                 length += 1
+            else:
+                length += 1
     myresult = result
     dotresult = ''
     if enddot==False:
