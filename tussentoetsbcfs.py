@@ -85,7 +85,7 @@ def reverse_long_words(sentence: str, n: int) -> str:
         woord += sentence[i-1]
         droow = sentence[i] + droow
         if sentence[i] in ". ":
-            if length <= n and "." not in sentence[i]:
+            if length <= n and "." not in :
                 result += woord
                 if sentence[i] in "." and sentence[i-1] in ".":
                     result += "."
